@@ -1,0 +1,33 @@
+name: Optimize resource pack
+on: [push]
+jobs:
+  packsquash:
+    name: Optimize resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          # When changing the options passed to PackSquash, it may be a good idea to lock
+          # your workflow to a specific PackSquash version instead of "latest". This will
+          # prevent sudden failures when releases that introduce incompatible changes to
+          # the options file format are made, but will require you to manually update
+          # the PackSquash version your workflows use when a release occurs
+          packsquash_version: latest
+          options: |
+            pack_directory = 'core'
+            
+            recompress_compressed_files = true
+            zip_compression_iterations = 30
+            zip_spec_conformance_level = 'balanced'
+            skip_pack_icon = false
+            
+            ['**/*?.png']
+            image_data_compression_iterations = 15
+            
+            ['**/{LICENSE,README.txt}']
+            force_include = true
