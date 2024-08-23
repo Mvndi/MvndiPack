@@ -1,0 +1,8 @@
+{
+	"texture_size": [64, 32],
+	"parent": "item/chicken_base",
+	"textures": {
+		"0": "item/hanging_cooked_chicken",
+		"particle": "item/hanging_cooked_chicken"
+	}
+}

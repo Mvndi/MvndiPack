@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/yellow_stained_glass",
+		"pane": "block/yellow_stained_glass",
+		"edge": "block/yellow_stained_glass_pane_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 9],
+			"to": [9.9, 16.01, 9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 9]},
+			"faces": {
+				"south": {"uv": [4, 0, 13, 16], "texture": "#pane"}
+			}
+		},
+		{
+			"from": [0, 0, 7],
+			"to": [12.73, 16.01, 8.42],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#pane"},
+				"up": {"uv": [7, 0, 9, 16], "rotation": 90, "texture": "#edge"},
+				"down": {"uv": [7, 0, 9, 16], "rotation": 90, "texture": "#edge"}
+			}
+		}
+	]
+}

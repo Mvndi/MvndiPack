@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "mvndicraft:weapons/firearms/parts/stick",
+		"particle": "mvndicraft:weapons/firearms/parts/stick"
+	},
+	"elements": [
+		{
+			"from": [7, -11, 7],
+			"to": [9, 15, 9],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"west": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.75, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.75, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.75, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -1.75, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"gui": {
+			"rotation": [5, -45, -37],
+			"translation": [0.5, 2.5, 0],
+			"scale": [0.56, 0.56, 0.56]
+		},
+		"fixed": {
+			"translation": [0, 3.75, 0],
+			"scale": [0.63, 0.63, 0.63]
+		}
+	}
+}

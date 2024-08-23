@@ -1,0 +1,4 @@
+{
+  "parent": "mvndicraft:ui/blacksmith_difficulty/difficulty_journeyman_light",
+  "gui_light": "side"
+}

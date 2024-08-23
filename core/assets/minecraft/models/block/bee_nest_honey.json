@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"bottom": "block/bee_nest_bottom",
+		"front": "block/bee_nest_front_honey",
+		"particle": "block/bee_nest_side",
+		"side": "block/bee_nest_side",
+		"top": "block/bee_nest_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [2, -2.95, 2],
+			"to": [14, 0.05, 14],
+			"faces": {
+				"north": {"uv": [2, 7, 14, 10], "texture": "#side"},
+				"east": {"uv": [2, 7, 14, 10], "texture": "#side"},
+				"south": {"uv": [2, 7, 14, 10], "texture": "#side"},
+				"west": {"uv": [2, 7, 14, 10], "texture": "#side"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#bottom"}
+			}
+		}
+	]
+}

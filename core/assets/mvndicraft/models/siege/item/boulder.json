@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "mvndicraft:siege/block/trebuchet_base",
+		"particle": "mvndicraft:siege/block/trebuchet_counterweight"
+	},
+	"elements": [
+		{
+			"from": [2.25, -0.5, 2.375],
+			"to": [14.25, 11.5, 14.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 9, 9]},
+			"faces": {
+				"north": {"uv": [3.375, 3.5, 4.125, 4.25], "texture": "#1" },
+				"east": {"uv": [2.125, 2.375, 2.875, 3.125], "texture": "#1" },
+				"south": {"uv": [2.125, 3.5, 2.875, 4.25], "texture": "#1" },
+				"west": {"uv": [2.5, 2.875, 3.25, 3.625], "texture": "#1" },
+				"up": {"uv": [2.75, 2.75, 3.5, 3.5], "texture": "#1" },
+				"down": {"uv": [2.75, 3.5, 3.5, 4.25], "texture": "#1"}
+			}
+		}
+	],
+	"display": {}
+}

@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/skilltree/skilltree",
+		"particle": "mvndicraft:ui/skilltree/skilltree"
+	},
+	"elements": [
+		{
+			"from": [-3.7035, 0, 8],
+			"to": [19.7035, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [10.6875, 7.75, 15.875, 14.75], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [-180, 0, 174],
+			"translation": [8.5, -70, -20],
+			"scale": [3.35547, 3.35547, 3.35547]
+		}
+	}
+}

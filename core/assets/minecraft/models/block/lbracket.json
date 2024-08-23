@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "block/beams/nogap_wood_binding",
+		"particle": "block/beams/nogap_wood_binding"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [6, 3, 12],
+			"to": [10, 16, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [16, 16, 16]},
+			"faces": {
+				"north": {"uv": [6, 16, 10, 3], "texture": "#0"},
+				"east": {"uv": [3, 13, 7, 0], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [1, 16, 5, 3], "texture": "#0"},
+				"west": {"uv": [3, 16, 7, 3], "texture": "#0"},
+				"up": {"uv": [10, 12, 6, 16], "texture": "#0"},
+				"down": {"uv": [10, 0, 6, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [6, 0, 0],
+			"to": [10, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.5, 8]},
+			"faces": {
+				"north": {"uv": [10, 9, 14, 6], "texture": "#0"},
+				"east": {"uv": [13, 0, 10, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 6, 10.5, 3.5], "texture": "#0"},
+				"west": {"uv": [11, 0, 8, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6, 0, 2, 16], "texture": "#0"},
+				"down": {"uv": [14, 0, 10, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [6.5, 8.7, 1],
+			"to": [9.5, 10.7, 12],
+			"rotation": {"angle": -45, "axis": "x", "origin": [9.5, 10.7, 12]},
+			"faces": {
+				"north": {"uv": [6, 16, 10, 15], "texture": "#0"},
+				"east": {"uv": [10, 16, 8, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 0, 6, 1], "texture": "#0"},
+				"west": {"uv": [6, 11, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7, 16, 4, 5], "texture": "#0"},
+				"down": {"uv": [4, 11, 1, 0], "texture": "#0"}
+			}
+		}
+	]
+}

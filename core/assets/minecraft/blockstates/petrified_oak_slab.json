@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/foliage/dirt/dirt_slab" },
+        "type=top": { "model": "block/foliage/dirt/dirt_slab_upper" },
+        "type=double": { "model": "block/foliage/dirt/dirt_0" }
+    }
+}

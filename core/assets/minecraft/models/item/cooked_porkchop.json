@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/porkchop_base",
+	"textures": {
+		"1": "item/cooked_porkchop_0",
+		"particle": "item/cooked_porkchop_0"
+	}
+}

@@ -1,0 +1,1292 @@
+{
+  "combat.attack.crit": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/attack/strong1", "volume": 0.7, "pitch": 0.8},
+      {"name": "mvndicraft:combat/attack/strong2", "volume": 0.7, "pitch": 0.8},
+      {"name": "mvndicraft:combat/attack/strong3", "volume": 0.7, "pitch": 0.8},
+      {"name": "mvndicraft:combat/attack/strong4", "volume": 0.7, "pitch": 0.8},
+      {"name": "mvndicraft:combat/attack/strong5", "volume": 0.7, "pitch": 0.8},
+      {"name": "mvndicraft:combat/attack/strong6", "volume": 0.7, "pitch": 0.8}
+    ]
+  },
+  "combat.attack.knockback": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/attack/knockback1", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/knockback2", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/knockback3", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/knockback4", "volume": 0.7}
+    ]
+  },
+  "combat.attack.no_damage": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/attack/weak1", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/weak2", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/weak3", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/weak4", "volume": 0.7}
+    ]
+  },
+  "combat.attack.strong": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/attack/strong1", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/strong2", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/strong3", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/strong4", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/strong5", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/strong6", "volume": 0.7}
+    ]
+  },
+  "combat.attack.sweep": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/attack/sweep1", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/sweep2", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/sweep3", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/sweep4", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/sweep5", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/sweep6", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/sweep7", "volume": 0.7}
+    ]
+  },
+  "combat.attack.weak": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/attack/weak1", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/weak2", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/weak3", "volume": 0.7},
+      {"name": "mvndicraft:combat/attack/weak4", "volume": 0.7}
+    ]
+  },
+  "combat.guard_break": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/guard_break", "volume": 0.25}
+    ]
+  },
+  "combat.kill": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/kill_1", "volume": 0.5},
+      {"name": "mvndicraft:combat/kill_2", "volume": 0.5},
+      {"name": "mvndicraft:combat/kill_3", "volume": 0.5}
+    ]
+  },
+  "combat.you_died": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:combat/you_died", "volume": 0.33}
+    ]
+  },
+  "drip": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 50,
+        "name": "mvndicraft:drip"
+      }
+    ]
+  },
+  "equipment.ammo.bullet.impact_armor": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:equipment/ammo/bullet/impact_armor",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:equipment/ammo/bullet/impact_armor",
+        "pitch": 1.0
+      },
+      {
+        "name": "mvndicraft:equipment/ammo/bullet/impact_armor",
+        "pitch": 1.2
+      }
+    ]
+  },
+  "equipment.ammo.bullet.impact_block": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/ammo/bullet/impact_block"}
+    ]
+  },
+  "equipment.ammo.bullet.impact_entity": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/ammo/bullet/impact_entity_1"},
+      {"name": "mvndicraft:equipment/ammo/bullet/impact_entity_2"}
+    ]
+  },
+  "equipment.ammo.standard_arrow.hit": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_1"},
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_2"},
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_3"},
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_4"}
+    ]
+  },
+  "equipment.ammo.standard_bolt.hit": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_1"},
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_2"},
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_3"},
+      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_4"}
+    ]
+  },
+  "equipment.bows.shoot": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/bows/shoot"}
+    ]
+  },
+  "equipment.cavalry.hit": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 16,
+        "name": "mvndicraft:equipment/cavalry/hit"
+      }
+    ]
+  },
+  "equipment.crossbows.load_end": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "mvndicraft:equipment/crossbows/load_end"
+      }
+    ]
+  },
+  "equipment.crossbows.load_start": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "mvndicraft:equipment/crossbows/load_start"
+      }
+    ]
+  },
+  "equipment.crossbows.shoot": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/crossbows/shoot_1"},
+      {"name": "mvndicraft:equipment/crossbows/shoot_2"},
+      {"name": "mvndicraft:equipment/crossbows/shoot_3"}
+    ]
+  },
+  "equipment.firearms.arquebus.click": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "mvndicraft:equipment/firearms/arquebus/click"
+      }
+    ]
+  },
+  "equipment.firearms.arquebus.fire": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 80,
+        "name": "mvndicraft:equipment/firearms/arquebus/fire"
+      }
+    ]
+  },
+  "equipment.firearms.arquebus.load_bullet_start": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "mvndicraft:equipment/firearms/arquebus/load_bullet_start"
+      }
+    ]
+  },
+  "equipment.firearms.arquebus.load_bullet_end": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "mvndicraft:equipment/firearms/arquebus/load_bullet_end"
+      }
+    ]
+  },
+  "equipment.firearms.arquebus.load_gunpowder": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "mvndicraft:equipment/firearms/arquebus/load_gunpowder"
+      }
+    ]
+  },
+  "equipment.shields.block": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/shields/block_1"},
+      {"name": "mvndicraft:equipment/shields/block_2"},
+      {"name": "mvndicraft:equipment/shields/block_3"},
+      {"name": "mvndicraft:equipment/shields/block_4"},
+      {"name": "mvndicraft:equipment/shields/block_5"}
+    ]
+  },
+  "pageturn": {
+    "category": "player",
+    "sounds": [
+      {
+        "attenuation_distance": 10,
+        "name": "mvndicraft:recipes/pageturn"
+      }
+    ]
+  },
+  "sandstorms.strong_wind": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "mvndicraft:sandstorms/strong_wind0",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:sandstorms/strong_wind1",
+        "volume": 0.5
+      }
+    ]
+  },
+  "sandstorms.weak_wind": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "mvndicraft:sandstorms/weak_wind0",
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:sandstorms/weak_wind1",
+        "volume": 0.25
+      }
+    ]
+  },
+  "siege.ballista.shoot": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/ballista/shoot1"
+      },
+      {
+        "name": "mvndicraft:siege/ballista/shoot1"
+      },
+      {
+        "name": "mvndicraft:siege/ballista/shoot2"
+      }
+    ]
+  },
+  "siege.ballista.shoot_far": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/ballista/shoot_far1"
+      },
+      {
+        "name": "mvndicraft:siege/ballista/shoot_far1"
+      },
+      {
+        "name": "mvndicraft:siege/ballista/shoot_far2"
+      }
+    ]
+  },
+  "siege.cannon.load_breach": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/cannon/load_breach",
+        "pitch": 1
+      }
+    ]
+  },
+  "siege.cannon.load_gunpowder": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/cannon/load_gunpowder",
+        "pitch": 1
+      }
+    ]
+  },
+  "siege.cannon.shoot": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/cannon/shoot",
+        "pitch": 1
+      }
+    ]
+  },
+  "siege.greek_fire.end": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/greek_fire/end"
+      }
+    ]
+  },
+  "siege.greek_fire.loop": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/greek_fire/loop"
+      }
+    ]
+  },
+  "siege.greek_fire.start": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/greek_fire/start"
+      }
+    ]
+  },
+  "siege.trebuchet.launch": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/trebuchet/launch",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:siege/trebuchet/launch",
+        "pitch": 1.1
+      },
+      {
+        "name": "mvndicraft:siege/trebuchet/launch"
+      }
+    ]
+  },
+  "siege.trebuchet.returned": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/trebuchet/returned",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:siege/trebuchet/returned",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:siege/trebuchet/returned"
+      }
+    ]
+  },
+  "soundscapes.ambient.caves.addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition1",
+        "volume": 1,
+        "weight": 2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition2",
+        "volume": 1,
+        "weight": 20
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition3",
+        "volume": 1,
+        "weight": 20
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition4",
+        "volume": 0.2,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition5",
+        "volume": 0.2,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition6",
+        "pitch": 0.95,
+        "volume": 0.1,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition7",
+        "pitch": 0.8,
+        "volume": 1,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition8",
+        "pitch": 0.7,
+        "volume": 1,
+        "weight": 10
+      }
+    ]
+  },
+  "soundscapes.ambient.caves.loop1": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop2": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop3": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop4": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop_fadeout1",
+      "soundscapes/ambient/caves/cave_loop_fadeout2",
+      "soundscapes/ambient/caves/cave_loop_fadeout3",
+      "soundscapes/ambient/caves/cave_loop_fadeout4",
+      "soundscapes/ambient/caves/cave_loop_fadeout5"
+    ]
+  },
+  "soundscapes.ambient.mineshaft.addition": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/mineshaft/mineshaft_addition1",
+      "soundscapes/ambient/mineshaft/mineshaft_addition2",
+      "soundscapes/ambient/mineshaft/mineshaft_addition3",
+      "soundscapes/ambient/mineshaft/mineshaft_addition4",
+      "soundscapes/ambient/mineshaft/mineshaft_addition5"
+    ]
+  },
+  "soundscapes.ambient.mineshaft.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/mineshaft/mineshaft_loop1",
+      "soundscapes/ambient/mineshaft/mineshaft_loop2",
+      "soundscapes/ambient/mineshaft/mineshaft_loop3",
+      "soundscapes/ambient/mineshaft/mineshaft_loop4",
+      "soundscapes/ambient/mineshaft/mineshaft_loop5"
+    ]
+  },
+  "soundscapes.ambient.mineshaft.loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/mineshaft/mineshaft_loop_fadeout1",
+      "soundscapes/ambient/mineshaft/mineshaft_loop_fadeout2",
+      "soundscapes/ambient/mineshaft/mineshaft_loop_fadeout3"
+    ]
+  },
+  "soundscapes.ambient.surface.beach.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/beach/fadeout1",
+      "soundscapes/ambient/surface/beach/fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.beach.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/beach/loop1",
+      "soundscapes/ambient/surface/beach/loop2",
+      "soundscapes/ambient/surface/beach/loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.day_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/day_loop1",
+      "soundscapes/ambient/surface/desert/day_loop2",
+      "soundscapes/ambient/surface/desert/day_loop3",
+      "soundscapes/ambient/surface/desert/day_loop4",
+      "soundscapes/ambient/surface/desert/day_loop5",
+      "soundscapes/ambient/surface/desert/day_loop6"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.day_loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/day_loop_fadeout1",
+      "soundscapes/ambient/surface/desert/day_loop_fadeout2",
+      "soundscapes/ambient/surface/desert/day_loop_fadeout3"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.night_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/night_loop1",
+      "soundscapes/ambient/surface/desert/night_loop2",
+      "soundscapes/ambient/surface/desert/night_loop3",
+      "soundscapes/ambient/surface/desert/night_loop4",
+      "soundscapes/ambient/surface/desert/night_loop5",
+      "soundscapes/ambient/surface/desert/night_loop6"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.night_loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/night_loop_fadeout1",
+      "soundscapes/ambient/surface/desert/night_loop_fadeout2",
+      "soundscapes/ambient/surface/desert/night_loop_fadeout3"
+    ]
+  },
+  "soundscapes.ambient.surface.forest.day_addition": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/day_addition3",
+      "soundscapes/ambient/surface/forest/day_addition4",
+      "soundscapes/ambient/surface/forest/day_addition5",
+      "soundscapes/ambient/surface/forest/day_addition6",
+      "soundscapes/ambient/surface/forest/day_addition7",
+      "soundscapes/ambient/surface/forest/day_addition8",
+      "soundscapes/ambient/surface/forest/day_addition9",
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition1",
+        "volume": 0.7,
+        "weight": 2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition2",
+        "volume": 0.7,
+        "weight": 2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition3",
+        "pitch": 0.8,
+        "volume": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition3",
+        "pitch": 0.95,
+        "volume": 1.5
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.forest.day_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_fadeout1"
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.forest.day_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/day_loop1",
+      "soundscapes/ambient/surface/forest/day_loop2",
+      "soundscapes/ambient/surface/forest/day_loop3",
+      "soundscapes/ambient/surface/forest/day_loop4"
+    ]
+  },
+  "soundscapes.ambient.surface.forest.night_addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition1",
+        "volume": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition2",
+        "volume": 0.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition3",
+        "volume": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition4",
+        "pitch": 0.9,
+        "volume": 0.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition4",
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition5",
+        "pitch": 0.9,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition5",
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition6",
+        "volume": 0.4
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.forest.night_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/night_fadeout1",
+      "soundscapes/ambient/surface/forest/night_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.forest.night_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/night_loop1",
+      "soundscapes/ambient/surface/forest/night_loop2",
+      "soundscapes/ambient/surface/forest/night_loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.river.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/river/fadeout1",
+      "soundscapes/ambient/surface/river/fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.river.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/river/loop1",
+      "soundscapes/ambient/surface/river/loop2"
+    ]
+  },
+  "soundscapes.ambient.surface.sea.addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:silence",
+        "weight": 4
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition4",
+        "volume": 1
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.sea.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/sea/fadeout1",
+      "soundscapes/ambient/surface/sea/fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.sea.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/sea/loop1",
+      "soundscapes/ambient/surface/sea/loop2",
+      "soundscapes/ambient/surface/sea/loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions1",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions2",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions3",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions4",
+        "volume": 0.5
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.day_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/day_fadeout1",
+      "soundscapes/ambient/surface/swamp/day_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.day_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/day_loop1",
+      "soundscapes/ambient/surface/swamp/day_loop2",
+      "soundscapes/ambient/surface/swamp/day_loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.night_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/night_fadeout1",
+      "soundscapes/ambient/surface/swamp/night_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.night_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/night_loop1",
+      "soundscapes/ambient/surface/swamp/night_loop2",
+      "soundscapes/ambient/surface/swamp/night_loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.weather.snowy": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/weather/snowy1",
+      "soundscapes/ambient/surface/weather/snowy2",
+      "soundscapes/ambient/surface/weather/snowy3"
+    ]
+  },
+  "soundscapes.ambient.surface.weather.snowy_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/weather/snowy_fadeout1",
+      "soundscapes/ambient/surface/weather/snowy_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.wind.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/fadeout1",
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/fadeout2",
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.wind.loop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/loop1",
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/loop2",
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1"},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2"},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3"},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4"},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5"}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p60": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.60},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.60},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.60},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.60},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.60}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p80": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.80},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.80},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.80},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.80},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.80}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p90": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.90},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.90},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.90},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.90},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.90}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p75": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.75},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.75},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.75},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.75},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.75}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p67": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.67},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.67},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.67},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.67},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.67}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p50": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.5},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.5},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.5},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.5},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.5}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p120": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 1.20},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 1.20},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 1.20},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 1.20},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 1.20}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_sword_p140": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 1.40},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 1.40},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 1.40},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 1.40},
+      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 1.40}
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_tools": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.1
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1
+      }
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_tools_p60": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_tools_p80": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_tools_p120": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "soundscapes.entity.player.attack.metal_tools_p140": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_tools",
+        "pitch": 1.4
+      }
+    ]
+  },
+  "equipment.spear": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/spear1"},
+      {"name": "mvndicraft:equipment/spear2"}
+    ]
+  },
+  "equipment.spear_p60": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/spear1", "pitch": 0.60},
+      {"name": "mvndicraft:equipment/spear2", "pitch": 0.60}
+    ]
+  },
+  "equipment.spear_p80": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/spear1", "pitch": 0.80},
+      {"name": "mvndicraft:equipment/spear2", "pitch": 0.80}
+    ]
+  },
+  "equipment.spear_p120": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/spear1", "pitch": 1.20},
+      {"name": "mvndicraft:equipment/spear2", "pitch": 1.20}
+    ]
+  },
+  "equipment.spear_p140": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/spear1", "pitch": 1.40},
+      {"name": "mvndicraft:equipment/spear2", "pitch": 1.40}
+    ]
+  },
+  "equipment.wooden_sword": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/wooden_sword1"},
+      {"name": "mvndicraft:equipment/wooden_sword2"},
+      {"name": "mvndicraft:equipment/wooden_sword3"}
+    ]
+  },
+  "equipment.wooden_sword_p60": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 0.60},
+      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 0.60},
+      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 0.60}
+    ]
+  },
+  "equipment.wooden_sword_p80": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 0.80},
+      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 0.80},
+      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 0.80}
+    ]
+  },
+  "equipment.wooden_sword_p120": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 1.20},
+      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 1.20},
+      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 1.20}
+    ]
+  },
+  "equipment.wooden_sword_p140": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 1.40},
+      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 1.40},
+      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 1.40}
+    ]
+  },
+  "equipment.wooden_tools": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:equipment/wooden_tools1",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:equipment/wooden_tools2",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:equipment/wooden_tools2",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "player.heartbeat_fast": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:player/heartbeat_fast"}
+    ]
+  },
+  "player.heartbeat_medium": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:player/heartbeat_medium"}
+    ]
+  },
+  "player.heartbeat_slow": {
+    "category": "player",
+    "sounds": [
+      {"name": "mvndicraft:player/heartbeat_slow"}
+    ]
+  },
+  "player.jump": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:player/jump1",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:player/jump1",
+        "volume": 0.7
+      },
+      {
+        "name": "mvndicraft:player/jump2",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:player/jump2",
+        "volume": 0.7
+      },
+      {
+        "name": "mvndicraft:player/jump3",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:player/jump3",
+        "volume": 0.7
+      }
+    ]
+  },
+  "soundscapes.soundtrack.desert": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/desert/farid",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/desert/valencia_sea",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.egypt": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/egypt/ra",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.forest": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/forest/medieval_england",
+        "stream": true,
+        "volume": 0.3
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/forest/secret_of_the_forest",
+        "stream": true,
+        "volume": 0.3
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/forest/wind_scene",
+        "stream": true,
+        "volume": 0.3
+      }
+    ]
+  },
+  "soundscapes.soundtrack.germany": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/germany/relic_song",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.soundtrack.greece": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/greece/turning_tides",
+        "stream": true,
+        "volume": 0.3
+      }
+    ]
+  },
+  "soundscapes.soundtrack.italy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/italy/flute_and_lute_2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.soundtrack.mountains": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/mountains/valley_of_the_wind",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.ocean": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/ocean/abandoned_ship_sea_mauville",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/ocean/triton_palace",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/ocean/whirl_islands",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.plains": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/plains/national_park_orchestration",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.snowy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/snowy/unnatural_city",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.spawn": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/spawn/majula",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "ui.money": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "mvndicraft:ui/money",
+        "pitch": 1
+      }
+    ]
+  }
+}

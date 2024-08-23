@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [	
+            { "model": "block/dead_bush", "weight": 10 },
+            { "model": "block/foliage/dead_bush1", "weight": 10 }
+        ]
+    }
+}
+			

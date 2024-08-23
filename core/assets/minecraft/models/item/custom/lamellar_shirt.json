@@ -1,0 +1,7 @@
+{
+  "parent": "item/chestplate_layer1",
+  "textures": {
+    "chestplate": "models/armor/leatherlayer2/500",
+	"layer1": "models/armor/leatherlayer1/500"
+  }
+}

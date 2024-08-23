@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/planks/crimson/crimson_slab" },
+        "type=top": { "model": "block/planks/crimson/crimson_slab_top" },
+        "type=double": { "model": "block/planks/crimson/crimson_double_slab" }
+    }
+}

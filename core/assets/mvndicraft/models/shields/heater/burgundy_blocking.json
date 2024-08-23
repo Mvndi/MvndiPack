@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:shields/heater/plain_blocking",
+	"textures": {
+		"3": "mvndicraft:shields/heater/burgundy"
+	}
+}

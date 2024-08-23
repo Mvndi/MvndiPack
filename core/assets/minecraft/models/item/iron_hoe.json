@@ -1,0 +1,184 @@
+{
+	
+		"credit": "Made with Blockbench",
+		"parent": "minecraft:item/hoe_base",
+		"textures": {
+			"2": "mvndicraft:tools/toolbottomtip",
+			"3": "mvndicraft:tools/toolhandletexture",
+			"4": "mvndicraft:tools/irontooltexture",
+			"particle": "mvndicraft:tools/irontooltexture"
+		},
+	
+	"groups": [
+		{
+			"name": "base_handle",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "Top Part",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3, 4]
+		}
+	],
+	"overrides": [
+		{
+		  "predicate": {"custom_model_data": 1},
+		  "model": "mvndicraft:farming/scythe"
+		},
+		{
+		  "predicate": {"custom_model_data": 2},
+		  "model": "mvndicraft:farming/plough"
+		},
+		{
+		  "predicate": {"custom_model_data": 3},
+		  "model": "mvndicraft:farming/seedbag"
+		},
+		{
+			"predicate": {"custom_model_data": 4},
+			"model": "mvndicraft:farming/trowel"
+		  },
+		  {
+			"predicate": {"custom_model_data": 5},
+			"model": "mvndicraft:farming/cart"
+		  },
+		  {
+			"predicate": {"custom_model_data": 6},
+			"model": "minecraft:item/milk_bucket"
+		  },
+		  {
+			"predicate": {"custom_model_data": 7},
+			"model": "mvndicraft:farming/bucket_cottage_cheese_full"
+		  },
+		  {
+			"predicate": {"custom_model_data": 8},
+			"model": "mvndicraft:farming/bucket_cottage_cheese_half"
+		  },
+		  {
+			"predicate": {"custom_model_data": 9},
+			"model": "mvndicraft:farming/sickle"
+		  },
+		  {
+			"predicate": {"custom_model_data": 10},
+			"model": "mvndicraft:blacksmith/hammer"
+		  },
+		  {
+			"predicate": {"custom_model_data": 11},
+			"model": "mvndicraft:blacksmith/tongs"
+		  },
+		  {
+			"predicate": {"custom_model_data": 12},
+			"model": "mvndicraft:blacksmith/tongs_crucible_empty"
+		  },
+		  {
+			"predicate": {"custom_model_data": 13},
+			"model": "mvndicraft:blacksmith/tongs_crucible_full"
+		  },
+		  {
+			"predicate": {"custom_model_data": 14},
+			"model": "mvndicraft:blacksmith/tongs_hot_ingot"
+		  },
+		  {
+			"predicate": {"custom_model_data": 15},
+			"model": "mvndicraft:blacksmith/broadsword_blade"
+		  },
+		  {
+			"predicate": {"custom_model_data": 16},
+			"model": "mvndicraft:blacksmith/tongs_broadsword"
+		  },
+		  {
+			"predicate": {"custom_model_data": 17},
+			"model": "mvndicraft:blacksmith/guard_and_pommel"
+		  },
+		  {
+			"predicate": {"custom_model_data": 18},
+			"model": "mvndicraft:blacksmith/tongs_guard"
+		  },
+		  {
+			"predicate": {"custom_model_data": 19},
+			"model": "mvndicraft:blacksmith/steel_hilt"
+		  },
+		  {
+			"predicate": {"custom_model_data": 20},
+			"model": "mvndicraft:blacksmith/wood_hilt"
+		  },
+		  {
+			"predicate": {"custom_model_data": 21},
+			"model": "mvndicraft:blacksmith/tongs_bloom"
+		  },
+		  {
+			"predicate": {"custom_model_data": 22},
+			"model": "mvndicraft:blacksmith/tongs_hot_cast_iron"
+		  },
+		  {
+			"predicate": {"custom_model_data": 23},
+			"model": "mvndicraft:blacksmith/bellows"
+		  },
+		  {
+			"predicate": {"custom_model_data": 24},
+			"model": "mvndicraft:farming/windmill"
+		  },
+		  {
+			"predicate": {"custom_model_data": 25},
+			"model": "mvndicraft:blacksmith/waterwheel"
+		  },
+		  {
+			"predicate": {"custom_model_data": 26},
+			"model": "mvndicraft:blacksmith/tongs_steel_rod"
+		  },
+		  {
+			"predicate": {"custom_model_data": 27},
+			"model": "mvndicraft:blacksmith/tongs_shortsword"
+		  },
+		  {
+			"predicate": {"custom_model_data": 28},
+			"model": "mvndicraft:blacksmith/shortsword_blade"
+		  },
+		  {
+			"predicate": {"custom_model_data": 29},
+			"model": "mvndicraft:blacksmith/tongs_curved_sword"
+		  },
+		  {
+			"predicate": {"custom_model_data": 30},
+			"model": "mvndicraft:blacksmith/curved_blade"
+		  },
+		  {
+			"predicate": {"custom_model_data": 31},
+			"model": "mvndicraft:blacksmith/greatsword_blade"
+		  },
+		  {
+			"predicate": {"custom_model_data": 32},
+			"model": "mvndicraft:blacksmith/steel_shovel_head"
+		  },
+		  {
+			"predicate": {"custom_model_data": 33},
+			"model": "mvndicraft:blacksmith/steel_axe_head"
+		  },
+		  {
+			"predicate": {"custom_model_data": 34},
+			"model": "mvndicraft:blacksmith/steel_pickaxe_head"
+		  },
+		  {
+			"predicate": {"custom_model_data": 35},
+			"model": "mvndicraft:blacksmith/tongs_shovelhead"
+		  },
+		  {
+			"predicate": {"custom_model_data": 36},
+			"model": "mvndicraft:blacksmith/tongs_axehead"
+		  },
+		  {
+			"predicate": {"custom_model_data": 37},
+			"model": "mvndicraft:blacksmith/tongs_pickaxehead"
+		  },
+		  {
+			"predicate": {"custom_model_data": 38},
+			"model": "mvndicraft:blacksmith/steel_hoe_head"
+		  },
+		  {
+			"predicate": {"custom_model_data": 39},
+			"model": "mvndicraft:blacksmith/tongs_hoehead"
+		  }
+	]
+}

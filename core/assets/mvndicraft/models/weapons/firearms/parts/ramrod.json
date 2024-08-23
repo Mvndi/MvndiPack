@@ -1,0 +1,158 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "arquebusmodel",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "mvndicraft:weapons/firearms/arquebus/arquebus",
+		"particle": "mvndicraft:weapons/firearms/arquebus/arquebus"
+	},
+	"elements": [
+		{
+			"from": [8.33, 13.26153, -2.94165],
+			"to": [8.57, 13.50153, 8.62635],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.57074, 14.37711, 6.01886]},
+			"faces": {
+				"north": {"uv": [0, 0.5, 1, 1.5], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [0, 0.5, 16, 1.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [0, 0.5, 1, 1.5], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 0.5, 16, 1.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [0, 0.5, 16, 1.5], "texture": "#2"},
+				"down": {"uv": [0, 0.5, 16, 1.5], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.2916, 13.22313, -3.47165],
+			"to": [8.6084, 13.53993, -2.86165],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.57074, 14.37711, 6.01886]},
+			"faces": {
+				"north": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"down": {"uv": [8, 12, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"overrides": [
+		{
+			"predicate": {
+				"pulling": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.01
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.2
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_2"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.4
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_3"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.6
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_4"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.8
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_5"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_6"
+		},
+		{
+			"predicate": {
+				"charged": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_arrow"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"firework": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_arrow"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-0.5, -5.75, -5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0.5, -5.75, -5]
+		},
+		"firstperson_righthand": {
+			"rotation": [78, 0, 0],
+			"translation": [-2.25, -2, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [78, 0, 0],
+			"translation": [-2.25, -2, 0]
+		},
+		"ground": {
+			"translation": [0, -8.5, 5.5]
+		},
+		"gui": {
+			"rotation": [-13, -142, 0],
+			"translation": [-5.5, -12, 0],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [8, -8, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 11.68272, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [8.45, 13.15653, 3.94235],
+					"color": 0,
+					"children": [0]
+				}
+			]
+		},
+		{
+			"name": "match",
+			"origin": [9.23482, 16.8893, 10.27269],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "metal",
+			"origin": [8.46116, 9.72936, 14.65867],
+			"color": 0,
+			"children": [1]
+		}
+	]
+}

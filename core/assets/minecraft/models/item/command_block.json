@@ -1,0 +1,9 @@
+{
+	"parent": "block/command_block",
+	"overrides": [
+		{ "predicate": { "custom_model_data":2221300}, "model": "mvndicraft:vehicles/wagon/wagon"},
+		{ "predicate": { "custom_model_data":2221301}, "model": "mvndicraft:vehicles/wagon/wagon_covered"},
+		{ "predicate": { "custom_model_data":2221302}, "model": "mvndicraft:vehicles/wagon/back_wheels"},
+		{ "predicate": { "custom_model_data":2221303}, "model": "mvndicraft:vehicles/wagon/front_wheels"}
+	]
+}

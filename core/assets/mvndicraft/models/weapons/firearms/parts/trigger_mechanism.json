@@ -1,0 +1,241 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "arquebusmodel",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "mvndicraft:weapons/firearms/arquebus/arquebus",
+		"particle": "mvndicraft:weapons/firearms/arquebus/arquebus"
+	},
+	"elements": [
+		{
+			"from": [8.30437, 11.5439, 12.87479],
+			"to": [8.61795, 11.97838, 15.77612],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.46116, 13.00971, 11.64046]},
+			"faces": {
+				"north": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"east": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"south": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"west": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"up": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"down": {"uv": [8, 12, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.92232, 13.80248, 10.46745],
+			"to": [8.97232, 14.55932, 13.29825],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.57074, 14.37711, 6.01886]},
+			"faces": {
+				"north": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8, 12, 16, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"west": {"uv": [8, 12, 16, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 12, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.96188, 14.12593, 10.57982],
+			"to": [9.05776, 15.89736, 10.78326],
+			"rotation": {"angle": 45, "axis": "x", "origin": [9.00982, 14.23556, 10.67809]},
+			"faces": {
+				"north": {"uv": [0, 6.5, 16, 12], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [0, 6.5, 16, 12], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [0, 6.5, 16, 12], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 6.5, 16, 12], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"down": {"uv": [0, 6.5, 16, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.96188, 15.27668, 11.78368],
+			"to": [9.05776, 15.48012, 12.75512],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.00982, 14.23556, 10.67809]},
+			"faces": {
+				"north": {"uv": [0, 6.5, 16, 12], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [0, 6.5, 16, 12], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [0, 6.5, 16, 12.5], "texture": "#2"},
+				"west": {"uv": [0, 6.5, 16, 12], "rotation": 270, "texture": "#2"},
+				"up": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"down": {"uv": [0, 6.5, 16, 12], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.96188, 14.50525, 12.75512],
+			"to": [9.05776, 15.47668, 12.95856],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.00982, 14.23556, 10.67809]},
+			"faces": {
+				"north": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"east": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"south": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"west": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"up": {"uv": [0, 6.5, 16, 12], "texture": "#2"},
+				"down": {"uv": [0, 6.5, 16, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.60437, 13.65042, 11.47678],
+			"to": [8.96795, 14.35175, 12.16125],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8.46116, 13.00971, 11.64046]},
+			"faces": {
+				"north": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8, 12, 16, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"west": {"uv": [8, 12, 16, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 12, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.30437, 11.10042, 11.47678],
+			"to": [8.61795, 14.10175, 11.91125],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8.46116, 13.00971, 11.64046]},
+			"faces": {
+				"north": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8, 12, 16, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [8, 12, 16, 16], "texture": "#2"},
+				"west": {"uv": [8, 12, 16, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [8, 12, 16, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 12, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.97633, 14.40039, 12.75774],
+			"to": [9.04331, 14.58154, 12.95593],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.00982, 14.23556, 10.67809]},
+			"faces": {
+				"north": {"uv": [0, 12, 7.5, 16], "texture": "#2"},
+				"east": {"uv": [0, 12, 7.5, 16], "texture": "#2"},
+				"south": {"uv": [0, 12, 7.5, 16], "texture": "#2"},
+				"west": {"uv": [0, 12, 7.5, 16], "texture": "#2"},
+				"up": {"uv": [0, 12, 7.5, 16], "texture": "#2"},
+				"down": {"uv": [0, 12, 7.5, 16], "texture": "#2"}
+			}
+		}
+	],
+	"overrides": [
+		{
+			"predicate": {
+				"pulling": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.01
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.2
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_2"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.4
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_3"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.6
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_4"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.8
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_5"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_6"
+		},
+		{
+			"predicate": {
+				"charged": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_arrow"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"firework": 1
+			},
+			"model": "item/custom/firearms/arquebus_state1/arquebus_arrow"
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [92, 0, 0],
+			"translation": [-0.5, 6, -3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [92, 0, 0],
+			"translation": [0.5, 6, -3.25]
+		},
+		"firstperson_righthand": {
+			"translation": [-3.75, 1, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [-3.75, 1, 0]
+		},
+		"ground": {
+			"translation": [0, -6.5, -6.75]
+		},
+		"gui": {
+			"rotation": [-13, -142, 0],
+			"translation": [9.75, -12.25, 0],
+			"scale": [2.76, 2.76, 2.76]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-10, -11, 0.75],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 11.68272, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [8.45, 13.15653, 3.94235],
+					"color": 0,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "match",
+			"origin": [9.23482, 16.8893, 10.27269],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "metal",
+			"origin": [8.46116, 9.72936, 14.65867],
+			"color": 0,
+			"children": [0]
+		},
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7
+	]
+}

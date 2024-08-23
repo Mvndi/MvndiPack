@@ -1,0 +1,63 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/redstone_torch_base",
+		"particle": "block/redstone_torch"
+	},
+	"elements": [
+		{
+			"name": "Torch",
+			"from": [7, 1, 7],
+			"to": [9, 7, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 9, 9, 15], "texture": "#0"},
+				"east": {"uv": [7, 9, 9, 15], "texture": "#0"},
+				"south": {"uv": [7, 9, 9, 15], "texture": "#0"},
+				"west": {"uv": [7, 9, 9, 15], "texture": "#0"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#0"},
+				"down": {"uv": [13, 13, 15, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [6.5, 2, 6.5],
+			"to": [9.5, 3, 9.5],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [6, 13, 9, 14], "texture": "#0"},
+				"east": {"uv": [6, 13, 9, 14], "texture": "#0"},
+				"south": {"uv": [6, 13, 9, 14], "texture": "#0"},
+				"west": {"uv": [6, 13, 9, 14], "texture": "#0"},
+				"up": {"uv": [0, 9, 3, 12], "texture": "#0"},
+				"down": {"uv": [0, 9, 3, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Plate",
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"east": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"south": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"west": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Wick",
+			"from": [8, 7, 7.5],
+			"to": [8, 8, 8.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"east": {"uv": [14, 10, 15, 11], "texture": "#0"},
+				"west": {"uv": [14, 10, 15, 11], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	]
+}

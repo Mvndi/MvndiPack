@@ -1,0 +1,6 @@
+{
+    "parent": "block/glass_panes/bases/glass_pane_noside",
+    "textures": {
+        "pane": "block/cyan_stained_glass"
+    }
+}

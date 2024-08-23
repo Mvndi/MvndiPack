@@ -1,0 +1,130 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "mvndicraft:siege/block/platform",
+		"3": "mvndicraft:siege/block/steel",
+		"particle": "mvndicraft:siege/block/ballista"
+	},
+	"elements": [
+		{
+			"from": [8.8, 4.4, 7.6],
+			"to": [9.6, 5.2, 8.4],
+			"rotation": {"angle": 0, "axis": "z", "origin": [9.2, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [0, 1, 1, 0], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [3.75, 8.25, 4.75, 7.25], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [3.5, 8.25, 4.5, 7.25], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [3.5, 8, 4.5, 7], "rotation": 180, "texture": "#3"},
+				"up": {"uv": [3.5, 8.5, 4.5, 7.5], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [3.5, 8, 4.5, 7], "rotation": 180, "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.8, 4, 7.2],
+			"to": [9.2, 5.6, 8.8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [9.2, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [3, 8.75, 3.5, 6.75], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [3, 8.75, 5, 6.75], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [3, 8.75, 3.5, 6.75], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [3, 8.75, 5, 6.75], "rotation": 180, "texture": "#3"},
+				"up": {"uv": [3, 8.75, 3.5, 6.75], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [3, 8.75, 3.5, 6.75], "rotation": 180, "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.9992, 2.8, 3.2],
+			"to": [8.7992, 6.8, 12.8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.6, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [6.75, 9.5, 5.75, 4.5], "texture": "#2"},
+				"east": {"uv": [9.25, 14.5, 4.25, 2.5], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [7.75, 9.25, 6.75, 4.25], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [9.25, 14.5, 4.25, 2.5], "rotation": 270, "texture": "#2"},
+				"up": {"uv": [7.5, 15.25, 6.5, 3.25], "texture": "#2"},
+				"down": {"uv": [8.75, 15.5, 7.75, 3.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.0008, 0, 6],
+			"to": [8.8008, 9.6, 10],
+			"rotation": {"angle": -45, "axis": "x", "origin": [7.6, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 15.25, 7.75, 3.25], "texture": "#2"},
+				"east": {"uv": [9.25, 14.5, 4.25, 2.5], "texture": "#2"},
+				"south": {"uv": [6.75, 15, 5.75, 3], "texture": "#2"},
+				"west": {"uv": [9.25, 14.5, 4.25, 2.5], "texture": "#2"},
+				"up": {"uv": [6.25, 10, 5.25, 5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8.25, 8.25, 7.25, 3.25], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8, 0, 6],
+			"to": [8.8, 9.6, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.6, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [8, 15.25, 7, 3.25], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [9.25, 14.5, 4.25, 2.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [6.75, 15, 5.75, 3], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [9.25, 14.5, 4.25, 2.5], "texture": "#2"},
+				"up": {"uv": [7, 8.5, 6, 3.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [11, 9.75, 10, 4.75], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.0016, 2.8, 3.2],
+			"to": [8.8016, 6.8, 12.8],
+			"rotation": {"angle": -45, "axis": "x", "origin": [7.6, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [7.75, 10, 6.75, 5], "texture": "#2"},
+				"east": {"uv": [9.25, 14.5, 4.25, 2.5], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [7.75, 9.25, 6.75, 4.25], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [9.25, 14.5, 4.25, 2.5], "rotation": 270, "texture": "#2"},
+				"up": {"uv": [8.25, 16, 7.25, 4], "texture": "#2"},
+				"down": {"uv": [6.75, 16, 5.75, 4], "rotation": 180, "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 4, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 4, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [119, 0, 119],
+			"translation": [-2.75, 0.5, 0]
+		},
+		"head": {
+			"translation": [0, 22.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -23],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Left Wheel",
+			"origin": [-0.05, 4.5, 10],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:shields/pavise/plain",
+	"textures": {
+		"2": "mvndicraft:shields/pavise/red_white_stripe"
+	}
+}

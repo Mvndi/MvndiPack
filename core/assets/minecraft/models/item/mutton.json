@@ -1,0 +1,7 @@
+{
+	"parent": "item/mutton_base",
+	"textures": {
+		"1": "item/mutton_raw",
+		"particle": "item/mutton_raw"
+	}
+}

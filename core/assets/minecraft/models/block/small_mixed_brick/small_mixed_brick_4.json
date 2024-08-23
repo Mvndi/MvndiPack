@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "block/small_mixed_brick/small_mixed_brick_4"
+    }
+}

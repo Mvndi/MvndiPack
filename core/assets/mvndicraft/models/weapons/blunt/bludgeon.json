@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "mvndicraft:weapons/blunt/bludgeon",
+		"particle": "mvndicraft:weapons/blunt/bludgeon"
+	},
+	"elements": [
+		{
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 5, 8.75],
+			"faces": {
+				"north": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"east": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"south": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"west": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"up": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"down": {"uv": [3, 10.5, 4.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5, 7],
+			"to": [9, 18, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"up": {"uv": [4.5, 2, 2.5, 0], "texture": "#0"},
+				"down": {"uv": [2.5, 2.5, 4.5, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.5, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [9, 0, 0],
+			"translation": [0, 4.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [9, 0, 0],
+			"translation": [0, 4.5, 0.5]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -1.25, 0]
+		},
+		"gui": {
+			"rotation": [14, 39, -49],
+			"translation": [-0.25, -0.75, 0]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -25.25, -7.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [0, 0, 52],
+			"translation": [0.75, -1.75, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

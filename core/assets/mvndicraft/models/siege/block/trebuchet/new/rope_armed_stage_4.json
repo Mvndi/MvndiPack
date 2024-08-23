@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:siege/block/trebuchet/parent",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "mvndicraft:siege/block/trebuchet_base"
+	},
+	"elements": [
+		{
+			"from": [7.125, 17.73816, 8.61334],
+			"to": [8.875, 19.48816, 9.36334],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99975, 7.08832, 9.22117]},
+			"faces": {
+				"north": {"uv": [2.375, 5.375, 3.25, 4.5], "rotation": 180, "texture": "#1", "cullface": "down"},
+				"east": {"uv": [2.125, 5.625, 3, 5.25], "rotation": 90, "texture": "#1", "cullface": "down"},
+				"south": {"uv": [2.375, 5.375, 3.25, 4.5], "texture": "#1", "cullface": "down"},
+				"west": {"uv": [2.125, 5.625, 3, 5.25], "rotation": 270, "texture": "#1", "cullface": "down"},
+				"up": {"uv": [3, 5.25, 2.125, 5.625], "rotation": 180, "texture": "#1", "cullface": "down"},
+				"down": {"uv": [3, 5.25, 2.125, 5.625], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.487, 7.046, 8.99371],
+			"to": [7.737, 17.746, 9.24371],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99975, 7.08832, 9.22117]},
+			"faces": {
+				"north": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [4.875, 0.125, 4.75, 5.5], "texture": "#1"},
+				"south": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [4.875, 0.125, 4.75, 5.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.2625, 7.046, 8.99371],
+			"to": [8.5125, 17.746, 9.24371],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99975, 7.08832, 9.22117]},
+			"faces": {
+				"north": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [4.875, 0.125, 4.75, 5.5], "texture": "#1"},
+				"south": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [4.875, 0.125, 4.75, 5.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6, -15.75, -49],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "rope_armed",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "rope_armed",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "stage_11",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "group",
+									"origin": [8, 9.25844, 5.49157],
+									"color": 0,
+									"children": [0, 1, 2]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"texture_size": [64, 32],
+	"parent": "item/rabbit_base",
+	"textures": {
+		"0": "item/hanging_cooked_rabbit",
+		"particle": "item/hanging_cooked_rabbit"
+	}
+}

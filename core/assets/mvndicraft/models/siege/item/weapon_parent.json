@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"1": "mvndicraft:siege/block/trebuchet_base",
+		"2": "mvndicraft:siege/block/trebuchet_counterweight",
+		"particle": "mvndicraft:siege/block/trebuchet_counterweight"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [101.5, -50, 0],
+			"translation": [0.25, 1.5, 4.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [101.5, -50, 0],
+			"translation": [0.25, 1.5, 4.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 21.5, 0],
+			"translation": [-0.25, 6.5, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 21.5, 0],
+			"translation": [-0.25, 6.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [41.25, 54.75, 0],
+			"translation": [0.25, 3.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"translation": [0, 16.85, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, -88.75, 0],
+			"translation": [0, 3.5, -1.5],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

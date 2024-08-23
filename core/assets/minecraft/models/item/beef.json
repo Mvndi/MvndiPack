@@ -1,0 +1,8 @@
+{
+	"parent": "item/beef_base",
+	"textures": {
+		"0": "item/raw_beef",
+		"particle": "item/raw_beef"
+	}
+	
+}

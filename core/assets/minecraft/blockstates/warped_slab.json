@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/planks/warped/warped_slab" },
+        "type=top": { "model": "block/planks/warped/warped_slab_top" },
+        "type=double": { "model": "block/planks/warped/warped_double_slab" }
+    }
+}

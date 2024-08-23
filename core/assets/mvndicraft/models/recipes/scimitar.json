@@ -1,0 +1,18 @@
+{
+  "credit": "Made with Blockbench",
+    "parent": "mvndicraft:weapons/swords/scimitar",
+  "textures": {
+    "0": "mvndicraft:recipes/black",
+    "1": "mvndicraft:recipes/black",
+    "2": "mvndicraft:recipes/black",
+    "3": "mvndicraft:recipes/black",
+    "4": "mvndicraft:recipes/black",
+    "5": "mvndicraft:recipes/black",
+    "6": "mvndicraft:recipes/black",
+    "7": "mvndicraft:recipes/black",
+    "8": "mvndicraft:recipes/black",
+    "9": "mvndicraft:recipes/black",
+    "10": "mvndicraft:recipes/black",
+    "particle": "mvndicraft:recipes/black"
+  }
+}

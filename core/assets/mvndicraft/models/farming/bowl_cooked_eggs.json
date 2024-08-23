@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/mushroom_stew",
+  "textures": {
+    "layer0": "mvndicraft:farming/bowl_cooked_eggs"
+  }
+}

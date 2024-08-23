@@ -1,0 +1,7 @@
+{
+  "credit": "Made with Blockbench",
+    "parent": "mvndicraft:shields/long_heater/plain_blocking",
+  "textures": {
+    "0": "mvndicraft:shields/long_heater/green_white_arrow"
+  }
+}

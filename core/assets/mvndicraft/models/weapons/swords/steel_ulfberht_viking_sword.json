@@ -1,0 +1,6 @@
+{
+	"parent": "mvndicraft:weapons/swords/steel_viking_sword",
+	"textures": {
+		"5": "mvndicraft:weapons/swords/engraving_ulfberht_false"
+	}
+}

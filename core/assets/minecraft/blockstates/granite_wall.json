@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "north=none,south=none,east=low,west=low": { "model": "block/granite_wall_eastwest" },
+        "north=none,south=none,east=none,west=low": { "model": "block/granite_wall_eastwest" },
+        "north=none,south=none,east=low,west=none": { "model": "block/granite_wall_eastwest" },
+        "west=none,east=none,south=low,north=low": { "model": "block/granite_wall_northsouth" },
+        "west=none,east=none,south=none,north=low": { "model": "block/granite_wall_northsouth" },
+        "west=none,east=none,south=low,north=none": { "model": "block/granite_wall_northsouth" }
+    }
+}

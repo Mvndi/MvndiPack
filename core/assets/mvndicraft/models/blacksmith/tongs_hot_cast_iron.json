@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:blacksmith/tongs_hot_ingot",
+  "textures": {
+    "1": "mvndicraft:blacksmith/hot_cast_iron_ingot"
+  }
+}

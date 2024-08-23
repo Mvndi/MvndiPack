@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:blacksmith/guard_and_pommel",
+  "textures": {
+    "0": "mvndicraft:blacksmith/molten"
+  }
+}

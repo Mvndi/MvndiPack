@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/wheat",
+  "textures": {
+    "layer0": "mvndicraft:farming/rosemary"
+  }
+}

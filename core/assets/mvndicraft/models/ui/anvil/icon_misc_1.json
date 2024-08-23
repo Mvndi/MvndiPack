@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "mvndicraft:ui/anvil/anvil",
+		"particle": "mvndicraft:ui/anvil/anvil"
+	},
+	"elements": [
+		{
+			"name": "back",
+			"from": [-7.5, -1, 8],
+			"to": [23.5, 17, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, -1, 8]},
+			"faces": {
+				"north": {"uv": [11.5, 9.25, 13.4375, 10.375], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [-5.5, 0, 80]
+		}
+	}
+}

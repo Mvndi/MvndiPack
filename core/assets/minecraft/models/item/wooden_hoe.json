@@ -1,0 +1,462 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/hoe_base",
+	"textures": {
+		"2": "mvndicraft:tools/toolbottomtip",
+		"3": "mvndicraft:tools/toolhandletexture",
+		"4": "mvndicraft:tools/woodtooltexture_new",
+		"particle": "mvndicraft:tools/woodtooltexture_new"
+	},
+
+	"overrides": [
+		{
+			"model": "mvndicraft:armor/helms/barbute",
+			"predicate": {"custom_model_data": 1}
+		},
+		{
+			"model": "mvndicraft:armor/helms/barbute_visor",
+			"predicate": {"custom_model_data": 2}
+		},
+		{
+			"model": "mvndicraft:armor/helms/black_great_helm",
+			"predicate": {"custom_model_data": 3}
+		},
+		{
+			"model": "mvndicraft:armor/helms/brass_ridge_helm",
+			"predicate": {"custom_model_data": 4}
+		},
+		{
+			"model": "mvndicraft:armor/helms/bucket_helm",
+			"predicate": {"custom_model_data": 5}
+		},
+		{
+			"model": "mvndicraft:armor/helms/byz_crown",
+			"predicate": {"custom_model_data": 6}
+		},
+		{
+			"model": "mvndicraft:armor/helms/byz_pot_masked",
+			"predicate": {"custom_model_data": 7}
+		},
+		{
+			"model": "mvndicraft:armor/helms/byz_pot_padded",
+			"predicate": {"custom_model_data": 8}
+		},
+		{
+			"model": "mvndicraft:armor/helms/byz_pot_padded_2",
+			"predicate": {"custom_model_data": 9}
+		},
+		{
+			"model": "mvndicraft:armor/helms/cappello_di_paglia",
+			"predicate": {"custom_model_data": 10}
+		},
+		{
+			"model": "mvndicraft:armor/helms/catholic_bishop",
+			"predicate": {"custom_model_data": 11}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_norse_helm",
+			"predicate": {"custom_model_data": 12}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_spangenhelm",
+			"predicate": {"custom_model_data": 13}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_helm",
+			"predicate": {"custom_model_data": 14}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_helm_2",
+			"predicate": {"custom_model_data": 15}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_helm_3",
+			"predicate": {"custom_model_data": 16}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_nasal_helm",
+			"predicate": {"custom_model_data": 17}
+		},
+		{
+			"model": "mvndicraft:armor/helms/diadem_blue",
+			"predicate": {"custom_model_data": 18}
+		},
+		{
+			"model": "mvndicraft:armor/helms/diadem_red",
+			"predicate": {"custom_model_data": 19}
+		},
+		{
+			"model": "mvndicraft:armor/helms/dogal_cap",
+			"predicate": {"custom_model_data": 20}
+		},
+		{
+			"model": "mvndicraft:armor/helms/ducal_mortier",
+			"predicate": {"custom_model_data": 21}
+		},
+		{
+			"model": "mvndicraft:armor/helms/feathered_nasal_helm",
+			"predicate": {"custom_model_data": 22}
+		},
+		{
+			"model": "mvndicraft:armor/helms/gothic_helm",
+			"predicate": {"custom_model_data": 23}
+		},
+		{
+			"model": "mvndicraft:armor/helms/great_helm",
+			"predicate": {"custom_model_data": 24}
+		},
+		{
+			"model": "mvndicraft:armor/helms/hre_crown",
+			"predicate": {"custom_model_data": 25}
+		},
+		{
+			"model": "mvndicraft:armor/helms/italian_helm",
+			"predicate": {"custom_model_data": 26}
+		},
+		{
+			"model": "mvndicraft:armor/helms/italo-norman_helm",
+			"predicate": {"custom_model_data": 27}
+		},
+		{
+			"model": "mvndicraft:armor/helms/jeweled_ridge_helm",
+			"predicate": {"custom_model_data": 28}
+		},
+		{
+			"model": "mvndicraft:armor/helms/kettle_helm",
+			"predicate": {"custom_model_data": 29}
+		},
+		{
+			"model": "mvndicraft:armor/helms/kipchak_helm",
+			"predicate": {"custom_model_data": 30}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht_hat",
+			"predicate": {"custom_model_data": 31}
+		},
+		{
+			"model": "mvndicraft:armor/helms/morion_helm",
+			"predicate": {"custom_model_data": 32}
+		},
+		{
+			"model": "mvndicraft:armor/helms/nasal_helm",
+			"predicate": {"custom_model_data": 33}
+		},
+		{
+			"model": "mvndicraft:armor/helms/orthodox_bishop",
+			"predicate": {"custom_model_data": 34}
+		},
+		{
+			"model": "mvndicraft:armor/helms/red_great_helm",
+			"predicate": {"custom_model_data": 35}
+		},
+		{
+			"model": "mvndicraft:armor/helms/ridge_helm",
+			"predicate": {"custom_model_data": 36}
+		},
+		{
+			"model": "mvndicraft:armor/helms/sallet_helm",
+			"predicate": {"custom_model_data": 37}
+		},
+		{
+			"model": "mvndicraft:armor/helms/saracen_crown",
+			"predicate": {"custom_model_data": 38}
+		},
+		{
+			"model": "mvndicraft:armor/helms/saracen_helm",
+			"predicate": {"custom_model_data": 39}
+		},
+		{
+			"model": "mvndicraft:armor/helms/saracen_helm_2",
+			"predicate": {"custom_model_data": 40}
+		},
+		{
+			"model": "mvndicraft:armor/helms/saracen_helm_3",
+			"predicate": {"custom_model_data": 41}
+		},
+		{
+			"model": "mvndicraft:armor/helms/solar_crown",
+			"predicate": {"custom_model_data": 42}
+		},
+		{
+			"model": "mvndicraft:armor/helms/spangenhelm",
+			"predicate": {"custom_model_data": 43}
+		},
+		{
+			"model": "mvndicraft:armor/helms/sutton_hoo",
+			"predicate": {"custom_model_data": 44}
+		},
+		{
+			"model": "mvndicraft:armor/helms/viking_helm",
+			"predicate": {"custom_model_data": 45}
+		},
+		{
+			"model": "mvndicraft:armor/helms/winged_teuton",
+			"predicate": {"custom_model_data": 46}
+		},
+		{
+			"model": "mvndicraft:armor/helms/al_andalus_nasal_helm",
+			"predicate": {"custom_model_data": 47}
+		},
+		{
+			"model": "mvndicraft:armor/helms/andalusian_helm",
+			"predicate": {"custom_model_data": 48}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_coif",
+			"predicate": {"custom_model_data": 49}
+		},
+		{
+			"model": "mvndicraft:armor/helms/visored_ridge_bascinet_helm",
+			"predicate": {"custom_model_data": 50}
+		},
+		{
+			"model": "mvndicraft:armor/helms/black_rider_helm",
+			"predicate": {"custom_model_data": 51}
+		},
+		{
+			"model": "mvndicraft:armor/helms/white_rider_helm",
+			"predicate": {"custom_model_data": 52}
+		},
+		{
+			"model": "mvndicraft:armor/helms/hounskull_bascinet",
+			"predicate": {"custom_model_data": 53}
+		},
+		{
+			"model": "mvndicraft:armor/helms/pig_face_bascinet",
+			"predicate": {"custom_model_data": 54}
+		},
+		{
+			"model": "mvndicraft:armor/helms/bretache_bascinet",
+			"predicate": {"custom_model_data": 55}
+		},
+		{
+			"model": "mvndicraft:armor/helms/blue_cross_nasal",
+			"predicate": {"custom_model_data": 56}
+		},
+		{
+			"model": "mvndicraft:armor/helms/red_cross_nasal",
+			"predicate": {"custom_model_data": 57}
+		},
+		{
+			"model": "mvndicraft:armor/helms/red_paint_nasal",
+			"predicate": {"custom_model_data": 58}
+		},
+		{
+			"model": "mvndicraft:armor/helms/red_white_cross_nasal",
+			"predicate": {"custom_model_data": 59}
+		},
+		{
+			"model": "mvndicraft:armor/helms/red_white_nasal",
+			"predicate": {"custom_model_data": 60}
+		},
+		{
+			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm_crest",
+			"predicate": {"custom_model_data": 61}
+		},
+		{
+			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm",
+			"predicate": {"custom_model_data": 62}
+		},
+		{
+			"model": "mvndicraft:armor/helms/barmitsa_conical_faceplate",
+			"predicate": {"custom_model_data": 63}
+		},
+		{
+			"model": "mvndicraft:armor/helms/visored_bucket_helm",
+			"predicate": {"custom_model_data": 64}
+		},
+		{
+			"model": "mvndicraft:armor/helms/galloglach_barbute",
+			"predicate": {"custom_model_data": 65}
+		},
+		{
+			"model": "mvndicraft:armor/helms/ocular_kettle_helm",
+			"predicate": {"custom_model_data": 66}
+		},
+		{
+			"model": "mvndicraft:armor/helms/caucasian_helm",
+			"predicate": {"custom_model_data": 67}
+		},
+		{
+			"model": "mvndicraft:armor/helms/nasal_kettle_helm",
+			"predicate": {"custom_model_data": 68}
+		},
+		{
+			"model": "mvndicraft:armor/helms/ry_kettle_helm",
+			"predicate": {"custom_model_data": 69}
+		},
+		{
+			"model": "mvndicraft:armor/helms/wr_kettle_helm",
+			"predicate": {"custom_model_data": 70}
+		},
+		{
+			"model": "mvndicraft:armor/helms/yg_kettle_helm",
+			"predicate": {"custom_model_data": 71}
+		},
+		{
+			"model": "mvndicraft:armor/helms/yr_kettle_helm",
+			"predicate": {"custom_model_data": 72}
+		},
+		{
+			"model": "mvndicraft:armor/helms/bw_great_helm",
+			"predicate": {"custom_model_data": 73}
+		},
+		{
+			"model": "mvndicraft:armor/helms/gg_kettle_helm",
+			"predicate": {"custom_model_data": 74}
+		},
+		{
+			"model": "mvndicraft:armor/helms/wr_great_helm",
+			"predicate": {"custom_model_data": 75}
+		},
+		{
+			"model": "mvndicraft:armor/helms/rb_nasal",
+			"predicate": {"custom_model_data": 76}
+		},
+		{
+			"model": "mvndicraft:armor/helms/wr_nasal",
+			"predicate": {"custom_model_data": 77}
+		},
+		{
+			"model": "mvndicraft:armor/helms/wr2_nasal",
+			"predicate": {"custom_model_data": 78}
+		},
+		{
+			"model": "mvndicraft:armor/helms/yr_nasal",
+			"predicate": {"custom_model_data": 79}
+		},
+		{
+			"model": "mvndicraft:armor/helms/yr2_nasal",
+			"predicate": {"custom_model_data": 80}
+		},
+		{
+			"model": "mvndicraft:armor/helms/by_gothic_helm",
+			"predicate": {"custom_model_data": 81}
+		},
+		{
+			"model": "mvndicraft:armor/helms/gr_gothic_helm",
+			"predicate": {"custom_model_data": 82}
+		},
+		{
+			"model": "mvndicraft:armor/helms/rb_gothic_helm",
+			"predicate": {"custom_model_data": 83}
+		},
+		{
+			"model": "mvndicraft:armor/helms/rw_gothic_helm",
+			"predicate": {"custom_model_data": 84}
+		},
+		{
+			"model": "mvndicraft:armor/helms/ry_gothic_helm",
+			"predicate": {"custom_model_data": 85}
+		},
+		{
+			"model": "mvndicraft:armor/helms/yb_gothic_helm",
+			"predicate": {"custom_model_data": 86}
+		},
+		{
+			"model": "mvndicraft:armor/helms/yellow_barbute",
+			"predicate": {"custom_model_data": 87}
+		},
+		{
+			"model": "mvndicraft:armor/helms/red_barbute",
+			"predicate": {"custom_model_data": 88}
+		},
+		{
+			"model": "mvndicraft:armor/helms/gw_barbute",
+			"predicate": {"custom_model_data": 89}
+		},
+		{
+			"model": "mvndicraft:armor/helms/bw_barbute",
+			"predicate": {"custom_model_data": 90}
+		},
+		{
+			"model": "mvndicraft:armor/helms/br_barbute",
+			"predicate": {"custom_model_data": 91}
+		},
+		{
+			"model": "mvndicraft:armor/helms/al_andalus_nasal_helm_green",
+			"predicate": {"custom_model_data": 92}
+		},
+		{
+			"model": "mvndicraft:armor/helms/al_andalus_nasal_helm_orange",
+			"predicate": {"custom_model_data": 93}
+		},
+		{
+			"model": "mvndicraft:armor/helms/al_andalus_nasal_helm_blue",
+			"predicate": {"custom_model_data": 94}
+		},
+		{
+			"model": "mvndicraft:armor/helms/al_andalus_nasal_helm_magenta",
+			"predicate": {"custom_model_data": 95}
+		},
+		{
+			"model": "mvndicraft:armor/helms/al_andalus_nasal_helm_royal",
+			"predicate": {"custom_model_data": 96}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_mask",
+			"predicate": {"custom_model_data": 97}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_coif_blue",
+			"predicate": {"custom_model_data": 98}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_coif_green",
+			"predicate": {"custom_model_data": 99}
+		},
+		{
+			"model": "mvndicraft:armor/helms/eyes_chain_coif",
+			"predicate": {"custom_model_data": 100}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_coif_green_yel",
+			"predicate": {"custom_model_data": 101}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_coif_blue_yel",
+			"predicate": {"custom_model_data": 102}
+		},
+		{
+			"model": "mvndicraft:armor/helms/chain_coif_red",
+			"predicate": {"custom_model_data": 103}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_helm_red",
+			"predicate": {"custom_model_data": 104}
+		},
+		{
+			"model": "mvndicraft:armor/helms/conical_helm_blue",
+			"predicate": {"custom_model_data": 105}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_black",
+			"predicate": {"custom_model_data": 106}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_blue",
+			"predicate": {"custom_model_data": 107}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_blue1",
+			"predicate": {"custom_model_data": 108}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_green",
+			"predicate": {"custom_model_data": 109}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_red",
+			"predicate": {"custom_model_data": 110}
+		},
+		{
+			"model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_yellow",
+			"predicate": {"custom_model_data": 111}
+		},
+		{
+			"model": "mvndicraft:armor/helms/galero",
+			"predicate": {"custom_model_data": 112}
+		}
+
+	]
+}

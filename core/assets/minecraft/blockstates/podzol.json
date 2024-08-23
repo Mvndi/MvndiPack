@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "snowy=false": [
+            { "model": "block/podzol", "weight": 14 },
+            { "model": "block/foliage/dirt/podzol1", "weight": 7 }
+        ],
+        "snowy=true":  { "model": "block/grass_block_snow" }
+    }
+}

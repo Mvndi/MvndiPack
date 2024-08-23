@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "mvndicraft:ui/difficulty/blacksmith_difficulty",
+		"particle": "mvndicraft:ui/difficulty/blacksmith_difficulty"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [32, 11.63636, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 1, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 12.375, 3.01724], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 1.51724], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 1.51724], "texture": "#missing"},
+				"up": {"uv": [0, 0, 6, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 6, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [-37.75, 4, -80],
+			"scale": [1.9668, 1.9668, 1.9668]
+		}
+	}
+}

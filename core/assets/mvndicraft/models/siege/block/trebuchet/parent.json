@@ -1,0 +1,14 @@
+{
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6, -12, 5.5],
+			"scale": [4, 4, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6, -12, 5.5],
+			"scale": [4, 4, 4]
+		}
+	}
+}

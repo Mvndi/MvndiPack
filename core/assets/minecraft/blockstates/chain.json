@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "axis=x": [
+	{
+      "model": "minecraft:block/clothesline/clothesline",
+      "y": 90,
+	  	"weight": 2
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline1",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline2",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline3",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline4",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline5",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline6",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline7",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline8",
+      "y": 90
+    }
+],	
+    "axis=y": {
+      "model": "minecraft:block/chain"
+    },
+    "axis=z": [
+	{
+      "model": "minecraft:block/clothesline/clothesline",
+	  "weight": 2
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline1"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline2"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline3"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline4"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline5"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline6"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline7"
+    },
+	{
+      "model": "minecraft:block/clothesline/clothesline8"
+    }
+]
+  }
+}

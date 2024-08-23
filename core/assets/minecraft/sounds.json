@@ -1,0 +1,394 @@
+{
+  "entity.arrow.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.arrow.hit_player": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.arrow.shoot": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.player.attack.crit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.player.attack.knockback": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.player.attack.nodamage": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.player.attack.strong": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.player.attack.sweep": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "entity.player.attack.weak": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.loading_end": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.loading_middle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.loading_start": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.quick_charge_1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.quick_charge_2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.quick_charge_3": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.crossbow.shoot": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "item.shield.block": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.credits": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.dragon": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.end": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.nether_wastes": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.soul_sand_valley": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.warped_forest": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.badlands": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.desert": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.flower_forest": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.forest": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.grove": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.jungle": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.old_growth_taiga": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.sparse_jungle": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.overworld.swamp": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  },
+  "music.under_water": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
+  }
+}

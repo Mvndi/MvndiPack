@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "mvndicraft:ui/anvil/anvil",
+		"particle": "mvndicraft:ui/anvil/anvil"
+	},
+	"elements": [
+		{
+			"name": "back",
+			"from": [-7.5, -1, 8],
+			"to": [23.5, 17, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, -1, 8]},
+			"faces": {
+				"north": {"uv": [14.0625, 7, 16, 8.125], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "icon",
+			"from": [-0.5, 0, 7.5],
+			"to": [15.5, 16, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 0, 0.5]},
+			"faces": {
+				"north": {"uv": [14, 2.25, 15, 3.25], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 15], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 15], "texture": "#missing"},
+				"up": {"uv": [0, 0, 15, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 15, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [-5.5, 0, 80]
+		}
+	}
+}

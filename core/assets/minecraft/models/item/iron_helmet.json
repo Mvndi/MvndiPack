@@ -1,0 +1,6 @@
+{
+  "parent": "item/helmet",
+  "textures": {
+    "helmet": "models/armor/iron_layer_1"
+  }
+}

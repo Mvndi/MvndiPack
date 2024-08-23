@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:blacksmith/ingot_cast_molten",
+  "textures": {
+    "2": "mvndicraft:blacksmith/empty"
+  }
+}

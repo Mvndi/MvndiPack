@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"1": "block/end_stone_brick_wall_upper_old",
+		"particle": "block/end_stone_brick_wall_upper_old",
+		"wall": "block/end_stone_brick_wall_upper_old"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [4, 0, 0],
+			"to": [12, 15, 8],
+			"faces": {
+				"north": {"uv": [4, 1, 12, 16], "texture": "#wall"},
+				"east": {"uv": [8, 1, 16, 16], "texture": "#wall"},
+				"west": {"uv": [0, 1, 8, 16], "texture": "#wall"},
+				"up": {"uv": [2, 0, 14, 8], "texture": "#1"},
+				"down": {"uv": [2, 8, 14, 16], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

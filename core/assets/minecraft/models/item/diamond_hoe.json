@@ -1,0 +1,228 @@
+{
+	
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/hoe_base",
+	"textures": {
+		"2": "mvndicraft:tools/toolbottomtip",
+		"3": "mvndicraft:tools/toolhandletexture",
+		"4": "mvndicraft:tools/steeltooltexture",
+		"particle": "mvndicraft:tools/steeltooltexture"
+	},
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1},
+      "model": "mvndicraft:weapons/swords/falchion"
+    },
+    {
+			"predicate": {"custom_model_data": 2},
+      "model": "mvndicraft:weapons/swords/scimitar"
+    },
+    {
+      "predicate": {"custom_model_data": 3},
+      "model": "mvndicraft:weapons/swords/spadone"
+    },
+    {
+      "predicate": {"custom_model_data": 4},
+      "model": "mvndicraft:weapons/swords/spatha"
+    },
+    {
+      "predicate": {"custom_model_data": 5},
+      "model": "mvndicraft:weapons/swords/steel_viking_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 6},
+      "model": "mvndicraft:weapons/swords/straight_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 7},
+      "model": "mvndicraft:weapons/swords/true_steel_ulfberht_viking_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 8},
+      "model": "mvndicraft:weapons/swords/true_straight_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 9},
+      "model": "mvndicraft:weapons/swords/varangian_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 10},
+      "model": "mvndicraft:weapons/swords/steel_seax"
+    },
+    {
+      "predicate": {"custom_model_data": 11},
+      "model": "mvndicraft:weapons/axes/francisca"
+    },
+    {
+      "predicate": {"custom_model_data": 12},
+      "model": "mvndicraft:weapons/axes/varangian_axe"
+    },
+    {
+      "predicate": {"custom_model_data": 13},
+      "model": "mvndicraft:weapons/axes/dane_axe"
+    },
+    {
+      "predicate": {"custom_model_data": 14},
+      "model": "mvndicraft:weapons/axes/bearded_axe"
+    },
+    {
+      "predicate": {"custom_model_data": 15},
+      "model": "mvndicraft:weapons/axes/broad_axe"
+    },
+    {
+      "predicate": {"custom_model_data": 16},
+      "model": "mvndicraft:weapons/axes/hammer_axe"
+    },
+    {
+      "predicate": {"custom_model_data": 17},
+      "model": "mvndicraft:weapons/cavalry/lance"
+    },
+    {
+      "predicate": {"custom_model_data": 18},
+      "model": "mvndicraft:weapons/cavalry/lance_couched"
+    },
+    {
+      "predicate": {"custom_model_data": 19},
+      "model": "mvndicraft:weapons/pole_arms/halberd"
+    },
+    {
+      "predicate": {"custom_model_data": 20},
+      "model": "mvndicraft:weapons/pole_arms/javelin"
+    },
+    {
+      "predicate": {"custom_model_data": 21},
+      "model": "mvndicraft:weapons/pole_arms/pike"
+    },
+    {
+      "predicate": {"custom_model_data": 22},
+      "model": "mvndicraft:weapons/pole_arms/winged_spear"
+    },
+    {
+      "predicate": {"custom_model_data": 23},
+      "model": "mvndicraft:weapons/pole_arms/glaive"
+    },
+    {
+      "predicate": {"custom_model_data": 24},
+      "model": "mvndicraft:weapons/blunt/mace"
+    },
+    {
+      "predicate": {"custom_model_data": 25},
+      "model": "mvndicraft:weapons/blunt/morning_star"
+    },
+    {
+      "predicate": {"custom_model_data": 26},
+      "model": "mvndicraft:weapons/blunt/war_hammer"
+    },
+    {
+      "predicate": {"custom_model_data": 27},
+      "model": "mvndicraft:weapons/blunt/studded_mace"
+    },
+    {
+      "predicate": {"custom_model_data": 28},
+      "model": "mvndicraft:weapons/swords/albion_falchion"
+    },
+    {
+      "predicate": {"custom_model_data": 29},
+      "model": "mvndicraft:weapons/swords/arabian_straight_sword"
+    },
+    {
+      "predicate": {"custom_model_data": 30},
+      "model": "mvndicraft:weapons/swords/paramerion"
+    },	
+    {
+      "predicate": {"custom_model_data": 31},
+      "model": "mvndicraft:weapons/pole_arms/billhook"
+    },	
+    {
+      "predicate": {"custom_model_data": 32},
+      "model": "mvndicraft:weapons/pole_arms/angular_spear"
+    },
+    {
+      "predicate": {"custom_model_data": 33},
+      "model": "mvndicraft:weapons/blunt/crows_beak"
+    },
+    {
+      "predicate": {"custom_model_data": 34},
+      "model": "mvndicraft:weapons/blunt/spiked_goedendag"
+    },
+    {
+      "predicate": {"custom_model_data": 35},
+      "model": "mvndicraft:weapons/pole_arms/sword_staff"
+    },
+    {
+      "predicate": {"custom_model_data": 36},
+      "model": "mvndicraft:weapons/pole_arms/fauchard"
+    },
+    {
+      "predicate": {"custom_model_data": 37},
+      "model": "mvndicraft:weapons/swords/sweihander"
+    },
+    {
+      "predicate": {"custom_model_data": 38},
+      "model": "mvndicraft:weapons/axes/francisca_axe_throw"
+    },
+    {
+      "predicate": {"custom_model_data": 39},
+      "model": "mvndicraft:weapons/pole_arms/javelin_throw"
+    },
+    {
+      "predicate": {"custom_model_data": 40},
+      "model": "mvndicraft:entity/arrow"
+    },
+    {
+      "predicate": {"custom_model_data": 41},
+      "model": "mvndicraft:weapons/pole_arms/spikedpolemace"
+    },
+    {
+      "predicate": {"custom_model_data": 42},
+      "model": "mvndicraft:weapons/swords/claymore"
+    },
+
+    {
+      "predicate": {"custom_model_data": 43},
+      "model": "mvndicraft:weapons/swords/straight_sword_slide"
+    },
+
+    {
+      "predicate": {"custom_model_data": 44},
+      "model": "mvndicraft:weapons/blunt/war_hammer_reverse"
+    },
+
+    {
+      "predicate": {"custom_model_data": 45},
+      "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
+    },
+    {
+      "predicate": {"custom_model_data": 46},
+      "model": "mvndicraft:weapons/swords/true_straight_sword_slide"
+    },
+    {
+      "predicate": {"custom_model_data": 47},
+      "model": "mvndicraft:weapons/axes/varangian_axe_reverse"
+    },
+    {
+      "predicate": {"custom_model_data": 48},
+      "model": "mvndicraft:weapons/axes/broad_axe_reverse"
+    },
+    {
+      "predicate": {"custom_model_data": 49},
+      "model": "mvndicraft:weapons/blunt/spiked_goedendag_point"
+    },
+    {
+	"predicate": {"custom_model_data": 50},
+	"model": "mvndicraft:weapons/blunt/bludgeon"},
+    {
+	"predicate": {"custom_model_data": 1488},
+	"model": "mvndicraft:tools/chisel"
+	},
+    {
+	"predicate": {"custom_model_data": 51},
+	"model": "mvndicraft:weapons/swords/godenak_falchion"
+	},	
+    {
+	"predicate": {"custom_model_data": 52},
+	"model": "mvndicraft:weapons/axes/galloglach_axe"
+	}
+	
+  ]
+}

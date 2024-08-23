@@ -1,0 +1,7 @@
+{
+	"parent": "block/clothesline/clothesline_base",
+	"textures": {
+		"0": "block/clothesline/clothesline",
+		"particle": "block/clothesline/clothesline"
+	}
+}

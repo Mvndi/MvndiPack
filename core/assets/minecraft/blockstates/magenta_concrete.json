@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/large_mixed_brick/large_mixed_brick_1" , "weight": 17 },
+			{ "model": "block/large_mixed_brick/large_mixed_brick_2" , "weight": 17 },
+			{ "model": "block/large_mixed_brick/large_mixed_brick_3" , "weight": 17 },
+			{ "model": "block/large_mixed_brick/large_mixed_brick_4" , "weight": 17 },
+			{ "model": "block/large_mixed_brick/large_mixed_brick_5" , "weight": 16 },
+			{ "model": "block/large_mixed_brick/large_mixed_brick_6" , "weight": 16 }
+		]
+    }
+}

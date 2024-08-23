@@ -1,0 +1,14 @@
+{
+  "parent": "item/helmet",
+  "textures": {
+    "helmet": "models/armor/chainmail_layer_1"
+  },
+  "overrides": [
+	{
+	  "model": "item/custom/clear_helmet",
+	  "predicate": {
+		  "custom_model_data": 1
+	  }
+	}
+  ]
+}

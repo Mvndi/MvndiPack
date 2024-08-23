@@ -1,0 +1,7 @@
+{
+    "parent": "mvndicraft:armor/helms/cappello_di_paglia",
+    "textures": {
+		"0": "mvndicraft:armor/helms/galero",
+		"particle": "mvndicraft:armor/helms/galero"
+	}
+}

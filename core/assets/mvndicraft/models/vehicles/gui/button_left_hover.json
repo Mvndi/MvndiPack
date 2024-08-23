@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "mvndicraft:vehicles/gui/button_left_hover"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:ui/mill/sawmill_gui",
+  "textures": {
+    "1": "mvndicraft:ui/mill/sawmill_loading"
+  }
+}

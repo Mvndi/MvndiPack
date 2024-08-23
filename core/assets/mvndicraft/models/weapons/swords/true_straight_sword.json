@@ -1,0 +1,8 @@
+{
+	"parent": "mvndicraft:weapons/swords/straight_sword",
+	"textures": {
+		"0": "mvndicraft:weapons/swords/blade_iron_lsword",
+		"1": "mvndicraft:weapons/swords/tip_iron",
+		"particle": "mvndicraft:weapons/swords/blade_iron_lsword"
+	}
+}

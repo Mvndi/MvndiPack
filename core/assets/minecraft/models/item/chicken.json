@@ -1,0 +1,14 @@
+{
+	"texture_size": [64, 32],
+	"parent": "item/chicken_base",
+	"textures": {
+		"0": "item/hanging_raw_chicken",
+		"particle": "item/hanging_raw_chicken"
+	},
+	"overrides": [
+		{
+		  "predicate": {"custom_model_data": 1},
+		  "model": "mvndicraft:farming/bowl_raw_eggs"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:shields/pavise/plain_blocking",
+	"textures": {
+		"2": "mvndicraft:shields/pavise/lithuanian"
+	}
+}

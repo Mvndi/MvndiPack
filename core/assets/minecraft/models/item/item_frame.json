@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/item_frame"
+    },
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "mvndicraft:furs/bear"},
+		{"predicate": {"custom_model_data":2}, "model": "mvndicraft:furs/boar"},
+		{"predicate": {"custom_model_data":3}, "model": "mvndicraft:furs/wolf"},
+		{"predicate": {"custom_model_data":4}, "model": "mvndicraft:furs/fox_red"},
+		{"predicate": {"custom_model_data":5}, "model": "mvndicraft:furs/fox_snow"}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:ui/professions/farming_steve",
+	"display": {
+		"gui": {
+			"rotation": [18, 54.5, 0],
+			"translation": [44.274, 16, 80],
+			"scale": [4, 4, 4]
+		}
+	}
+}

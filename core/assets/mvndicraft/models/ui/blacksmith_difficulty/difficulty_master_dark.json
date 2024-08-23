@@ -1,0 +1,4 @@
+{
+  "parent": "mvndicraft:ui/blacksmith_difficulty/difficulty_master_light",
+  "gui_light": "side"
+}

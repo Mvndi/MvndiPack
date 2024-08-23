@@ -1,0 +1,74 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:siege/block/trebuchet/parent",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "mvndicraft:siege/block/trebuchet_base"
+	},
+	"elements": [
+		{
+			"from": [7.125, 7.48152, -4.53253],
+			"to": [8.875, 8.23152, -2.78253],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.3834, 8.1834]},
+			"faces": {
+				"north": {"uv": [3, 5.25, 2.125, 5.625], "texture": "#1", "cullface": "down"},
+				"east": {"uv": [3, 5.25, 2.125, 5.625], "texture": "#1", "cullface": "down"},
+				"south": {"uv": [3, 5.25, 2.125, 5.625], "texture": "#1", "cullface": "down"},
+				"west": {"uv": [3, 5.25, 2.125, 5.625], "texture": "#1", "cullface": "down"},
+				"up": {"uv": [2.375, 5.375, 3.25, 4.5], "texture": "#1", "cullface": "down"},
+				"down": {"uv": [2.375, 5.375, 3.25, 4.5], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.487, 7.86189, -2.79037],
+			"to": [7.737, 8.11189, 7.90963],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.3834, 8.1834]},
+			"faces": {
+				"east": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4.75, 5.5, 4.875, 0.125], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.2625, 7.86189, -2.79037],
+			"to": [8.5125, 8.11189, 7.90963],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.3834, 8.1834]},
+			"faces": {
+				"east": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4.75, 5.5, 4.875, 0.125], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4.75, 5.5, 4.875, 0.125], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6, -15.75, -49],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "rope_armed",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "stage_11",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "group",
+							"origin": [8, 9.25844, 5.49157],
+							"color": 0,
+							"children": [0, 1, 2]
+						}
+					]
+				}
+			]
+		}
+	]
+}

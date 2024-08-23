@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:ui/professions/smithing_steve",
+	"display": {
+		"gui": {
+			"rotation": [22, 29.75, 0],
+			"translation": [27, 18, 80],
+			"scale": [4, 4, 4]
+		}
+	}
+}

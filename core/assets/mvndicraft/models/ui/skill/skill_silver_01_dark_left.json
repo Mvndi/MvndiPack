@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/skilltree/skilltree",
+		"particle": "mvndicraft:ui/skilltree/skilltree"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [-3, -10, 8],
+			"to": [19, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 8]},
+			"faces": {
+				"north": {"uv": [0.1875, 8.5625, 1.5625, 10.0625], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "text",
+			"from": [1.425, -7.055, 7.95],
+			"to": [14.625, -3.095, 7.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2.568, 1.744, -2.544]},
+			"faces": {
+				"north": {"uv": [0, 10.9375, 1.3125, 11.3125], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 3], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 3], "texture": "#0"},
+				"up": {"uv": [0, 0, 10, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 10, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [17.75, 4.5, 50],
+			"scale": [0.79883, 0.79883, 0.79883]
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"textures": {
+		"0": "block/redstone_torch_base",
+		"particle": "block/redstone_torch"
+	},
+	"elements": [
+		{
+			"name": "Torch",
+			"from": [7, 1, 7],
+			"to": [9, 8, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 6, 9, 13], "texture": "#0"},
+				"east": {"uv": [7, 6, 9, 13], "texture": "#0"},
+				"south": {"uv": [7, 6, 9, 13], "texture": "#0"},
+				"west": {"uv": [7, 6, 9, 13], "texture": "#0"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Plate",
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"east": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"south": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"west": {"uv": [6, 15, 10, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "PlaneB",
+			"from": [7, 9, 8],
+			"to": [9, 12, 8],
+			"shade": false,
+			"faces": {
+				"north": {
+					"uv": [7, 3, 9, 6],
+					"texture": "#particle"
+				},
+				"south": {
+					"uv": [7, 3, 9, 6],
+					"texture": "#particle"
+				}
+			}
+		},
+		{
+			"name": "Plane",
+			"from": [8, 9, 7],
+			"to": [8, 12, 9],
+			"shade": false,
+			"faces": {
+				"east": {
+					"uv": [7, 3, 9, 6],
+					"texture": "#particle"
+				},
+				"west": {"uv": [7, 3, 9, 6], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Wick",
+			"from": [8, 8, 7.5],
+			"to": [8, 9, 8.5],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [14, 10, 15, 11], "texture": "#0"},
+				"west": {"uv": [14, 10, 15, 11], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			},
+			"rotation": {
+				"origin": [8, 6, 8],
+				"axis": "y",
+				"angle": 45
+			}
+		}
+	],
+	"ambientocclusion": false
+}

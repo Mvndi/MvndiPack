@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/smithing_table",
+		"particle": "mvndicraft:ui/smithing_table"
+	},
+	"elements": [
+		{
+			"from": [-16, -8, 8],
+			"to": [32, 16.54545, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -8, -2.5]},
+			"faces": {
+				"north": {"uv": [0, 8.25, 11, 13.875], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -46, -80],
+			"scale": [3.68359, 3.68359, 3.68359]
+		}
+	}
+}

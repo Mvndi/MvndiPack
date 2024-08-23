@@ -1,0 +1,32 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"1": "block/red_mushroom_base",
+		"particle": "block/red_mushroom_base"
+	},
+	"elements": [
+		{
+			"from": [5, 4, 5],
+			"to": [11, 7, 11],
+			"faces": {
+				"north": {"uv": [9, 10, 15, 13], "texture": "#1"},
+				"east": {"uv": [9, 10, 15, 13], "texture": "#1"},
+				"south": {"uv": [9, 10, 15, 13], "texture": "#1"},
+				"west": {"uv": [9, 10, 15, 13], "texture": "#1"},
+				"up": {"uv": [9, 1, 15, 7], "texture": "#1"},
+				"down": {"uv": [2, 0, 6, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [3, 12, 5, 16], "texture": "#1"},
+				"east": {"uv": [3, 12, 5, 16], "texture": "#1"},
+				"south": {"uv": [3, 12, 5, 16], "texture": "#1"},
+				"west": {"uv": [3, 12, 5, 16], "texture": "#1"},
+				"down": {"uv": [3, 1, 5, 3], "texture": "#1"}
+			}
+		}
+	]
+}

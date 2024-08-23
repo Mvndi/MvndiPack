@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/quartz_block_top"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [4, 0, 0],
+			"to": [12, 15, 8],
+			"faces": {
+				"north": {"uv": [1, 1, 9, 16], "texture": "#1"},
+				"east": {"uv": [7, 1, 15, 16], "texture": "#1"},
+				"south": {"uv": [4, 1, 12, 16], "texture": "#1"},
+				"west": {"uv": [5, 1, 13, 16], "texture": "#1"},
+				"up": {"uv": [2, 1, 14, 9], "texture": "#1"},
+				"down": {"uv": [3, 7, 15, 15], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

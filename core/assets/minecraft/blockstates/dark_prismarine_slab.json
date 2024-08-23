@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "type=double": { "model": "block/dark_prismarine_double_slab" }
+    }
+}

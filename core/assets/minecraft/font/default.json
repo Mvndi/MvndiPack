@@ -1,0 +1,336 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/blue_team_shield.png",
+      "ascent": 8,
+      "height": 27,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/red_team_shield.png",
+      "ascent": 8,
+      "height": 27,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/blank.png",
+      "ascent": 1,
+      "height": 30,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/blank_long.png",
+      "ascent": 1,
+      "height": 30,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/blank.png",
+      "ascent": 1,
+      "height": 5,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/longshot.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/bronze_crown.png",
+      "ascent": 18,
+      "height": 26,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/silver_crown.png",
+      "ascent": 18,
+      "height": 26,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/crown.png",
+      "ascent": 18,
+      "height": 26,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/royal_crown.png",
+      "ascent": 18,
+      "height": 26,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/kingslayer.png",
+      "ascent": 22,
+      "height": 32,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/owner.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["麤"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/admin.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎅"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/dev.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎎"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/mod.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎟"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/youtube.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["ﾀ"]
+    },		
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/helper.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["鹏"]
+    },		
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/vip.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎁"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/def.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎏"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/error_yellow.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["៘"]
+    },		
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/error_discord.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["랮"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/error_green.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["꧅"]
+    },		
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/error_red.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["⨌"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/winter.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𒐹"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/spring.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𒐸"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/summer.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𒐷"]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/autumn.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𒐶"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/pvp.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["갂"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/chat_announcement.png",
+      "ascent": 7,
+      "height": 60,
+      "chars": ["ﷺ"]
+    },		
+	{
+      "type": "bitmap",
+      "file": "mvndicraft:ui/icons/open.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["∢"]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/logo/mvndicraft.png",
+      "ascent": 10,
+      "height": 30,
+      "chars": ["鹉"]
+    },	
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/duel.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:pvp/duel.png",
+      "ascent": 22,
+      "height": 32,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:mob_effect/speed.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uE00D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/genetics/slider.png",
+      "ascent": 34,
+      "height": 64,
+      "chars": [
+        "\uE00E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/genetics/slider_button.png",
+      "ascent": 14,
+      "height": 32,
+      "chars": [
+        "\uE00F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/apple.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\uE01A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/wheat.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\uE01B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/golden_carrot.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\uE01C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/sugar.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\uE01D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:blacksmith/temp_meter.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\uE01E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:blacksmith/temp_marker.png",
+      "ascent": 4,
+      "height": 8,
+      "chars": [
+        "\uE01F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:blacksmith/drawplate_icon.png",
+      "ascent": 16,
+      "height": 24,
+      "chars": [
+        "\uE020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:blacksmith/wire_arrow.png",
+      "ascent": 8,
+      "height": 12,
+      "chars": [
+        "\uE021"
+      ]
+    }
+  ]
+}

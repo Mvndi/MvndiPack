@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "lit=true": [
+			{ "model": "block/redstone_torch", "weight": 15 }, 
+			{ "model": "block/redstone_torch_long", "weight": 10 }
+		],			
+        "lit=false": [
+			{ "model": "block/redstone_torch_off", "weight": 15 }, 
+			{ "model": "block/redstone_torch_off_long", "weight": 10 }
+		]	
+    }
+}

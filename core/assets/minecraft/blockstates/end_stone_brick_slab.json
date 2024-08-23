@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "type=double": { "model": "block/end_stone_brick_double_slab" }
+    }
+}

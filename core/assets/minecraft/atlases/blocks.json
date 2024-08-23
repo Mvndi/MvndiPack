@@ -1,0 +1,99 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "entity",
+            "prefix": "entity/"
+        },
+        {
+            "type": "directory",
+            "source": "models/armor",
+            "prefix": "models/armor/"
+        },
+        {
+            "type": "directory",
+            "source": "tools",
+            "prefix": "tools/"
+        },
+        {
+            "type": "directory",
+            "source": "pvp",
+            "prefix": "pvp/"
+        },
+        {
+            "type": "directory",
+            "source": "farming",
+            "prefix": "farming/"
+        },
+        {
+            "type": "directory",
+            "source": "recipes",
+            "prefix": "recipes/"
+        },
+        {
+            "type": "directory",
+            "source": "blocks",
+            "prefix": "blocks/"
+        },
+        {
+            "type": "directory",
+            "source": "siege",
+            "prefix": "siege/"
+        },
+        {
+            "type": "directory",
+            "source": "ui",
+            "prefix": "ui/"
+        },
+        {
+            "type": "directory",
+            "source": "blacksmith",
+            "prefix": "blacksmith/"
+        },
+        {
+            "type": "directory",
+            "source": "mob_trophy",
+            "prefix": "mob_trophy/"
+        },
+        {
+            "type": "directory",
+            "source": "shields",
+            "prefix": "shields/"
+        },
+        {
+            "type": "directory",
+            "source": "equipment",
+            "prefix": "equipment/"
+        },
+        {
+            "type": "directory",
+            "source": "misc",
+            "prefix": "misc/"
+        },
+        {
+            "type": "directory",
+            "source": "armor",
+            "prefix": "armor/"
+        },
+        {
+            "type": "directory",
+            "source": "vehicles",
+            "prefix": "vehicles/"
+        },
+        {
+            "type": "directory",
+            "source": "weapons",
+            "prefix": "weapons/"
+        },
+        {
+            "type": "directory",
+            "source": "armour",
+            "prefix": "armour/"
+        },
+	{
+            "type": "directory",
+            "source": "ui",
+            "prefix": "ui/"
+        }
+    ]
+}

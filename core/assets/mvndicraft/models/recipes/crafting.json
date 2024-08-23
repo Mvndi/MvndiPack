@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:recipes/crafting",
+		"particle": "mvndicraft:recipes/crafting"
+	},
+	"elements": [
+		{
+			"from": [-15.51135, -4.69, 8],
+			"to": [31.51135, 18.69, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-15.51135, -4.69, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 11, 5.5625], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 3, -13],
+			"scale": [3.7168, 3.78516, 3.7168]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "block/red_pillar_bottom",
+        "top": "block/red_pillar_bottom",
+        "side": "block/red_pillar_bottom",
+        "particle": "block/red_pillar_bottom"
+    }
+}

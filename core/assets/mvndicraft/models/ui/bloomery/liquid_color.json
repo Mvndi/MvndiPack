@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/bloomery/liquid_color",
+		"particle": "mvndicraft:ui/bloomery/liquid_color"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 0],
+			"to": [15, 16, 0],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 14, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 14, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 0.8, 0],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}

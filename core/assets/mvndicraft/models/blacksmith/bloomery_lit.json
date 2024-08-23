@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:blacksmith/bloomery",
+	"textures": {
+		"1": "mvndicraft:blacksmith/bloomery_lit",
+		"particle": "mvndicraft:blacksmith/bloomery_block"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+    "parent": "mvndicraft:shields/saracen/plain",
+	"textures": {
+		"3": "mvndicraft:shields/saracen/red_yellow"
+	}
+}
