@@ -90,6 +90,11 @@
             "source": "armour",
             "prefix": "armour/"
         },
+        {
+            "type": "directory",
+            "source": "placeables",
+            "prefix": "placeables/"
+        },
 	{
             "type": "directory",
             "source": "ui",
