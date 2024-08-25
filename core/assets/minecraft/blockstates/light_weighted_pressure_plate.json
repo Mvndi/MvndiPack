@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/light_weighted_pressure_plate", "weight": 25 },
+            { "model": "block/light_weighted_pressure_plate", "weight": 25, "y": 90  },
+            { "model": "block/light_weighted_pressure_plate", "weight": 25, "y": 180  },
+            { "model": "block/light_weighted_pressure_plate", "weight": 25, "y": 270  }
+        ]
+    }
+}
