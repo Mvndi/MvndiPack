@@ -179,5 +179,7 @@
   "block.minecraft.diamond_ore": "Magnetite Ore",
   "item.minecraft.diamond": "Magnetite",
   "item.minecraft.sweet_berry_bush": "Grape Vine",
-  "item.minecraft.sweet_berries": "Grapes"
+  "item.minecraft.sweet_berries": "Grapes",
+  
+  "menu.returnToGame": "Back to Mvndicraft"
 }
