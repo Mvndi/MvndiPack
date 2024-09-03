@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:armor/helms/w_great_helm",
+		"0": "mvndicraft:armor/helms/bw_great_helm",
 		"particle": "mvndicraft:armor/helms/bw_great_helm"
 	},
 	"elements": [
