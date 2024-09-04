@@ -728,7 +728,7 @@
 			"model": "mvndicraft:shields/round/green_kolof_blocking"
 		},		
 		{
-			"predicate": {"custom_model_data": 87, "blocking": 1},
+			"predicate": {"custom_model_data": 87},
 			"model": "mvndicraft:shields/kite/orthodox4"
 		},
 		{
@@ -736,7 +736,7 @@
 			"model": "mvndicraft:shields/kite/orthodox4_blocking"
 		},
 		{
-			"predicate": {"custom_model_data": 88, "blocking": 1},
+			"predicate": {"custom_model_data": 88},
 			"model": "mvndicraft:shields/round/stripe_green2"
 		},
 		{
@@ -744,7 +744,7 @@
 			"model": "mvndicraft:shields/round/stripe_green2_blocking"
 		},
 		{
-			"predicate": {"custom_model_data": 89, "blocking": 1},
+			"predicate": {"custom_model_data": 89},
 			"model": "mvndicraft:shields/round/mary_shield"
 		},
 		{
@@ -752,15 +752,7 @@
 			"model": "mvndicraft:shields/round/mary_shield_blocking"
 		},
 		{
-			"predicate": {"custom_model_data": 89, "blocking": 1},
-			"model": "mvndicraft:shields/round/mary_shield"
-		},
-		{
-			"predicate": {"custom_model_data": 89, "blocking": 1},
-			"model": "mvndicraft:shields/round/mary_shield_blocking"
-		},
-		{
-			"predicate": {"custom_model_data": 90, "blocking": 1},
+			"predicate": {"custom_model_data": 90},
 			"model": "mvndicraft:shields/round/slavic_shield"
 		},
 		{
@@ -768,7 +760,7 @@
 			"model": "mvndicraft:shields/round/slavic_shield_blocking"
 		},
 		{
-			"predicate": {"custom_model_data": 91, "blocking": 1},
+			"predicate": {"custom_model_data": 91},
 			"model": "mvndicraft:shields/kite/egle_shield"
 		},
 		{
