@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-    "parent": "mvndicraft:shields/round/plain_blocking",
+    "parent": "mvndicraft:shields/round/plain",
 	"textures": {
 		"1": "mvndicraft:shields/round/white_flower_arabian"
 	}
