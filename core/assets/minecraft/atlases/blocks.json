@@ -95,6 +95,11 @@
             "source": "placeables",
             "prefix": "placeables/"
         },
+        {
+            "type": "directory",
+            "source": "display",
+            "prefix": "display/"
+        },
 	{
             "type": "directory",
             "source": "ui",

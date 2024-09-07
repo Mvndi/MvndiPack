@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "mvndicraft:display/mvndicraft_logo_text",
+		"particle": "mvndicraft:display/mvndicraft_logo_text"
+	},
+	"elements": [
+		{
+			"from": [-16, 1.675, 8],
+			"to": [32, 14.325, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.675, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}
