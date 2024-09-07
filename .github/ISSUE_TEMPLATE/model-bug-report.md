@@ -1,6 +1,6 @@
 ---
-name: Bug Report
-about: Create a report to help us improve
+name: Model Bug Report
+about: A bug related to a model
 title: "[BUG]"
 labels: bug
 assignees: glub-glub-ed
