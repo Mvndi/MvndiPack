@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/barbute/yellow_barbute",
+	"textures": {
+		"0": "mvndicraft:armor/helms/bw_barbute",
+		"plume": "mvndicraft:utilities/blank",
+		"nib": "mvndicraft:utilities/blank",
+		"particle": "mvndicraft:armor/helms/bw_barbute"
+	}
+}

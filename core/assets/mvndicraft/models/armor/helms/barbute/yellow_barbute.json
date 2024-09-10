@@ -1,7 +1,10 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:armor/helms/barbute",
-		"particle": "mvndicraft:armor/helms/barbute"
+		"0": "mvndicraft:armor/helms/yellow_barbute",
+		"plume": "mvndicraft:armor/helms/peacock_feather",
+		"nib": "mvndicraft:armor/helms/yellow_barbute",
+		"particle": "mvndicraft:armor/helms/yellow_barbute"
 	},
 	"elements": [
 		{
@@ -37,6 +40,49 @@
 				"west": {"uv": [0, 15.5, 0.5, 16], "texture": "#0"},
 				"up": {"uv": [8, 15.5, 0, 16], "texture": "#0"},
 				"down": {"uv": [8, 15.5, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "plume",
+			"from": [3.75, 15.5, 8.1],
+			"to": [11.75, 27.5, 8.1],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [4, 15, 8]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#plume"},
+				"south": {"uv": [15, 0, 1, 16], "texture": "#plume"}
+			}
+		},
+		{
+			"name": "plume",
+			"from": [4.25, 18.25, 8.2],
+			"to": [12.25, 30.25, 8.2],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5, 19, 8]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#plume"},
+				"south": {"uv": [15, 0, 1, 16], "texture": "#plume"}
+			}
+		},
+		{
+			"name": "plume",
+			"from": [3.5, 17, 8],
+			"to": [11.5, 29, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 17, 8]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#plume"},
+				"south": {"uv": [15, 0, 1, 16], "texture": "#plume"}
+			}
+		},
+		{
+			"name": "nib",
+			"from": [7, 17, 7],
+			"to": [9, 17.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 17, 7]},
+			"faces": {
+				"north": {"uv": [3.5, 13.5, 4.5, 14], "texture": "#nib"},
+				"east": {"uv": [3.5, 11.5, 4.5, 12], "texture": "#nib"},
+				"south": {"uv": [3.5, 12, 4.5, 12.5], "texture": "#nib"},
+				"west": {"uv": [3.5, 11, 4.5, 11.5], "texture": "#nib"},
+				"up": {"uv": [3.5, 12.5, 4.5, 13.5], "texture": "#nib"}
 			}
 		}
 	],
@@ -76,5 +122,17 @@
 			"rotation": [-77.25, 0, 0],
 			"translation": [0, 0, -7.75]
 		}
-	}
+	},
+	"groups": [
+		0,
+		1,
+		2,
+		{
+			"name": "plume",
+			"origin": [3, 17, 8],
+			"color": 0,
+			"children": [3, 4, 5]
+		},
+		6
+	]
 }

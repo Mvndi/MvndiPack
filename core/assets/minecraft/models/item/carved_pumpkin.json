@@ -1,7 +1,7 @@
 {
 	"overrides": [
 		{
-			"model": "mvndicraft:armor/helms/barbute",
+			"model": "mvndicraft:armor/helms/barbute/barbute",
 			"predicate": {"custom_model_data": 1}
 		},
 		{
@@ -345,23 +345,23 @@
 			"predicate": {"custom_model_data": 86}
 		},	
 		{
-			"model": "mvndicraft:armor/helms/yellow_barbute",
+			"model": "mvndicraft:armor/helms/barbute/yellow_barbute",
 			"predicate": {"custom_model_data": 87}
 		},	
 		{
-			"model": "mvndicraft:armor/helms/red_barbute",
+			"model": "mvndicraft:armor/helms/barbute/red_barbute",
 			"predicate": {"custom_model_data": 88}
 		},
 		{
-			"model": "mvndicraft:armor/helms/gw_barbute",
+			"model": "mvndicraft:armor/helms/barbute/gw_barbute",
 			"predicate": {"custom_model_data": 89}
 		},	
 		{
-			"model": "mvndicraft:armor/helms/bw_barbute",
+			"model": "mvndicraft:armor/helms/barbute/bw_barbute",
 			"predicate": {"custom_model_data": 90}
 		},
 		{
-			"model": "mvndicraft:armor/helms/br_barbute",
+			"model": "mvndicraft:armor/helms/barbute/br_barbute",
 			"predicate": {"custom_model_data": 91}
 		},	
 		{
