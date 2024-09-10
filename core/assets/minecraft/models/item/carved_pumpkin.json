@@ -9,7 +9,7 @@
 			"predicate": {"custom_model_data": 2}
 		},
 		{
-			"model": "mvndicraft:armor/helms/black_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/black_great_helm",
 			"predicate": {"custom_model_data": 3}
 		},
 		{
@@ -93,7 +93,7 @@
 			"predicate": {"custom_model_data": 23}
 		},
 		{
-			"model": "mvndicraft:armor/helms/great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/great_helm",
 			"predicate": {"custom_model_data": 24}
 		},
 		{
@@ -137,7 +137,7 @@
 			"predicate": {"custom_model_data": 34}
 		},
 		{
-			"model": "mvndicraft:armor/helms/red_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/red_great_helm",
 			"predicate": {"custom_model_data": 35}
 		},
 		{
@@ -289,15 +289,15 @@
 			"predicate": {"custom_model_data": 72}
 		},
 		{
-			"model": "mvndicraft:armor/helms/bw_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/bw_great_helm",
 			"predicate": {"custom_model_data": 73}
 		},
 		{
-			"model": "mvndicraft:armor/helms/gg_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/gg_great_helm",
 			"predicate": {"custom_model_data": 74}
 		},
 		{
-			"model": "mvndicraft:armor/helms/wr_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/wr_great_helm",
 			"predicate": {"custom_model_data": 75}
 		},
 		{

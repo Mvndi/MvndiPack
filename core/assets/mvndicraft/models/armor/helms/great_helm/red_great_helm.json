@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/great_helm/black_great_helm",
+	"textures": {
+		"0": "mvndicraft:armor/helms/red_great_helm",
+		"particle": "mvndicraft:armor/helms/red_great_helm"
+		}
+}

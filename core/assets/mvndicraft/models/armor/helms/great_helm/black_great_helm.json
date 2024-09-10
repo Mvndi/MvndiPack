@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:armor/helms/bw_great_helm",
-		"particle": "mvndicraft:armor/helms/bw_great_helm"
+		"0": "mvndicraft:armor/helms/black_great_helm",
+		"particle": "mvndicraft:armor/helms/black_great_helm"
 	},
 	"elements": [
 		{
@@ -159,8 +159,6 @@
 			"faces": {
 				"north": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
 				"east": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
-				"south": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
-				"west": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
 				"up": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"}
 			}
@@ -171,8 +169,6 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [-11, 5, 7.5]},
 			"faces": {
 				"north": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
-				"east": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
-				"south": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
 				"west": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
 				"up": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [1.75, 5.5, 1.875, 5.625], "rotation": 90, "texture": "#0"}
