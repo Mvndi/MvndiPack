@@ -201,11 +201,11 @@
 			"predicate": {"custom_model_data": 50}
 		},
 		{
-			"model": "mvndicraft:armor/helms/black_rider_helm",
+			"model": "mvndicraft:armor/helms/rider_helm/black_rider_helm",
 			"predicate": {"custom_model_data": 51}
 		},
 		{
-			"model": "mvndicraft:armor/helms/white_rider_helm",
+			"model": "mvndicraft:armor/helms/rider_helm/white_rider_helm",
 			"predicate": {"custom_model_data": 52}
 		},
 		{

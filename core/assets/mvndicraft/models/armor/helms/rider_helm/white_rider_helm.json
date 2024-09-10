@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/rider_helm/black_rider_helm",
+	"textures": {
+		"2": "mvndicraft:armor/helms/white_rider_helm",
+		"3": "mvndicraft:armor/helms/red_feather",
+		"particle": "mvndicraft:armor/helms/white_rider_helm"
+	}
+}
