@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "mvndicraft:armor/helms/wreath_yellow_blue",
-		"2": "mvndicraft:armor/helms/chain_coif",
-		"particle": "mvndicraft:armor/helms/chain_coif"
+		"1": "mvndicraft:armor/helms/wreath_blue",
+		"2": "mvndicraft:armor/helms/big_chain_coif",
+		"particle": "mvndicraft:armor/helms/big_chain_coif"
 	},
 	"elements": [
 		{
@@ -16,6 +16,19 @@
 				"west": {"uv": [8, 4, 12, 8], "texture": "#2"},
 				"up": {"uv": [4, 0, 8, 4], "rotation": 180, "texture": "#2"},
 				"down": {"uv": [4, 8, 8, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 16, 0],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8, 4, 12, 8], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [12, 4, 16, 8], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 4, 4, 8], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [4, 8, 8, 12], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#2"}
 			}
 		},
 		{

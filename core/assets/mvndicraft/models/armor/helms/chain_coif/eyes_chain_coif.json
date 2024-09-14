@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/chain_coif/chain_coif_blue",
+	"textures": {
+		"1": "mvndicraft:utilities/blank",
+		"2": "mvndicraft:armor/helms/eyes_chain_coif",
+		"particle": "mvndicraft:armor/helms/eyes_chain_coif"
+	}
+}

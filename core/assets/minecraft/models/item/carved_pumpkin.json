@@ -193,7 +193,7 @@
 			"predicate": {"custom_model_data": 48}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif",
 			"predicate": {"custom_model_data": 49}
 		},
 		{
@@ -389,27 +389,27 @@
 			"predicate": {"custom_model_data": 97}
 		},		
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_blue",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_blue",
 			"predicate": {"custom_model_data": 98}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_green",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_green",
 			"predicate": {"custom_model_data": 99}
 		},
 		{
-			"model": "mvndicraft:armor/helms/eyes_chain_coif",
+			"model": "mvndicraft:armor/helms/chain_coif/eyes_chain_coif",
 			"predicate": {"custom_model_data": 100}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_green_yel",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_green_yel",
 			"predicate": {"custom_model_data": 101}
 		},	
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_blue_yel",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_blue_yel",
 			"predicate": {"custom_model_data": 102}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_red",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_red",
 			"predicate": {"custom_model_data": 103}
 		},
 		{
