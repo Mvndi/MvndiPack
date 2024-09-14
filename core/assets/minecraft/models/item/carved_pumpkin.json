@@ -241,11 +241,11 @@
 			"predicate": {"custom_model_data": 60}
 		},
 		{
-			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm_crest",
+			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm_crest",
 			"predicate": {"custom_model_data": 61}
 		},
 		{
-			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm",
+			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm",
 			"predicate": {"custom_model_data": 62}
 		},
 		{

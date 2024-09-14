@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm_crest",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "mvndicraft:armor/helms/latrus_krivina_helm",
+		"particle": "mvndicraft:armor/helms/latrus_krivina_helm"
+	}
+}
