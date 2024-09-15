@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/kettle_helm/ry_kettle_helm",
+	"textures": {
+		"0": "mvndicraft:armor/helms/yg_kettle_helm",
+		"particle": "mvndicraft:armor/helms/yg_kettle_helm"
+	}
+}
