@@ -488,9 +488,15 @@
     },
 	{
       "predicate": {
-        "custom_model_data": 95
+        "custom_model_data": 96
       },
       "model": "mvndicraft:blacksmith/hammer_crosshair_red"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 97
+      },
+      "model": "mvndicraft:farming/mill_wheel_item"
     },
         {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
         {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
