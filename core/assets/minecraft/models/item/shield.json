@@ -753,11 +753,11 @@
 		},
 		{
 			"predicate": {"custom_model_data": 90},
-			"model": "mvndicraft:shields/round/slavic_shield"
+			"model": "mvndicraft:shields/round/red_kolof"
 		},
 		{
 			"predicate": {"custom_model_data": 90, "blocking": 1},
-			"model": "mvndicraft:shields/round/slavic_shield_blocking"
+			"model": "mvndicraft:shields/round/red_kolof_blocking"
 		},
 		{
 			"predicate": {"custom_model_data": 91},
