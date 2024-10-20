@@ -4,8 +4,8 @@
 		"1": "item/pilummeme",
 		"3": "entity/projectiles/arrowtip",
 		"4": "entity/projectiles/fletching",
-		"particle": "entity/projectiles/arrow",
-		"1_0": "entity/projectiles/arrow"
+		"particle": "mvndicraft:weapons/archery/arrow",
+		"1_0": "mvndicraft:weapons/archery/arrow"
 	},
 	"elements": [
 		{

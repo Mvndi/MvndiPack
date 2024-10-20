@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "item/crossbow",
 		"1": "item/pilummeme",
-		"particle": "entity/projectiles/arrow"
+		"particle": "mvndicraft:weapons/archery/arrow"
 	},
 	"elements": [
 		{
