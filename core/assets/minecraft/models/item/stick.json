@@ -486,7 +486,12 @@
       },
       "model": "mvndicraft:blacksmith/animation/hoehead_animation_2"
     },
-
+	{
+      "predicate": {
+        "custom_model_data": 95
+      },
+      "model": "mvndicraft:blacksmith/hammer_crosshair_red"
+    },
         {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
         {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
         {"predicate": {"custom_model_data":3002}, "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"},
