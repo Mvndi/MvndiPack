@@ -761,11 +761,11 @@
 		},
 		{
 			"predicate": {"custom_model_data": 91},
-			"model": "mvndicraft:shields/kite/egle_shield"
+			"model": "mvndicraft:shields/kite/eagle_shield"
 		},
 		{
 			"predicate": {"custom_model_data": 91, "blocking": 1},
-			"model": "mvndicraft:shields/kite/egle_shield_blocking"
+			"model": "mvndicraft:shields/kite/eagle_shield_blocking"
 		}			
   ]
 }
