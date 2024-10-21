@@ -75,11 +75,11 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 2.5, 3],
+			"translation": [0, 3.75, 3],
 			"scale": [0.60938, 0.60938, 0.60938]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 2.5, 3],
+			"translation": [0, 3.75, 3],
 			"scale": [0.60938, 0.60938, 0.60938]
 		},
 		"firstperson_righthand": {
