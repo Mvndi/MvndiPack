@@ -1,3 +1,3 @@
-# MvndiPackRemastered
+# MvndiPack
 
-A more organized and competently assembled version of MvndiPack.
+Contains all creative assets used in Mvndicraft
