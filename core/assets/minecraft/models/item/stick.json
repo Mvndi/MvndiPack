@@ -498,6 +498,12 @@
       },
       "model": "mvndicraft:farming/mill_wheel_item"
     },
+	{
+	  "predicate": {
+		"custom_model_data": 98
+	  },
+	  "model": "mvndicraft:blacksmith/animation/curved_blade_animation_3"
+	},
         {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
         {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
         {"predicate": {"custom_model_data":3002}, "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"},
