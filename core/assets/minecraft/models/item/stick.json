@@ -504,6 +504,30 @@
 	  },
 	  "model": "mvndicraft:blacksmith/animation/curved_blade_animation_3"
 	},
+	{
+	  "predicate": {
+		"custom_model_data": 99
+	  },
+	  "model": "mvndicraft:blacksmith/shortsword_blade_hot"
+	},
+	{
+	  "predicate": {
+		"custom_model_data": 100
+	  },
+	  "model": "mvndicraft:blacksmith/curved_blade_hot"
+	},
+	{
+	  "predicate": {
+		"custom_model_data": 101
+	  },
+	  "model": "mvndicraft:blacksmith/greatsword_blade_hot"
+	},
+	{
+	  "predicate": {
+		"custom_model_data": 102
+	  },
+	  "model": "mvndicraft:blacksmith/broadsword_blade_hot"
+	},
         {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
         {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
         {"predicate": {"custom_model_data":3002}, "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"},
