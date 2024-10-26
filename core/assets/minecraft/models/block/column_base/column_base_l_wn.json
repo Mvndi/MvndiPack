@@ -42,7 +42,7 @@
 				"north": {"uv": [0, 0, 15, 2], "texture": "#wall"},
 				"east": {"uv": [14, 0, 15, 2], "texture": "#wall"},
 				"west": {"uv": [0, 0, 1, 2], "texture": "#wall"},
-				"up": {"uv": [1, 1, 16, 2], "texture": "#wall"},
+				"up": {"uv": [1, 1, 16, 2], "texture": "#1"},
 				"down": {"uv": [10, 15, 11, 16], "rotation": 180, "texture": "#1"}
 			}
 		},

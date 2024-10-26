@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/column_base/column_base_l_es",
+	"textures": {
+		"1": "block/deepslate_tile_wall_top",
+		"particle": "block/stonebrick_wall_side",
+		"wall": "block/stonebrick_wall_side"
+	}
+}

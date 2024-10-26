@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "north=tall,south=tall,east=tall,west=tall": { "model": "block/stone_column_base/column_base_long_cross" },
+        "north=none,south=none,east=tall,west=tall": { "model": "block/stone_column_base/column_base_long_we" },
+        "west=none,east=none,south=tall,north=tall": { "model": "block/stone_column_base/column_base_long_ns" },
+        "north=tall,south=none,east=none,west=none": { "model": "block/stone_column_base/column_base_n" },
+        "north=none,south=tall,east=none,west=none": { "model": "block/stone_column_base/column_base_s" },
+        "north=none,south=none,east=tall,west=none": { "model": "block/stone_column_base/column_base_e" },
+        "north=none,south=none,east=none,west=tall": { "model": "block/stone_column_base/column_base_w" },
+
+        "north=tall,south=none,east=tall,west=tall": { "model": "block/stone_column_base/column_base_t_n" },
+        "north=none,south=tall,east=tall,west=tall": { "model": "block/stone_column_base/column_base_t_s" },
+        "north=tall,south=tall,east=tall,west=none": { "model": "block/stone_column_base/column_base_t_e" },
+        "north=tall,south=tall,east=none,west=tall": { "model": "block/stone_column_base/column_base_t_w" },
+
+        "north=tall,east=tall,south=none,west=none": { "model": "block/stone_column_base/column_base_l_ne"},
+        "north=none,east=tall,south=tall,west=none": { "model": "block/stone_column_base/column_base_l_es"},
+        "north=none,east=none,south=tall,west=tall": { "model": "block/stone_column_base/column_base_l_sw"},
+        "north=tall,east=none,south=none,west=tall": { "model": "block/stone_column_base/column_base_l_wn"}
+    }
+}
