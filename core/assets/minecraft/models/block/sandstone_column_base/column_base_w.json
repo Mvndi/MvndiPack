@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/column_base/column_base_w",
+	"textures": {
+		"1": "block/end_stone_brick_wall_top",
+		"particle": "block/end_stone_brick_wall",
+		"wall": "block/end_stone_brick_wall"
+	}
+}
