@@ -1288,5 +1288,35 @@
         "pitch": 1
       }
     ]
+  },
+  "blacksmith.bellows": {
+	"category": "master",
+	"sounds": [
+	  {
+		"name": "mvndicraft:blacksmith/bellows_1",
+		"pitch": 1
+	  },
+	  {
+		"name": "mvndicraft:black/bellows_2",
+		"pitch": 1
+	  }
+	]
+  },
+  "blacksmith.hammer": {
+	"category": "master",
+	"sounds": [
+	  {
+		"name": "mvndicraft:blacksmith/hammer_1",
+		"pitch": 1
+	  },
+	  {
+		"name": "mvndicraft:blacksmith/hammer_2",
+		"pitch": 1
+	  },
+	  {
+		"name": "mvndicraft:blacksmith/hammer_3",
+		"pitch": 1
+	  }
+	]
   }
 }
