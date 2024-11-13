@@ -62,6 +62,16 @@
 		"ground": {
 			"rotation": [0, 0, -90],
 			"translation": [4, 0, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, -145],
+			"translation": [6, -8.25, 0],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"rotation": [0, 0, 145],
+			"translation": [-6, -8.25, 0],
+			"scale": [2.5, 2.5, 2.5]
 		}
 	},
 	"groups": [
