@@ -7,7 +7,7 @@
 
 	"overrides": [
 		{
-			"model": "mvndicraft:armor/helms/barbute",
+			"model": "mvndicraft:armor/helms/barbute/barbute",
 			"predicate": {"custom_model_data": 1}
 		},
 		{
@@ -15,7 +15,7 @@
 			"predicate": {"custom_model_data": 2}
 		},
 		{
-			"model": "mvndicraft:armor/helms/black_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/black_great_helm",
 			"predicate": {"custom_model_data": 3}
 		},
 		{
@@ -99,7 +99,7 @@
 			"predicate": {"custom_model_data": 23}
 		},
 		{
-			"model": "mvndicraft:armor/helms/great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/great_helm",
 			"predicate": {"custom_model_data": 24}
 		},
 		{
@@ -119,7 +119,7 @@
 			"predicate": {"custom_model_data": 28}
 		},
 		{
-			"model": "mvndicraft:armor/helms/kettle_helm",
+			"model": "mvndicraft:armor/helms/kettle_helm/kettle_helm",
 			"predicate": {"custom_model_data": 29}
 		},
 		{
@@ -143,7 +143,7 @@
 			"predicate": {"custom_model_data": 34}
 		},
 		{
-			"model": "mvndicraft:armor/helms/red_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/red_great_helm",
 			"predicate": {"custom_model_data": 35}
 		},
 		{
@@ -199,7 +199,7 @@
 			"predicate": {"custom_model_data": 48}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif",
 			"predicate": {"custom_model_data": 49}
 		},
 		{
@@ -207,7 +207,7 @@
 			"predicate": {"custom_model_data": 50}
 		},
 		{
-			"model": "mvndicraft:armor/helms/black_rider_helm",
+			"model": "mvndicraft:armor/helms/rider_helm/black_rider_helm",
 			"predicate": {"custom_model_data": 51}
 		},
 		{
