@@ -48,3 +48,27 @@ jobs:
             core.zip
             hud.zip
             soundscapes.zip
+      - name: Upload core to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: core.zip
+          asset_name: core.zip
+          tag: latest
+          overwrite: true
+      - name: Upload hud to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: hud.zip
+          asset_name: hud.zip
+          tag: latest
+          overwrite: true
+      - name: Upload soundscapes to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: soundscapes.zip
+          asset_name: soundscapes.zip
+          tag: latest
+          overwrite: true
