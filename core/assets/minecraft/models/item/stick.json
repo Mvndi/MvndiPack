@@ -498,11 +498,82 @@
       },
       "model": "mvndicraft:farming/mill_wheel_item"
     },
-        {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
-        {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
-        {"predicate": {"custom_model_data":3002}, "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"},
-        {"predicate": {"custom_model_data":3003}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open_underground"},
-
+    {
+      "predicate": {
+        "custom_model_data": 98
+      },
+      "model": "mvndicraft:blacksmith/nail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99
+      },
+      "model": "mvndicraft:siege/item/cannon_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "mvndicraft:siege/item/cannon_butt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "mvndicraft:siege/item/cannon_wheel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "mvndicraft:siege/item/ballista_top"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "mvndicraft:siege/item/rotating_turret"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "mvndicraft:siege/item/siphon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "mvndicraft:siege/item/canister"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "mvndicraft:siege/item/counterweight_carrier"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "mvndicraft:siege/item/trebuchet_base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "mvndicraft:siege/item/trebuchet_arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "model": "mvndicraft:siege/item/trebuchet_sling"
+    },
+    {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
+    {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
+    {"predicate": {"custom_model_data":3002}, "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"},
+    {"predicate": {"custom_model_data":3003}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open_underground"},
 		{"predicate": {"custom_model_data":439020}, "model": "mvndicraft:siege/block/trebuchet/new/base_center"},
 		{"predicate": {"custom_model_data":439021}, "model": "mvndicraft:siege/block/trebuchet/new/base_top"},
 		{"predicate": {"custom_model_data":439022}, "model": "mvndicraft:siege/block/trebuchet/new/base_back_activated"},
