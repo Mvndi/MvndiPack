@@ -32,14 +32,17 @@ jobs:
             
             ['**/{LICENSE,README.txt}']
             force_include = true
+      - run: cd hud
       - name: ZIP Hud
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r hud.zip hud
+          args: zip -qq -r hud.zip .
+      - run: cd soundscapes
       - name: ZIP Soundscapes
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r soundscapes.zip soundscapes
+          args: zip -qq -r soundscapes.zip .
+      - run: cd
       - uses: actions/upload-artifact@v4
         with:
           name: hud-soundscapes
