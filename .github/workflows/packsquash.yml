@@ -35,12 +35,13 @@ jobs:
       - name: ZIP Hud
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r hud.zip "soundscapes/*"
-      - run: cd ../soundscapes
+          run: cd hud
+          args: zip -qq -r ../hud.zip .
       - name: ZIP Soundscapes
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r soundscapes.zip "soundscapes/*"
+          run: cd .. && cd soundscapes
+          args: zip -qq -r ../soundscapes.zip .
       - run: cd
       - uses: actions/upload-artifact@v4
         with:
