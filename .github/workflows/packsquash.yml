@@ -35,11 +35,11 @@ jobs:
       - name: ZIP Hud
         uses: montudor/action-zip@v1
         with:
-          args: zip -r -j hud.zip hud/*
+          args: zip -r -j hud.zip . -i hud/*
       - name: ZIP Soundscapes
         uses: montudor/action-zip@v1
         with:
-          args: zip -r -j soundscapes.zip soundscapes/*
+          args: zip -r -j soundscapes.zip . -i soundscapes/*
       - uses: actions/upload-artifact@v4
         with:
           name: hud-soundscapes
