@@ -9,6 +9,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Set short git commit SHA
+        id: vars
+        run: |
+          calculatedSha=$(git rev-parse --short ${{ github.sha }})
+          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV      
       - name: Run PackSquash 
         uses: ComunidadAylas/PackSquash-action@v4
         with:
@@ -38,7 +43,7 @@ jobs:
         run: cd hud && zip -r ../soundscapes.zip . && cd ..
       - uses: actions/upload-artifact@v4
         with:
-          name: all-packs-${GITHUB_SHA::6}
+          name: all-packs-${{ env.COMMIT_SHORT_SHA }}
           path: |
             core.zip
             hud.zip
