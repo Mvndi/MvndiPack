@@ -40,7 +40,7 @@ jobs:
       - name: ZIP Hud
         run: cd hud && zip -r ../hud.zip . && cd ..
       - name: ZIP Soundscapes
-        run: cd hud && zip -r ../soundscapes.zip . && cd ..
+        run: cd soundscapes && zip -r ../soundscapes.zip . && cd ..
       - uses: actions/upload-artifact@v4
         with:
           name: all-packs-${{ env.COMMIT_SHORT_SHA }}
