@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
-      - name: Run PackSquash
+      - name: Run PackSquash 
         uses: ComunidadAylas/PackSquash-action@v4
         with:
           # When changing the options passed to PackSquash, it may be a good idea to lock
@@ -25,9 +25,18 @@ jobs:
             zip_compression_iterations = 30
             zip_spec_conformance_level = 'balanced'
             skip_pack_icon = false
+            output_file_path = 'core.zip'
             
             ['**/*?.png']
             image_data_compression_iterations = 15
             
             ['**/{LICENSE,README.txt}']
             force_include = true
+      - name: ZIP Hud
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r hud.zip hud
+      - name: ZIP Soundscapes
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r soundscapes.zip soundscapes
