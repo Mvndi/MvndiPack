@@ -125,7 +125,7 @@
   "container.chestDouble": "",
   "container.enderchest": "",
   "container.beacon": "§7Beacon",
-  "container.shulkerBox": "§7Shulker Box",
+  "container.shulkerBox": "§7Barrel",
   "container.shulkerBox.more": "§7and %s more...",
   "container.loom": "",
   "container.grindstone_title": "§7Repair & Disenchant",
@@ -181,5 +181,23 @@
   "item.minecraft.sweet_berry_bush": "Grape Vine",
   "item.minecraft.sweet_berries": "Grapes",
   
+  "block.minecraft.shulker_box": "Basket",
+  "block.minecraft.lime_shulker_box": "Lime Basket",
+  "block.minecraft.yellow_shulker_box": "Yellow Basket",
+  "block.minecraft.orange_shulker_box": "Orange Basket",
+  "block.minecraft.red_shulker_box": "Red Basket",
+  "block.minecraft.brown_shulker_box": "Brown Basket",
+  "block.minecraft.black_shulker_box": "Black Basket",
+  "block.minecraft.gray_shulker_box": "Gray Basket",
+  "block.minecraft.white_shulker_box": "White Basket",
+  "block.minecraft.light_gray_shulker_box": "Light Gray Basket",
+  "block.minecraft.pink_shulker_box": "Pink Basket",
+  "block.minecraft.magenta_shulker_box": "Magenta Basket",
+  "block.minecraft.purple_shulker_box": "Purple Basket",
+  "block.minecraft.blue_shulker_box": "Blue Basket",
+  "block.minecraft.light_blue_shulker_box": "Light Blue Basket",
+  "block.minecraft.cyan_shulker_box": "Cyan Basket",
+  "block.minecraft.green_shulker_box": "Green Basket",
+
   "menu.returnToGame": "Back to Mvndicraft"
 }
