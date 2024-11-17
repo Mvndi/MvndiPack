@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "mvndicraft:weapons/pole_arms/halberd_head",
-		"particle": "mvndicraft:weapons/pole_arms/halberd_head"
+		"2": "mvndicraft:weapons/pole_arms/halberd",
+		"particle": "mvndicraft:weapons/pole_arms/halberd"
 	},
 	"elements": [
 		{
