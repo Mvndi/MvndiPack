@@ -59,8 +59,6 @@
 	"overrides": [
 		{"predicate": {"custom_model_data": 38}, "model": "mvndicraft:weapons/axes/francisca_axe_throw"},
 		{"predicate": {"custom_model_data": 39},"model": "mvndicraft:weapons/pole_arms/javelin_throw"},
-		{"predicate": {"custom_model_data": 6000}, "model": "mvndicraft:weapons/firearms/gunpowder_bag"},
-		{"predicate": {"custom_model_data": 6001}, "model": "mvndicraft:weapons/firearms/bullet"},
 		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:siege/item/boulder"},
 		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:siege/item/cannonball"},
 		{"predicate": {"custom_model_data": 6004}, "model": "mvndicraft:siege/item/canister_shot"},

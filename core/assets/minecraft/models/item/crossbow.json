@@ -235,7 +235,7 @@
 		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_12"},
 		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13"},
 		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_14"},
-		{"predicate": {"charged": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
 		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
 		{"predicate": {"custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne"},
 		{"predicate": {"pulling": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_0"},
@@ -263,7 +263,7 @@
 		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_12"},
 		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_13"},
 		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_14"},
-		{"predicate": {"charged": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
 		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"}
 	],
 	"display": {
