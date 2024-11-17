@@ -263,14 +263,14 @@
 			"scale": [1.4, 1.4, 1.4]
 		},
 		"gui": {
-			"rotation": [30, 225, 67],
-			"translation": [-2, -1.25, 0],
-			"scale": [0.6, 0.6, 0.6]
+			"rotation": [0, -103, 0],
+			"translation": [-0.25, 7, 0],
+			"scale": [2, 2, 2]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
 			"translation": [0, 4.75, 0],
-			"scale": [1.43, 1, 1]
+			"scale": [1.4, 1.4, 1.4]
 		}
 	},
 	"groups": [

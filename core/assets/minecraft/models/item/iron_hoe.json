@@ -179,6 +179,14 @@
 		  {
 			"predicate": {"custom_model_data": 39},
 			"model": "mvndicraft:blacksmith/tongs_hoehead"
+		  },
+		  {
+			"predicate": {"custom_model_data": 40},
+			"model": "mvndicraft:blacksmith/halberdhead"
+		  },
+		  {
+			"predicate": {"custom_model_data": 41},
+			"model": "mvndicraft:blacksmith/tongs_halberdhead"
 		  }
 	]
 }
