@@ -1288,5 +1288,23 @@
         "pitch": 1
       }
     ]
+  },
+  "farming.saw_in": {
+	"category": "block",
+	"sounds": [
+	  {
+		"name": "mvndicraft:farming/saw_in",
+		"pitch": 1
+	  }
+	]
+  },
+  "farming.saw_out": {
+	"category": "block",
+	"sounds": [
+	  {
+		"name": "mvndicraft:farming/saw_out",
+		"pitch": 1
+	  }
+	]
   }
 }
