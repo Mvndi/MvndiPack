@@ -52,11 +52,11 @@ jobs:
             soundscapes.zip
       - name: Hash files
         run: |
-          calculatedCoreSha=$(sha1sum core.zip)
+          calculatedCoreSha=($(sha1sum core.zip))
           echo "CORE_SHA=$calculatedCoreSha" >> $GITHUB_ENV
-          calculatedHudSha=$(sha1sum hud.zip)
+          calculatedHudSha=($(sha1sum hud.zip))
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
-          calculatedSoundscapesSha=$(sha1sum soundscapes.zip)
+          calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
           echo "SOUNDSCAPES_SHA=$calculatedHudSha" >> $GITHUB_ENV
       - name: Upload core to release
         uses: svenstaro/upload-release-action@v2
@@ -82,4 +82,4 @@ jobs:
           asset_name: soundscapes.zip
           tag: refs/tags/latest
           overwrite: true
-          body: "Core: ${{ env.CORE_SHA }} \nHud: ${{ env.HUD_SHA }} \nSoundscapes: ${{ env.SOUNDSCAPES_SHA }}"
+          body: "core: ${{ env.CORE_SHA }} \nhud: ${{ env.HUD_SHA }} \nsoundscapes: ${{ env.SOUNDSCAPES_SHA }}"
