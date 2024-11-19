@@ -198,6 +198,7 @@
   "block.minecraft.light_blue_shulker_box": "Light Blue Basket",
   "block.minecraft.cyan_shulker_box": "Cyan Basket",
   "block.minecraft.green_shulker_box": "Green Basket",
+  "item.minecraft.potato": "Cabbage",
 
   "menu.returnToGame": "Back to Mvndicraft"
 }

@@ -1,0 +1,28 @@
+{
+    "variants": {
+      "age=0": {
+        "model": "mvndicraft:farming/cabbage_stage0"
+      },
+      "age=1": {
+        "model": "mvndicraft:farming/cabbage_stage0"
+      },
+      "age=2": {
+        "model": "mvndicraft:farming/cabbage_stage0"
+      },
+      "age=3": {
+        "model": "mvndicraft:farming/cabbage_stage1"
+      },
+      "age=4": {
+        "model": "mvndicraft:farming/cabbage_stage1"
+      },
+      "age=5": {
+        "model": "mvndicraft:farming/cabbage_stage1"
+      },
+      "age=6": {
+        "model": "mvndicraft:farming/cabbage_stage1"
+      },
+      "age=7": {
+        "model": "mvndicraft:farming/cabbage_stage2"
+      }
+    }
+  }
