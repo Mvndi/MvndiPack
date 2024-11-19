@@ -588,6 +588,12 @@
       },
       "model": "mvndicraft:blacksmith/animation/halberd/halberd_animation_3"
     },
+    {
+      "predicate": {
+        "custom_model_data": 113
+      },
+      "model": "mvndicraft:siege/item/trebuchet_sling"
+    },
     {"predicate": {"custom_model_data":3000}, "model": "mvndicraft:placeables/barricade"},
     {"predicate": {"custom_model_data":3001}, "model": "mvndicraft:placeables/bear_trap/bear_trap_open"},
     {"predicate": {"custom_model_data":3002}, "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"},
