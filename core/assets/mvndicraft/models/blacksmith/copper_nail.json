@@ -1,7 +1,15 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-      "layer0": "mvndicraft:blacksmith/copper_nail"
-    }
-  }
-  
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "mvndicraft:blacksmith/copper_nail"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.25, 0.25, 0.25]
+		}
+	}
+}
