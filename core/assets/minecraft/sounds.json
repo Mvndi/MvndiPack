@@ -419,7 +419,7 @@
     "replace": true,
     "sounds" : [
       {
-        "name": "mvndicraft:silence"
+        "name": "minecraft:entity.cow.step"
       }
     ]
   }
