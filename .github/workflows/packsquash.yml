@@ -23,6 +23,15 @@ jobs:
         run: |
           git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep -q '^core/' && echo "CORE_CHANGED=true" >> $GITHUB_ENV || echo "CORE_CHANGED=false" >> $GITHUB_ENV
 
+      - name: Retrieve previous release core hash
+        id: get_previous_hash
+        run: |
+          curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/latest" | \
+          jq -r '.body | capture("core: (?<core_sha>[a-f0-9]+)") | .core_sha // "N/A"' > previous_core_sha.txt
+          echo "PREVIOUS_CORE_SHA=$(cat previous_core_sha.txt)" >> $GITHUB_ENV
+
       - name: Setup Stripzip
         run: |
           git clone https://github.com/KittyHawkCorp/stripzip.git szp && cd szp
@@ -61,21 +70,13 @@ jobs:
           ./stripzip hud.zip
           ./stripzip soundscapes.zip
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: packs
-          path: |
-            core.zip
-            hud.zip
-            soundscapes.zip
-
       - name: Hash files
         run: |
           if [ -f core.zip ]; then
             calculatedCoreSha=($(sha1sum core.zip))
             echo "CORE_SHA=$calculatedCoreSha" >> $GITHUB_ENV
           else
-            echo "CORE_SHA=SKIPPED" >> $GITHUB_ENV
+            echo "CORE_SHA=${{ env.PREVIOUS_CORE_SHA }}" >> $GITHUB_ENV
           fi
           calculatedHudSha=($(sha1sum hud.zip))
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
