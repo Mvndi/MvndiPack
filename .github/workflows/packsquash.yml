@@ -11,24 +11,28 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
+
       - name: Set short git commit SHA
         id: vars
         run: |
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
-          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV      
+          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
+
+      - name: Check for changes in core directory
+        id: core_changes
+        run: |
+          git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep -q '^core/' && echo "CORE_CHANGED=true" >> $GITHUB_ENV || echo "CORE_CHANGED=false" >> $GITHUB_ENV
+
       - name: Setup Stripzip
         run: |
           git clone https://github.com/KittyHawkCorp/stripzip.git szp && cd szp
           make
           mv stripzip ..
-      - name: Run PackSquash 
+
+      - name: Conditionally Run PackSquash
+        if: env.CORE_CHANGED == 'true'
         uses: ComunidadAylas/PackSquash-action@v4
         with:
-          # When changing the options passed to PackSquash, it may be a good idea to lock
-          # your workflow to a specific PackSquash version instead of "latest". This will
-          # prevent sudden failures when releases that introduce incompatible changes to
-          # the options file format are made, but will require you to manually update
-          # the PackSquash version your workflows use when a release occurs
           packsquash_version: latest
           options: |
             pack_directory = 'core'
@@ -44,15 +48,19 @@ jobs:
             
             ['**/{LICENSE,README.txt}']
             force_include = true
+
       - name: ZIP Hud
         run: cd hud && zip -r ../hud.zip . && cd ..
+
       - name: ZIP Soundscapes
         run: cd soundscapes && zip -r ../soundscapes.zip . && cd ..
+
       - name: Clean ZIP Metadata
         run: |
-          ./stripzip core.zip
+          if [ -f core.zip ]; then ./stripzip core.zip; fi
           ./stripzip hud.zip
           ./stripzip soundscapes.zip
+
       - uses: actions/upload-artifact@v4
         with:
           name: packs
@@ -60,15 +68,22 @@ jobs:
             core.zip
             hud.zip
             soundscapes.zip
+
       - name: Hash files
         run: |
-          calculatedCoreSha=($(sha1sum core.zip))
-          echo "CORE_SHA=$calculatedCoreSha" >> $GITHUB_ENV
+          if [ -f core.zip ]; then
+            calculatedCoreSha=($(sha1sum core.zip))
+            echo "CORE_SHA=$calculatedCoreSha" >> $GITHUB_ENV
+          else
+            echo "CORE_SHA=SKIPPED" >> $GITHUB_ENV
+          fi
           calculatedHudSha=($(sha1sum hud.zip))
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
           calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
           echo "SOUNDSCAPES_SHA=$calculatedSoundscapesSha" >> $GITHUB_ENV
+
       - name: Upload core to release
+        if: env.CORE_CHANGED == 'true'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -76,6 +91,7 @@ jobs:
           asset_name: core.zip
           tag: refs/tags/latest
           overwrite: true
+
       - name: Upload hud to release
         uses: svenstaro/upload-release-action@v2
         with:
@@ -84,6 +100,7 @@ jobs:
           asset_name: hud.zip
           tag: refs/tags/latest
           overwrite: true
+
       - name: Upload soundscapes to release
         uses: svenstaro/upload-release-action@v2
         with:
@@ -92,4 +109,7 @@ jobs:
           asset_name: soundscapes.zip
           tag: refs/tags/latest
           overwrite: true
-          body: "core: ${{ env.CORE_SHA }} \nhud: ${{ env.HUD_SHA }} \nsoundscapes: ${{ env.SOUNDSCAPES_SHA }}"
+          body: |
+            core: ${{ env.CORE_SHA }}
+            hud: ${{ env.HUD_SHA }}
+            soundscapes: ${{ env.SOUNDSCAPES_SHA }}
