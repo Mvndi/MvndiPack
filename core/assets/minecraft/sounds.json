@@ -390,5 +390,37 @@
         "name": "mvndicraft:silence"
       }
     ]
+  },
+  "entity.zombie.ambient": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "minecraft:entity.pillager.ambient"
+      }
+    ]
+  },
+  "entity.zombie.death": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "minecraft:entity.pillager.death"
+      }
+    ]
+  },
+  "entity.zombie.hurt": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "minecraft:entity.pillager.hurt"
+      }
+    ]
+  },
+  "entity.zombie.step": {
+    "replace": true,
+    "sounds" : [
+      {
+        "name": "mvndicraft:silence"
+      }
+    ]
   }
 }
