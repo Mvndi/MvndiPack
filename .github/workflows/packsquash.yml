@@ -18,7 +18,7 @@ jobs:
           echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV      
       - name: Setup Stripzip
         run: |
-          git clone https://github.com/KittyHawkCorp/stripzip.git && cd stripzip
+          git clone https://github.com/KittyHawkCorp/stripzip.git szp && cd szp
           make
           mv stripzip ..
       - name: Run PackSquash 
