@@ -50,9 +50,9 @@ jobs:
         run: cd soundscapes && zip -r ../soundscapes.zip . && cd ..
       - name: Clean ZIP Metadata
         run: |
-          stripzip core.zip
-          stripzip hud.zip
-          stripzip soundscapes.zip
+          ./stripzip core.zip
+          ./stripzip hud.zip
+          ./stripzip soundscapes.zip
       - uses: actions/upload-artifact@v4
         with:
           name: packs
