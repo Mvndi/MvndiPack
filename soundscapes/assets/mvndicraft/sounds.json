@@ -1,0 +1,595 @@
+{
+  "sandstorms.strong_wind": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "mvndicraft:sandstorms/strong_wind0",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:sandstorms/strong_wind1",
+        "volume": 0.5
+      }
+    ]
+  },
+  "sandstorms.weak_wind": {
+    "category": "weather",
+    "sounds": [
+      {
+        "name": "mvndicraft:sandstorms/weak_wind0",
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:sandstorms/weak_wind1",
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.ambient.caves.addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition1",
+        "volume": 1,
+        "weight": 2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition2",
+        "volume": 1,
+        "weight": 20
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition3",
+        "volume": 1,
+        "weight": 20
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition4",
+        "volume": 0.2,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition5",
+        "volume": 0.2,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition6",
+        "pitch": 0.95,
+        "volume": 0.1,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition7",
+        "pitch": 0.8,
+        "volume": 1,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/caves/cave_addition8",
+        "pitch": 0.7,
+        "volume": 1,
+        "weight": 10
+      }
+    ]
+  },
+  "soundscapes.ambient.caves.loop1": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop2": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop3": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop4": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop1",
+      "soundscapes/ambient/caves/cave_loop2",
+      "soundscapes/ambient/caves/cave_loop3",
+      "soundscapes/ambient/caves/cave_loop4",
+      "soundscapes/ambient/caves/cave_loop5",
+      "soundscapes/ambient/caves/cave_loop6"
+    ]
+  },
+  "soundscapes.ambient.caves.loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/caves/cave_loop_fadeout1",
+      "soundscapes/ambient/caves/cave_loop_fadeout2",
+      "soundscapes/ambient/caves/cave_loop_fadeout3",
+      "soundscapes/ambient/caves/cave_loop_fadeout4",
+      "soundscapes/ambient/caves/cave_loop_fadeout5"
+    ]
+  },
+  "soundscapes.ambient.mineshaft.addition": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/mineshaft/mineshaft_addition1",
+      "soundscapes/ambient/mineshaft/mineshaft_addition2",
+      "soundscapes/ambient/mineshaft/mineshaft_addition3",
+      "soundscapes/ambient/mineshaft/mineshaft_addition4",
+      "soundscapes/ambient/mineshaft/mineshaft_addition5"
+    ]
+  },
+  "soundscapes.ambient.mineshaft.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/mineshaft/mineshaft_loop1",
+      "soundscapes/ambient/mineshaft/mineshaft_loop2",
+      "soundscapes/ambient/mineshaft/mineshaft_loop3",
+      "soundscapes/ambient/mineshaft/mineshaft_loop4",
+      "soundscapes/ambient/mineshaft/mineshaft_loop5"
+    ]
+  },
+  "soundscapes.ambient.mineshaft.loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/mineshaft/mineshaft_loop_fadeout1",
+      "soundscapes/ambient/mineshaft/mineshaft_loop_fadeout2",
+      "soundscapes/ambient/mineshaft/mineshaft_loop_fadeout3"
+    ]
+  },
+  "soundscapes.ambient.surface.beach.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/beach/fadeout1",
+      "soundscapes/ambient/surface/beach/fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.beach.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/beach/loop1",
+      "soundscapes/ambient/surface/beach/loop2",
+      "soundscapes/ambient/surface/beach/loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.day_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/day_loop1",
+      "soundscapes/ambient/surface/desert/day_loop2",
+      "soundscapes/ambient/surface/desert/day_loop3",
+      "soundscapes/ambient/surface/desert/day_loop4",
+      "soundscapes/ambient/surface/desert/day_loop5",
+      "soundscapes/ambient/surface/desert/day_loop6"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.day_loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/day_loop_fadeout1",
+      "soundscapes/ambient/surface/desert/day_loop_fadeout2",
+      "soundscapes/ambient/surface/desert/day_loop_fadeout3"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.night_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/night_loop1",
+      "soundscapes/ambient/surface/desert/night_loop2",
+      "soundscapes/ambient/surface/desert/night_loop3",
+      "soundscapes/ambient/surface/desert/night_loop4",
+      "soundscapes/ambient/surface/desert/night_loop5",
+      "soundscapes/ambient/surface/desert/night_loop6"
+    ]
+  },
+  "soundscapes.ambient.surface.desert.night_loop_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/desert/night_loop_fadeout1",
+      "soundscapes/ambient/surface/desert/night_loop_fadeout2",
+      "soundscapes/ambient/surface/desert/night_loop_fadeout3"
+    ]
+  },
+  "soundscapes.ambient.surface.forest.day_addition": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/day_addition3",
+      "soundscapes/ambient/surface/forest/day_addition4",
+      "soundscapes/ambient/surface/forest/day_addition5",
+      "soundscapes/ambient/surface/forest/day_addition6",
+      "soundscapes/ambient/surface/forest/day_addition7",
+      "soundscapes/ambient/surface/forest/day_addition8",
+      "soundscapes/ambient/surface/forest/day_addition9",
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition1",
+        "volume": 0.7,
+        "weight": 2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition2",
+        "volume": 0.7,
+        "weight": 2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition3",
+        "pitch": 0.8,
+        "volume": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_addition3",
+        "pitch": 0.95,
+        "volume": 1.5
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.forest.day_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/day_fadeout1"
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.forest.day_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/day_loop1",
+      "soundscapes/ambient/surface/forest/day_loop2",
+      "soundscapes/ambient/surface/forest/day_loop3",
+      "soundscapes/ambient/surface/forest/day_loop4"
+    ]
+  },
+  "soundscapes.ambient.surface.forest.night_addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition1",
+        "volume": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition2",
+        "volume": 0.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition3",
+        "volume": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition4",
+        "pitch": 0.9,
+        "volume": 0.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition4",
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition5",
+        "pitch": 0.9,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition5",
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/forest/night_addition6",
+        "volume": 0.4
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.forest.night_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/night_fadeout1",
+      "soundscapes/ambient/surface/forest/night_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.forest.night_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/forest/night_loop1",
+      "soundscapes/ambient/surface/forest/night_loop2",
+      "soundscapes/ambient/surface/forest/night_loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.river.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/river/fadeout1",
+      "soundscapes/ambient/surface/river/fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.river.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/river/loop1",
+      "soundscapes/ambient/surface/river/loop2"
+    ]
+  },
+  "soundscapes.ambient.surface.sea.addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:silence",
+        "weight": 4
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/sea/addition4",
+        "volume": 1
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.sea.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/sea/fadeout1",
+      "soundscapes/ambient/surface/sea/fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.sea.loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/sea/loop1",
+      "soundscapes/ambient/surface/sea/loop2",
+      "soundscapes/ambient/surface/sea/loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.addition": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions1",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions2",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions3",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/swamp/additions4",
+        "volume": 0.5
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.day_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/day_fadeout1",
+      "soundscapes/ambient/surface/swamp/day_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.day_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/day_loop1",
+      "soundscapes/ambient/surface/swamp/day_loop2",
+      "soundscapes/ambient/surface/swamp/day_loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.night_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/night_fadeout1",
+      "soundscapes/ambient/surface/swamp/night_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.swamp.night_loop": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/swamp/night_loop1",
+      "soundscapes/ambient/surface/swamp/night_loop2",
+      "soundscapes/ambient/surface/swamp/night_loop3"
+    ]
+  },
+  "soundscapes.ambient.surface.weather.snowy": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/weather/snowy1",
+      "soundscapes/ambient/surface/weather/snowy2",
+      "soundscapes/ambient/surface/weather/snowy3"
+    ]
+  },
+  "soundscapes.ambient.surface.weather.snowy_fadeout": {
+    "category": "ambient",
+    "sounds": [
+      "soundscapes/ambient/surface/weather/snowy_fadeout1",
+      "soundscapes/ambient/surface/weather/snowy_fadeout2"
+    ]
+  },
+  "soundscapes.ambient.surface.wind.fadeout": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/fadeout1",
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/fadeout2",
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.ambient.surface.wind.loop": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/loop1",
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:soundscapes/ambient/surface/wind/loop2",
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.soundtrack.desert": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/desert/farid",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/desert/valencia_sea",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.egypt": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/egypt/ra",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.forest": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/forest/medieval_england",
+        "stream": true,
+        "volume": 0.3
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/forest/secret_of_the_forest",
+        "stream": true,
+        "volume": 0.3
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/forest/wind_scene",
+        "stream": true,
+        "volume": 0.3
+      }
+    ]
+  },
+  "soundscapes.soundtrack.germany": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/germany/relic_song",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.soundtrack.greece": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/greece/turning_tides",
+        "stream": true,
+        "volume": 0.3
+      }
+    ]
+  },
+  "soundscapes.soundtrack.italy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/italy/flute_and_lute_2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+  "soundscapes.soundtrack.mountains": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/mountains/valley_of_the_wind",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.ocean": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/ocean/abandoned_ship_sea_mauville",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/ocean/triton_palace",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/ocean/whirl_islands",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.plains": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/plains/national_park_orchestration",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.snowy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/snowy/unnatural_city",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.spawn": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundscapes/soundtrack/spawn/majula",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  }
+}
