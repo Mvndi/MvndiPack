@@ -67,7 +67,7 @@ jobs:
           calculatedHudSha=($(sha1sum hud.zip))
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
           calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
-          echo "SOUNDSCAPES_SHA=$calculatedHSoundscapesSha" >> $GITHUB_ENV
+          echo "SOUNDSCAPES_SHA=$calculatedSoundscapesSha" >> $GITHUB_ENV
       - name: Upload core to release
         uses: svenstaro/upload-release-action@v2
         with:
