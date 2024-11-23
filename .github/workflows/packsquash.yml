@@ -73,8 +73,6 @@ jobs:
           ./stripzip hud.zip
           ./stripzip soundscapes.zip
           mkdir zips
-          mv hud.zip zips
-          mv soundscapes.zip zips
 
       - name: Hash files
         run: |
@@ -89,6 +87,8 @@ jobs:
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
           calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
           echo "SOUNDSCAPES_SHA=$calculatedSoundscapesSha" >> $GITHUB_ENV
+          mv hud.zip zips
+          mv soundscapes.zip zips
       - name: Get date
         run: |
           currentDate=$(date)
