@@ -751,11 +751,11 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/wind/fadeout1",
-        "volume": 0.25
+        "volume": 1
       },
       {
         "name": "mvndicraft:ambient/surface/wind/fadeout2",
-        "volume": 0.25
+        "volume": 1
       }
     ]
   },
@@ -764,11 +764,11 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/wind/loop1",
-        "volume": 0.25
+        "volume": 1
       },
       {
         "name": "mvndicraft:ambient/surface/wind/loop2",
-        "volume": 0.25
+        "volume": 1
       }
     ]
   },
