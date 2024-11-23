@@ -72,12 +72,16 @@ jobs:
           if [ -f core.zip ]; then ./stripzip core.zip; fi
           ./stripzip hud.zip
           ./stripzip soundscapes.zip
+          mkdir zips
+          mv hud.zip zips
+          mv soundscapes.zip zips
 
       - name: Hash files
         run: |
           if [ -f core.zip ]; then
             calculatedCoreSha=($(sha1sum core.zip))
             echo "CORE_SHA=$calculatedCoreSha" >> $GITHUB_ENV
+            mv core.zip zips
           else
             echo "CORE_SHA=${{ env.PREVIOUS_CORE_SHA }}" >> $GITHUB_ENV
           fi
@@ -89,40 +93,12 @@ jobs:
         run: |
           currentDate=$(date)
           echo "DATE=$currentDate" >> $GITHUB_ENV
-      - name: Upload core to release
-        if: env.CORE_CHANGED == 'true'
+      - name: Upload to latest release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: core.zip
-          asset_name: core.zip
-          tag: refs/tags/latest
-          overwrite: true
-
-      - name: Upload hud to release
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: hud.zip
-          asset_name: hud.zip
-          tag: refs/tags/latest
-          overwrite: true
-
-      - name: Upload soundscapes to release
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: soundscapes.zip
-          asset_name: soundscapes.zip
-          tag: refs/tags/latest
-          overwrite: true
-
-      - name: Upload body
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: soundscapes.zip
-          asset_name: soundscapes.zip
+          file: zips/*
+          file_glob: true
           tag: refs/tags/latest
           overwrite: true
           body: |
