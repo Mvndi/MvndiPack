@@ -116,6 +116,15 @@ jobs:
           asset_name: soundscapes.zip
           tag: refs/tags/latest
           overwrite: true
+
+      - name: Upload body
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: soundscapes.zip
+          asset_name: soundscapes.zip
+          tag: refs/tags/latest
+          overwrite: true
           body: |
             core: ${{ env.CORE_SHA }}
             hud: ${{ env.HUD_SHA }}
