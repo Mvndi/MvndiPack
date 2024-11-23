@@ -102,7 +102,7 @@ jobs:
           tag: refs/tags/latest
           overwrite: true
           body: |
+            soundscapes: ${{ env.SOUNDSCAPES_SHA }}
             core: ${{ env.CORE_SHA }}
             hud: ${{ env.HUD_SHA }}
-            soundscapes: ${{ env.SOUNDSCAPES_SHA }}
             date: ${{ env.DATE }}
