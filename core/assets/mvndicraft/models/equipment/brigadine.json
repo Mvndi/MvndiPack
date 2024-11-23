@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:shaper" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:shaper_leggings" }
+		]
+	}
+}
