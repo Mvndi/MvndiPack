@@ -76,148 +76,364 @@
   "soundscapes.ambient.caves.loop1": {
     "category": "ambient",
     "sounds": [
-      "ambient/caves/cave_loop1",
-      "ambient/caves/cave_loop2",
-      "ambient/caves/cave_loop3",
-      "ambient/caves/cave_loop4",
-      "ambient/caves/cave_loop5",
-      "ambient/caves/cave_loop6"
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop6",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.caves.loop2": {
     "category": "ambient",
     "sounds": [
-      "ambient/caves/cave_loop1",
-      "ambient/caves/cave_loop2",
-      "ambient/caves/cave_loop3",
-      "ambient/caves/cave_loop4",
-      "ambient/caves/cave_loop5",
-      "ambient/caves/cave_loop6"
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop6",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.caves.loop3": {
     "category": "ambient",
     "sounds": [
-      "ambient/caves/cave_loop1",
-      "ambient/caves/cave_loop2",
-      "ambient/caves/cave_loop3",
-      "ambient/caves/cave_loop4",
-      "ambient/caves/cave_loop5",
-      "ambient/caves/cave_loop6"
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop6",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.caves.loop4": {
     "category": "ambient",
     "sounds": [
-      "ambient/caves/cave_loop1",
-      "ambient/caves/cave_loop2",
-      "ambient/caves/cave_loop3",
-      "ambient/caves/cave_loop4",
-      "ambient/caves/cave_loop5",
-      "ambient/caves/cave_loop6"
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop6",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.caves.loop_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/caves/cave_loop_fadeout1",
-      "ambient/caves/cave_loop_fadeout2",
-      "ambient/caves/cave_loop_fadeout3",
-      "ambient/caves/cave_loop_fadeout4",
-      "ambient/caves/cave_loop_fadeout5"
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop_fadeout2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop_fadeout3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop_fadeout4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/caves/cave_loop_fadeout5",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.mineshaft.addition": {
     "category": "ambient",
     "sounds": [
-      "ambient/mineshaft/mineshaft_addition1",
-      "ambient/mineshaft/mineshaft_addition2",
-      "ambient/mineshaft/mineshaft_addition3",
-      "ambient/mineshaft/mineshaft_addition4",
-      "ambient/mineshaft/mineshaft_addition5"
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_addition1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_addition2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_addition3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_addition4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_addition5",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.mineshaft.loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/mineshaft/mineshaft_loop1",
-      "ambient/mineshaft/mineshaft_loop2",
-      "ambient/mineshaft/mineshaft_loop3",
-      "ambient/mineshaft/mineshaft_loop4",
-      "ambient/mineshaft/mineshaft_loop5"
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop5",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.mineshaft.loop_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/mineshaft/mineshaft_loop_fadeout1",
-      "ambient/mineshaft/mineshaft_loop_fadeout2",
-      "ambient/mineshaft/mineshaft_loop_fadeout3"
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop_fadeout2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/mineshaft/mineshaft_loop_fadeout3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.beach.fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/beach/fadeout1",
-      "ambient/surface/beach/fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/beach/fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/beach/fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.beach.loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/beach/loop1",
-      "ambient/surface/beach/loop2",
-      "ambient/surface/beach/loop3"
+      {
+        "name": "mvndicraft:ambient/surface/beach/loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/beach/loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/beach/loop3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.desert.day_loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/desert/day_loop1",
-      "ambient/surface/desert/day_loop2",
-      "ambient/surface/desert/day_loop3",
-      "ambient/surface/desert/day_loop4",
-      "ambient/surface/desert/day_loop5",
-      "ambient/surface/desert/day_loop6"
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop6",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.desert.day_loop_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/desert/day_loop_fadeout1",
-      "ambient/surface/desert/day_loop_fadeout2",
-      "ambient/surface/desert/day_loop_fadeout3"
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop_fadeout2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/day_loop_fadeout3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.desert.night_loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/desert/night_loop1",
-      "ambient/surface/desert/night_loop2",
-      "ambient/surface/desert/night_loop3",
-      "ambient/surface/desert/night_loop4",
-      "ambient/surface/desert/night_loop5",
-      "ambient/surface/desert/night_loop6"
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop6",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.desert.night_loop_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/desert/night_loop_fadeout1",
-      "ambient/surface/desert/night_loop_fadeout2",
-      "ambient/surface/desert/night_loop_fadeout3"
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop_fadeout2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/desert/night_loop_fadeout3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.forest.day_addition": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/forest/day_addition3",
-      "ambient/surface/forest/day_addition4",
-      "ambient/surface/forest/day_addition5",
-      "ambient/surface/forest/day_addition6",
-      "ambient/surface/forest/day_addition7",
-      "ambient/surface/forest/day_addition8",
-      "ambient/surface/forest/day_addition9",
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition4",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition5",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition6",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition7",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition8",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_addition9",
+        "volume": 1
+      },
       {
         "name": "mvndicraft:ambient/surface/forest/day_addition1",
         "volume": 0.7,
@@ -251,10 +467,22 @@
   "soundscapes.ambient.surface.forest.day_loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/forest/day_loop1",
-      "ambient/surface/forest/day_loop2",
-      "ambient/surface/forest/day_loop3",
-      "ambient/surface/forest/day_loop4"
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_loop3",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/day_loop4",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.forest.night_addition": {
@@ -299,30 +527,57 @@
   "soundscapes.ambient.surface.forest.night_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/forest/night_fadeout1",
-      "ambient/surface/forest/night_fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/forest/night_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/night_fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.forest.night_loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/forest/night_loop1",
-      "ambient/surface/forest/night_loop2",
-      "ambient/surface/forest/night_loop3"
+      {
+        "name": "mvndicraft:ambient/surface/forest/night_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/night_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/forest/night_loop3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.river.fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/river/fadeout1",
-      "ambient/surface/river/fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/river/fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/river/fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.river.loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/river/loop1",
-      "ambient/surface/river/loop2"
+      {
+        "name": "mvndicraft:ambient/surface/river/loop1",
+        "volume": 0.5
+      },
+      {
+        "name": "mvndicraft:ambient/surface/river/loop2",
+        "volume": 0.5
+      }
     ]
   },
   "soundscapes.ambient.surface.sea.addition": {
@@ -353,16 +608,31 @@
   "soundscapes.ambient.surface.sea.fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/sea/fadeout1",
-      "ambient/surface/sea/fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/sea/fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/sea/fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.sea.loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/sea/loop1",
-      "ambient/surface/sea/loop2",
-      "ambient/surface/sea/loop3"
+      {
+        "name": "mvndicraft:ambient/surface/sea/loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/sea/loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/sea/loop3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.swamp.addition": {
@@ -389,46 +659,91 @@
   "soundscapes.ambient.surface.swamp.day_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/swamp/day_fadeout1",
-      "ambient/surface/swamp/day_fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/swamp/day_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/swamp/day_fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.swamp.day_loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/swamp/day_loop1",
-      "ambient/surface/swamp/day_loop2",
-      "ambient/surface/swamp/day_loop3"
+      {
+        "name": "mvndicraft:ambient/surface/swamp/day_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/swamp/day_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/swamp/day_loop3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.swamp.night_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/swamp/night_fadeout1",
-      "ambient/surface/swamp/night_fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/swamp/night_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/swamp/night_fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.swamp.night_loop": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/swamp/night_loop1",
-      "ambient/surface/swamp/night_loop2",
-      "ambient/surface/swamp/night_loop3"
+      {
+        "name": "mvndicraft:ambient/surface/swamp/night_loop1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/swamp/night_loop2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/swamp/night_loop3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.weather.snowy": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/weather/snowy1",
-      "ambient/surface/weather/snowy2",
-      "ambient/surface/weather/snowy3"
+      {
+        "name": "mvndicraft:ambient/surface/weather/snowy1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/weather/snowy2",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/weather/snowy3",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.weather.snowy_fadeout": {
     "category": "ambient",
     "sounds": [
-      "ambient/surface/weather/snowy_fadeout1",
-      "ambient/surface/weather/snowy_fadeout2"
+      {
+        "name": "mvndicraft:ambient/surface/weather/snowy_fadeout1",
+        "volume": 1
+      },
+      {
+        "name": "mvndicraft:ambient/surface/weather/snowy_fadeout2",
+        "volume": 1
+      }
     ]
   },
   "soundscapes.ambient.surface.wind.fadeout": {
@@ -586,7 +901,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/spawn/majula",
+        "name": "mvndicraft:soundtrack/spawn/italy_1_dominum",
         "stream": true,
         "volume": 0.15
       }
