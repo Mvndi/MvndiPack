@@ -776,12 +776,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/desert/farid",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/desert/valencia_sea",
+        "name": "mvndicraft:silence",
         "stream": true,
         "volume": 0.15
       }
@@ -804,16 +799,6 @@
         "name": "mvndicraft:soundtrack/forest/medieval_england",
         "stream": true,
         "volume": 0.3
-      },
-      {
-        "name": "mvndicraft:soundtrack/forest/secret_of_the_forest",
-        "stream": true,
-        "volume": 0.3
-      },
-      {
-        "name": "mvndicraft:soundtrack/forest/wind_scene",
-        "stream": true,
-        "volume": 0.3
       }
     ]
   },
@@ -821,7 +806,12 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/germany/relic_song",
+        "name": "mvndicraft:soundtrack/germany/dungeon_5",
+        "stream": true,
+        "volume": 0.25
+      },
+      {
+        "name": "mvndicraft:soundtrack/germany/dungeon_6",
         "stream": true,
         "volume": 0.25
       }
@@ -831,7 +821,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/greece/turning_tides",
+        "name": "mvndicraft:soundtrack/greece/theme_3",
         "stream": true,
         "volume": 0.3
       }
@@ -841,7 +831,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/italy/flute_and_lute_2",
+        "name": "mvndicraft:soundtrack/italy/italy_1_dominum",
         "stream": true,
         "volume": 0.25
       }
@@ -851,7 +841,7 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/mountains/valley_of_the_wind",
+        "name": "mvndicraft:soundtrack/mountains/slow_1",
         "stream": true,
         "volume": 0.15
       }
@@ -861,18 +851,17 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/ocean/abandoned_ship_sea_mauville",
+        "name": "mvndicraft:soundtrack/ocean/theme_1",
         "stream": true,
         "volume": 0.15
-      },
+      }
+    ]
+  },
+  "soundscapes.soundtrack.cave": {
+    "category": "music",
+    "sounds": [
       {
-        "name": "mvndicraft:soundtrack/ocean/triton_palace",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/ocean/whirl_islands",
-        "stream": true,
+        "name": "mvndicraft:soundtrack/cave/dungeon_3",
         "volume": 0.15
       }
     ]
@@ -881,7 +870,12 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/plains/national_park_orchestration",
+        "name": "mvndicraft:soundtrack/plains/field_2",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundtrack/plains/theme_6",
         "stream": true,
         "volume": 0.15
       }
@@ -901,7 +895,22 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/spawn/italy_1_dominum",
+        "name": "mvndicraft:soundtrack/spawn/liar_fairy",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundtrack/spawn/heaven_1",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.siege": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundtrack/siege/last_boss_1",
         "stream": true,
         "volume": 0.15
       }
