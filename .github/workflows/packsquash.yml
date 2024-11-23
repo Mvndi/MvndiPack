@@ -1,5 +1,8 @@
 name: Optimize resource pack
-on: [push]
+on:
+  push:
+    branches:
+      - "master"
 jobs:
   packsquash:
     name: Optimize resource pack
