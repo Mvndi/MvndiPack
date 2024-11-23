@@ -85,7 +85,10 @@ jobs:
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
           calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
           echo "SOUNDSCAPES_SHA=$calculatedSoundscapesSha" >> $GITHUB_ENV
-
+      - name: Get date
+        run: |
+          currentDate=$(date)
+          echo "DATE=$currentDate" >> $GITHUB_ENV
       - name: Upload core to release
         if: env.CORE_CHANGED == 'true'
         uses: svenstaro/upload-release-action@v2
@@ -117,3 +120,4 @@ jobs:
             core: ${{ env.CORE_SHA }}
             hud: ${{ env.HUD_SHA }}
             soundscapes: ${{ env.SOUNDSCAPES_SHA }}
+            date: ${{ env.DATE }}
