@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:blank" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:blank" }
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:steel_plackart" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:steel_plackart_leggings" }
+		]
+	}
+}
