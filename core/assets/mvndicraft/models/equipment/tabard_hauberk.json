@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:tabard_hauberk" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:tabard_hauberk_leggings" }
+		]
+	}
+}
