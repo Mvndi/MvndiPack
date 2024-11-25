@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:plated_brigandine" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:plated_brigandine_leggings" }
+		]
+	}
+}
