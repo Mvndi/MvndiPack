@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:reinforced_cuirass" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:reinforced_steel_greaves" }
+		]
+	}
+}

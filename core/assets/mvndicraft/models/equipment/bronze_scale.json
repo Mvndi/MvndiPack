@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:bronze_scale" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:bronze_scale_leggings" }
+		]
+	}
+}
