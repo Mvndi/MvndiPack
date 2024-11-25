@@ -1,10 +1,10 @@
 {
 	"layers": {
 		"humanoid": [
-			{ "texture": "mvndicraft:tabard_hauberk" }
+			{ "dyeable": { "color_when_undyed": -6265536 }, "texture": "mvndicraft:tabard_hauberk" }
 		],
 		"humanoid_leggings": [
-			{ "texture": "mvndicraft:tabard_hauberk_leggings" }
+			{ "dyeable": { "color_when_undyed": -6265536 }, "texture": "mvndicraft:tabard_hauberk_leggings" }
 		]
 	}
 }

@@ -1,10 +1,10 @@
 {
 	"layers": {
 		"humanoid": [
-			{ "texture": "mvndicraft:plated_brigandine" }
+			{ "dyeable": { "color_when_undyed": -6265536 }, "texture": "mvndicraft:plated_brigandine" }
 		],
 		"humanoid_leggings": [
-			{ "texture": "mvndicraft:plated_brigandine_leggings" }
+			{ "dyeable": { "color_when_undyed": -6265536 }, "texture": "mvndicraft:plated_brigandine_leggings" }
 		]
 	}
 }
