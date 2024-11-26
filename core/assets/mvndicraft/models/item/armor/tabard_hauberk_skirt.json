@@ -1,7 +1,8 @@
 {
   "parent": "item/leggings_layer1",
   "textures": {
-    "leggings": "models/armor/leatherlayer1/380",
-	"layer1": "models/armor/leatherlayer2/380"
+    "leggings": "models/armor/leatherlayer2/380",
+	  "layer1": "models/armor/leatherlayer1/380",
+    "layer2": "models/armor/blank"
   }
 }
