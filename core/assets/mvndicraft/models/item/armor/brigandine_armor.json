@@ -1,7 +1,8 @@
 {
   "parent": "item/chestplate_layer1",
   "textures": {
-    "chestplate": "models/armor/leatherlayer2/140",
-	"layer1": "models/armor/leatherlayer1/140"
+    "chestplate": "models/armor/leatherlayer1/140",
+    "layer1": "models/armor/blank",
+	  "layer2": "models/armor/leatherlayer2/140"
   }
 }
