@@ -1,7 +1,7 @@
 {
   "parent": "item/boots_layer1",
   "textures": {
-    "boots": "models/armor/leatherlayer2/00",
-        "layer1": "models/armor/leatherlayer1/00"
+    "boots": "models/armor/leatherlayer1/00",
+    "layer1": "models/armor/blank"
   }
 }
