@@ -250,11 +250,11 @@
 			"predicate": {"custom_model_data": 60}
 		},
 		{
-			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm_crest",
+			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm_crest",
 			"predicate": {"custom_model_data": 61}
 		},
 		{
-			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm",
+			"model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm",
 			"predicate": {"custom_model_data": 62}
 		},
 		{
@@ -282,31 +282,31 @@
 			"predicate": {"custom_model_data": 68}
 		},
 		{
-			"model": "mvndicraft:armor/helms/ry_kettle_helm",
+			"model": "mvndicraft:armor/helms/kettle_helm/ry_kettle_helm",
 			"predicate": {"custom_model_data": 69}
 		},
 		{
-			"model": "mvndicraft:armor/helms/wr_kettle_helm",
+			"model": "mvndicraft:armor/helms/kettle_helm/wr_kettle_helm",
 			"predicate": {"custom_model_data": 70}
 		},
 		{
-			"model": "mvndicraft:armor/helms/yg_kettle_helm",
+			"model": "mvndicraft:armor/helms/kettle_helm/yg_kettle_helm",
 			"predicate": {"custom_model_data": 71}
 		},
 		{
-			"model": "mvndicraft:armor/helms/yr_kettle_helm",
+			"model": "mvndicraft:armor/helms/kettle_helm/yr_kettle_helm",
 			"predicate": {"custom_model_data": 72}
 		},
 		{
-			"model": "mvndicraft:armor/helms/bw_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/bw_great_helm",
 			"predicate": {"custom_model_data": 73}
 		},
 		{
-			"model": "mvndicraft:armor/helms/gg_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/gg_great_helm",
 			"predicate": {"custom_model_data": 74}
 		},
 		{
-			"model": "mvndicraft:armor/helms/wr_great_helm",
+			"model": "mvndicraft:armor/helms/great_helm/wr_great_helm",
 			"predicate": {"custom_model_data": 75}
 		},
 		{
@@ -354,23 +354,23 @@
 			"predicate": {"custom_model_data": 86}
 		},
 		{
-			"model": "mvndicraft:armor/helms/yellow_barbute",
+			"model": "mvndicraft:armor/helms/barbute/yellow_barbute",
 			"predicate": {"custom_model_data": 87}
 		},
 		{
-			"model": "mvndicraft:armor/helms/red_barbute",
+			"model": "mvndicraft:armor/helms/barbute/red_barbute",
 			"predicate": {"custom_model_data": 88}
 		},
 		{
-			"model": "mvndicraft:armor/helms/gw_barbute",
+			"model": "mvndicraft:armor/helms/barbute/gw_barbute",
 			"predicate": {"custom_model_data": 89}
 		},
 		{
-			"model": "mvndicraft:armor/helms/bw_barbute",
+			"model": "mvndicraft:armor/helms/barbute/bw_barbute",
 			"predicate": {"custom_model_data": 90}
 		},
 		{
-			"model": "mvndicraft:armor/helms/br_barbute",
+			"model": "mvndicraft:armor/helms/barbute/br_barbute",
 			"predicate": {"custom_model_data": 91}
 		},
 		{
@@ -398,27 +398,27 @@
 			"predicate": {"custom_model_data": 97}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_blue",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_blue",
 			"predicate": {"custom_model_data": 98}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_green",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_green",
 			"predicate": {"custom_model_data": 99}
 		},
 		{
-			"model": "mvndicraft:armor/helms/eyes_chain_coif",
+			"model": "mvndicraft:armor/helms/chain_coif/eyes_chain_coif",
 			"predicate": {"custom_model_data": 100}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_green_yel",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_green_yel",
 			"predicate": {"custom_model_data": 101}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_blue_yel",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_blue_yel",
 			"predicate": {"custom_model_data": 102}
 		},
 		{
-			"model": "mvndicraft:armor/helms/chain_coif_red",
+			"model": "mvndicraft:armor/helms/chain_coif/chain_coif_red",
 			"predicate": {"custom_model_data": 103}
 		},
 		{
