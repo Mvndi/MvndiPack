@@ -113,7 +113,7 @@
         {"predicate":{"custom_model_data":113},"model":"mvndicraft:siege/item/trebuchet_sling"},
         {"predicate":{"custom_model_data":114},"model":"mvndicraft:farming/plough_wheels"},
         {"predicate":{"custom_model_data":115},"model":"mvndicraft:blacksmith/clay_furnace"},
-		{"predicate":{"custom_model_data":116},"model":"mvndicraft:blacksmith/clay_furnace"},
+		{"predicate":{"custom_model_data":116},"model":"mvndicraft:blacksmith/clay_furnace_on"},
         {"predicate":{"custom_model_data":3000},"model":"mvndicraft:placeables/barricade"},
         {"predicate":{"custom_model_data":3001},"model":"mvndicraft:placeables/bear_trap/bear_trap_open"},
         {"predicate":{"custom_model_data":3002},"model":"mvndicraft:placeables/bear_trap/bear_trap_closed"},
