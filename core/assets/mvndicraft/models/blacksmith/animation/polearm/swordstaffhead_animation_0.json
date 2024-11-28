@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "mvndicraft:blacksmith/hot_steel_generic",
+		"particle": "mvndicraft:blacksmith/hot_steel_generic"
+	},
+	"elements": [
+		{
+			"from": [6, 6, -7.625],
+			"to": [10, 10, -0.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 0.375]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [2, 0, 5.5, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 6, 0.375],
+			"to": [10, 10, 7.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 3.875]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [2, 0, 5.5, 2], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 6, 8.375],
+			"to": [10, 10, 15.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 11.875]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [2, 0, 5.5, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 6, 16.625],
+			"to": [10, 10, 23.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 6.625]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 2, 2], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -1.75],
+			"scale": [0.89063, 0.89063, 0.89063]
+		}
+	}
+}

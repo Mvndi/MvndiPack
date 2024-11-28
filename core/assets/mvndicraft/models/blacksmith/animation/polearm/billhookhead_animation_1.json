@@ -1,0 +1,52 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "mvndicraft:blacksmith/hot_steel_generic",
+		"particle": "mvndicraft:blacksmith/hot_steel_generic"
+	},
+	"elements": [
+		{
+			"from": [4, 6, 1.375],
+			"to": [11, 9, 12.875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 7.625, 12.875]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [2, 0, 5.5, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 6, -4.125],
+			"to": [10, 8.25, 1.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 7.5, 0.625]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [2, 0, 5.5, 2], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 6, 12.875],
+			"to": [10, 9.5, 17.875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.625, 9.625]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [2, 0, 5.5, 2], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 2, 2], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0.5, 0, -2]
+		}
+	}
+}

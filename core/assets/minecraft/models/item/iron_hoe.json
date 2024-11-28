@@ -187,6 +187,90 @@
 		  {
 			"predicate": {"custom_model_data": 41},
 			"model": "mvndicraft:blacksmith/tongs_halberdhead"
-		  }
+		},
+		{
+		  "predicate": {"custom_model_data": 42},
+		  "model": "mvndicraft:blacksmith/tongs_halberdhead"
+		},
+		{
+		  "predicate": {"custom_model_data": 43},
+		  "model": "mvndicraft:blacksmith/tongs_halberdhead"
+		},
+		{
+		  "predicate": {"custom_model_data": 44},
+		  "model": "mvndicraft:blacksmith/head/angular_spear_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 45},
+		  "model": "mvndicraft:blacksmith/head/bearded_axe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 46},
+		  "model": "mvndicraft:blacksmith/head/billhook_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 47},
+		  "model": "mvndicraft:blacksmith/head/crows_beak_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 48},
+		  "model": "mvndicraft:blacksmith/head/dane_axe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 49},
+		  "model": "mvndicraft:blacksmith/head/fauchard_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 50},
+		  "model": "mvndicraft:blacksmith/head/francisca_axe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 51},
+		  "model": "mvndicraft:blacksmith/head/galloglach_axe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 52},
+		  "model": "mvndicraft:blacksmith/head/glaive_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 53},
+		  "model": "mvndicraft:blacksmith/head/hammer_axe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 54},
+		  "model": "mvndicraft:blacksmith/head/mace_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 55},
+		  "model": "mvndicraft:blacksmith/head/morning_star_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 56},
+		  "model": "mvndicraft:blacksmith/head/spiked_goedendag_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 57},
+		  "model": "mvndicraft:blacksmith/head/spikedpolemace_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 58},
+		  "model": "mvndicraft:blacksmith/head/varangian_axe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 59},
+		  "model": "mvndicraft:blacksmith/head/war_hammer_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 60},
+		  "model": "mvndicraft:blacksmith/head/winged_spear_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 61},
+		  "model": "mvndicraft:blacksmith/head/sword_staff_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 62},
+		  "model": "mvndicraft:blacksmith/head/broad_axe_head"
+		}
 	]
 }
