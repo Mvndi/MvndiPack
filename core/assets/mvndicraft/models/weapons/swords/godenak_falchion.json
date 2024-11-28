@@ -122,11 +122,11 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [-15, 90, 0],
-			"translation": [1, 6.25, -0.25]
+			"translation": [1, 4.25, -0.25]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-15, -90, 0],
-			"translation": [1, 6.25, -0.25]
+			"translation": [1, 4.25, -0.25]
 		},
 		"ground": {
 			"rotation": [-90, 0, 0],

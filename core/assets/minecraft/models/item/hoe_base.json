@@ -128,7 +128,7 @@
 		{"predicate": {"custom_model_data": 49}, "model": "mvndicraft:weapons/blunt/spiked_goedendag_point"},
 		{"predicate": {"custom_model_data": 50}, "model": "mvndicraft:weapons/blunt/bludgeon"},
 		{"predicate": {"custom_model_data": 1488}, "model": "mvndicraft:tools/chisel"},
-		{"predicate": {"custom_model_data": 51}, "model": "mvndicraft:weapons/swords/godenak_falchion"},
+		{"predicate": {"custom_model_data": 51}, "model": "mvndicraft:weapons/swords/k_falchion"},
 		{"predicate": {"custom_model_data": 52}, "model": "mvndicraft:weapons/axes/galloglach_axe"}
 	],
 	"display": {
