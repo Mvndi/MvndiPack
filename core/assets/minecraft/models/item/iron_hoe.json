@@ -190,11 +190,11 @@
 		},
 		{
 		  "predicate": {"custom_model_data": 42},
-		  "model": "mvndicraft:blacksmith/tongs_halberdhead"
+		  "model": "mvndicraft:blacksmith/spare"
 		},
 		{
 		  "predicate": {"custom_model_data": 43},
-		  "model": "mvndicraft:blacksmith/tongs_halberdhead"
+		  "model": "mvndicraft:blacksmith/broad_axe_head"
 		},
 		{
 		  "predicate": {"custom_model_data": 44},
@@ -270,7 +270,79 @@
 		},
 		{
 		  "predicate": {"custom_model_data": 62},
-		  "model": "mvndicraft:blacksmith/head/broad_axe_head"
+		  "model": "mvndicraft:blacksmith/tongs/tongs_angularspear_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 63},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_beardedaxe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 64},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_billhook_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 65},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_broad_axe"
+		},
+		{
+		  "predicate": {"custom_model_data": 66},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_crowsbeak_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 67},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_daneaxe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 68},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_fauchard_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 69},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_franciscaaxe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 70},
+		  "model": "mvndicraft:blacksmith/tongs/galloglacheaxe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 71},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_glaive_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 72},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_hammeraxe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 73},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_mace_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 74},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_morningstar_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 75},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_spikedgoedendag_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 76},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_spikedpolemace_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 77},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_swordstaff_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 78},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_varangianaxe_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 79},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_warhammer_head"
+		},
+		{
+		  "predicate": {"custom_model_data": 80},
+		  "model": "mvndicraft:blacksmith/tongs/tongs_wingedspear_head"
 		}
 	]
 }
