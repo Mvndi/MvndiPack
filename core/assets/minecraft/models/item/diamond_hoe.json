@@ -225,7 +225,7 @@
       "model": "mvndicraft:weapons/swords/katzbalger_sword"
     },
     {
-      "predicate": { "custom_model_data": 1488 },
+      "predicate": { "custom_model_data": 54 },
       "model": "mvndicraft:tools/chisel"
     }
   ]
