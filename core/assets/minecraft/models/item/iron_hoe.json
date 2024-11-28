@@ -194,7 +194,7 @@
 		},
 		{
 		  "predicate": {"custom_model_data": 43},
-		  "model": "mvndicraft:blacksmith/broad_axe_head"
+		  "model": "mvndicraft:blacksmith/head/broad_axe_head"
 		},
 		{
 		  "predicate": {"custom_model_data": 44},
