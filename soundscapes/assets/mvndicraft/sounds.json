@@ -898,11 +898,6 @@
         "name": "mvndicraft:soundtrack/spawn/liar_fairy",
         "stream": true,
         "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/spawn/heaven_1",
-        "stream": true,
-        "volume": 0.15
       }
     ]
   },
