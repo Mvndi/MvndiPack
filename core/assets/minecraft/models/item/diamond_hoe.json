@@ -239,6 +239,10 @@
     {
       "predicate": { "custom_model_data": 57 },
       "model": "mvndicraft:weapons/swords/claymore_reverse"
+    },
+    {
+      "predicate": { "custom_model_data": 58 },
+      "model": "mvndicraft:weapons/blunt/crows_beak_reverse"
     }
   ]
 }
