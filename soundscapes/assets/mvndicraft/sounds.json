@@ -930,17 +930,12 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/siege/battle_1",
+        "name": "mvndicraft:soundtrack/battle/battle_1",
         "stream": true,
         "volume": 0.15
       },
       {
-        "name": "mvndicraft:soundtrack/siege/battle_4",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/siege/boss_1",
+        "name": "mvndicraft:soundtrack/battle/battle_4",
         "stream": true,
         "volume": 0.15
       }
