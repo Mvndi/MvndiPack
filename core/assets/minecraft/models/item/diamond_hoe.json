@@ -227,6 +227,18 @@
     {
       "predicate": { "custom_model_data": 54 },
       "model": "mvndicraft:tools/chisel"
+    },
+    {
+      "predicate": { "custom_model_data": 55 },
+      "model": "mvndicraft:weapons/axes/hammer_axe_reverse"
+    },
+    {
+      "predicate": { "custom_model_data": 56 },
+      "model": "mvndicraft:weapons/pole_arms/billhook_reverse"
+    },
+    {
+      "predicate": { "custom_model_data": 57 },
+      "model": "mvndicraft:weapons/swords/claymore_reverse"
     }
   ]
 }
