@@ -913,6 +913,36 @@
         "name": "mvndicraft:soundtrack/siege/last_boss_1",
         "stream": true,
         "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundtrack/siege/last_boss_2",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundtrack/siege/last_boss_3",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.battle": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundtrack/siege/battle_1",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundtrack/siege/battle_4",
+        "stream": true,
+        "volume": 0.15
+      },
+      {
+        "name": "mvndicraft:soundtrack/siege/boss_1",
+        "stream": true,
+        "volume": 0.15
       }
     ]
   }
