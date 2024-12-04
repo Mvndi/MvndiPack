@@ -4,7 +4,7 @@
 			{ "texture": "mvndicraft:half_plate_cuirass" }
 		],
 		"humanoid_leggings": [
-			{ "texture": "mvndicraft:half_plate_steel_greaves" }
+			{ "texture": "mvndicraft:reinforced_steel_greaves" }
 		]
 	}
 }
