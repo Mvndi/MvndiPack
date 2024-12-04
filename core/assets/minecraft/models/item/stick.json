@@ -176,6 +176,7 @@
         {"predicate":{"custom_model_data":176},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_1"},
         {"predicate":{"custom_model_data":177},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_2"},
         {"predicate":{"custom_model_data":178},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_3"},
+        {"predicate":{"custom_model_data":179},"model":"mvndicraft:blacksmith/armor_plate"},
         {"predicate":{"custom_model_data":3000},"model":"mvndicraft:placeables/barricade"},
         {"predicate":{"custom_model_data":3001},"model":"mvndicraft:placeables/bear_trap/bear_trap_open"},
         {"predicate":{"custom_model_data":3002},"model":"mvndicraft:placeables/bear_trap/bear_trap_closed"},

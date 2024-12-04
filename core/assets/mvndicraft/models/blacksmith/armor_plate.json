@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/chestplate_layer1",
+	"textures": {
+		"layer1": "models/armor/leatherlayer1/250"
+	},
+	"elements": [
+		{
+			"name": "chestouter",
+			"from": [4, 2, 8],
+			"to": [12, 13, 10],
+			"faces": {
+				"north": {"uv": [5, 11.5, 7, 15], "texture": "#layer1", "tintindex": 0},
+				"east": {"uv": [4, 11.875, 5, 15], "texture": "#layer1", "tintindex": 0},
+				"south": {"uv": [8, 11.625, 10, 15], "texture": "#layer1", "tintindex": 0},
+				"west": {"uv": [7, 11.875, 8, 15], "texture": "#layer1", "tintindex": 0},
+				"up": {"uv": [10, 11.375, 8, 15], "rotation": 180, "texture": "#layer1"},
+				"down": {"uv": [10, 11.375, 8, 15], "rotation": 180, "texture": "#layer1"}
+			}
+		},
+		{
+			"name": "chestinnerlayer1",
+			"from": [12, 2, 10],
+			"to": [4, 2, 10],
+			"faces": {
+				"north": {"uv": [10, 11.375, 8, 15], "rotation": 180, "texture": "#layer1"},
+				"east": {"uv": [7, 15.125, 8, 11.75], "texture": "#layer1"},
+				"south": {"uv": [5, 15, 7, 11.625], "texture": "#layer1"},
+				"west": {"uv": [4, 15, 5, 11.875], "texture": "#layer1"},
+				"up": {"uv": [10, 11.375, 8, 15], "rotation": 180, "texture": "#layer1"},
+				"down": {"uv": [10, 11.375, 8, 15], "rotation": 180, "texture": "#layer1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [2, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"translation": [2, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"translation": [-1.25, 0, 0]
+		},
+		"fixed": {
+			"translation": [0, -0.5, 0]
+		}
+	}
+}
