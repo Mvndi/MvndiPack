@@ -855,6 +855,12 @@
         "custom_model_data": 150
       },
       "model": "mvndicraft:ui/bloomery/bloomery_real_stages"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 151
+      },
+      "model": "mvndicraft:ui/smithing_table_crafting"
     }
   ]
 }
