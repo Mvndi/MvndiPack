@@ -346,7 +346,7 @@
 		},
 		{
 			"predicate": {"custom_model_data": 81},
-			"model": "mvndicraft:blacksmith/tong/tonsg_falchion"
+			"model": "mvndicraft:blacksmith/tong/tongs_falchion"
 		}
 	]
 }
