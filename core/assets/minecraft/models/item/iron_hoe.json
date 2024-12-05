@@ -343,6 +343,10 @@
 		{
 		  "predicate": {"custom_model_data": 80},
 		  "model": "mvndicraft:blacksmith/tong/tongs_wingedspear_head"
+		},
+		{
+			"predicate": {"custom_model_data": 81},
+			"model": "mvndicraft:blacksmith/tong/tonsg_falchion"
 		}
 	]
 }
