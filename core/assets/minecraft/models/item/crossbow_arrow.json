@@ -332,13 +332,13 @@
 			"scale": [1.55859, 1.75, 1.37891]
 		},
 		"firstperson_righthand": {
-			"rotation": [-15.5, -13, 31.5],
-			"translation": [1.5, 2.15, -4.5],
+			"rotation": [1, 4.98, 0.82],
+			"translation": [-6.5, 4.9, -4.5],
 			"scale": [1.55859, 1.75, 1.37891]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-15.5, -13, 31.5],
-			"translation": [1.5, 2.15, -4.5],
+			"rotation": [-0.89, -4.52, 0.68],
+			"translation": [-6.5, 4.9, -4.5],
 			"scale": [1.55859, 1.75, 1.37891]
 		},
 		"ground": {
