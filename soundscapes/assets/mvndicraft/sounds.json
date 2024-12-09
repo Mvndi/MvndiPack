@@ -885,9 +885,14 @@
     "category": "music",
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/snowy/unnatural_city",
+        "name": "mvndicraft:soundtrack/snowy/slow_5",
         "stream": true,
-        "volume": 0.15
+        "volume": 0.3
+      },
+      {
+        "name": "mvndicraft:soundtrack/snowy/theme_6",
+        "stream": true,
+        "volume": 0.3
       }
     ]
   },
