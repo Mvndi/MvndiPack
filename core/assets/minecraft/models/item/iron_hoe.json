@@ -351,6 +351,10 @@
 		{
 			"predicate": {"custom_model_data": 82},
 			"model": "mvndicraft:blacksmith/falchion_blade"
+		},
+		{
+			"predicate": {"custom_model_data": 83},
+			"model": "mvndicraft:blacksmith/tong/tongs_armor_plate"
 		}
 	]
 }
