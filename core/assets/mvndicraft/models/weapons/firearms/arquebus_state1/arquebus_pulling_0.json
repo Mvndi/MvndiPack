@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "arquebusmodel",
 	"texture_size": [8, 8],
 	"textures": {
@@ -115,7 +116,7 @@
 			"to": [8.82232, 15.35932, -2.10755],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.57074, 14.37711, 6.01886]},
 			"faces": {
-				"north": {"uv": [8, 8, 10.5, 10], "rotation": 90, "texture": "#2"},
+				"north": {"uv": [7.5, 15.5, 8, 16], "rotation": 90, "texture": "#2"},
 				"east": {"uv": [8, 8, 10.5, 10], "rotation": 90, "texture": "#2"},
 				"south": {"uv": [8, 8, 10.5, 10], "rotation": 90, "texture": "#2"},
 				"west": {"uv": [8, 8, 10.5, 10], "rotation": 90, "texture": "#2"},
@@ -320,46 +321,12 @@
 		}
 	],
 	"overrides": [
-		{
-			"predicate": {
-				"pulling": 1
-			},
-			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_0"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.25
-			},
-			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_1"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.66
-			},
-			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_2"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 1
-			},
-			"model": "item/custom/firearms/arquebus_state1/arquebus_pulling_3"
-		},
-		{
-			"predicate": {
-				"charged": 1
-			},
-			"model": "item/custom/firearms/arquebus_state1/arquebus_arrow"
-		},
-		{
-			"predicate": {
-				"charged": 1,
-				"firework": 1
-			},
-			"model": "item/custom/firearms/arquebus_state1/arquebus_arrow"
-		}
+		{"predicate": {"pulling": 1}, "model": "item/custom/firearms/arquebus_state1/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.25}, "model": "item/custom/firearms/arquebus_state1/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.66}, "model": "item/custom/firearms/arquebus_state1/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 1}, "model": "item/custom/firearms/arquebus_state1/arquebus_pulling_3"},
+		{"predicate": {"charged": 1}, "model": "item/custom/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1}, "model": "item/custom/firearms/arquebus_state1/arquebus_arrow"}
 	],
 	"display": {
 		"thirdperson_righthand": {
