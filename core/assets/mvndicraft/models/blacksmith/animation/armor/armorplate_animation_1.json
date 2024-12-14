@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "mvndicraft:blacksmith/hot_steel_generic",
+		"particle": "mvndicraft:blacksmith/hot_steel_generic"
+	},
+	"elements": [
+		{
+			"from": [5.25, 6, 3],
+			"to": [10.75, 8.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 4.5, 6.5, 6], "texture": "#0"},
+				"east": {"uv": [3, 4.5, 6.5, 6], "texture": "#0"},
+				"south": {"uv": [3, 4.5, 6.5, 6], "texture": "#0"},
+				"west": {"uv": [3, 4.5, 6.5, 6], "texture": "#0"},
+				"up": {"uv": [2.5, 4.5, 5.5, 10.5], "texture": "#0"},
+				"down": {"uv": [3, 4.5, 6.5, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -1.75],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}
