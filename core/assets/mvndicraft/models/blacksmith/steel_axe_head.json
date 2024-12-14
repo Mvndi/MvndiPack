@@ -67,9 +67,8 @@
 			"scale": [0.69, 0.69, 0.69]
 		},
 		"ground": {
-			"rotation": [0, 0, 90],
-			"translation": [-9.25, -3, 6.5],
-			"scale": [1, 1, 2]
+			"rotation": [-88, -94, 0],
+			"translation": [-3, 0, 11.75]
 		},
 		"gui": {
 			"rotation": [73.85, -61.97, 86.25],
