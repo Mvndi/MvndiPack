@@ -41,10 +41,17 @@
             "prefix": "siege/"
         },
         {
+
             "type": "directory",
             "source": "ui",
             "prefix": "ui/"
         },
+        {
+            "type": "directory",
+            "source": "magic",
+            "prefix": "magic/"
+        },
+ 
         {
             "type": "directory",
             "source": "blacksmith",
