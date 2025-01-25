@@ -63,7 +63,7 @@
 		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:siege/item/boulder"},
 		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:siege/item/cannonball"},
 		{"predicate": {"custom_model_data": 6004}, "model": "mvndicraft:siege/item/canister_shot"},
-		{"predicate": {"custom_model_data": 6005}, "model": "mvndicraft:siege/item/steel_bolt"}
+		{"predicate": {"custom_model_data": 6005}, "model": "mvndicraft:siege/item/new_ballista_bolt"}
 	],
 	"display": {
 		"thirdperson_righthand": {
