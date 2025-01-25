@@ -331,6 +331,15 @@
       "chars": [
         "\uE021"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/pause_art.png",
+      "ascent": -2,
+      "height": 275,
+      "chars": [
+        "\uE022"
+      ]
     }
   ]
 }

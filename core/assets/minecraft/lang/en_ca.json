@@ -1,7 +1,7 @@
 {
     "language.name": "English",
-    "language.region": "Great Britain",
-    "language.code": "en_us",
+    "language.region": "Canada",
+    "language.code": "en_ca",
   
     "itemGroup.buildingBlocks": "§fBuilding Blocks",
     "itemGroup.decorations": "§fDecoration Blocks",
@@ -51,10 +51,10 @@
     "block.minecraft.red_nether_brick_wall": "Red Sandstone Wall",
     "block.minecraft.andesite_wall": "Stone Pillar",
     "block.minecraft.dark_prismarine_slab": "Green Pillar Slab",
-    "block.minecraft.tnt": "TNT Crate",
+    "block.minecraft.tnt": "Gunpowder Barrel",
     "block.minecraft.lantern": "Candle Bowl",
     "block.minecraft.granite_wall": "Wooden Wall",
-    "block.minecraft.polished_blackstone_brick_wall": "Quartz Column Base",
+    "block.minecraft.polished_blackstone_brick_wall": "Marble Column Base",
     "block.minecraft.infested_stone": "Gearbox",
     "block.minecraft.infested_cobblestone": "Mill",
     "block.minecraft.infested_stone_bricks": "Sawmill Parts",
@@ -67,12 +67,12 @@
     "block.minecraft.deepslate_tile_wall": "Stone Column Base",
     "block.minecraft.mossy_cobblestone_wall": "Chiseled Mossy Stone Bricks Wall",
     "block.minecraft.polished_blackstone_wall": "Chiseled Sandstone Bricks Wall",
-    "block.minecraft.polished_deepslate_wall": "Chiseled Quartz Wall",
+    "block.minecraft.polished_deepslate_wall": "Chiseled Marble Wall",
     "block.minecraft.chiseled_tuff_bricks": "Engraved Sandstone",
   
     "block.minecraft.cherry_trapdoor": "Smooth Stone Trapdoor",
     "block.minecraft.warped_trapdoor": "Sandstone Trapdoor",
-    "block.minecraft.crimson_trapdoor": "Quartz Trapdoor",
+    "block.minecraft.crimson_trapdoor": "Marble Trapdoor",
   
     "block.minecraft.crimson_sign": "White Terracotta Sign",
   
@@ -86,7 +86,7 @@
   
     "block.minecraft.purpur_pillar": "Orange Pillar",
     "block.minecraft.birch_stairs": "Thatch Stairs",
-    "block.minecraft.diorite_wall": "Quartz Pillar Wall",
+    "block.minecraft.diorite_wall": "Marble Pillar Wall",
     "block.minecraft.andesite_stairs": "Terracotta Stairs",
     "block.minecraft.andesite_slab": "Terracotta Slab",
     "block.minecraft.cornflower": "Flax",
@@ -176,6 +176,17 @@
     "item.minecraft.potato": "Cabbage",
     "item.minecraft.baked_potato": "Cooked Cabbage",
     "item.minecraft.cocoa_beans": "Dates",
+  
+    "block.minecraft.quartz_block": "Block of Marble",
+    "block.minecraft.quartz_stairs": "Marble Stairs",
+    "block.minecraft.quartz_slab": "Marble Slab",
+    "block.minecraft.chiseled_quartz_block": "Chiseled Marble Block",
+    "block.minecraft.quartz_bricks": "Marble Bricks",
+    "block.minecraft.quartz_pillar": "Marble Pillar",
+    "block.minecraft.smooth_quartz": "Smooth Marble Block",
+    "block.minecraft.smooth_quartz_stairs": "Smooth Marble Stairs",
+    "block.minecraft.smooth_quartz_slab": "Smooth Marble Slab",
+    "item.minecraft.quartz": "Marble",
   
     "menu.game": "\uE022",
     "menu.returnToGame": "Back to Mvndicraft"
