@@ -4,7 +4,7 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "diamond_hoe"
+            "model": "minecraft:item/hoe_base"
         },
         "entries": [
             {
@@ -300,128 +300,84 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/claymore"
                 }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/straight_sword_slide"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/blunt/war_hammer_reverse"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/true_straight_sword_slide"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/axes/varangian_axe_reverse"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/axes/broad_axe_reverse"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/blunt/spiked_goedendag_point"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/blunt/bludgeon"
+                }
+            },
+            {
+                "threshold": 1488,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:tools/chisel"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/godenak_falchion"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/axes/galloglach_axe"
+                }
             }
         ]
-    },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [
-                2,
-                0,
-                0
-            ],
-            "translation": [
-                -0.75,
-                -10,
-                2.75
-            ],
-            "scale": [
-                1.51,
-                0.92,
-                1.4
-            ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [
-                2,
-                0,
-                0
-            ],
-            "translation": [
-                0.75,
-                -10,
-                2.75
-            ],
-            "scale": [
-                1.51,
-                0.92,
-                1.4
-            ]
-        },
-        "firstperson_righthand": {
-            "rotation": [
-                -20,
-                -3,
-                -2
-            ],
-            "translation": [
-                -0.25,
-                -2.5,
-                6.5
-            ],
-            "scale": [
-                0.69,
-                0.69,
-                0.69
-            ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [
-                -20,
-                -3,
-                -2
-            ],
-            "translation": [
-                -0.25,
-                -2.5,
-                6.5
-            ],
-            "scale": [
-                0.69,
-                0.69,
-                0.69
-            ]
-        },
-        "ground": {
-            "rotation": [
-                0,
-                0,
-                -90
-            ],
-            "translation": [
-                -9,
-                0.25,
-                7.75
-            ],
-            "scale": [
-                1,
-                1,
-                2
-            ]
-        },
-        "gui": {
-            "rotation": [
-                73.85,
-                -61.97,
-                86.25
-            ],
-            "translation": [
-                3.25,
-                -13.25,
-                0
-            ],
-            "scale": [
-                1.2,
-                1.2,
-                1.2
-            ]
-        },
-        "fixed": {
-            "rotation": [
-                99.68,
-                52.62,
-                -98.63
-            ],
-            "translation": [
-                -5,
-                -11,
-                -0.75
-            ],
-            "scale": [
-                1,
-                1,
-                0.81
-            ]
-        }
     }
 }

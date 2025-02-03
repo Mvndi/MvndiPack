@@ -1,0 +1,596 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+                "type": "minecraft:select",
+                "property": "minecraft:charge_type",
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/crossbow"
+                },
+                "cases": [
+                    {
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_arrow"
+                        },
+                        "when": "arrow"
+                    },
+                    {
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_firework"
+                        },
+                        "when": "rocket"
+                    }
+                ]
+            },
+            "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:crossbow/pull",
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/crossbow_pulling_0"
+                },
+                "entries": [
+                    {
+                        "threshold": 0.58,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_pulling_1"
+                        }
+                    },
+                    {
+                        "threshold": 1.0,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_pulling_2"
+                        }
+                    }
+                ]
+            }
+        },
+        "entries": [
+            {
+                "threshold": 6002,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"
+                                },
+                                "when": "arrow"
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.01,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_1"
+                                }
+                            },
+                            {
+                                "threshold": 0.2,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_2"
+                                }
+                            },
+                            {
+                                "threshold": 0.4,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_3"
+                                }
+                            },
+                            {
+                                "threshold": 0.8,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_4"
+                                }
+                            },
+                            {
+                                "threshold": 0.8,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_5"
+                                }
+                            },
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_6"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 6003,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.01,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_1"
+                                }
+                            },
+                            {
+                                "threshold": 0.1,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_2"
+                                }
+                            },
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_3"
+                                }
+                            },
+                            {
+                                "threshold": 0.2,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_4"
+                                }
+                            },
+                            {
+                                "threshold": 0.25,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_5"
+                                }
+                            },
+                            {
+                                "threshold": 0.3,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_6"
+                                }
+                            },
+                            {
+                                "threshold": 0.35,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_7"
+                                }
+                            },
+                            {
+                                "threshold": 0.4,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_8"
+                                }
+                            },
+                            {
+                                "threshold": 0.5,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_9"
+                                }
+                            },
+                            {
+                                "threshold": 0.6,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_10"
+                                }
+                            },
+                            {
+                                "threshold": 0.7,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_11"
+                                }
+                            },
+                            {
+                                "threshold": 0.8,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_12"
+                                }
+                            },
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13"
+                                }
+                            },
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_14"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 7002,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"
+                                },
+                                "when": "arrow"
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.01,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_1"
+                                }
+                            },
+                            {
+                                "threshold": 0.2,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_2"
+                                }
+                            },
+                            {
+                                "threshold": 0.4,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_3"
+                                }
+                            },
+                            {
+                                "threshold": 0.8,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_4"
+                                }
+                            },
+                            {
+                                "threshold": 0.8,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_5"
+                                }
+                            },
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_6"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 7003,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.01,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_1"
+                                }
+                            },
+                            {
+                                "threshold": 0.1,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_2"
+                                }
+                            },
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_3"
+                                }
+                            },
+                            {
+                                "threshold": 0.2,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_4"
+                                }
+                            },
+                            {
+                                "threshold": 0.25,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_5"
+                                }
+                            },
+                            {
+                                "threshold": 0.3,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_6"
+                                }
+                            },
+                            {
+                                "threshold": 0.35,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_7"
+                                }
+                            },
+                            {
+                                "threshold": 0.4,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_8"
+                                }
+                            },
+                            {
+                                "threshold": 0.5,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_9"
+                                }
+                            },
+                            {
+                                "threshold": 0.6,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_10"
+                                }
+                            },
+                            {
+                                "threshold": 0.7,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_11"
+                                }
+                            },
+                            {
+                                "threshold": 0.8,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_12"
+                                }
+                            },
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_13"
+                                }
+                            },
+                            {
+                                "threshold": 1,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_14"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "translation": [
+                -1.75,
+                1,
+                -5.5
+            ],
+            "scale": [
+                1.55859,
+                1.75,
+                1.37891
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                -22.5,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -1.75,
+                -9.25
+            ],
+            "scale": [
+                1.55859,
+                1.75,
+                1.37891
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                -4.75,
+                -13,
+                7.25
+            ],
+            "translation": [
+                1.5,
+                2.15,
+                -4.5
+            ],
+            "scale": [
+                1.55859,
+                1.75,
+                1.37891
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                -4.75,
+                -13,
+                7.25
+            ],
+            "translation": [
+                1.5,
+                2.15,
+                -4.5
+            ],
+            "scale": [
+                1.55859,
+                1.75,
+                1.37891
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                4.25,
+                0
+            ]
+        },
+        "gui": {
+            "rotation": [
+                95,
+                -55.25,
+                58.25
+            ],
+            "translation": [
+                5,
+                3,
+                0
+            ],
+            "scale": [
+                1.5,
+                1,
+                1.5
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                -90,
+                -90,
+                0
+            ],
+            "translation": [
+                12.25,
+                0.25,
+                -4.5
+            ],
+            "scale": [
+                3.11718,
+                3.5,
+                2.75782
+            ]
+        }
+    }
+}

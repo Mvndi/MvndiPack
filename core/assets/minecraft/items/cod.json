@@ -1,0 +1,38 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/cod"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/trout"
+                }
+            }
+        ]
+    },
+    "display": {
+        "head": {
+            "rotation": [
+                0,
+                90,
+                -60
+            ],
+            "translation": [
+                -7,
+                -4,
+                -7
+            ],
+            "scale": [
+                0.8,
+                0.8,
+                0.8
+            ]
+        }
+    }
+}

@@ -1,0 +1,796 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/helmet_layer1"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/barbute"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/barbute_visor"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/great_helm/black_great_helm"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/brass_ridge_helm"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/bucket_helm"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/byz_crown"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/byz_pot_masked"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/byz_pot_padded"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/byz_pot_padded_2"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/cappello_di_paglia"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/catholic_bishop"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_norse_helm"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_spangenhelm"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_helm"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_helm_2"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_helm_3"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_nasal_helm"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/diadem_blue"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/diadem_red"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/dogal_cap"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/ducal_mortier"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/feathered_nasal_helm"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/gothic_helm"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/great_helm/great_helm"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/hre_crown"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italian_helm"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italo-norman_helm"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/jeweled_ridge_helm"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/kettle_helm/kettle_helm"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/kipchak_helm"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht_hat"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/morion_helm"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/nasal_helm"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/orthodox_bishop"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/great_helm/red_great_helm"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/ridge_helm"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/sallet_helm"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/saracen_crown"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/saracen_helm"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/saracen_helm_2"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/saracen_helm_3"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/solar_crown"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/spangenhelm"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/sutton_hoo"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/viking_helm"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/winged_teuton"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/andalusian_helm"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/chain_coif"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/visored_ridge_bascinet_helm"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/rider_helm/black_rider_helm"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/rider_helm/white_rider_helm"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/hounskull_bascinet"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/pig_face_bascinet"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/bretache_bascinet"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/blue_cross_nasal"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/red_cross_nasal"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/red_paint_nasal"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/red_white_cross_nasal"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/red_white_nasal"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm_crest"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/latrus_krivina_ridge_helm/latrus_krivina_ridge_helm"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barmitsa_conical_faceplate"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/visored_bucket_helm"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/galloglach_barbute"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/ocular_kettle_helm"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/caucasian_helm"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/nasal_kettle_helm"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/kettle_helm/ry_kettle_helm"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/kettle_helm/wr_kettle_helm"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/kettle_helm/yg_kettle_helm"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/kettle_helm/yr_kettle_helm"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/great_helm/bw_great_helm"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/great_helm/gg_great_helm"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/great_helm/wr_great_helm"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/rb_nasal"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/wr_nasal"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/wr2_nasal"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/yr_nasal"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/yr2_nasal"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/by_gothic_helm"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/gr_gothic_helm"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/rb_gothic_helm"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/rw_gothic_helm"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/ry_gothic_helm"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/yb_gothic_helm"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/yellow_barbute"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/red_barbute"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/gw_barbute"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/bw_barbute"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/br_barbute"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm_green"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm_orange"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm_blue"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm_magenta"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm_royal"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_mask"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/chain_coif_blue"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/chain_coif_green"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/eyes_chain_coif"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/chain_coif_green_yel"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/chain_coif_blue_yel"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/chain_coif/chain_coif_red"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_helm_red"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/conical_helm_blue"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_black"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_blue"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_blue1"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_green"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_red"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/landsknecht/landsknecht_helm_yellow"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/galero"
+                }
+            }
+        ]
+    }
+}

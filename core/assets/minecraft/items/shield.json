@@ -1,0 +1,1512 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/shield",
+                "model": {
+                    "type": "minecraft:shield"
+                }
+            },
+            "on_true": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/shield_blocking",
+                "model": {
+                    "type": "minecraft:shield"
+                }
+            }
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/blue_cup"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/blue_cup_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/burgundy"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/burgundy_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/catalan"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/catalan_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/french_2"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/french_2_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/french"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/french_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/hre_eagle"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/hre_eagle_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/red_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/red_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/blue_white_stripe_angled"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/blue_white_stripe_angled_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/blue_white_stripe_straight"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/blue_white_stripe_straight_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/byzantine"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/byzantine_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/castille"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/castille_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/georgian"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/georgian_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/red"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/red_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/red_white_stripe_angled"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/red_white_stripe_angled_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/red_white_stripe_straight"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/red_white_stripe_straight_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/white_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/white_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/aquila"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/aquila_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/papal_guard"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/papal_guard_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/chirho"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/chirho_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/orange_face"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/orange_face_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/sun"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/sun_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/veneziano"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/veneziano_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/black_yellow_checkerboard"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/black_yellow_checkerboard_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/green_yellow_stripe"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/green_yellow_stripe_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/red_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/red_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/red_white_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/red_white_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/red_white_stripe"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/red_white_stripe_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/venezia"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/venezia_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/black_red_checkerboard"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/black_red_checkerboard_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/black_white_swirl"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/black_white_swirl_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/black_yellow_checkerboard"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/black_yellow_checkerboard_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/blue_white_swirl"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/blue_white_swirl_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/red_white_swirl"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/red_white_swirl_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/viking_ship"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/viking_ship_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/white_red_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/white_red_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/blue_orange_red"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/blue_orange_red_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/blue_red"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/blue_red_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/brown_yellow"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/brown_yellow_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/red_yellow"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/red_yellow_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/bident"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/bident_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/blue_red_striped"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/blue_red_striped_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/blue_white_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/blue_white_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/green_white_arrow"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/green_white_arrow_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/lion"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/lion_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/red_star"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/red_star_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/yellow_red_cross"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/yellow_red_cross_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/quadcolor_triangles"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/quadcolor_triangles_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/red_spokes"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/red_spokes_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/white_flower"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/white_flower_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/green_horn"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/green_horn_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/red_dragon"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/red_dragon_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/green_spiral"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/green_spiral_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/orange_spiral"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/orange_spiral_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/red_flower"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/red_flower_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/yellow_sun"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/yellow_sun_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/teutonic_shield"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/teutonic_shield_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/highland"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/highland_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/lithuanian"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/lithuanian_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/white_boat"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/white_boat_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/azure_arabian"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/azure_arabian_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/red_thorn_arabian"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/red_thorn_arabian_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/white_flower_arabian"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/white_flower_arabian_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/plain"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/plain_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/red_berber"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/red_berber_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/yellow_pyramids"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/yellow_pyramids_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/stellar"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/stellar_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/pollen_dots"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/pollen_dots_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/orange_yellow_stripes"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/orange_yellow_stripes_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/obscure_truth"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/obscure_truth_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/green_stripes"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/green_stripes_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/green_red_stripes"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/green_red_stripes_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/green_creed"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/green_creed_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/diagonal_yellow"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/diagonal_yellow_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/whiteleaf"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/whiteleaf_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/rose"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/rose_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/redleaf"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/redleaf_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/blueflower"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/blueflower_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/blue_kolof"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/blue_kolof_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/green_kolof"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/green_kolof_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/orthodox4"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/orthodox4_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/stripe_green2"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/stripe_green2_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/mary_shield"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/mary_shield_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/red_kolof"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/red_kolof_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/eagle_shield"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/eagle_shield_blocking"
+                    }
+                }
+            }
+        ]
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                90,
+                0
+            ],
+            "translation": [
+                10,
+                6,
+                -4
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                90,
+                0
+            ],
+            "translation": [
+                10,
+                6,
+                12
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                180,
+                5
+            ],
+            "translation": [
+                -10,
+                2,
+                -10
+            ],
+            "scale": [
+                1.25,
+                1.25,
+                1.25
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                180,
+                5
+            ],
+            "translation": [
+                10,
+                0,
+                -10
+            ],
+            "scale": [
+                1.25,
+                1.25,
+                1.25
+            ]
+        },
+        "gui": {
+            "rotation": [
+                15,
+                -25,
+                -5
+            ],
+            "translation": [
+                2,
+                3,
+                0
+            ],
+            "scale": [
+                0.65,
+                0.65,
+                0.65
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                180,
+                0
+            ],
+            "translation": [
+                -2,
+                4,
+                -5
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "goval": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                4,
+                4,
+                2
+            ],
+            "scale": [
+                0.25,
+                0.25,
+                0.25
+            ]
+        }
+    }
+}

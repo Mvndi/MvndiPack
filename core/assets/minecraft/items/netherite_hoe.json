@@ -1,0 +1,1013 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/netherite_hoe"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/team_select_options"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/team_select"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/number_1_depressed"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/number_2_depressed"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/number_3_depressed"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/number_1_pressed"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/number_2_pressed"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:pvp/number_3_pressed"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/crafting"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/left_arrow"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/right_arrow"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/door"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skilltree_backboard"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/top_paper"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/back_paper"
+                }
+            },
+            {
+                "threshold": 9159,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/pig"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/sheep"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/chicken"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/wolf"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/goat"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/cow"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/animals/horse"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_0"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_1"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_2"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_3"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_4"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_5"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_6"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_7"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_8"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/digit_9"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_0"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_1"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_2"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_3"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_4"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_5"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_6"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_7"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_8"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/right_digit_9"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_05"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_15"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_25"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_35"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_45"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_gold_55"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_03"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_13"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_23"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_gold_33"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_01"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_gold_11"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_05_dark"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_03_dark"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_01_dark"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/mill/mill_gui"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/mill/mill_gui_loading"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_01_dark_left"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_01_left"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_gold_11_left"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/mill/sawmill_gui"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/mill/sawmill_gui_loading"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/top_paper_dark"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_bottom"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_castle_top_left"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_castle_bottom_left"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_castle_bottom_right"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_castle_top_right"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_banner"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_farming_silver"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_farming_gold"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_smith_silver"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_smith_gold"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_button_inspect"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_button_join"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_button_leave"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_farming"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/farming_steve"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_smithing"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/smithing_steve"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_10"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_9"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_8"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_7"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_6"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_5"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_4"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_3"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_2"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/farming_steve_1"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_10"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_9"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_8"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_7"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_6"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_5"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_4"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_3"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_2"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/smithing_steve_1"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_farmer"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_smith"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/professions_left_0"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/professions_left_1"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/professions_left_2"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_gui"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_molten_0"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_molten_1"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_molten_2"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_molten_3"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_molten_4"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/liquid_0"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/liquid_1"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/liquid_2"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/liquid_3"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/liquid_color"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/main"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_tools_depressed"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_tools_pressed"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_weapons_depressed"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_weapons_pressed"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_armor_depressed"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_armor_pressed"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_misc_1"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_misc_2"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/anvil/icon_anvil"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/blacksmith_difficulty"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_apprentice_light"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_journeyman_light"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_artisan_light"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_master_light"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_apprentice_dark"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_journeyman_dark"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_artisan_dark"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_master_dark"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/smithing_table_top"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/smithing_table_bottom"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_real"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/bloomery/bloomery_real_stages"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/smithing_table_crafting"
+                }
+            }
+        ]
+    }
+}
