@@ -1,25 +1,26 @@
 {
-	
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/hoe_base",
-	"textures": {
-		"2": "mvndicraft:tools/toolbottomtip",
-		"3": "mvndicraft:tools/toolhandletexture",
-		"4": "mvndicraft:tools/goldtooltexture",
-		"particle": "mvndicraft:tools/goldtooltexture"
-	},
-"overrides": [
-	{
-		"predicate": {
-			"custom_model_data": 13
-		},
-		"model": "mvndicraft:ui/gui/hub_gui"
-	},
-	{
-		"predicate": {
-			"custom_model_data": 14
-		},
-		"model": "mvndicraft:ui/gui/hub_gui_help"
-	}
-]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/hoe_base"
+        },
+        "entries": [
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/gui/hub_gui"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/gui/hub_gui_help"
+                }
+            }
+        ]
+    }
 }

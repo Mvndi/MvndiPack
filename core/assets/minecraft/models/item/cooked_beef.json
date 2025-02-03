@@ -1,13 +1,19 @@
 {
-	"parent": "item/beef_base",
-	"textures": {
-		"0": "item/steak_0",
-		"particle": "item/steak_0"
-	},
-	"overrides": [
-		{
-		  "predicate": {"custom_model_data": 1},
-		  "model": "mvndicraft:farming/truffles"
-		}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/beef_base"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/truffles"
+                }
+            }
+        ]
+    }
 }

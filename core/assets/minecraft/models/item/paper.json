@@ -1,16 +1,61 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/paper"
-    },
-
-	"overrides": [
-	{"predicate": {"custom_model_data":1}, "model": "mvndicraft:display/mvndicraft_logo_text"},
-	{"predicate": {"custom_model_data":2}, "model": "mvndicraft:ui/menu/scroll"},
-	{"predicate": {"custom_model_data":3}, "model": "mvndicraft:ui/menu/strength"},
-	{"predicate": {"custom_model_data":4}, "model": "mvndicraft:ui/menu/dexterity"},
-	{"predicate": {"custom_model_data":5}, "model": "mvndicraft:ui/menu/vitality"},
-	{"predicate": {"custom_model_data":6}, "model": "mvndicraft:ui/menu/resistance"},
-	{"predicate": {"custom_model_data":7}, "model": "mvndicraft:ui/menu/endurance"}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/paper"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:display/mvndicraft_logo_text"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/scroll"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/strength"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/dexterity"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/vitality"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/resistance"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/endurance"
+                }
+            }
+        ]
+    }
 }

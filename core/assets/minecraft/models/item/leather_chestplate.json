@@ -1,87 +1,103 @@
 {
-  "parent": "item/chestplate_layer1",
-  "textures": {
-    "chestplate": "models/armor/leatherlayer1/10",
-	"layer1": "models/armor/leather_layer_1_overlay"
-  },
-  "overrides": [
-	{
-	  "model": "item/custom/gambeson",
-	  "predicate": {
-		  "custom_model_data": 1
-	  }
-	},
-	{
-	  "model": "item/custom/strapped_chainmail_shirt",
-	  "predicate": {
-		  "custom_model_data": 2
-	  }
-	},
-	{
-	  "model": "item/custom/bronze_scale_shirt",
-	  "predicate": {
-		  "custom_model_data": 3
-	  }
-	},
-	{
-	  "model": "item/custom/brigandine_armor",
-	  "predicate": {
-		  "custom_model_data": 4
-	  }
-	},
-	{
-	  "model": "item/custom/steel_plackart",
-	  "predicate": {
-		  "custom_model_data": 5
-	  }
-	},
-	{
-	  "model": "item/custom/plated_brigandine",
-	  "predicate": {
-		  "custom_model_data": 6
-	  }
-	},
-	{
-	  "model": "item/custom/tabard_hauberk",
-	  "predicate": {
-		  "custom_model_data": 7
-	  }
-	},
-	{
-	  "model": "item/custom/tabard_plate",
-	  "predicate": {
-		  "custom_model_data": 8
-	  }
-	},
-	{
-	  "model": "item/custom/lamellar_shirt",
-	  "predicate": {
-		  "custom_model_data": 9
-	  }
-	},
-	{
-	  "model": "item/custom/chainmail_lamellar_shirt",
-	  "predicate": {
-		  "custom_model_data": 10
-	  }
-	},
-	{
-	  "model": "item/custom/reinforced_cuirass",
-	  "predicate": {
-		  "custom_model_data": 11
-	  }
-	},
-	{
-	  "model": "item/custom/half_plate_cuirass",
-	  "predicate": {
-		  "custom_model_data": 12
-	  }
-	},
-	{
-	  "model": "item/custom/black_rider_cuirass",
-	  "predicate": {
-		  "custom_model_data": 13
-	  }
-	}
-  ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/chestplate_layer1"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/gambeson"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/strapped_chainmail_shirt"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/bronze_scale_shirt"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/brigandine_armor"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/steel_plackart"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plated_brigandine"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/tabard_hauberk"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/tabard_plate"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/lamellar_shirt"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/chainmail_lamellar_shirt"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/reinforced_cuirass"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/half_plate_cuirass"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/black_rider_cuirass"
+                }
+            }
+        ]
+    }
 }

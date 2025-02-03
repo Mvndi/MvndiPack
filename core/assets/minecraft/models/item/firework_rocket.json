@@ -1,11 +1,26 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "item/firework_rocket"
-    },
-
-	"overrides": [
-		{"predicate": {"custom_model_data": 6000}, "model": "mvndicraft:weapons/firearms/gunpowder_bag"},
-		{"predicate": {"custom_model_data": 6001}, "model": "mvndicraft:weapons/firearms/bullet"}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/firework_rocket"
+        },
+        "entries": [
+            {
+                "threshold": 6000,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/gunpowder_bag"
+                }
+            },
+            {
+                "threshold": 6001,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/bullet"
+                }
+            }
+        ]
+    }
 }

@@ -1,271 +1,1853 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/stick"
-    },
-    "overrides": [
-        {"predicate":{"custom_model_data":1},"model":"mvndicraft:weapons/firearms/parts/staff"},
-        {"predicate":{"custom_model_data":2},"model":"mvndicraft:weapons/firearms/parts/barrel"},
-        {"predicate":{"custom_model_data":3},"model":"mvndicraft:weapons/firearms/parts/ramrod"},
-        {"predicate":{"custom_model_data":4},"model":"mvndicraft:weapons/firearms/parts/stock"},
-        {"predicate":{"custom_model_data":5},"model":"mvndicraft:weapons/firearms/parts/trigger_mechanism"},
-        {"predicate":{"custom_model_data":6},"model":"mvndicraft:recipes/broadsword"},
-        {"predicate":{"custom_model_data":7},"model":"mvndicraft:recipes/shortsword"},
-        {"predicate":{"custom_model_data":8},"model":"mvndicraft:recipes/scimitar"},
-        {"predicate":{"custom_model_data":9},"model":"mvndicraft:recipes/light_axe"},
-        {"predicate":{"custom_model_data":10},"model":"mvndicraft:recipes/pole_club"},
-        {"predicate":{"custom_model_data":11},"model":"mvndicraft:recipes/club"},
-        {"predicate":{"custom_model_data":12},"model":"mvndicraft:recipes/heavy_axe"},
-        {"predicate":{"custom_model_data":13},"model":"mvndicraft:recipes/greatsword"},
-        {"predicate":{"custom_model_data":14},"model":"mvndicraft:recipes/short_spear"},
-        {"predicate":{"custom_model_data":15},"model":"mvndicraft:recipes/pole_arm"},
-        {"predicate":{"custom_model_data":16},"model":"mvndicraft:recipes/falchion"},
-        {"predicate":{"custom_model_data":20},"model":"mvndicraft:siege/item/trebuchet"},
-        {"predicate":{"custom_model_data":21},"model":"mvndicraft:siege/item/cannon"},
-        {"predicate":{"custom_model_data":22},"model":"mvndicraft:siege/item/ballista"},
-        {"predicate":{"custom_model_data":23},"model":"mvndicraft:siege/item/greek_fire"},
-        {"predicate":{"custom_model_data":25},"model":"mvndicraft:farming/sage"},
-        {"predicate":{"custom_model_data":26},"model":"mvndicraft:farming/sage_seed"},
-        {"predicate":{"custom_model_data":27},"model":"mvndicraft:farming/rosemary_seed"},
-        {"predicate":{"custom_model_data":28},"model":"mvndicraft:farming/rosemary"},
-        {"predicate":{"custom_model_data":29},"model":"mvndicraft:farming/flaxseed"},
-        {"predicate":{"custom_model_data":31},"model":"mvndicraft:farming/flax_bundle"},
-        {"predicate":{"custom_model_data":33},"model":"mvndicraft:farming/wrench"},
-        {"predicate":{"custom_model_data":34},"model":"mvndicraft:farming/mill_wheel"},
-        {"predicate":{"custom_model_data":35},"model":"mvndicraft:farming/flour"},
-        {"predicate":{"custom_model_data":36},"model":"mvndicraft:farming/sawmill_none"},
-        {"predicate":{"custom_model_data":37},"model":"mvndicraft:farming/sawmill_log"},
-        {"predicate":{"custom_model_data":38},"model":"mvndicraft:farming/saw"},
-        {"predicate":{"custom_model_data":39},"model":"mvndicraft:farming/worm"},
-        {"predicate":{"custom_model_data":40},"model":"mvndicraft:farming/cart_wheels"},
-        {"predicate":{"custom_model_data":41},"model":"mvndicraft:farming/cart_hay"},
-        {"predicate":{"custom_model_data":42},"model":"mvndicraft:farming/barley"},
-        {"predicate":{"custom_model_data":43},"model":"mvndicraft:farming/genetics_icon"},
-        {"predicate":{"custom_model_data":44},"model":"mvndicraft:blacksmith/crucible"},
-        {"predicate":{"custom_model_data":45},"model":"mvndicraft:blacksmith/ingot_cast_molten"},
-        {"predicate":{"custom_model_data":46},"model":"mvndicraft:blacksmith/ingot_cast_empty"},
-        {"predicate":{"custom_model_data":47},"model":"mvndicraft:blacksmith/steel_ingot"},
-        {"predicate":{"custom_model_data":48},"model":"mvndicraft:blacksmith/ingot_cast_hot_ingot"},
-        {"predicate":{"custom_model_data":49},"model":"mvndicraft:blacksmith/animation/blade_animation_0"},
-        {"predicate":{"custom_model_data":50},"model":"mvndicraft:blacksmith/animation/blade_animation_1"},
-        {"predicate":{"custom_model_data":51},"model":"mvndicraft:blacksmith/animation/blade_animation_2"},
-        {"predicate":{"custom_model_data":52},"model":"mvndicraft:blacksmith/animation/blade_animation_3"},
-        {"predicate":{"custom_model_data":53},"model":"mvndicraft:blacksmith/hammer_crosshair"},
-        {"predicate":{"custom_model_data":54},"model":"mvndicraft:blacksmith/hot_steel_ingot"},
-        {"predicate":{"custom_model_data":55},"model":"mvndicraft:blacksmith/animation/guard_animation_0"},
-        {"predicate":{"custom_model_data":56},"model":"mvndicraft:blacksmith/animation/guard_animation_1"},
-        {"predicate":{"custom_model_data":57},"model":"mvndicraft:blacksmith/animation/guard_animation_2"},
-        {"predicate":{"custom_model_data":58},"model":"mvndicraft:blacksmith/rack/cooling_rack"},
-        {"predicate":{"custom_model_data":59},"model":"mvndicraft:blacksmith/bloom_0"},
-        {"predicate":{"custom_model_data":60},"model":"mvndicraft:blacksmith/bloom_1"},
-        {"predicate":{"custom_model_data":61},"model":"mvndicraft:blacksmith/bloom_2"},
-        {"predicate":{"custom_model_data":62},"model":"mvndicraft:blacksmith/bloom_3"},
-        {"predicate":{"custom_model_data":63},"model":"mvndicraft:blacksmith/bloom_3"},
-        {"predicate":{"custom_model_data":64},"model":"mvndicraft:blacksmith/hot_cast_iron_ingot"},
-        {"predicate":{"custom_model_data":65},"model":"mvndicraft:blacksmith/slag"},
-        {"predicate":{"custom_model_data":66},"model":"mvndicraft:blacksmith/power_hammer_base"},
-        {"predicate":{"custom_model_data":67},"model":"mvndicraft:blacksmith/power_hammer"},
-        {"predicate":{"custom_model_data":68},"model":"mvndicraft:blacksmith/animation/rod_animation_1"},
-        {"predicate":{"custom_model_data":69},"model":"mvndicraft:blacksmith/animation/rod_animation_2"},
-        {"predicate":{"custom_model_data":70},"model":"mvndicraft:blacksmith/steel_rod"},
-        {"predicate":{"custom_model_data":71},"model":"mvndicraft:blacksmith/steel_wire"},
-        {"predicate":{"custom_model_data":72},"model":"mvndicraft:blacksmith/draw_plate"},
-        {"predicate":{"custom_model_data":73},"model":"mvndicraft:blacksmith/draw_plate_1"},
-        {"predicate":{"custom_model_data":74},"model":"mvndicraft:blacksmith/draw_plate_3"},
-        {"predicate":{"custom_model_data":75},"model":"mvndicraft:blacksmith/draw_plate_5"},
-        {"predicate":{"custom_model_data":76},"model":"mvndicraft:blacksmith/draw_plate_7"},
-        {"predicate":{"custom_model_data":77},"model":"mvndicraft:blacksmith/chainmail"},
-        {"predicate":{"custom_model_data":78},"model":"mvndicraft:blacksmith/animation/short_blade_animation_3"},
-        {"predicate":{"custom_model_data":79},"model":"mvndicraft:blacksmith/animation/curved_blade_animation_2"},
-        {"predicate":{"custom_model_data":80},"model":"mvndicraft:blacksmith/animation/greatsword_animation_0"},
-        {"predicate":{"custom_model_data":81},"model":"mvndicraft:blacksmith/animation/greatsword_animation_1"},
-        {"predicate":{"custom_model_data":82},"model":"mvndicraft:blacksmith/animation/greatsword_animation_2"},
-        {"predicate":{"custom_model_data":83},"model":"mvndicraft:blacksmith/animation/greatsword_animation_3"},
-        {"predicate":{"custom_model_data":84},"model":"mvndicraft:blacksmith/animation/shovelhead_animation_0"},
-        {"predicate":{"custom_model_data":85},"model":"mvndicraft:blacksmith/animation/shovelhead_animation_1"},
-        {"predicate":{"custom_model_data":86},"model":"mvndicraft:blacksmith/animation/shovelhead_animation_2"},
-        {"predicate":{"custom_model_data":87},"model":"mvndicraft:blacksmith/animation/axehead_animation_0"},
-        {"predicate":{"custom_model_data":88},"model":"mvndicraft:blacksmith/animation/axehead_animation_1"},
-        {"predicate":{"custom_model_data":89},"model":"mvndicraft:blacksmith/animation/axehead_animation_2"},
-        {"predicate":{"custom_model_data":90},"model":"mvndicraft:blacksmith/animation/pickaxehead_animation_0"},
-        {"predicate":{"custom_model_data":91},"model":"mvndicraft:blacksmith/animation/pickaxehead_animation_1"},
-        {"predicate":{"custom_model_data":92},"model":"mvndicraft:blacksmith/animation/pickaxehead_animation_2"},
-        {"predicate":{"custom_model_data":93},"model":"mvndicraft:blacksmith/animation/hoehead_animation_0"},
-        {"predicate":{"custom_model_data":94},"model":"mvndicraft:blacksmith/animation/hoehead_animation_1"},
-        {"predicate":{"custom_model_data":95},"model":"mvndicraft:blacksmith/animation/hoehead_animation_2"},
-        {"predicate":{"custom_model_data":96},"model":"mvndicraft:blacksmith/hammer_crosshair_red"},
-        {"predicate":{"custom_model_data":97},"model":"mvndicraft:farming/mill_wheel_item"},
-        {"predicate":{"custom_model_data":98},"model":"mvndicraft:blacksmith/copper_nail"},
-        {"predicate":{"custom_model_data":99},"model":"mvndicraft:siege/item/cannon_barrel"},
-        {"predicate":{"custom_model_data":100},"model":"mvndicraft:siege/item/cannon_butt"},
-        {"predicate":{"custom_model_data":101},"model":"mvndicraft:siege/item/cannon_wheel"},
-        {"predicate":{"custom_model_data":102},"model":"mvndicraft:siege/block/new_ballista/ballista_top"},
-        {"predicate":{"custom_model_data":103},"model":"mvndicraft:siege/item/rotating_turret"},
-        {"predicate":{"custom_model_data":104},"model":"mvndicraft:siege/item/siphon"},
-        {"predicate":{"custom_model_data":105},"model":"mvndicraft:siege/item/canister"},
-        {"predicate":{"custom_model_data":106},"model":"mvndicraft:siege/item/counterweight_carrier"},
-        {"predicate":{"custom_model_data":107},"model":"mvndicraft:siege/item/trebuchet_base"},
-        {"predicate":{"custom_model_data":108},"model":"mvndicraft:siege/item/trebuchet_arm"},
-        {"predicate":{"custom_model_data":109},"model":"mvndicraft:blacksmith/animation/halberd/halberd_animation_0"},
-        {"predicate":{"custom_model_data":110},"model":"mvndicraft:blacksmith/animation/halberd/halberd_animation_1"},
-        {"predicate":{"custom_model_data":111},"model":"mvndicraft:blacksmith/animation/halberd/halberd_animation_2"},
-        {"predicate":{"custom_model_data":112},"model":"mvndicraft:blacksmith/animation/halberd/halberd_animation_3"},
-        {"predicate":{"custom_model_data":113},"model":"mvndicraft:siege/item/trebuchet_sling"},
-        {"predicate":{"custom_model_data":114},"model":"mvndicraft:farming/plough_wheels"},
-        {"predicate":{"custom_model_data":115},"model":"mvndicraft:blacksmith/clay_furnace"},
-		{"predicate":{"custom_model_data":116},"model":"mvndicraft:blacksmith/clay_furnace_on"},
-        {"predicate":{"custom_model_data":117},"model":"mvndicraft:blacksmith/animation/spare"},
-        {"predicate":{"custom_model_data":118},"model":"mvndicraft:blacksmith/animation/spare"},
-        {"predicate":{"custom_model_data":119},"model":"mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_0"},
-        {"predicate":{"custom_model_data":120},"model":"mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_1"},
-        {"predicate":{"custom_model_data":121},"model":"mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_2"},
-        {"predicate":{"custom_model_data":122},"model":"mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_3"},
-        {"predicate":{"custom_model_data":123},"model":"mvndicraft:blacksmith/animation/blunt/macehead_animation_1"},  
-        {"predicate":{"custom_model_data":124},"model":"mvndicraft:blacksmith/animation/blunt/macehead_animation_2"},
-        {"predicate":{"custom_model_data":125},"model":"mvndicraft:blacksmith/animation/blunt/macehead_animation_3"},   
-        {"predicate":{"custom_model_data":126},"model":"mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_0"},   
-        {"predicate":{"custom_model_data":127},"model":"mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_1"},   
-        {"predicate":{"custom_model_data":128},"model":"mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_2"},   
-        {"predicate":{"custom_model_data":129},"model":"mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_3"},   
-        {"predicate":{"custom_model_data":130},"model":"mvndicraft:blacksmith/animation/blunt/spikedgoedendaghead_animation_1"},   
-        {"predicate":{"custom_model_data":131},"model":"mvndicraft:blacksmith/animation/blunt/spikedgoedendaghead_animation_2"},   
-        {"predicate":{"custom_model_data":132},"model":"mvndicraft:blacksmith/animation/blunt/spikedgoedendaghead_animation_3"},   
-        {"predicate":{"custom_model_data":133},"model":"mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_0"},   
-        {"predicate":{"custom_model_data":134},"model":"mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_1"},   
-        {"predicate":{"custom_model_data":135},"model":"mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_2"},   
-        {"predicate":{"custom_model_data":136},"model":"mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_3"},   
-        {"predicate":{"custom_model_data":137},"model":"mvndicraft:blacksmith/animation/heavyaxe/broadaxehead_animation_3"},  
-        {"predicate":{"custom_model_data":138},"model":"mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_0"},
-        {"predicate":{"custom_model_data":139},"model":"mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_1"},
-        {"predicate":{"custom_model_data":140},"model":"mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_2"},
-        {"predicate":{"custom_model_data":141},"model":"mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_3"},
-        {"predicate":{"custom_model_data":142},"model":"mvndicraft:blacksmith/animation/heavyaxe/galloglachaxehead_animation_1"},
-        {"predicate":{"custom_model_data":143},"model":"mvndicraft:blacksmith/animation/heavyaxe/galloglachaxehead_animation_2"},
-        {"predicate":{"custom_model_data":144},"model":"mvndicraft:blacksmith/animation/heavyaxe/galloglachaxehead_animation_3"},
-        {"predicate":{"custom_model_data":145},"model":"mvndicraft:blacksmith/animation/heavyaxe/heavyaxehead_animation_0"},
-        {"predicate":{"custom_model_data":146},"model":"mvndicraft:blacksmith/animation/heavyaxe/heavyaxehead_animation_1"},
-        {"predicate":{"custom_model_data":147},"model":"mvndicraft:blacksmith/animation/heavyaxe/heavyaxehead_animation_2"},
-        {"predicate":{"custom_model_data":148},"model":"mvndicraft:blacksmith/animation/heavyaxe/varangianaxehead_animation_3"},
-        {"predicate":{"custom_model_data":149},"model":"mvndicraft:blacksmith/animation/lightaxe/beardedaxehead_animation_2"},
-        {"predicate":{"custom_model_data":150},"model":"mvndicraft:blacksmith/animation/lightaxe/franciscaaxehead_animation_1"},
-        {"predicate":{"custom_model_data":151},"model":"mvndicraft:blacksmith/animation/lightaxe/franciscaaxehead_animation_2"}, 
-        {"predicate":{"custom_model_data":152},"model":"mvndicraft:blacksmith/animation/lightaxe/hammeraxehead_animation_1"},
-        {"predicate":{"custom_model_data":153},"model":"mvndicraft:blacksmith/animation/lightaxe/hammeraxehead_animation_2"},
-        {"predicate":{"custom_model_data":154},"model":"mvndicraft:blacksmith/animation/polearm/angularspearhead_animation_0"},
-        {"predicate":{"custom_model_data":155},"model":"mvndicraft:blacksmith/animation/polearm/angularspearhead_animation_1"},
-        {"predicate":{"custom_model_data":156},"model":"mvndicraft:blacksmith/animation/polearm/angularspearhead_animation_2"},
-        {"predicate":{"custom_model_data":157},"model":"mvndicraft:blacksmith/animation/polearm/billhookhead_animation_1"},
-        {"predicate":{"custom_model_data":158},"model":"mvndicraft:blacksmith/animation/polearm/billhookhead_animation_2"},
-        {"predicate":{"custom_model_data":159},"model":"mvndicraft:blacksmith/animation/polearm/billhookhead_animation_3"},
-        {"predicate":{"custom_model_data":160},"model":"mvndicraft:blacksmith/animation/polearm/fauchardhead_animation_1"},
-        {"predicate":{"custom_model_data":161},"model":"mvndicraft:blacksmith/animation/polearm/fauchardhead_animation_2"},
-        {"predicate":{"custom_model_data":162},"model":"mvndicraft:blacksmith/animation/polearm/fauchardhead_animation_3"},
-        {"predicate":{"custom_model_data":163},"model":"mvndicraft:blacksmith/animation/polearm/glaivehead_animation_0"},
-        {"predicate":{"custom_model_data":164},"model":"mvndicraft:blacksmith/animation/polearm/glaivehead_animation_1"},
-        {"predicate":{"custom_model_data":165},"model":"mvndicraft:blacksmith/animation/polearm/glaivehead_animation_2"},
-        {"predicate":{"custom_model_data":166},"model":"mvndicraft:blacksmith/animation/polearm/glaivehead_animation_3"},
-        {"predicate":{"custom_model_data":167},"model":"mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_0"},
-        {"predicate":{"custom_model_data":168},"model":"mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_1"},
-        {"predicate":{"custom_model_data":169},"model":"mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_2"},
-        {"predicate":{"custom_model_data":170},"model":"mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_3"},
-        {"predicate":{"custom_model_data":171},"model":"mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_0"},
-        {"predicate":{"custom_model_data":172},"model":"mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_1"},
-        {"predicate":{"custom_model_data":173},"model":"mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_2"},
-        {"predicate":{"custom_model_data":174},"model":"mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_3"},
-        {"predicate":{"custom_model_data":175},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_0"},
-        {"predicate":{"custom_model_data":176},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_1"},
-        {"predicate":{"custom_model_data":177},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_2"},
-        {"predicate":{"custom_model_data":178},"model":"mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_3"},
-        {"predicate":{"custom_model_data":179},"model":"mvndicraft:blacksmith/armor_plate"},
-        {"predicate":{"custom_model_data":180},"model":"mvndicraft:blacksmith/animation/falchion/falchion_animation_1"},
-        {"predicate":{"custom_model_data":181},"model":"mvndicraft:blacksmith/animation/falchion/falchion_animation_2"},
-        {"predicate":{"custom_model_data":182},"model":"mvndicraft:blacksmith/animation/falchion/falchion_animation_3"},
-        {"predicate":{"custom_model_data":183},"model":"mvndicraft:blacksmith/animation/curved_blade_animation_3"},
-        {"predicate":{"custom_model_data":3000},"model":"mvndicraft:placeables/barricade"},
-        {"predicate":{"custom_model_data":3001},"model":"mvndicraft:placeables/bear_trap/bear_trap_open"},
-        {"predicate":{"custom_model_data":3002},"model":"mvndicraft:placeables/bear_trap/bear_trap_closed"},
-        {"predicate":{"custom_model_data":3003},"model":"mvndicraft:placeables/bear_trap/bear_trap_open_underground"},
-        {"predicate":{"custom_model_data":439020},"model":"mvndicraft:siege/block/trebuchet/new/base_center"},
-        {"predicate":{"custom_model_data":439021},"model":"mvndicraft:siege/block/trebuchet/new/base_top"},
-        {"predicate":{"custom_model_data":439022},"model":"mvndicraft:siege/block/trebuchet/new/base_back_activated"},
-        {"predicate":{"custom_model_data":439023},"model":"mvndicraft:siege/block/trebuchet/new/base_back_ready"},
-        {"predicate":{"custom_model_data":439024},"model":"mvndicraft:siege/block/trebuchet/new/arm"},
-        {"predicate":{"custom_model_data":439025},"model":"mvndicraft:siege/block/trebuchet/new/counterweight"},
-        {"predicate":{"custom_model_data":439026},"model":"mvndicraft:siege/block/trebuchet/new/rope"},
-        {"predicate":{"custom_model_data":439027},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed"},
-        {"predicate":{"custom_model_data":439028},"model":"mvndicraft:siege/block/trebuchet/new/rope_track"},
-        {"predicate":{"custom_model_data":439029},"model":"mvndicraft:siege/block/trebuchet/new/rope_track_armed"},
-        {"predicate":{"custom_model_data":439030},"model":"mvndicraft:siege/block/cannon/base"},
-        {"predicate":{"custom_model_data":439031},"model":"mvndicraft:siege/block/cannon/barrel_loaded"},
-        {"predicate":{"custom_model_data":439032},"model":"mvndicraft:siege/block/cannon/barrel"},
-        {"predicate":{"custom_model_data":439033},"model":"mvndicraft:siege/block/cannon/all"},
-        {"predicate":{"custom_model_data":439034},"model":"mvndicraft:siege/block/cannon/animation/frame_0"},
-        {"predicate":{"custom_model_data":439035},"model":"mvndicraft:siege/block/cannon/animation/frame_1"},
-        {"predicate":{"custom_model_data":439036},"model":"mvndicraft:siege/block/cannon/animation/frame_2"},
-        {"predicate":{"custom_model_data":439037},"model":"mvndicraft:siege/block/cannon/animation/frame_3"},
-        {"predicate":{"custom_model_data":439038},"model":"mvndicraft:siege/block/cannon/animation/frame_4"},
-        {"predicate":{"custom_model_data":439039},"model":"mvndicraft:siege/block/cannon/animation/frame_5"},
-        {"predicate":{"custom_model_data":439040},"model":"mvndicraft:siege/block/cannon/animation/frame_6"},
-        {"predicate":{"custom_model_data":439041},"model":"mvndicraft:siege/block/cannon/animation/frame_7"},
-        {"predicate":{"custom_model_data":439042},"model":"mvndicraft:siege/block/cannon/animation/frame_8"},
-        {"predicate":{"custom_model_data":439043},"model":"mvndicraft:siege/block/cannon/animation/frame_9"},
-        {"predicate":{"custom_model_data":439044},"model":"mvndicraft:siege/block/cannon/animation/frame_10"},
-        {"predicate":{"custom_model_data":439045},"model":"mvndicraft:siege/block/cannon/animation/frame_11"},
-        {"predicate":{"custom_model_data":439046},"model":"mvndicraft:siege/block/cannon/animation/frame_12"},
-        {"predicate":{"custom_model_data":439047},"model":"mvndicraft:siege/block/cannon/animation/frame_13"},
-        {"predicate":{"custom_model_data":439048},"model":"mvndicraft:siege/block/cannon/animation/frame_14"},
-        {"predicate":{"custom_model_data":439049},"model":"mvndicraft:siege/block/cannon/animation/frame_15"},
-        {"predicate":{"custom_model_data":439050},"model":"mvndicraft:siege/block/cannon/animation/frame_16"},
-        {"predicate":{"custom_model_data":439051},"model":"mvndicraft:siege/block/cannon/animation/frame_17"},
-        {"predicate":{"custom_model_data":439052},"model":"mvndicraft:siege/block/cannon/animation/frame_18"},
-        {"predicate":{"custom_model_data":439053},"model":"mvndicraft:siege/block/cannon/animation/frame_19"},
-        {"predicate":{"custom_model_data":439054},"model":"mvndicraft:siege/block/cannon/animation/frame_20"},
-        {"predicate":{"custom_model_data":439055},"model":"mvndicraft:siege/block/cannon/animation/frame_21"},
-        {"predicate":{"custom_model_data":439056},"model":"mvndicraft:siege/block/cannon/animation/frame_22"},
-        {"predicate":{"custom_model_data":439057},"model":"mvndicraft:siege/block/cannon/animation/frame_23"},
-        {"predicate":{"custom_model_data":439058},"model":"mvndicraft:siege/block/cannon/animation/frame_24"},
-        {"predicate":{"custom_model_data":439059},"model":"mvndicraft:siege/block/cannon/animation/frame_25"},
-        {"predicate":{"custom_model_data":439060},"model":"mvndicraft:siege/block/cannon/animation/frame_26"},
-        {"predicate":{"custom_model_data":439061},"model":"mvndicraft:siege/block/cannon/animation/frame_27"},
-        {"predicate":{"custom_model_data":439062},"model":"mvndicraft:siege/block/cannon/animation/frame_28"},
-        {"predicate":{"custom_model_data":439063},"model":"mvndicraft:siege/block/cannon/animation/frame_29"},
-        {"predicate":{"custom_model_data":439064},"model":"mvndicraft:siege/block/cannon/animation/frame_30"},
-        {"predicate":{"custom_model_data":439065},"model":"mvndicraft:siege/block/cannon/animation/frame_31"},
-        {"predicate":{"custom_model_data":439066},"model":"mvndicraft:siege/block/cannon/animation/frame_32"},
-        {"predicate":{"custom_model_data":439067},"model":"mvndicraft:siege/block/cannon/animation/frame_33"},
-        {"predicate":{"custom_model_data":439068},"model":"mvndicraft:siege/block/cannon/animation/frame_34"},
-        {"predicate":{"custom_model_data":439069},"model":"mvndicraft:siege/block/cannon/animation/frame_35"},
-        {"predicate":{"custom_model_data":439070},"model":"mvndicraft:siege/block/cannon/animation/frame_36"},
-        {"predicate":{"custom_model_data":439071},"model":"mvndicraft:siege/block/cannon/animation/frame_37"},
-        {"predicate":{"custom_model_data":439072},"model":"mvndicraft:siege/block/cannon/animation/frame_38"},
-        {"predicate":{"custom_model_data":439073},"model":"mvndicraft:siege/block/cannon/animation/frame_39"},
-        {"predicate":{"custom_model_data":439074},"model":"mvndicraft:siege/block/new_ballista/ballista_base"},
-        {"predicate":{"custom_model_data":439075},"model":"mvndicraft:siege/block/new_ballista/ballista_support"},
-        {"predicate":{"custom_model_data":439076},"model":"mvndicraft:siege/block/new_ballista/ballista_top"},
-        {"predicate":{"custom_model_data":439077},"model":"mvndicraft:siege/block/new_ballista/ballista_stage_0"},
-        {"predicate":{"custom_model_data":439078},"model":"mvndicraft:siege/block/new_ballista/ballista_stage_1"},
-        {"predicate":{"custom_model_data":439079},"model":"mvndicraft:siege/block/new_ballista/ballista_stage_0"},
-        {"predicate":{"custom_model_data":439080},"model":"mvndicraft:siege/block/new_ballista/ballista_loaded"},
-        {"predicate":{"custom_model_data":439081},"model":"mvndicraft:siege/block/greek_fire/head"},
-        {"predicate":{"custom_model_data":439082},"model":"mvndicraft:siege/block/greek_fire/support"},
-        {"predicate":{"custom_model_data":439083},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_no_boulder"},
-        {"predicate":{"custom_model_data":439084},"model":"mvndicraft:siege/block/trebuchet/new/rope_stage_1"},
-        {"predicate":{"custom_model_data":439085},"model":"mvndicraft:siege/block/trebuchet/new/rope_stage_2"},
-        {"predicate":{"custom_model_data":439086},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_1"},
-        {"predicate":{"custom_model_data":439087},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_3"},
-        {"predicate":{"custom_model_data":439088},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_4"},
-        {"predicate":{"custom_model_data":439089},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_5"},
-        {"predicate":{"custom_model_data":439090},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_6"},
-        {"predicate":{"custom_model_data":439091},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_7"},
-        {"predicate":{"custom_model_data":439092},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_8"},
-        {"predicate":{"custom_model_data":439093},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_9"},
-        {"predicate":{"custom_model_data":439094},"model":"mvndicraft:siege/block/trebuchet/new/rope_armed_stage_10"},
-        {"predicate":{"custom_model_data":439095},"model":"mvndicraft:siege/block/trebuchet/new/counterweight_225"},
-        {"predicate":{"custom_model_data":439096},"model":"mvndicraft:siege/block/trebuchet/new/counterweight_45"},
-        {"predicate":{"custom_model_data":439097},"model":"mvndicraft:siege/block/trebuchet/new/counterweight_775"},
-        {"predicate":{"custom_model_data":439098},"model":"mvndicraft:siege/block/trebuchet/new/counterweight_90"},
-        {"predicate":{"custom_model_data":439099},"model":"mvndicraft:siege/block/trebuchet/new/counterweight_115"},
-        {"predicate":{"custom_model_data":439100},"model":"mvndicraft:siege/block/trebuchet/new/counterweight_135"},
-        {"predicate":{"custom_model_data":439101},"model":"mvndicraft:siege/block/parts/wheel"}
-    ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/stick"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/parts/staff"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/parts/barrel"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/parts/ramrod"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/parts/stock"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/parts/trigger_mechanism"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/broadsword"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/shortsword"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/scimitar"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/light_axe"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/pole_club"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/club"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/heavy_axe"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/greatsword"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/short_spear"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/pole_arm"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:recipes/falchion"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/trebuchet"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/cannon"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/ballista"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/greek_fire"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/sage"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/sage_seed"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/rosemary_seed"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/rosemary"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/flaxseed"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/flax_bundle"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/wrench"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/mill_wheel"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/flour"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/sawmill_none"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/sawmill_log"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/saw"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/worm"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/cart_wheels"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/cart_hay"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/barley"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/genetics_icon"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/crucible"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/ingot_cast_molten"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/ingot_cast_empty"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_ingot"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/ingot_cast_hot_ingot"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blade_animation_0"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blade_animation_1"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blade_animation_2"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blade_animation_3"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/hammer_crosshair"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/hot_steel_ingot"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/guard_animation_0"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/guard_animation_1"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/guard_animation_2"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/rack/cooling_rack"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/bloom_0"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/bloom_1"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/bloom_2"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/bloom_3"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/bloom_3"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/hot_cast_iron_ingot"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/slag"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/power_hammer_base"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/power_hammer"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/rod_animation_1"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/rod_animation_2"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_rod"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_wire"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/draw_plate"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/draw_plate_1"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/draw_plate_3"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/draw_plate_5"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/draw_plate_7"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/chainmail"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/short_blade_animation_3"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/curved_blade_animation_2"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/greatsword_animation_0"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/greatsword_animation_1"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/greatsword_animation_2"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/greatsword_animation_3"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/shovelhead_animation_0"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/shovelhead_animation_1"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/shovelhead_animation_2"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/axehead_animation_0"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/axehead_animation_1"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/axehead_animation_2"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/pickaxehead_animation_0"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/pickaxehead_animation_1"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/pickaxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/hoehead_animation_0"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/hoehead_animation_1"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/hoehead_animation_2"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/hammer_crosshair_red"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/mill_wheel_item"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/copper_nail"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/cannon_barrel"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/cannon_butt"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/cannon_wheel"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_top"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/rotating_turret"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/siphon"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/canister"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/counterweight_carrier"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/trebuchet_base"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/trebuchet_arm"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/halberd/halberd_animation_0"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/halberd/halberd_animation_1"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/halberd/halberd_animation_2"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/halberd/halberd_animation_3"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/item/trebuchet_sling"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/plough_wheels"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/clay_furnace"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/clay_furnace_on"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/spare"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/spare"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_0"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_1"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_2"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/crowsbeakhead_animation_3"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/macehead_animation_1"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/macehead_animation_2"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/macehead_animation_3"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_0"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_1"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_2"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/morningstarhead_animation_3"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedgoedendaghead_animation_1"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedgoedendaghead_animation_2"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedgoedendaghead_animation_3"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_0"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_1"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_2"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/warhammerhead_animation_3"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/broadaxehead_animation_3"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_0"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_1"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/daneaxehead_animation_3"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/galloglachaxehead_animation_1"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/galloglachaxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/galloglachaxehead_animation_3"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/heavyaxehead_animation_0"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/heavyaxehead_animation_1"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/heavyaxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/heavyaxe/varangianaxehead_animation_3"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/beardedaxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/franciscaaxehead_animation_1"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/franciscaaxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/hammeraxehead_animation_1"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/hammeraxehead_animation_2"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/angularspearhead_animation_0"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/angularspearhead_animation_1"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/angularspearhead_animation_2"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/billhookhead_animation_1"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/billhookhead_animation_2"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/billhookhead_animation_3"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/fauchardhead_animation_1"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/fauchardhead_animation_2"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/fauchardhead_animation_3"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/glaivehead_animation_0"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/glaivehead_animation_1"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/glaivehead_animation_2"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/glaivehead_animation_3"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_0"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_1"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_2"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/spikedpolemacehead_animation_3"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_0"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_1"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_2"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/swordstaffhead_animation_3"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_0"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_1"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_2"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/wingedspearhead_animation_3"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/armor_plate"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/falchion/falchion_animation_1"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/falchion/falchion_animation_2"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/falchion/falchion_animation_3"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/curved_blade_animation_3"
+                }
+            },
+            {
+                "threshold": 3000,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:placeables/barricade"
+                }
+            },
+            {
+                "threshold": 3001,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:placeables/bear_trap/bear_trap_open"
+                }
+            },
+            {
+                "threshold": 3002,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:placeables/bear_trap/bear_trap_closed"
+                }
+            },
+            {
+                "threshold": 3003,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:placeables/bear_trap/bear_trap_open_underground"
+                }
+            },
+            {
+                "threshold": 439020,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/base_center"
+                }
+            },
+            {
+                "threshold": 439021,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/base_top"
+                }
+            },
+            {
+                "threshold": 439022,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/base_back_activated"
+                }
+            },
+            {
+                "threshold": 439023,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/base_back_ready"
+                }
+            },
+            {
+                "threshold": 439024,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/arm"
+                }
+            },
+            {
+                "threshold": 439025,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight"
+                }
+            },
+            {
+                "threshold": 439026,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope"
+                }
+            },
+            {
+                "threshold": 439027,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed"
+                }
+            },
+            {
+                "threshold": 439028,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_track"
+                }
+            },
+            {
+                "threshold": 439029,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_track_armed"
+                }
+            },
+            {
+                "threshold": 439030,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/base"
+                }
+            },
+            {
+                "threshold": 439031,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/barrel_loaded"
+                }
+            },
+            {
+                "threshold": 439032,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/barrel"
+                }
+            },
+            {
+                "threshold": 439033,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/all"
+                }
+            },
+            {
+                "threshold": 439034,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_0"
+                }
+            },
+            {
+                "threshold": 439035,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_1"
+                }
+            },
+            {
+                "threshold": 439036,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_2"
+                }
+            },
+            {
+                "threshold": 439037,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_3"
+                }
+            },
+            {
+                "threshold": 439038,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_4"
+                }
+            },
+            {
+                "threshold": 439039,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_5"
+                }
+            },
+            {
+                "threshold": 439040,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_6"
+                }
+            },
+            {
+                "threshold": 439041,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_7"
+                }
+            },
+            {
+                "threshold": 439042,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_8"
+                }
+            },
+            {
+                "threshold": 439043,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_9"
+                }
+            },
+            {
+                "threshold": 439044,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_10"
+                }
+            },
+            {
+                "threshold": 439045,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_11"
+                }
+            },
+            {
+                "threshold": 439046,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_12"
+                }
+            },
+            {
+                "threshold": 439047,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_13"
+                }
+            },
+            {
+                "threshold": 439048,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_14"
+                }
+            },
+            {
+                "threshold": 439049,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_15"
+                }
+            },
+            {
+                "threshold": 439050,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_16"
+                }
+            },
+            {
+                "threshold": 439051,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_17"
+                }
+            },
+            {
+                "threshold": 439052,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_18"
+                }
+            },
+            {
+                "threshold": 439053,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_19"
+                }
+            },
+            {
+                "threshold": 439054,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_20"
+                }
+            },
+            {
+                "threshold": 439055,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_21"
+                }
+            },
+            {
+                "threshold": 439056,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_22"
+                }
+            },
+            {
+                "threshold": 439057,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_23"
+                }
+            },
+            {
+                "threshold": 439058,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_24"
+                }
+            },
+            {
+                "threshold": 439059,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_25"
+                }
+            },
+            {
+                "threshold": 439060,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_26"
+                }
+            },
+            {
+                "threshold": 439061,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_27"
+                }
+            },
+            {
+                "threshold": 439062,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_28"
+                }
+            },
+            {
+                "threshold": 439063,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_29"
+                }
+            },
+            {
+                "threshold": 439064,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_30"
+                }
+            },
+            {
+                "threshold": 439065,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_31"
+                }
+            },
+            {
+                "threshold": 439066,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_32"
+                }
+            },
+            {
+                "threshold": 439067,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_33"
+                }
+            },
+            {
+                "threshold": 439068,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_34"
+                }
+            },
+            {
+                "threshold": 439069,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_35"
+                }
+            },
+            {
+                "threshold": 439070,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_36"
+                }
+            },
+            {
+                "threshold": 439071,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_37"
+                }
+            },
+            {
+                "threshold": 439072,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_38"
+                }
+            },
+            {
+                "threshold": 439073,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/animation/frame_39"
+                }
+            },
+            {
+                "threshold": 439074,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_base"
+                }
+            },
+            {
+                "threshold": 439075,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_support"
+                }
+            },
+            {
+                "threshold": 439076,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_top"
+                }
+            },
+            {
+                "threshold": 439077,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_stage_0"
+                }
+            },
+            {
+                "threshold": 439078,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_stage_1"
+                }
+            },
+            {
+                "threshold": 439079,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_stage_0"
+                }
+            },
+            {
+                "threshold": 439080,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/new_ballista/ballista_loaded"
+                }
+            },
+            {
+                "threshold": 439081,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/greek_fire/head"
+                }
+            },
+            {
+                "threshold": 439082,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/greek_fire/support"
+                }
+            },
+            {
+                "threshold": 439083,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_no_boulder"
+                }
+            },
+            {
+                "threshold": 439084,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_stage_1"
+                }
+            },
+            {
+                "threshold": 439085,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_stage_2"
+                }
+            },
+            {
+                "threshold": 439086,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_1"
+                }
+            },
+            {
+                "threshold": 439087,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_3"
+                }
+            },
+            {
+                "threshold": 439088,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_4"
+                }
+            },
+            {
+                "threshold": 439089,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_5"
+                }
+            },
+            {
+                "threshold": 439090,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_6"
+                }
+            },
+            {
+                "threshold": 439091,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_7"
+                }
+            },
+            {
+                "threshold": 439092,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_8"
+                }
+            },
+            {
+                "threshold": 439093,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_9"
+                }
+            },
+            {
+                "threshold": 439094,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/rope_armed_stage_10"
+                }
+            },
+            {
+                "threshold": 439095,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight_225"
+                }
+            },
+            {
+                "threshold": 439096,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight_45"
+                }
+            },
+            {
+                "threshold": 439097,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight_775"
+                }
+            },
+            {
+                "threshold": 439098,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight_90"
+                }
+            },
+            {
+                "threshold": 439099,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight_115"
+                }
+            },
+            {
+                "threshold": 439100,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/trebuchet/new/counterweight_135"
+                }
+            },
+            {
+                "threshold": 439101,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/parts/wheel"
+                }
+            }
+        ]
+    }
 }

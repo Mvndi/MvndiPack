@@ -1,360 +1,593 @@
 {
-	
-		"credit": "Made with Blockbench",
-		"parent": "minecraft:item/hoe_base",
-		"textures": {
-			"2": "mvndicraft:tools/toolbottomtip",
-			"3": "mvndicraft:tools/toolhandletexture",
-			"4": "mvndicraft:tools/irontooltexture",
-			"particle": "mvndicraft:tools/irontooltexture"
-		},
-	
-	"groups": [
-		{
-			"name": "base_handle",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [0, 1]
-		},
-		{
-			"name": "Top Part",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [2, 3, 4]
-		}
-	],
-	"overrides": [
-		{
-		  "predicate": {"custom_model_data": 1},
-		  "model": "mvndicraft:farming/scythe"
-		},
-		{
-		  "predicate": {"custom_model_data": 2},
-		  "model": "mvndicraft:farming/plough"
-		},
-		{
-		  "predicate": {"custom_model_data": 3},
-		  "model": "mvndicraft:farming/seedbag"
-		},
-		{
-			"predicate": {"custom_model_data": 4},
-			"model": "mvndicraft:farming/trowel"
-		  },
-		  {
-			"predicate": {"custom_model_data": 5},
-			"model": "mvndicraft:farming/cart"
-		  },
-		  {
-			"predicate": {"custom_model_data": 6},
-			"model": "minecraft:item/milk_bucket"
-		  },
-		  {
-			"predicate": {"custom_model_data": 7},
-			"model": "mvndicraft:farming/bucket_cottage_cheese_full"
-		  },
-		  {
-			"predicate": {"custom_model_data": 8},
-			"model": "mvndicraft:farming/bucket_cottage_cheese_half"
-		  },
-		  {
-			"predicate": {"custom_model_data": 9},
-			"model": "mvndicraft:farming/sickle"
-		  },
-		  {
-			"predicate": {"custom_model_data": 10},
-			"model": "mvndicraft:blacksmith/hammer"
-		  },
-		  {
-			"predicate": {"custom_model_data": 11},
-			"model": "mvndicraft:blacksmith/tongs"
-		  },
-		  {
-			"predicate": {"custom_model_data": 12},
-			"model": "mvndicraft:blacksmith/tongs_crucible_empty"
-		  },
-		  {
-			"predicate": {"custom_model_data": 13},
-			"model": "mvndicraft:blacksmith/tongs_crucible_full"
-		  },
-		  {
-			"predicate": {"custom_model_data": 14},
-			"model": "mvndicraft:blacksmith/tongs_hot_ingot"
-		  },
-		  {
-			"predicate": {"custom_model_data": 15},
-			"model": "mvndicraft:blacksmith/broadsword_blade"
-		  },
-		  {
-			"predicate": {"custom_model_data": 16},
-			"model": "mvndicraft:blacksmith/tongs_broadsword"
-		  },
-		  {
-			"predicate": {"custom_model_data": 17},
-			"model": "mvndicraft:blacksmith/guard_and_pommel"
-		  },
-		  {
-			"predicate": {"custom_model_data": 18},
-			"model": "mvndicraft:blacksmith/tongs_guard"
-		  },
-		  {
-			"predicate": {"custom_model_data": 19},
-			"model": "mvndicraft:blacksmith/steel_hilt"
-		  },
-		  {
-			"predicate": {"custom_model_data": 20},
-			"model": "mvndicraft:blacksmith/wood_hilt"
-		  },
-		  {
-			"predicate": {"custom_model_data": 21},
-			"model": "mvndicraft:blacksmith/tongs_bloom"
-		  },
-		  {
-			"predicate": {"custom_model_data": 22},
-			"model": "mvndicraft:blacksmith/tongs_hot_cast_iron"
-		  },
-		  {
-			"predicate": {"custom_model_data": 23},
-			"model": "mvndicraft:blacksmith/bellows"
-		  },
-		  {
-			"predicate": {"custom_model_data": 24},
-			"model": "mvndicraft:farming/windmill"
-		  },
-		  {
-			"predicate": {"custom_model_data": 25},
-			"model": "mvndicraft:blacksmith/waterwheel"
-		  },
-		  {
-			"predicate": {"custom_model_data": 26},
-			"model": "mvndicraft:blacksmith/tongs_steel_rod"
-		  },
-		  {
-			"predicate": {"custom_model_data": 27},
-			"model": "mvndicraft:blacksmith/tongs_shortsword"
-		  },
-		  {
-			"predicate": {"custom_model_data": 28},
-			"model": "mvndicraft:blacksmith/shortsword_blade"
-		  },
-		  {
-			"predicate": {"custom_model_data": 29},
-			"model": "mvndicraft:blacksmith/tongs_curved_sword"
-		  },
-		  {
-			"predicate": {"custom_model_data": 30},
-			"model": "mvndicraft:blacksmith/curved_blade"
-		  },
-		  {
-			"predicate": {"custom_model_data": 31},
-			"model": "mvndicraft:blacksmith/greatsword_blade"
-		  },
-		  {
-			"predicate": {"custom_model_data": 32},
-			"model": "mvndicraft:blacksmith/steel_shovel_head"
-		  },
-		  {
-			"predicate": {"custom_model_data": 33},
-			"model": "mvndicraft:blacksmith/steel_axe_head"
-		  },
-		  {
-			"predicate": {"custom_model_data": 34},
-			"model": "mvndicraft:blacksmith/steel_pickaxe_head"
-		  },
-		  {
-			"predicate": {"custom_model_data": 35},
-			"model": "mvndicraft:blacksmith/tongs_shovelhead"
-		  },
-		  {
-			"predicate": {"custom_model_data": 36},
-			"model": "mvndicraft:blacksmith/tongs_axehead"
-		  },
-		  {
-			"predicate": {"custom_model_data": 37},
-			"model": "mvndicraft:blacksmith/tongs_pickaxehead"
-		  },
-		  {
-			"predicate": {"custom_model_data": 38},
-			"model": "mvndicraft:blacksmith/steel_hoe_head"
-		  },
-		  {
-			"predicate": {"custom_model_data": 39},
-			"model": "mvndicraft:blacksmith/tongs_hoehead"
-		  },
-		  {
-			"predicate": {"custom_model_data": 40},
-			"model": "mvndicraft:blacksmith/halberdhead"
-		  },
-		  {
-			"predicate": {"custom_model_data": 41},
-			"model": "mvndicraft:blacksmith/tongs_halberdhead"
-		},
-		{
-		  "predicate": {"custom_model_data": 42},
-		  "model": "mvndicraft:blacksmith/spare"
-		},
-		{
-		  "predicate": {"custom_model_data": 43},
-		  "model": "mvndicraft:blacksmith/head/broad_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 44},
-		  "model": "mvndicraft:blacksmith/head/angular_spear_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 45},
-		  "model": "mvndicraft:blacksmith/head/bearded_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 46},
-		  "model": "mvndicraft:blacksmith/head/billhook_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 47},
-		  "model": "mvndicraft:blacksmith/head/crows_beak_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 48},
-		  "model": "mvndicraft:blacksmith/head/dane_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 49},
-		  "model": "mvndicraft:blacksmith/head/fauchard_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 50},
-		  "model": "mvndicraft:blacksmith/head/francisca_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 51},
-		  "model": "mvndicraft:blacksmith/head/galloglach_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 52},
-		  "model": "mvndicraft:blacksmith/head/glaive_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 53},
-		  "model": "mvndicraft:blacksmith/head/hammer_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 54},
-		  "model": "mvndicraft:blacksmith/head/mace_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 55},
-		  "model": "mvndicraft:blacksmith/head/morning_star_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 56},
-		  "model": "mvndicraft:blacksmith/head/spiked_goedendag_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 57},
-		  "model": "mvndicraft:blacksmith/head/spikedpolemace_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 58},
-		  "model": "mvndicraft:blacksmith/head/varangian_axe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 59},
-		  "model": "mvndicraft:blacksmith/head/war_hammer_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 60},
-		  "model": "mvndicraft:blacksmith/head/winged_spear_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 61},
-		  "model": "mvndicraft:blacksmith/head/sword_staff_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 62},
-		  "model": "mvndicraft:blacksmith/tong/tongs_angularspear_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 63},
-		  "model": "mvndicraft:blacksmith/tong/tongs_beardedaxe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 64},
-		  "model": "mvndicraft:blacksmith/tong/tongs_billhook_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 65},
-		  "model": "mvndicraft:blacksmith/tong/tongs_broad_axe"
-		},
-		{
-		  "predicate": {"custom_model_data": 66},
-		  "model": "mvndicraft:blacksmith/tong/tongs_crowsbeak_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 67},
-		  "model": "mvndicraft:blacksmith/tong/tongs_daneaxe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 68},
-		  "model": "mvndicraft:blacksmith/tong/tongs_fauchard_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 69},
-		  "model": "mvndicraft:blacksmith/tong/tongs_franciscaaxe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 70},
-		  "model": "mvndicraft:blacksmith/tong/tongs_galloglachaxe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 71},
-		  "model": "mvndicraft:blacksmith/tong/tongs_glaive_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 72},
-		  "model": "mvndicraft:blacksmith/tong/tongs_hammeraxe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 73},
-		  "model": "mvndicraft:blacksmith/tong/tongs_mace_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 74},
-		  "model": "mvndicraft:blacksmith/tong/tongs_morningstar_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 75},
-		  "model": "mvndicraft:blacksmith/tong/tongs_spikedgoedendag_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 76},
-		  "model": "mvndicraft:blacksmith/tong/tongs_spikedpolemace_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 77},
-		  "model": "mvndicraft:blacksmith/tong/tongs_swordstaff_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 78},
-		  "model": "mvndicraft:blacksmith/tong/tongs_varangianaxe_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 79},
-		  "model": "mvndicraft:blacksmith/tong/tongs_warhammer_head"
-		},
-		{
-		  "predicate": {"custom_model_data": 80},
-		  "model": "mvndicraft:blacksmith/tong/tongs_wingedspear_head"
-		},
-		{
-			"predicate": {"custom_model_data": 81},
-			"model": "mvndicraft:blacksmith/tong/tongs_falchion"
-		},
-		{
-			"predicate": {"custom_model_data": 82},
-			"model": "mvndicraft:blacksmith/falchion_blade"
-		},
-		{
-			"predicate": {"custom_model_data": 83},
-			"model": "mvndicraft:blacksmith/tong/tongs_armor_plate"
-		}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/hoe_base"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/scythe"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/plough"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/seedbag"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/trowel"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/cart"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/milk_bucket"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/bucket_cottage_cheese_full"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/bucket_cottage_cheese_half"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/sickle"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/hammer"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_crucible_empty"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_crucible_full"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_hot_ingot"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/broadsword_blade"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_broadsword"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/guard_and_pommel"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_guard"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_hilt"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/wood_hilt"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_bloom"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_hot_cast_iron"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/bellows"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/windmill"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/waterwheel"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_steel_rod"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_shortsword"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/shortsword_blade"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_curved_sword"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/curved_blade"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/greatsword_blade"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_shovel_head"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_axe_head"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_pickaxe_head"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_shovelhead"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_axehead"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_pickaxehead"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/steel_hoe_head"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_hoehead"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/halberdhead"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tongs_halberdhead"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/spare"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/broad_axe_head"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/angular_spear_head"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/bearded_axe_head"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/billhook_head"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/crows_beak_head"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/dane_axe_head"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/fauchard_head"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/francisca_axe_head"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/galloglach_axe_head"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/glaive_head"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/hammer_axe_head"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/mace_head"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/morning_star_head"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/spiked_goedendag_head"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/spikedpolemace_head"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/varangian_axe_head"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/war_hammer_head"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/winged_spear_head"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/sword_staff_head"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_angularspear_head"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_beardedaxe_head"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_billhook_head"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_broad_axe"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_crowsbeak_head"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_daneaxe_head"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_fauchard_head"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_franciscaaxe_head"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_galloglachaxe_head"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_glaive_head"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_hammeraxe_head"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_mace_head"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_morningstar_head"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_spikedgoedendag_head"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_spikedpolemace_head"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_swordstaff_head"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_varangianaxe_head"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_warhammer_head"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_wingedspear_head"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_falchion"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/falchion_blade"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_armor_plate"
+                }
+            }
+        ]
+    }
 }

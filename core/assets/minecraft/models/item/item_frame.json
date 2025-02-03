@@ -1,13 +1,47 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/item_frame"
-    },
-	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "mvndicraft:furs/bear"},
-		{"predicate": {"custom_model_data":2}, "model": "mvndicraft:furs/boar"},
-		{"predicate": {"custom_model_data":3}, "model": "mvndicraft:furs/wolf"},
-		{"predicate": {"custom_model_data":4}, "model": "mvndicraft:furs/fox_red"},
-		{"predicate": {"custom_model_data":5}, "model": "mvndicraft:furs/fox_snow"}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/item_frame"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/bear"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/boar"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/fox_red"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/fox_snow"
+                }
+            }
+        ]
+    }
 }

@@ -1,14 +1,19 @@
 {
-	"texture_size": [64, 32],
-	"parent": "item/chicken_base",
-	"textures": {
-		"0": "item/hanging_raw_chicken",
-		"particle": "item/hanging_raw_chicken"
-	},
-	"overrides": [
-		{
-		  "predicate": {"custom_model_data": 1},
-		  "model": "mvndicraft:farming/bowl_raw_eggs"
-		}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/chicken_base"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/bowl_raw_eggs"
+                }
+            }
+        ]
+    }
 }

@@ -1,9 +1,40 @@
 {
-	"parent": "block/command_block",
-	"overrides": [
-		{ "predicate": { "custom_model_data":2221300}, "model": "mvndicraft:vehicles/wagon/wagon"},
-		{ "predicate": { "custom_model_data":2221301}, "model": "mvndicraft:vehicles/wagon/wagon_covered"},
-		{ "predicate": { "custom_model_data":2221302}, "model": "mvndicraft:vehicles/wagon/back_wheels"},
-		{ "predicate": { "custom_model_data":2221303}, "model": "mvndicraft:vehicles/wagon/front_wheels"}
-	]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "block/command_block"
+        },
+        "entries": [
+            {
+                "threshold": 2221300,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/wagon/wagon"
+                }
+            },
+            {
+                "threshold": 2221301,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/wagon/wagon_covered"
+                }
+            },
+            {
+                "threshold": 2221302,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/wagon/back_wheels"
+                }
+            },
+            {
+                "threshold": 2221303,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/wagon/front_wheels"
+                }
+            }
+        ]
+    }
 }
