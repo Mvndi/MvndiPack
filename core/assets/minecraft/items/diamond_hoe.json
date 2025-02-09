@@ -4,7 +4,7 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "minecraft:item/hoe_base"
+            "model": "minecraft:item/diamond_hoe"
         },
         "entries": [
             {

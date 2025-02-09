@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "block/oak_log",
-        "top": "block/oak_log",
-        "side": "block/oak_log"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/warped_slab"
+  }
 }

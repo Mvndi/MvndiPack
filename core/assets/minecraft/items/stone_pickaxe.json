@@ -1,10 +1,6 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/pickaxe_base",
-	"textures": {
-		"2": "mvndicraft:tools/toolbottomtip",
-		"3": "mvndicraft:tools/toolhandletexture",
-		"5": "mvndicraft:tools/stonetooltexture_new",
-		"particle": "mvndicraft:tools/stonetooltexture_new"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/stone_pickaxe"
+  }
 }

@@ -1,0 +1,9 @@
+{
+"parent": "minecraft:item/hoe_base",
+"textures": {
+"2": "mvndicraft:tools/toolbottomtip",
+"3": "mvndicraft:tools/toolhandletexture",
+"4": "mvndicraft:tools/goldtooltexture",
+"particle": "mvndicraft:tools/goldtooltexture"
+}
+}

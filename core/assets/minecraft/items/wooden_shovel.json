@@ -1,10 +1,6 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/shovel_base",
-	"textures": {
-		"2": "mvndicraft:tools/toolbottomtip",
-		"3": "mvndicraft:tools/toolhandletexture",
-		"4": "mvndicraft:tools/woodtooltexture_new",
-		"particle": "mvndicraft:tools/woodtooltexture_new"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/wooden_shovel"
+  }
 }

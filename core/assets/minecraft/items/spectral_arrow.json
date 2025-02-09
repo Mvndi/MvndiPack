@@ -1,6 +1,6 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/spectral_arrow"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/spectral_arrow"
+  }
 }

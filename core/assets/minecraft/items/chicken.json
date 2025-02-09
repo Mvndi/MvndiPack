@@ -4,7 +4,7 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "item/chicken_base"
+            "model": "item/chicken"
         },
         "entries": [
             {

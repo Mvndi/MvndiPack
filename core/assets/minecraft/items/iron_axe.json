@@ -1,10 +1,6 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/axe_base",
-	"textures": {
-		"2": "mvndicraft:tools/toolbottomtip",
-		"3": "mvndicraft:tools/toolhandletexture",
-		"4": "mvndicraft:tools/irontooltexture",
-		"particle": "mvndicraft:tools/irontooltexture"
-	}
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/iron_axe"
+  }
 }
