@@ -177,6 +177,7 @@
   "item.minecraft.baked_potato": "Chou bouilli",
   "item.minecraft.cocoa_beans": "Dates",
 
-  "menu.game": "\uE022",
+  "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
+  "menu.disconnect": "\uE087Disconnect\uE088\uE086\uE089"
   "menu.returnToGame": "Revenir à Mvndicraft"
 }

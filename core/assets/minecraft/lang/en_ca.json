@@ -188,7 +188,8 @@
     "block.minecraft.smooth_quartz_slab": "Smooth Marble Slab",
     "item.minecraft.quartz": "Marble",
   
-    "menu.game": "\uE022",
+    "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
+    "menu.disconnect": "\uE087Disconnect\uE088\uE086\uE089",
     "menu.returnToGame": "Back to Mvndicraft"
   }
   
