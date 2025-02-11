@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mvndicraft:item/armor/tabard_hauberk_skirt"
+    "model": "mvndicraft:item/armor/tabard_hauberk_skirt",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
   }
 }

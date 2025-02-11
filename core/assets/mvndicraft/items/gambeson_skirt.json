@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mvndicraft:item/armor/gambeson_skirt"
+    "model": "mvndicraft:item/armor/gambeson_skirt",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": -6265536
+      }
+    ]
   }
 }
