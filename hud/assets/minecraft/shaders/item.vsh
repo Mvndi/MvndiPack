@@ -1,4 +1,3 @@
-
 #version 150
 #moj_import <light.glsl>
 #moj_import <fog.glsl>
