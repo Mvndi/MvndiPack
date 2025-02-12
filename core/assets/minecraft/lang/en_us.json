@@ -187,6 +187,8 @@
   "block.minecraft.smooth_quartz_stairs": "Smooth Marble Stairs",
   "block.minecraft.smooth_quartz_slab": "Smooth Marble Slab",
   "item.minecraft.quartz": "Marble",
+  "menu.game": "",
+  "menu.playerReporting": "Report",
 
   "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
   "menu.game": "",
