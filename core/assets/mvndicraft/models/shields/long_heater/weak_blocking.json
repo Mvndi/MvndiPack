@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:shields/long_heater/weak",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [19, 137, 15],
+			"translation": [3, 1, -1.5],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [43, 143, 0],
+			"translation": [3.5, 1, -2.25],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-1.25, 0, -3],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-1.25, 0, -3],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

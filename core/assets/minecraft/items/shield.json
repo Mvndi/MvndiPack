@@ -1385,7 +1385,127 @@
                         "model": "mvndicraft:shields/kite/eagle_shield_blocking"
                     }
                 }
-            }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/berber/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/heater/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/long_heater/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/oval/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/pavise/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/round/weak_blocking"
+                    }
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/weak_blocking"
+                    }
+                }
+            }            
         ]
     },
     "display": {

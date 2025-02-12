@@ -1,0 +1,21 @@
+{
+  "parent": "mvndicraft:shields/oval/weak",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 141.25, 0],
+			"translation": [2.5, 2.25, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 141.25, 0],
+			"translation": [2.5, 2.25, -0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-3.25, -180, -4],
+			"translation": [-3.5, -2, -3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-3.25, -180, -4],
+			"translation": [-3.5, -2, -3]
+		}
+  }
+}

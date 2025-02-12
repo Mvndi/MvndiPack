@@ -1,0 +1,305 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "mvndicraft:shields/saracen/leather",
+		"3": "mvndicraft:shields/saracen/base",
+		"4": "mvndicraft:shields/shield_handle",
+		"5": "mvndicraft:shields/saracen/base",
+		"particle": "mvndicraft:shields/saracen/base"
+	},
+	"elements": [
+		{
+			"name": "Shield Handle",
+			"from": [7.5, 5.75, 1.5],
+			"to": [8.5, 10.25, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.75, 7]},
+			"faces": {
+				"north": {"uv": [14, 2, 16, 14], "texture": "#4"},
+				"east": {"uv": [2, 2, 14, 14], "texture": "#4"},
+				"west": {"uv": [2, 2, 14, 14], "texture": "#4"},
+				"up": {"uv": [14, 2, 16, 14], "texture": "#4"},
+				"down": {"uv": [14, 2, 16, 14], "texture": "#4"}
+			}
+		},
+		{
+			"name": "Shield Base",
+			"from": [0, 0, 7.01],
+			"to": [16, 16, 7.99],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 13.5, 13.5], "texture": "#5"},
+				"south": {"uv": [2.5, 2.5, 13.5, 13.5], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, 15.14, 7],
+			"to": [9.62312, 16.16, 8],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, 15.14, 7],
+			"to": [9.62312, 16.16, 8],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, 15.14, 7],
+			"to": [9.62312, 16.16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, 15.14, 7],
+			"to": [9.62312, 16.16, 8],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, 15.14, 7],
+			"to": [9.62312, 16.16, 8],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, -0.16, 7],
+			"to": [9.62312, 0.86, 8],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, -0.16, 7],
+			"to": [9.62312, 0.86, 8],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, -0.16, 7],
+			"to": [9.62312, 0.86, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, -0.16, 7],
+			"to": [9.62312, 0.86, 8],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [6.37688, -0.16, 7],
+			"to": [9.62312, 0.86, 8],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [-0.16, 6.37688, 7],
+			"to": [0.86, 9.62312, 8],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "texture": "#2"},
+				"west": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [-0.16, 6.37688, 7],
+			"to": [0.86, 9.62312, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "texture": "#2"},
+				"west": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [-0.16, 6.37688, 7],
+			"to": [0.86, 9.62312, 8],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "texture": "#2"},
+				"west": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [15.14, 6.37688, 7],
+			"to": [16.16, 9.62312, 8],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "texture": "#2"},
+				"east": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [15.14, 6.37688, 7],
+			"to": [16.16, 9.62312, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "texture": "#2"},
+				"east": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Shield Border",
+			"from": [15.14, 6.37688, 7],
+			"to": [16.16, 9.62312, 8],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 8.5, 9, 9.5], "texture": "#2"},
+				"east": {"uv": [8, 8.5, 8.5, 9.5], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [8.5, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [8, 8.5, 9, 9.5], "rotation": 180, "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [4, -2, 2.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [4, -2, 2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [9, -180, 7],
+			"translation": [0.5, -5, -3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [9, -180, 7],
+			"translation": [0.5, -5, -3]
+		},
+		"ground": {
+			"rotation": [-20, 0, 0],
+			"translation": [0, 8, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [15, -25, -5],
+			"translation": [0, 0, -10]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -1],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Shield Body",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "Shield Border",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+		}
+	]
+}
