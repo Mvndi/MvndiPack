@@ -78,7 +78,7 @@
                             {
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"
+                                    "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"
                                 },
                                 "when": "rocket"
                             }
