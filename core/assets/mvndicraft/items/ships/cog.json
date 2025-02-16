@@ -8,7 +8,7 @@
         "index": 0,
         "entries": [
           {
-            "threshold": 1,
+            "threshold": 0.67,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -29,7 +29,7 @@
             }
           },
           {
-            "threshold": 0.75,
+            "threshold": 0.33,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "threshold": 0.5,
+            "threshold": 0.01,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -99,7 +99,7 @@
         "index": 1,
         "entries": [
           {
-            "threshold": 1,
+            "threshold": 0.67,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "threshold": 0.75,
+            "threshold": 0.33,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -141,7 +141,7 @@
             }
           },
           {
-            "threshold": 0.5,
+            "threshold": 0.01,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -190,7 +190,7 @@
         "index": 2,
         "entries": [
           {
-            "threshold": 1,
+            "threshold": 0.67,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -218,7 +218,7 @@
             }
           },
           {
-            "threshold": 0.75,
+            "threshold": 0.33,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -246,7 +246,7 @@
             }
           },
           {
-            "threshold": 0.5,
+            "threshold": 0.01,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -309,7 +309,7 @@
         "index": 3,
         "entries": [
           {
-            "threshold": 1,
+            "threshold": 0.67,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -330,7 +330,7 @@
             }
           },
           {
-            "threshold": 0.75,
+            "threshold": 0.33,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
@@ -351,7 +351,7 @@
             }
           },
           {
-            "threshold": 0.5,
+            "threshold": 0.01,
             "model": {
               "type": "minecraft:select",
               "property": "minecraft:custom_model_data",
