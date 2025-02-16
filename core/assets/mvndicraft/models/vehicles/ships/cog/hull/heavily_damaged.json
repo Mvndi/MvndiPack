@@ -996,6 +996,7 @@
 			}
 		}
 	],
+	"display": {},
 	"groups": [
 		{
 			"name": "Hull",

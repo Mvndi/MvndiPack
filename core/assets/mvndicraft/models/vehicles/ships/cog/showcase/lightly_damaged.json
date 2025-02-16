@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:vehicles/ships/oak_planks",
-		"1": "mvndicraft:vehicles/ships/sail",
+		"1": "mvndicraft:vehicles/ships/sail/default",
 		"2": "block/black_concrete",
 		"3": "mvndicraft:vehicles/ships/oak_log",
 		"particle": "mvndicraft:vehicles/ships/oak_planks"
@@ -4731,7 +4731,7 @@
 							"children": [0, 1, 2, 3, 4, 5, 6]
 						},
 						{
-							"name": "mvndicraft:vehicles/ships/sail",
+							"name": "mvndicraft:vehicles/ships/sails/default",
 							"origin": [8, 23.25, 7.25],
 							"color": 0,
 							"children": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]

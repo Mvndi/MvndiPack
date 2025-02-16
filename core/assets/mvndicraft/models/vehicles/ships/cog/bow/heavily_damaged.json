@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:vehicles/ships/oak_planks",
-		"1": "mvndicraft:vehicles/ships/sail",
+		"1": "mvndicraft:vehicles/ships/sails/default",
 		"particle": "mvndicraft:vehicles/ships/oak_planks"
 	},
 	"elements": [
@@ -1646,6 +1646,7 @@
 			}
 		}
 	],
+	"display": {},
 	"groups": [
 		{
 			"name": "Bow",

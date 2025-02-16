@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/mast/default/broken",
+  "textures": {
+    "sail": "mvndicraft:vehicles/ships/sail/red_stripes"
+  }
+}
