@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:vehicles/ships/display",
 	"textures": {
 		"particle": "mvndicraft:vehicles/ships/oak_planks",
 		"hull": "mvndicraft:vehicles/ships/oak_planks",
