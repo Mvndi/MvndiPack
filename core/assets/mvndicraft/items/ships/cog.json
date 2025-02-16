@@ -10,29 +10,85 @@
           {
             "threshold": 1,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/bow/undamaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+              }
             }
           },
           {
             "threshold": 0.75,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/bow/lightly_damaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/bow/default/lightly_damaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/bow/default/lightly_damaged"
+              }
             }
           },
           {
             "threshold": 0.5,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/bow/heavily_damaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/bow/default/heavily_damaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/bow/default/heavily_damaged"
+              }
             }
           },
           {
             "threshold": 0,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/bow/broken"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/bow/default/broken"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/bow/default/broken"
+              }
             }
           }
         ]
@@ -45,29 +101,85 @@
           {
             "threshold": 1,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/hull/undamaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+              }
             }
           },
           {
             "threshold": 0.75,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/hull/lightly_damaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/hull/default/lightly_damaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/hull/default/lightly_damaged"
+              }
             }
           },
           {
             "threshold": 0.5,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/hull/heavily_damaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/hull/default/heavily_damaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/hull/default/heavily_damaged"
+              }
             }
           },
           {
             "threshold": 0,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/hull/broken"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/hull/default/broken"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/hull/default/broken"
+              }
             }
           }
         ]
@@ -84,6 +196,13 @@
               "property": "minecraft:custom_model_data",
               "index": 2,
               "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/default/undamaged"
+                  }
+                },
                 {
                   "when": "red_stripes",
                   "model": {
@@ -106,6 +225,13 @@
               "index": 2,
               "cases": [
                 {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/default/lightly_damaged"
+                  }
+                },
+                {
                   "when": "red_stripes",
                   "model": {
                     "type": "minecraft:model",
@@ -127,6 +253,13 @@
               "index": 2,
               "cases": [
                 {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/default/heavily_damaged"
+                  }
+                },
+                {
                   "when": "red_stripes",
                   "model": {
                     "type": "minecraft:model",
@@ -147,6 +280,13 @@
               "property": "minecraft:custom_model_data",
               "index": 2,
               "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/default/broken"
+                  }
+                },
                 {
                   "when": "red_stripes",
                   "model": {
@@ -171,29 +311,85 @@
           {
             "threshold": 1,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/stern/undamaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+              }
             }
           },
           {
             "threshold": 0.75,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/stern/lightly_damaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/stern/default/lightly_damaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/stern/default/lightly_damaged"
+              }
             }
           },
           {
             "threshold": 0.5,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/stern/heavily_damaged"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/stern/default/heavily_damaged"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/stern/default/heavily_damaged"
+              }
             }
           },
           {
             "threshold": 0,
             "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/cog/stern/broken"
+              "type": "minecraft:select",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "cases": [
+                {
+                  "when": "default",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/stern/default/broken"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/cog/stern/default/broken"
+              }
             }
           }
         ]
