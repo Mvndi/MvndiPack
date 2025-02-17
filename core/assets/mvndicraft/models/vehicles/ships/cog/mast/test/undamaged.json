@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/mast/default/undamaged",
+  "textures": {
+    "sail": "mvndicraft:vehicles/ships/sail/test"
+  }
+}

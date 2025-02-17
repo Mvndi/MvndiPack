@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/mast/default/heavily_damaged",
+  "textures": {
+    "sail": "mvndicraft:vehicles/ships/sail/test"
+  }
+}

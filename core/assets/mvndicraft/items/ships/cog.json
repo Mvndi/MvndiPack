@@ -209,6 +209,13 @@
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/cog/mast/red_stripes/undamaged"
                   }
+                },
+                {
+                  "when": "test",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/test/undamaged"
+                  }
                 }
               ],
               "fallback": {
@@ -236,6 +243,13 @@
                   "model": {
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/cog/mast/red_stripes/lightly_damaged"
+                  }
+                },
+                {
+                  "when": "test",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/test/lightly_damaged"
                   }
                 }
               ],
@@ -265,6 +279,13 @@
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/cog/mast/red_stripes/heavily_damaged"
                   }
+                },
+                {
+                  "when": "test",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/test/heavily_damaged"
+                  }
                 }
               ],
               "fallback": {
@@ -292,6 +313,13 @@
                   "model": {
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/cog/mast/red_stripes/broken"
+                  }
+                },
+                {
+                  "when": "test",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/test/broken"
                   }
                 }
               ],
