@@ -1306,5 +1306,18 @@
 		"pitch": 1
 	  }
 	]
+  },
+  "ship.sinking.thud": {
+	"category": "block",
+	"sounds": [
+	  {
+		"name": "mvndicraft:ship/large_underwater_crash_0",
+		"pitch": 1
+	  },
+	  {
+		"name": "mvndicraft:ship/large_underwater_crash_1",
+		"pitch": 1
+	  }
+	]
   }
 }
