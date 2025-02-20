@@ -137,7 +137,7 @@
                 "threshold": 22,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:siege/item/ballista"
+                    "model": "mvndicraft:siege/block/new_ballista/ballista"
                 }
             },
             {
