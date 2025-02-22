@@ -1,6 +1,6 @@
 {
   "parent": "mvndicraft:vehicles/ships/cog/mast/default/broken",
   "textures": {
-    "sail": "mvndicraft:vehicles/ships/sail/test"
+    "sail": "mvndicraft:vehicles/ships/cog/sail/test"
   }
 }
