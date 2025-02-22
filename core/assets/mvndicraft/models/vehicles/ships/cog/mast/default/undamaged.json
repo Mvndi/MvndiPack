@@ -4,9 +4,9 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "mvndicraft:vehicles/ships/mast",
-		"particle": "mvndicraft:vehicles/ships/oak_planks",
 		"rope": "block/white_wool",
-		"sail": "mvndicraft:vehicles/ships/sail/default"
+		"sail": "mvndicraft:vehicles/ships/sail/default",
+		"particle": "mvndicraft:vehicles/ships/oak_planks"
 	},
 	"elements": [
 		{
@@ -82,7 +82,7 @@
 			"faces": {
 				"north": {"uv": [0, 0, 11.25, 1], "texture": "#sail"},
 				"east": {"uv": [0, 0, 0.125, 1], "texture": "#sail"},
-				"south": {"uv": [0, 0, 11.25, 1], "texture": "#sail"},
+				"south": {"uv": [11.25, 0, 0, 1], "texture": "#sail"},
 				"west": {"uv": [11.125, 0, 11.25, 1], "texture": "#sail"},
 				"up": {"uv": [11.25, 0.125, 0, 0], "texture": "#sail"},
 				"down": {"uv": [11.25, 0.875, 0, 1], "texture": "#sail"}
@@ -95,7 +95,7 @@
 			"faces": {
 				"north": {"uv": [0, 0.875, 11.25, 3.375], "texture": "#sail"},
 				"east": {"uv": [0, 0.875, 0.125, 3.375], "texture": "#sail"},
-				"south": {"uv": [0, 0.875, 11.25, 3.375], "texture": "#sail"},
+				"south": {"uv": [11.25, 0.875, 0, 3.375], "texture": "#sail"},
 				"west": {"uv": [11.125, 0.875, 11.25, 3.375], "texture": "#sail"},
 				"up": {"uv": [11.25, 1, 0, 0.875], "texture": "#sail"},
 				"down": {"uv": [11.25, 3.25, 0, 3.375], "texture": "#sail"}
@@ -108,7 +108,7 @@
 			"faces": {
 				"north": {"uv": [0, 3.25, 11.25, 7.25], "texture": "#sail"},
 				"east": {"uv": [0, 3.25, 0.125, 7.25], "texture": "#sail"},
-				"south": {"uv": [0, 3.25, 11.25, 7.25], "texture": "#sail"},
+				"south": {"uv": [11.25, 3.25, 0, 7.25], "texture": "#sail"},
 				"west": {"uv": [11.125, 3.25, 11.25, 7.25], "texture": "#sail"},
 				"up": {"uv": [11.25, 3.375, 0, 3.25], "texture": "#sail"},
 				"down": {"uv": [11.25, 7.125, 0, 7.25], "texture": "#sail"}
@@ -121,7 +121,7 @@
 			"faces": {
 				"north": {"uv": [0, 7.125, 11.25, 8.625], "texture": "#sail"},
 				"east": {"uv": [0, 7.125, 0.125, 8.625], "texture": "#sail"},
-				"south": {"uv": [0, 7.125, 11.25, 8.625], "texture": "#sail"},
+				"south": {"uv": [11.25, 7.125, 0, 8.625], "texture": "#sail"},
 				"west": {"uv": [11.125, 7.125, 11.25, 8.625], "texture": "#sail"},
 				"up": {"uv": [11.25, 7.25, 0, 7.125], "texture": "#sail"},
 				"down": {"uv": [11.25, 8.5, 0, 8.625], "texture": "#sail"}
@@ -134,7 +134,7 @@
 			"faces": {
 				"north": {"uv": [0, 8.5, 11.25, 9.5], "texture": "#sail"},
 				"east": {"uv": [0, 8.5, 0.125, 9.5], "texture": "#sail"},
-				"south": {"uv": [0, 8.5, 11.25, 9.5], "texture": "#sail"},
+				"south": {"uv": [11.25, 8.5, 0, 9.5], "texture": "#sail"},
 				"west": {"uv": [11.125, 8.5, 11.25, 9.5], "texture": "#sail"},
 				"up": {"uv": [11.25, 8.625, 0, 8.5], "texture": "#sail"},
 				"down": {"uv": [11.25, 9.375, 0, 9.5], "texture": "#sail"}
