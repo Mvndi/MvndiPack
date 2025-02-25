@@ -1,140 +1,101 @@
 {
-    "model": {
-        "type": "range_dispatch",
-        "property": "custom_model_data",
-        "fallback": {
-            "type": "model",
-            "model": ""
-        },
-        "entries": [
-            {
-                "threshold": 38,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/francisca_axe_throw"
-                }
-            },
-            {
-                "threshold": 39,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/javelin_throw"
-                }
-            },
-            {
-                "threshold": 6002,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:siege/item/boulder"
-                }
-            },
-            {
-                "threshold": 6003,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:siege/item/cannonball"
-                }
-            },
-            {
-                "threshold": 6004,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:siege/item/canister_shot"
-                }
-            },
-            {
-                "threshold": 6005,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:siege/item/steel_bolt"
-                }
-            }
-        ]
-    },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [
-                90.51,
-                -0.26,
-                0.32
-            ],
-            "translation": [
-                0,
-                -2.25,
-                7.75
-            ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [
-                95,
-                0,
-                0
-            ],
-            "translation": [
-                0,
-                -2.5,
-                7.5
-            ]
-        },
-        "firstperson_righthand": {
-            "rotation": [
-                61,
-                0,
-                0
-            ],
-            "translation": [
-                4.25,
-                1.5,
-                0
-            ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [
-                72.25,
-                0,
-                0
-            ]
-        },
-        "ground": {
-            "translation": [
-                0,
-                4.5,
-                0
-            ]
-        },
-        "gui": {
-            "rotation": [
-                84.62,
-                54.13,
-                -109.95
-            ],
-            "translation": [
-                5.75,
-                9.25,
-                0
-            ],
-            "scale": [
-                1.5,
-                1.5,
-                1.5
-            ]
-        },
-        "fixed": {
-            "rotation": [
-                90,
-                47.75,
-                -90
-            ],
-            "translation": [
-                8.75,
-                11.25,
-                0
-            ],
-            "scale": [
-                2,
-                2,
-                2
-            ]
-        }
-    }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:weapons/archery/arrow",
+		"1": "item/leather",
+		"particle": "mvndicraft:weapons/archery/arrow"
+	},
+	"elements": [
+		{
+			"from": [7.9, 0.66051, 5.73953],
+			"to": [8.1, 0.86051, 12.23953],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.01047, 9.00002, 7.98951]},
+			"faces": {
+				"north": {"uv": [2, 1, 2.5, 1.5], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [2, 1, 6.5, 1.5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [2, 1, 2.5, 1.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [2, 1, 6.5, 1.5], "texture": "#0"},
+				"up": {"uv": [2, 1, 6.5, 1.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [2, 1, 6.5, 1.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.9, 0.66051, 4.48953],
+			"to": [8.1, 0.86051, 5.73953],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.01047, 9.00002, 8.73951]},
+			"faces": {
+				"north": {"uv": [7.5, 1, 8, 1.5], "texture": "#0"},
+				"east": {"uv": [6.5, 1, 8, 1.5], "texture": "#0"},
+				"south": {"uv": [6.5, 1, 8, 1.5], "texture": "#0"},
+				"west": {"uv": [6.5, 1, 8, 1.5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [6.5, 1, 8, 1.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.5, 1, 8, 1.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.98047, 0.38551, 10.48953],
+			"to": [8.01953, 1.13551, 11.98953],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 0.26051, 9.98953]},
+			"faces": {
+				"north": {"uv": [5.975, 5.9875, 8, 6.9875], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [3.975, 5.9875, 6, 10.9875], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [5.975, 5.9875, 8, 6.9875], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [3.975, 5.9875, 6, 10.9875], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [5.975, 5.9875, 8, 6.9875], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [5.975, 5.9875, 8, 6.9875], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.625, 0.74098, 10.48953],
+			"to": [8.375, 0.78004, 11.98953],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 0.76051, 11.23953]},
+			"faces": {
+				"north": {"uv": [4.975, 6.9875, 6, 7.9875], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [3, 1, 4.5, 1.5], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [5.975, 6.9875, 7, 7.9875], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [2.9375, 1, 4.4375, 1.5], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [6.975, 7.9875, 12, 8.9875], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6.975, 7.9875, 12, 8.9875], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"custom_model_data": 38}, "model": "mvndicraft:weapons/axes/francisca_axe_throw"},
+		{"predicate": {"custom_model_data": 39}, "model": "mvndicraft:weapons/pole_arms/javelin_throw"},
+		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:siege/item/boulder"},
+		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:siege/item/cannonball"},
+		{"predicate": {"custom_model_data": 6004}, "model": "mvndicraft:siege/item/canister_shot"},
+		{"predicate": {"custom_model_data": 6005}, "model": "mvndicraft:siege/item/steel_bolt"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90.51, -0.26, 0.32],
+			"translation": [0, -2.25, 7.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [95, 0, 0],
+			"translation": [0, -2.5, 7.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [61, 0, 0],
+			"translation": [4.25, 1.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [72.25, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"rotation": [84.62, 54.13, -109.95],
+			"translation": [5.75, 9.25, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [90, 47.75, -90],
+			"translation": [8.75, 11.25, 0],
+			"scale": [2, 2, 2]
+		}
+	}
 }
