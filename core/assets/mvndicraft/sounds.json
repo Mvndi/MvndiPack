@@ -2,83 +2,103 @@
   "combat.attack.crit": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/attack/strong1", "volume": 0.7, "pitch": 0.8},
-      {"name": "mvndicraft:combat/attack/strong2", "volume": 0.7, "pitch": 0.8},
-      {"name": "mvndicraft:combat/attack/strong3", "volume": 0.7, "pitch": 0.8},
-      {"name": "mvndicraft:combat/attack/strong4", "volume": 0.7, "pitch": 0.8},
-      {"name": "mvndicraft:combat/attack/strong5", "volume": 0.7, "pitch": 0.8},
-      {"name": "mvndicraft:combat/attack/strong6", "volume": 0.7, "pitch": 0.8}
+      {
+        "name": "mvndicraft:combat/attack/strong1",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:combat/attack/strong2",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:combat/attack/strong3",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:combat/attack/strong4",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:combat/attack/strong5",
+        "volume": 0.7,
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:combat/attack/strong6",
+        "volume": 0.7,
+        "pitch": 0.8
+      }
     ]
   },
   "combat.attack.knockback": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/attack/knockback1", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/knockback2", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/knockback3", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/knockback4", "volume": 0.7}
+      { "name": "mvndicraft:combat/attack/knockback1", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/knockback2", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/knockback3", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/knockback4", "volume": 0.7 }
     ]
   },
   "combat.attack.no_damage": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/attack/weak1", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/weak2", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/weak3", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/weak4", "volume": 0.7}
+      { "name": "mvndicraft:combat/attack/weak1", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/weak2", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/weak3", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/weak4", "volume": 0.7 }
     ]
   },
   "combat.attack.strong": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/attack/strong1", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/strong2", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/strong3", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/strong4", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/strong5", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/strong6", "volume": 0.7}
+      { "name": "mvndicraft:combat/attack/strong1", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/strong2", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/strong3", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/strong4", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/strong5", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/strong6", "volume": 0.7 }
     ]
   },
   "combat.attack.sweep": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/attack/sweep1", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/sweep2", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/sweep3", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/sweep4", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/sweep5", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/sweep6", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/sweep7", "volume": 0.7}
+      { "name": "mvndicraft:combat/attack/sweep1", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/sweep2", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/sweep3", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/sweep4", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/sweep5", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/sweep6", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/sweep7", "volume": 0.7 }
     ]
   },
   "combat.attack.weak": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/attack/weak1", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/weak2", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/weak3", "volume": 0.7},
-      {"name": "mvndicraft:combat/attack/weak4", "volume": 0.7}
+      { "name": "mvndicraft:combat/attack/weak1", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/weak2", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/weak3", "volume": 0.7 },
+      { "name": "mvndicraft:combat/attack/weak4", "volume": 0.7 }
     ]
   },
   "combat.guard_break": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:combat/guard_break", "volume": 0.25}
-    ]
+    "sounds": [{ "name": "mvndicraft:combat/guard_break", "volume": 0.25 }]
   },
   "combat.kill": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:combat/kill_1", "volume": 0.5},
-      {"name": "mvndicraft:combat/kill_2", "volume": 0.5},
-      {"name": "mvndicraft:combat/kill_3", "volume": 0.5}
+      { "name": "mvndicraft:combat/kill_1", "volume": 0.5 },
+      { "name": "mvndicraft:combat/kill_2", "volume": 0.5 },
+      { "name": "mvndicraft:combat/kill_3", "volume": 0.5 }
     ]
   },
   "combat.you_died": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:combat/you_died", "volume": 0.33}
-    ]
+    "sounds": [{ "name": "mvndicraft:combat/you_died", "volume": 0.33 }]
   },
   "drip": {
     "category": "player",
@@ -108,40 +128,36 @@
   },
   "equipment.ammo.bullet.impact_block": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:equipment/ammo/bullet/impact_block"}
-    ]
+    "sounds": [{ "name": "mvndicraft:equipment/ammo/bullet/impact_block" }]
   },
   "equipment.ammo.bullet.impact_entity": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/ammo/bullet/impact_entity_1"},
-      {"name": "mvndicraft:equipment/ammo/bullet/impact_entity_2"}
+      { "name": "mvndicraft:equipment/ammo/bullet/impact_entity_1" },
+      { "name": "mvndicraft:equipment/ammo/bullet/impact_entity_2" }
     ]
   },
   "equipment.ammo.standard_arrow.hit": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_1"},
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_2"},
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_3"},
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_4"}
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_1" },
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_2" },
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_3" },
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_4" }
     ]
   },
   "equipment.ammo.standard_bolt.hit": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_1"},
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_2"},
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_3"},
-      {"name": "mvndicraft:equipment/ammo/standard_arrow/hit_4"}
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_1" },
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_2" },
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_3" },
+      { "name": "mvndicraft:equipment/ammo/standard_arrow/hit_4" }
     ]
   },
   "equipment.bows.shoot": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:equipment/bows/shoot"}
-    ]
+    "sounds": [{ "name": "mvndicraft:equipment/bows/shoot" }]
   },
   "equipment.cavalry.hit": {
     "category": "player",
@@ -173,9 +189,9 @@
   "equipment.crossbows.shoot": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/crossbows/shoot_1"},
-      {"name": "mvndicraft:equipment/crossbows/shoot_2"},
-      {"name": "mvndicraft:equipment/crossbows/shoot_3"}
+      { "name": "mvndicraft:equipment/crossbows/shoot_1" },
+      { "name": "mvndicraft:equipment/crossbows/shoot_2" },
+      { "name": "mvndicraft:equipment/crossbows/shoot_3" }
     ]
   },
   "equipment.firearms.arquebus.click": {
@@ -226,11 +242,11 @@
   "equipment.shields.block": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/shields/block_1"},
-      {"name": "mvndicraft:equipment/shields/block_2"},
-      {"name": "mvndicraft:equipment/shields/block_3"},
-      {"name": "mvndicraft:equipment/shields/block_4"},
-      {"name": "mvndicraft:equipment/shields/block_5"}
+      { "name": "mvndicraft:equipment/shields/block_1" },
+      { "name": "mvndicraft:equipment/shields/block_2" },
+      { "name": "mvndicraft:equipment/shields/block_3" },
+      { "name": "mvndicraft:equipment/shields/block_4" },
+      { "name": "mvndicraft:equipment/shields/block_5" }
     ]
   },
   "pageturn": {
@@ -814,91 +830,211 @@
   "soundscapes.entity.player.attack.metal_sword": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1"},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2"},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3"},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4"},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5"}
+      { "name": "mvndicraft:soundscapes/entity/player/metal_sword1" },
+      { "name": "mvndicraft:soundscapes/entity/player/metal_sword2" },
+      { "name": "mvndicraft:soundscapes/entity/player/metal_sword3" },
+      { "name": "mvndicraft:soundscapes/entity/player/metal_sword4" },
+      { "name": "mvndicraft:soundscapes/entity/player/metal_sword5" }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p60": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.60},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.60},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.60},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.60},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.60}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 0.6
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 0.6
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p80": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.80},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.80},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.80},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.80},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.80}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 0.8
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p90": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.90},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.90},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.90},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.90},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.90}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 0.9
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p75": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.75},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.75},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.75},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.75},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.75}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 0.75
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 0.75
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 0.75
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p67": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.67},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.67},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.67},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.67},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.67}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 0.67
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 0.67
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 0.67
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 0.67
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 0.67
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p50": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 0.5},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 0.5},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 0.5},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 0.5},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 0.5}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 0.5
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 0.5
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p120": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 1.20},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 1.20},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 1.20},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 1.20},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 1.20}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 1.2
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 1.2
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_sword_p140": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword1", "pitch": 1.40},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword2", "pitch": 1.40},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword3", "pitch": 1.40},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword4", "pitch": 1.40},
-      {"name": "mvndicraft:soundscapes/entity/player/metal_sword5", "pitch": 1.40}
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword1",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword2",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword3",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword4",
+        "pitch": 1.4
+      },
+      {
+        "name": "mvndicraft:soundscapes/entity/player/metal_sword5",
+        "pitch": 1.4
+      }
     ]
   },
   "soundscapes.entity.player.attack.metal_tools": {
@@ -1009,76 +1145,76 @@
   "equipment.spear": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/spear1"},
-      {"name": "mvndicraft:equipment/spear2"}
+      { "name": "mvndicraft:equipment/spear1" },
+      { "name": "mvndicraft:equipment/spear2" }
     ]
   },
   "equipment.spear_p60": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/spear1", "pitch": 0.60},
-      {"name": "mvndicraft:equipment/spear2", "pitch": 0.60}
+      { "name": "mvndicraft:equipment/spear1", "pitch": 0.6 },
+      { "name": "mvndicraft:equipment/spear2", "pitch": 0.6 }
     ]
   },
   "equipment.spear_p80": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/spear1", "pitch": 0.80},
-      {"name": "mvndicraft:equipment/spear2", "pitch": 0.80}
+      { "name": "mvndicraft:equipment/spear1", "pitch": 0.8 },
+      { "name": "mvndicraft:equipment/spear2", "pitch": 0.8 }
     ]
   },
   "equipment.spear_p120": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/spear1", "pitch": 1.20},
-      {"name": "mvndicraft:equipment/spear2", "pitch": 1.20}
+      { "name": "mvndicraft:equipment/spear1", "pitch": 1.2 },
+      { "name": "mvndicraft:equipment/spear2", "pitch": 1.2 }
     ]
   },
   "equipment.spear_p140": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/spear1", "pitch": 1.40},
-      {"name": "mvndicraft:equipment/spear2", "pitch": 1.40}
+      { "name": "mvndicraft:equipment/spear1", "pitch": 1.4 },
+      { "name": "mvndicraft:equipment/spear2", "pitch": 1.4 }
     ]
   },
   "equipment.wooden_sword": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/wooden_sword1"},
-      {"name": "mvndicraft:equipment/wooden_sword2"},
-      {"name": "mvndicraft:equipment/wooden_sword3"}
+      { "name": "mvndicraft:equipment/wooden_sword1" },
+      { "name": "mvndicraft:equipment/wooden_sword2" },
+      { "name": "mvndicraft:equipment/wooden_sword3" }
     ]
   },
   "equipment.wooden_sword_p60": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 0.60},
-      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 0.60},
-      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 0.60}
+      { "name": "mvndicraft:equipment/wooden_sword1", "pitch": 0.6 },
+      { "name": "mvndicraft:equipment/wooden_sword2", "pitch": 0.6 },
+      { "name": "mvndicraft:equipment/wooden_sword3", "pitch": 0.6 }
     ]
   },
   "equipment.wooden_sword_p80": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 0.80},
-      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 0.80},
-      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 0.80}
+      { "name": "mvndicraft:equipment/wooden_sword1", "pitch": 0.8 },
+      { "name": "mvndicraft:equipment/wooden_sword2", "pitch": 0.8 },
+      { "name": "mvndicraft:equipment/wooden_sword3", "pitch": 0.8 }
     ]
   },
   "equipment.wooden_sword_p120": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 1.20},
-      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 1.20},
-      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 1.20}
+      { "name": "mvndicraft:equipment/wooden_sword1", "pitch": 1.2 },
+      { "name": "mvndicraft:equipment/wooden_sword2", "pitch": 1.2 },
+      { "name": "mvndicraft:equipment/wooden_sword3", "pitch": 1.2 }
     ]
   },
   "equipment.wooden_sword_p140": {
     "category": "player",
     "sounds": [
-      {"name": "mvndicraft:equipment/wooden_sword1", "pitch": 1.40},
-      {"name": "mvndicraft:equipment/wooden_sword2", "pitch": 1.40},
-      {"name": "mvndicraft:equipment/wooden_sword3", "pitch": 1.40}
+      { "name": "mvndicraft:equipment/wooden_sword1", "pitch": 1.4 },
+      { "name": "mvndicraft:equipment/wooden_sword2", "pitch": 1.4 },
+      { "name": "mvndicraft:equipment/wooden_sword3", "pitch": 1.4 }
     ]
   },
   "equipment.wooden_tools": {
@@ -1100,21 +1236,15 @@
   },
   "player.heartbeat_fast": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:player/heartbeat_fast"}
-    ]
+    "sounds": [{ "name": "mvndicraft:player/heartbeat_fast" }]
   },
   "player.heartbeat_medium": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:player/heartbeat_medium"}
-    ]
+    "sounds": [{ "name": "mvndicraft:player/heartbeat_medium" }]
   },
   "player.heartbeat_slow": {
     "category": "player",
-    "sounds": [
-      {"name": "mvndicraft:player/heartbeat_slow"}
-    ]
+    "sounds": [{ "name": "mvndicraft:player/heartbeat_slow" }]
   },
   "player.jump": {
     "category": "player",
@@ -1290,34 +1420,130 @@
     ]
   },
   "farming.saw_in": {
-	"category": "block",
-	"sounds": [
-	  {
-		"name": "mvndicraft:farming/saw_in",
-		"pitch": 1
-	  }
-	]
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:farming/saw_in",
+        "pitch": 1
+      }
+    ]
   },
   "farming.saw_out": {
-	"category": "block",
-	"sounds": [
-	  {
-		"name": "mvndicraft:farming/saw_out",
-		"pitch": 1
-	  }
-	]
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:farming/saw_out",
+        "pitch": 1
+      }
+    ]
   },
   "ship.sinking.thud": {
-	"category": "block",
-	"sounds": [
-	  {
-		"name": "mvndicraft:ship/large_underwater_crash_0",
-		"pitch": 1
-	  },
-	  {
-		"name": "mvndicraft:ship/large_underwater_crash_1",
-		"pitch": 1
-	  }
-	]
-  }
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:ship/large_underwater_crash_0",
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:ship/large_underwater_crash_1",
+        "pitch": 1
+      }
+    ]
+  },
+  "siege_event.romans_defeat_byzantine": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/defeat/defeat_byzantine"
+      }
+    ]
+  },
+  "siege_event.romans_intro1": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro1"
+      }
+    ]
+  },
+  "siege_event.romans_intro2": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro2"
+      }
+    ]
+  },
+  "siege_event.romans_intro3": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro3"
+      }
+    ]
+  },
+  "siege_event.romans_intro4": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro4"
+      }
+    ]
+  },
+  "siege_event.romans_intro5": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro5"
+      }
+    ]
+  },
+  "siege_event.romans_intro6": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro6"
+      }
+    ]
+  },
+  "siege_event.romans_intro7": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro7"
+      }
+    ]
+  },
+  "siege_event.romans_intro8": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro8"
+      }
+    ]
+  },
+  "siege_event.romans_victory_byzantine": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/victory/victory_byzantine"
+      }
+    ]
+  },
+  "siege_event.venetians_defeat": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/venetians/defeat/defeat"
+      }
+    ]
+  },
+  "siege_event.venetians_victory": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/venetians/victory/victory"
+      }
+    ]
+  }  
 }
