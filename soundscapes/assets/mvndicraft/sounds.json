@@ -286,11 +286,11 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/beach/fadeout1",
-        "volume": 1
+        "volume": 0.25
       },
       {
         "name": "mvndicraft:ambient/surface/beach/fadeout2",
-        "volume": 1
+        "volume": 0.25
       }
     ]
   },
@@ -299,15 +299,15 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/beach/loop1",
-        "volume": 1
+        "volume": 0.25
       },
       {
         "name": "mvndicraft:ambient/surface/beach/loop2",
-        "volume": 1
+        "volume": 0.25
       },
       {
         "name": "mvndicraft:ambient/surface/beach/loop3",
-        "volume": 1
+        "volume": 0.25
       }
     ]
   },
@@ -559,11 +559,11 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/river/fadeout1",
-        "volume": 1
+        "volume": 0.25
       },
       {
         "name": "mvndicraft:ambient/surface/river/fadeout2",
-        "volume": 1
+        "volume": 0.25
       }
     ]
   },
@@ -572,11 +572,11 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/river/loop1",
-        "volume": 0.5
+        "volume": 0.25
       },
       {
         "name": "mvndicraft:ambient/surface/river/loop2",
-        "volume": 0.5
+        "volume": 0.25
       }
     ]
   },
@@ -623,15 +623,15 @@
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/sea/loop1",
-        "volume": 1
+        "volume": 0.3
       },
       {
         "name": "mvndicraft:ambient/surface/sea/loop2",
-        "volume": 1
+        "volume": 0.3
       },
       {
         "name": "mvndicraft:ambient/surface/sea/loop3",
-        "volume": 1
+        "volume": 0.3
       }
     ]
   },
