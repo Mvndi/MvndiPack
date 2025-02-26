@@ -377,6 +377,27 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/axes/galloglach_axe"
                 }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/polearms/earspoon"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/longsword"
+                }
+            }
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/blunt/spiked_flanged_mace"
+                }
             }
         ]
     }

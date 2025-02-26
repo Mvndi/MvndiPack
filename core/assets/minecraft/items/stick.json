@@ -1247,6 +1247,41 @@
                 }
             },
             {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/earspoonhead_animation_1"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/earspoonhead_animation_2"
+                }
+            },
+            {
+                "threshold": 186,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/polearm/earspoonhead_animation_3"
+                }
+            },
+            {
+                "threshold": 187,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedflangedmacehead_animation_1"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedflangedhead_animation_2"
+                }
+            },
+            {
                 "threshold": 3000,
                 "model": {
                     "type": "model",
