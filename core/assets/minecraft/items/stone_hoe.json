@@ -382,7 +382,7 @@
                 "threshold": 53,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/polearms/earspoon"
+                    "model": "mvndicraft:weapons/pole_arms/earspoon"
                 }
             },
             {
@@ -391,7 +391,7 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/longsword"
                 }
-            }
+            },
             {
                 "threshold": 55,
                 "model": {

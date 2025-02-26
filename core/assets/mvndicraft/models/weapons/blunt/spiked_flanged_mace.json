@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mace",
-		"particle": "mace"
+		"0": "mvndicraft:weapons/blunt/mace2",
+		"particle": "mvndicraft:weapons/blunt/mace2"
 	},
 	"elements": [
 		{
