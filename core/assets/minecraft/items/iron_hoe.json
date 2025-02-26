@@ -587,7 +587,35 @@
                     "type": "model",
                     "model": "mvndicraft:blacksmith/tong/tongs_armor_plate"
                 }
-            }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/earspoon_head"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/head/mace2_head"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_earspoon_head"
+                }
+            },  
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/tong/tongs_spikedflangedmace_head"
+                }
+            }                                         
         ]
     }
 }

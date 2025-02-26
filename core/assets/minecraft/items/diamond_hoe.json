@@ -412,7 +412,28 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/blunt/crows_beak_reverse"
                 }
-            }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/earspoon"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/longsword"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/blunt/spiked_flanged_mace"
+                }
+            }            
         ]
     }
 }

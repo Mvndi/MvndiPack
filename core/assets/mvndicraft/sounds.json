@@ -1617,5 +1617,13 @@
         "name": "mvndicraft:siege_event/venetians/intro/introduzione_full"
       }
     ]
-  }
+  },
+  "siege_event.ms_igloo": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/ms_igloo"
+      }
+    ]
+  }  
 }
