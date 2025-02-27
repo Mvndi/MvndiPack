@@ -4,10 +4,10 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [-0.5, 2.25, 1.25]
+			"translation": [4, 2.25, 3]
 		},
 		"thirdperson_lefthand": {
-			"translation": [-0.5, 2.25, 1.25]
+			"translation": [-3, 2.25, 3]
 		},
 		"firstperson_righthand": {
 			"rotation": [90, 0, 0],
