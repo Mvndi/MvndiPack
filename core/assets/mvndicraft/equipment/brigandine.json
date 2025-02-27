@@ -1,10 +1,18 @@
 {
 	"layers": {
 		"humanoid": [
-			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:brigandine" }
-		],
+			{ "dyeable": { "color_when_undyed": 524939 }, "texture": "mvndicraft:brigandine" },
+			 {
+        "texture": "mvndicraft:brigandine_overlay"
+      }
+
+	
+    ],
 		"humanoid_leggings": [
-			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:brigandine_leggings" }
+			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:brigandine_leggings" },
+			 {
+        "texture": "mvndicraft:brigandine_leggings_overlay"
+      }
 		]
 	}
 }
