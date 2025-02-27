@@ -4,7 +4,7 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "item/chestplate_layer1"
+            "model": "item/leather_chestplate"
         },
         "entries": [
             {
