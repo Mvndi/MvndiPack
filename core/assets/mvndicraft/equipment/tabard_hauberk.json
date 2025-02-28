@@ -1,10 +1,18 @@
 {
 	"layers": {
 		"humanoid": [
-			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:tabard_hauberk" }
+			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:tabard_hauberk" },
+				{
+        "texture": "mvndicraft:tabard_hauberk_overlay"
+      }
+
+	
 		],
 		"humanoid_leggings": [
-			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:tabard_hauberk_leggings" }
+			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:tabard_hauberk_leggings" },
+			{
+        "texture": "mvndicraft:tabard_hauberk_leggings_overlay"
+      }
 		]
 	}
 }

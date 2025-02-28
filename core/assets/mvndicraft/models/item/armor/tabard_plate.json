@@ -2,6 +2,7 @@
   "parent": "item/chestplate_layer1",
   "textures": {
     "chestplate": "models/armor/leatherlayer1/390",
-    "layer1": "models/armor/blank"
+    "layer1": "models/armor/leatherlayer1/390_overlay",
+	  "layer2": "models/armor/leatherlayer2/390"
   }
 }
