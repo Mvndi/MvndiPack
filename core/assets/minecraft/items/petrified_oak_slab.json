@@ -1,3 +1,7 @@
 {
-    "parent": "block/foliage/dirt/dirt_slab"
-}
+    "model": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/petrified_oak_slab"
+    }
+  }
+  
