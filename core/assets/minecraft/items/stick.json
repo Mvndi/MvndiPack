@@ -1282,6 +1282,30 @@
                 }
             },
             {
+                "threshold": 189,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/mast/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+                      }                                           
+                    ]
+                  }
+            },
+            {
                 "threshold": 3000,
                 "model": {
                     "type": "model",
