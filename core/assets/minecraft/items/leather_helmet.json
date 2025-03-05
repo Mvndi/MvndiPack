@@ -790,7 +790,14 @@
                     "type": "model",
                     "model": "mvndicraft:armor/helms/galero"
                 }
-            }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/barbute/gw_barbute"
+                }
+            }        
         ]
     }
 }
