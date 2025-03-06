@@ -1142,6 +1142,12 @@
       }
     ]
   },
+  "equipment.throw": {
+    "category": "player",
+    "sounds": [
+      { "name": "mvndicraft:equipment/throw" }
+    ]
+  },  
   "equipment.spear": {
     "category": "player",
     "sounds": [
