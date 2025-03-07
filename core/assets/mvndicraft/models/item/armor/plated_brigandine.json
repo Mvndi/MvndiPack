@@ -2,6 +2,7 @@
   "parent": "item/chestplate_layer1",
   "textures": {
     "chestplate": "models/armor/leatherlayer1/270",
-    "layer1": "models/armor/blank"
+    "layer1": "models/armor/blank",
+    "particle": "models/armor/leatherlayer1/270"
   }
 }

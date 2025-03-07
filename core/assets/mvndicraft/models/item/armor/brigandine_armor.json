@@ -3,6 +3,7 @@
   "textures": {
     "chestplate": "models/armor/leatherlayer1/140",
     "layer1": "models/armor/leatherlayer1/140_overlay",
-	  "layer2": "models/armor/leatherlayer2/140"
+    "layer2": "models/armor/leatherlayer2/140",
+    "particle": "models/armor/leatherlayer1/140"
   }
 }
