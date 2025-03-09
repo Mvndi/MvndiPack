@@ -212,11 +212,11 @@
     },
     {
       "type": "bitmap",
-      "file": "mvndicraft:ui/logo/mvndicraft.png",
+      "file": "mvndicraft:ui/logo/mvndicraft-italian-wars.png",
       "ascent": 10,
       "height": 30,
       "chars": ["鹉"]
-    },	
+    },
     {
       "type": "bitmap",
       "file": "mvndicraft:pvp/duel.png",
