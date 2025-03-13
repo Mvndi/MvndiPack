@@ -1456,6 +1456,23 @@
       }
     ]
   },
+  "ship.sailing.set": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:ship/flag_0",
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:ship/flag_1",
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:ship/flag_2",
+        "pitch": 1
+      }
+    ]
+  },
   "siege_event.romans_defeat_byzantine": {
     "category": "player",
     "sounds": [
