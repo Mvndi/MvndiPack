@@ -1,5 +1,5 @@
 {
-  "parent": "mvndicraft:vehicles/ships/cog/mast/default/undamaged",
+  "parent": "mvndicraft:vehicles/ships/cog/mast/default/undamaged/half",
   "textures": {
     "sail": "mvndicraft:vehicles/ships/cog/sail/test"
   }

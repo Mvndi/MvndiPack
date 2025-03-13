@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "mvndicraft:vehicles/ships/display",
-	"texture_size": [64, 64],
+	"texture_size": [32, 32],
 	"textures": {
 		"log": "mvndicraft:vehicles/ships/oak_log",
 		"darkness": "block/black_terracotta",
@@ -1050,7 +1050,6 @@
 			}
 		}
 	],
-	"display": {},
 	"groups": [
 		{
 			"name": "Hull",

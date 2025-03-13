@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "mvndicraft:vehicles/ships/display",
-	"texture_size": [64, 64],
+	"texture_size": [32, 32],
 	"textures": {
-		"particle": "mvndicraft:vehicles/ships/cog/bow/default",
-		"hull": "mvndicraft:vehicles/ships/cog/bow/default"
+		"hull": "mvndicraft:vehicles/ships/cog/bow/default",
+		"particle": "block/anvil"
 	},
 	"elements": [
 		{
@@ -70,7 +70,7 @@
 				"south": {"uv": [8.5, 8.5, 8.6875, 8.5625], "texture": "#hull"},
 				"west": {"uv": [0, 8.75, 0.1875, 8.8125], "texture": "#hull"},
 				"up": {"uv": [2.6875, 7.6875, 2.5, 7.5], "texture": "#hull"},
-				"down": {"uv": [2.9375, 7.5, 2.75, 7.6875], "texture": "#hull"}
+				"down": {"uv": [2.6875, 7.5, 2.5, 7.6875], "texture": "#hull"}
 			}
 		},
 		{
