@@ -382,6 +382,68 @@
                       }
                     ]
                   }
+                },
+                {
+                  "when": "yellow_red_stripes",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "when": "red_white_band",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
                 }
               ],
               "fallback": {
@@ -602,6 +664,68 @@
                         "model": {
                           "type": "minecraft:model",
                           "model": "mvndicraft:vehicles/ships/cog/mast/green/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "when": "yellow_red_stripes",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "when": "red_white_band",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/lightly_damaged/stowed"
                         }
                       }
                     ]
@@ -830,6 +954,68 @@
                       }
                     ]
                   }
+                },
+                {
+                  "when": "yellow_red_stripes",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "when": "red_white_band",
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
                 }
               ],
               "fallback": {
@@ -909,6 +1095,20 @@
                   "model": {
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/cog/mast/green/broken"
+                  }
+                },
+                {
+                  "when": "yellow_red_stripes",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/broken"
+                  }
+                },
+                {
+                  "when": "red_white_band",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/broken"
                   }
                 }
               ],

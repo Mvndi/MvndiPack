@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/mast/default/heavily_damaged/half",
+  "textures": {
+    "sail": "mvndicraft:vehicles/ships/cog/sail/red_white_band"
+  }
+}
