@@ -162,70 +162,70 @@
                 }
             },
             {
-                "threshold": 20,
+                "threshold": 920,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_0"
                 }
             },
             {
-                "threshold": 21,
+                "threshold": 921,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_1"
                 }
             },
             {
-                "threshold": 22,
+                "threshold": 922,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_2"
                 }
             },
             {
-                "threshold": 23,
+                "threshold": 923,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_3"
                 }
             },
             {
-                "threshold": 24,
+                "threshold":924,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_4"
                 }
             },
             {
-                "threshold": 25,
+                "threshold": 925,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_5"
                 }
             },
             {
-                "threshold": 26,
+                "threshold": 926,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_6"
                 }
             },
             {
-                "threshold": 27,
+                "threshold": 927,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_7"
                 }
             },
             {
-                "threshold": 28,
+                "threshold": 928,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_8"
                 }
             },
             {
-                "threshold": 29,
+                "threshold": 929,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_9"
