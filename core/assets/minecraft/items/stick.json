@@ -1426,6 +1426,54 @@
                   }
             },
             {
+                "threshold": 195,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/undamaged/full"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+                      }                                        
+                    ]
+                  }
+            },
+            {
+                "threshold": 196,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/undamaged/full"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+                      }                                        
+                    ]
+                  }
+            },            
+            {
                 "threshold": 3000,
                 "model": {
                     "type": "model",
