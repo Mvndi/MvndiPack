@@ -1005,7 +1005,7 @@
                 "threshold": 149,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:blacksmith/animation/lightaxe/beardedaxehead_animation_2"
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/bearedaxehead_animation_2"
                 }
             },
             {
