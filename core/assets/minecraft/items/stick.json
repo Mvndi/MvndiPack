@@ -1278,7 +1278,7 @@
                 "threshold": 188,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:blacksmith/animation/blunt/spikedflangedhead_animation_2"
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedflangedmacehead_animation_2"
                 }
             },
             {
@@ -1472,7 +1472,14 @@
                       }                                        
                     ]
                   }
-            },            
+            },
+            {
+                "threshold": 2000,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/cast_iron_ingot"
+                }
+            },
             {
                 "threshold": 3000,
                 "model": {
