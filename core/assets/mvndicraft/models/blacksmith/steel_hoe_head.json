@@ -1,427 +1,92 @@
 {
-    "model": {
-        "type": "range_dispatch",
-        "property": "custom_model_data",
-        "fallback": {
-            "type": "model",
-            "model": "diamond_hoe"
-        },
-        "entries": [
-            {
-                "threshold": 1,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/falchion"
-                }
-            },
-            {
-                "threshold": 2,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/scimitar"
-                }
-            },
-            {
-                "threshold": 3,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/spadone"
-                }
-            },
-            {
-                "threshold": 4,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/spatha"
-                }
-            },
-            {
-                "threshold": 5,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/steel_viking_sword"
-                }
-            },
-            {
-                "threshold": 6,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/straight_sword"
-                }
-            },
-            {
-                "threshold": 7,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/true_steel_ulfberht_viking_sword"
-                }
-            },
-            {
-                "threshold": 8,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/true_straight_sword"
-                }
-            },
-            {
-                "threshold": 9,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/varangian_sword"
-                }
-            },
-            {
-                "threshold": 10,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/steel_seax"
-                }
-            },
-            {
-                "threshold": 11,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/francisca"
-                }
-            },
-            {
-                "threshold": 12,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/varangian_axe"
-                }
-            },
-            {
-                "threshold": 13,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/dane_axe"
-                }
-            },
-            {
-                "threshold": 14,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/bearded_axe"
-                }
-            },
-            {
-                "threshold": 15,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/broad_axe"
-                }
-            },
-            {
-                "threshold": 16,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/hammer_axe"
-                }
-            },
-            {
-                "threshold": 17,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/cavalry/lance"
-                }
-            },
-            {
-                "threshold": 18,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/cavalry/lance_couched"
-                }
-            },
-            {
-                "threshold": 19,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/halberd"
-                }
-            },
-            {
-                "threshold": 20,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/javelin"
-                }
-            },
-            {
-                "threshold": 21,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/pike"
-                }
-            },
-            {
-                "threshold": 22,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/winged_spear"
-                }
-            },
-            {
-                "threshold": 23,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/glaive"
-                }
-            },
-            {
-                "threshold": 24,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/blunt/mace"
-                }
-            },
-            {
-                "threshold": 25,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/blunt/morning_star"
-                }
-            },
-            {
-                "threshold": 26,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/blunt/war_hammer"
-                }
-            },
-            {
-                "threshold": 27,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/blunt/studded_mace"
-                }
-            },
-            {
-                "threshold": 28,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/albion_falchion"
-                }
-            },
-            {
-                "threshold": 29,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/arabian_straight_sword"
-                }
-            },
-            {
-                "threshold": 30,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/paramerion"
-                }
-            },
-            {
-                "threshold": 31,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/billhook"
-                }
-            },
-            {
-                "threshold": 32,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/angular_spear"
-                }
-            },
-            {
-                "threshold": 33,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/blunt/crows_beak"
-                }
-            },
-            {
-                "threshold": 34,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/blunt/spiked_goedendag"
-                }
-            },
-            {
-                "threshold": 35,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/sword_staff"
-                }
-            },
-            {
-                "threshold": 36,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/fauchard"
-                }
-            },
-            {
-                "threshold": 37,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/sweihander"
-                }
-            },
-            {
-                "threshold": 38,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/axes/francisca_axe_throw"
-                }
-            },
-            {
-                "threshold": 39,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/javelin_throw"
-                }
-            },
-            {
-                "threshold": 40,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:entity/arrow"
-                }
-            },
-            {
-                "threshold": 41,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/spikedpolemace"
-                }
-            },
-            {
-                "threshold": 42,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/claymore"
-                }
-            }
-        ]
-    },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [
-                2,
-                0,
-                0
-            ],
-            "translation": [
-                -0.75,
-                -10,
-                2.75
-            ],
-            "scale": [
-                1.51,
-                0.92,
-                1.4
-            ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [
-                2,
-                0,
-                0
-            ],
-            "translation": [
-                0.75,
-                -10,
-                2.75
-            ],
-            "scale": [
-                1.51,
-                0.92,
-                1.4
-            ]
-        },
-        "firstperson_righthand": {
-            "rotation": [
-                -20,
-                -3,
-                -2
-            ],
-            "translation": [
-                -0.25,
-                -2.5,
-                6.5
-            ],
-            "scale": [
-                0.69,
-                0.69,
-                0.69
-            ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [
-                -20,
-                -3,
-                -2
-            ],
-            "translation": [
-                -0.25,
-                -2.5,
-                6.5
-            ],
-            "scale": [
-                0.69,
-                0.69,
-                0.69
-            ]
-        },
-        "ground": {
-            "rotation": [
-                0,
-                0,
-                -90
-            ],
-            "translation": [
-                -9,
-                0.25,
-                7.75
-            ],
-            "scale": [
-                1,
-                1,
-                2
-            ]
-        },
-        "gui": {
-            "rotation": [
-                73.85,
-                -61.97,
-                86.25
-            ],
-            "translation": [
-                3.25,
-                -13.25,
-                0
-            ],
-            "scale": [
-                1.2,
-                1.2,
-                1.2
-            ]
-        },
-        "fixed": {
-            "rotation": [
-                99.68,
-                52.62,
-                -98.63
-            ],
-            "translation": [
-                -5,
-                -11,
-                -0.75
-            ],
-            "scale": [
-                1,
-                1,
-                0.81
-            ]
-        }
-    }
+	"credit": "Made with Blockbench",
+	"parent": "diamond_hoe",
+	"textures": {
+		"4": "mvndicraft:tools/steeltooltexture"
+	},
+	"elements": [
+		{
+			"name": "Top tip",
+			"from": [7.9, 18.6, 5.9],
+			"to": [9.1, 20.4, 7],
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.44353, 19.77497, 5.5625],
+			"to": [9.44353, 20.17497, 8.5625],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [6.81853, 10.29997, 7.8875]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#4"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#4"},
+				"south": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#4"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#4"},
+				"up": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#4"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.5, 19.3, 4.7],
+			"to": [9.4, 19.7, 7.4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [2, 0, 0],
+			"translation": [-0.75, -10, 2.75],
+			"scale": [1.51, 0.92, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [2, 0, 0],
+			"translation": [0.75, -10, 2.75],
+			"scale": [1.51, 0.92, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, -3, -2],
+			"translation": [-0.25, -2.5, 6.5],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, -3, -2],
+			"translation": [-0.25, -2.5, 6.5],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"ground": {
+			"rotation": [0, 0, -90],
+			"translation": [-9, 0.25, 7.75],
+			"scale": [1, 1, 2]
+		},
+		"gui": {
+			"rotation": [73.85, -61.97, 86.25],
+			"translation": [3.25, -13.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"rotation": [99.68, 52.62, -98.63],
+			"translation": [-5, -11, -0.75],
+			"scale": [1, 1, 0.81]
+		}
+	},
+	"groups": [
+		{
+			"name": "Top Part",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
 }
