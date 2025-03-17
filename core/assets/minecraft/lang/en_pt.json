@@ -51,13 +51,11 @@
   "block.minecraft.red_nether_brick_wall": "Red Sandstone Wall",
   "block.minecraft.andesite_wall": "Stone Pillar",
   "block.minecraft.dark_prismarine_slab": "Green Pillar Slab",
-  "block.minecraft.tnt": "Gunpowder Barrel",
+
   "block.minecraft.lantern": "Candle Bowl",
   "block.minecraft.granite_wall": "Wooden Wall",
   "block.minecraft.polished_blackstone_brick_wall": "Marble Column Base",
-  "block.minecraft.infested_stone": "Gearbox",
-  "block.minecraft.infested_cobblestone": "Mill",
-  "block.minecraft.infested_stone_bricks": "Sawmill Parts",
+
   "block.minecraft.infested_mossy_stone_bricks": "§4Infested Mossy Stone Bricks",
   "block.minecraft.infested_cracked_stone_bricks": "§4Infested Cracked Stone Bricks",
   "block.minecraft.infested_deepslate": "§4Infested Deepslate",
