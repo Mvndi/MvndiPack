@@ -296,8 +296,8 @@
 		},
 		"gui": {
 			"rotation": [90, 45, -90],
-			"translation": [-4.25, -3.75, 0],
-			"scale": [4, 1, 1]
+			"translation": [-3, -3.5, 0],
+			"scale": [0.68, 0.68, 0.68]
 		},
 		"head": {
 			"rotation": [87, 0, 0],
