@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "mvndicraft:weapons/cavalry/lance",
 		"3": "mvndicraft:weapons/pole_arms/spear_tip_steel"
@@ -157,7 +158,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [-88, 17, -6.25],
-			"translation": [0.25, 0.25, 38],
+			"translation": [0.25, 0.25, 6],
 			"scale": [1.5, 3, 1.5]
 		},
 		"firstperson_lefthand": {
