@@ -184,5 +184,13 @@
   "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
   "menu.game": "",
   "menu.disconnect": "\uE087Disconnect\uE088\uE086\uE089",
-  "menu.returnToGame": "Back to Mvndicraft"
+  "menu.returnToGame": "Back to Mvndicraft",
+
+  "entity.minecraft.hoglin": "Boar",
+  "entity.minecraft.husk": "Brigand",
+  "entity.minecraft.pillager": "Musketeer",
+  "entity.minecraft.polar_bear": "Bear",
+  "entity.minecraft.silverfish": "Rat",
+  "entity.minecraft.zoglin": "Boar",
+  "entity.minecraft.zombie": "Brigand Leader"
 }
