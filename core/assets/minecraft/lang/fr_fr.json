@@ -178,8 +178,16 @@
   "item.minecraft.poisonous_potato": "Chou pourri",
   "item.minecraft.cocoa_beans": "Dates",
 
-  "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
+  "menu.returnToMenu": "\uE087Retour au menu\uE088\uE086\uE089",
   "menu.game": "",
-  "menu.disconnect": "\uE087Disconnect\uE088\uE086\uE089",
-  "menu.returnToGame": "Revenir à Mvndicraft"
+  "menu.disconnect": "\uE087Déconnexion\uE088\uE086\uE089",
+  "menu.returnToGame": "Revenir à Mvndicraft",
+
+  "entity.minecraft.hoglin": "Sanglier",
+  "entity.minecraft.husk": "brigand",
+  "entity.minecraft.pillager": "Mousquetaire",
+  "entity.minecraft.polar_bear": "Ours",
+  "entity.minecraft.silverfish": "Rat",
+  "entity.minecraft.zoglin": "Sanglier",
+  "entity.minecraft.zombie": "brigand Leader"
 }
