@@ -1481,67 +1481,11 @@
       }
     ]
   },
-  "siege_event.romans_intro1": {
+  "siege_event.romans_intro": {
     "category": "player",
     "sounds": [
       {
-        "name": "mvndicraft:siege_event/romans/intro/intro1"
-      }
-    ]
-  },
-  "siege_event.romans_intro2": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro2"
-      }
-    ]
-  },
-  "siege_event.romans_intro3": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro3"
-      }
-    ]
-  },
-  "siege_event.romans_intro4": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro4"
-      }
-    ]
-  },
-  "siege_event.romans_intro5": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro5"
-      }
-    ]
-  },
-  "siege_event.romans_intro6": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro6"
-      }
-    ]
-  },
-  "siege_event.romans_intro7": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro7"
-      }
-    ]
-  },
-  "siege_event.romans_intro8": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/romans/intro/intro8"
+        "name": "mvndicraft:siege_event/romans/intro/intro_greek"
       }
     ]
   },
@@ -1574,62 +1518,6 @@
     "sounds": [
       {
         "name": "mvndicraft:siege_event/venetians/intro/introduzione"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_1": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_1"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_2": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_2"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_3": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_3"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_4": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_4"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_5": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_5"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_6": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_6"
-      }
-    ]
-  },
-  "siege_event.venetians_introduzione_7": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/venetians/intro/introduzione_7"
       }
     ]
   },
