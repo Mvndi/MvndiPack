@@ -1007,6 +1007,13 @@
                     "type": "model",
                     "model": "mvndicraft:ui/smithing_table_crafting"
                 }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/stats"
+                }
             }
         ]
     }
