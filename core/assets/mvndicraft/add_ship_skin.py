@@ -1,3 +1,7 @@
+###
+# Generates all files for ship skins. Run with arguments: ship (cog, galley, etc.), part (hull, stern, etc.) and the name of the skin texture (test, red_stripes, etc.)
+###
+
 import os
 import sys
 import shutil
