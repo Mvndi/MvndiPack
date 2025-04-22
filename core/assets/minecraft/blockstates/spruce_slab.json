@@ -18,7 +18,7 @@
 
         "type=double": 
             [
-			{ "model": "block/planks/spruce/spruce_doubleslab", "weight": 1 }
+			{ "model": "block/planks/spruce/spruce_slab_double", "weight": 1 }
 		    ]
     }
 }
