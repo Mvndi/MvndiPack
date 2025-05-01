@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"1": "mvndicraft:shields/heater/base",
 		"2": "mvndicraft:shields/border",
 		"3": "mvndicraft:shields/heater/base",
 		"4": "mvndicraft:shields/shield_handle",
@@ -13,7 +14,7 @@
 			"to": [14, 18, 7.9925],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 8.96875, 7.95]},
 			"faces": {
-				"north": {"uv": [5, 2.5, 11, 11.5], "texture": "#3"},
+				"north": {"uv": [5, 2.5, 11, 11.5], "texture": "#1"},
 				"south": {"uv": [5, 2.5, 11, 11.5], "texture": "#3"}
 			}
 		},
