@@ -14,6 +14,224 @@
       "height": 27,
       "chars": [""]
     },
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/0.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C50"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/1.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C51"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/2.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C52"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/3.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C53"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/4.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C54"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/5.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C55"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/6.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C56"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/7.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C57"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/8.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C58"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/9.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C59"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/10.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C5A"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/11.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C5B"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/12.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C5C"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/13.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C5D"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/14.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C5E"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/15.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C5F"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/16.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C60"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/17.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C61"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/18.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C62"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/19.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C63"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/20.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C64"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/21.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C65"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/22.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C66"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/23.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C67"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/24.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C68"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/25.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C69"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/26.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C6A"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/27.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C6B"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/28.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C6C"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/29.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C6D"]
+	},
+	{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/30.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C6E"]
+	},
+
     {
       "type": "bitmap",
       "file": "mvndicraft:pvp/blank.png",
