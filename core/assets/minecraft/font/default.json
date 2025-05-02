@@ -14,6 +14,34 @@
       "height": 27,
       "chars": [""]
     },
+{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/letter/invis.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C4C"]
+	},
+{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/letter/a.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C4D"]
+	},
+{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/letter/b.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C4E"]
+	},
+{
+	  "type": "bitmap",
+	  "file": "mvndicraft:minigame/siege/arrow/letter/c.png",
+	  "ascent": 8,
+	  "height": 8,
+	  "chars": ["\u0C4F"]
+	},
 	{
 	  "type": "bitmap",
 	  "file": "mvndicraft:minigame/siege/arrow/0.png",
@@ -434,6 +462,13 @@
       "ascent": 10,
       "height": 30,
       "chars": ["鹉"]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/logo/siege-assault.png",
+      "ascent": 10,
+      "height": 30,
+      "chars": ["\u0580"]
     },
     {
       "type": "bitmap",
