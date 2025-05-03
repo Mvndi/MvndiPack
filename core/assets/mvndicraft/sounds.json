@@ -1536,5 +1536,21 @@
         "name": "mvndicraft:siege_event/ms_igloo"
       }
     ]
-  }  
+  },
+  "siege_event.sector.taken_0": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/sector/taken_0"
+      }
+    ]
+  },
+  "siege_event.sector.taken_1": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/sector/taken_1"
+      }
+    ]
+  }
 }
