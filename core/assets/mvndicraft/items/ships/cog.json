@@ -169,6 +169,13 @@
         "index": 2,
         "cases": [
           {
+            "when": "empty",
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/air"
+            }
+          },
+          {
             "when": "test",
             "model": {
               "type": "minecraft:range_dispatch",
