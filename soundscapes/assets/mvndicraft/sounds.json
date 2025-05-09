@@ -940,5 +940,85 @@
         "volume": 0.15
       }
     ]
+  },
+  "siege_event.romans_defeat_byzantine": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/defeat/defeat_byzantine"
+      }
+    ]
+  },
+  "siege_event.romans_intro": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/intro/intro_greek"
+      }
+    ]
+  },
+  "siege_event.romans_victory_byzantine": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/romans/victory/victory_byzantine"
+      }
+    ]
+  },
+  "siege_event.venetians_defeat": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/venetians/defeat/defeat"
+      }
+    ]
+  },
+  "siege_event.venetians_victory": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/venetians/victory/victory"
+      }
+    ]
+  },
+  "siege_event.venetians_introduzione": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/venetians/intro/introduzione"
+      }
+    ]
+  },
+  "siege_event.venetians_introduzione_full": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/venetians/intro/introduzione_full"
+      }
+    ]
+  },
+  "siege_event.ms_igloo": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/ms_igloo"
+      }
+    ]
+  },
+  "siege_event.sector.taken_0": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/sector/taken_0"
+      }
+    ]
+  },
+  "siege_event.sector.taken_1": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/sector/taken_1"
+      }
+    ]
   }
 }
