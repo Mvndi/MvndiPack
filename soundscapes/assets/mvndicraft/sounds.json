@@ -1020,5 +1020,32 @@
         "name": "mvndicraft:siege_event/sector/taken_1"
       }
     ]
+  },
+  "siege_event.round.end": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/round/end_0"
+      },
+      {
+        "name": "mvndicraft:siege_event/round/end_1"
+      }
+    ]
+  },
+  "siege_event.round.end_0": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/round/end_0"
+      }
+    ]
+  },
+  "siege_event.round.end_1": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:siege_event/round/end_1"
+      }
+    ]
   }
 }
