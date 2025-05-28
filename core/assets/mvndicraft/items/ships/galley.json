@@ -1243,6 +1243,19 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/galley/anchor/up"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/galley/anchor/down"
+        }
       }
     ]
   }
