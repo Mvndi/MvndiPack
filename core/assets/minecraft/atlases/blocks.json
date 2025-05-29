@@ -47,6 +47,11 @@
         },
         {
             "type": "directory",
+            "source": "minigame",
+            "prefix": "minigame/"
+        },
+        {
+            "type": "directory",
             "source": "blacksmith",
             "prefix": "blacksmith/"
         },

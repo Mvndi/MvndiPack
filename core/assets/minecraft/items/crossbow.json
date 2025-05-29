@@ -293,7 +293,7 @@
                             {
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"
+                                    "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"
                                 },
                                 "when": "rocket"
                             }

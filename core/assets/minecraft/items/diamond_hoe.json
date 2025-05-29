@@ -433,7 +433,14 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/blunt/spiked_flanged_mace"
                 }
-            }            
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/longsword_thrust"
+                }
+            }     
         ]
     }
 }

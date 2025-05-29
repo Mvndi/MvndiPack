@@ -51,13 +51,11 @@
   "block.minecraft.red_nether_brick_wall": "Red Sandstone Wall",
   "block.minecraft.andesite_wall": "Stone Pillar",
   "block.minecraft.dark_prismarine_slab": "Green Pillar Slab",
-  "block.minecraft.tnt": "Gunpowder Barrel",
+
   "block.minecraft.lantern": "Candle Bowl",
   "block.minecraft.granite_wall": "Wooden Wall",
   "block.minecraft.polished_blackstone_brick_wall": "Marble Column Base",
-  "block.minecraft.infested_stone": "Gearbox",
-  "block.minecraft.infested_cobblestone": "Mill",
-  "block.minecraft.infested_stone_bricks": "Sawmill Parts",
+
   "block.minecraft.infested_mossy_stone_bricks": "§4Infested Mossy Stone Bricks",
   "block.minecraft.infested_cracked_stone_bricks": "§4Infested Cracked Stone Bricks",
   "block.minecraft.infested_deepslate": "§4Infested Deepslate",
@@ -140,10 +138,7 @@
   "subtitles.item.armor.equip_netherite": "Steel armor clanks",
 
 
-  "item.minecraft.diamond_shovel": "Steel Shovel",
-  "item.minecraft.diamond_pickaxe": "Steel Pickaxe",
-  "item.minecraft.diamond_axe": "Steel Axe",
-  "item.minecraft.diamond_hoe": "Steel Hoe",
+
 
   "block.minecraft.diamond_block": "Block of Steel",
   "advancements.story.mine_diamond.title": "Magnetite!",
@@ -172,6 +167,7 @@
   "block.minecraft.green_shulker_box": "Green Basket",
   "item.minecraft.potato": "Cabbage",
   "item.minecraft.baked_potato": "Cooked Cabbage",
+  "item.minecraft.poisonous_potato": "Rotten Cabbage",
   "item.minecraft.cocoa_beans": "Dates",
 
   "block.minecraft.quartz_block": "Block of Marble",
@@ -189,5 +185,13 @@
   "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
   "menu.game": "",
   "menu.disconnect": "\uE087Disconnect\uE088\uE086\uE089",
-  "menu.returnToGame": "Back to Mvndicraft"
+  "menu.returnToGame": "Back to Mvndicraft",
+
+  "entity.minecraft.hoglin": "Boar",
+  "entity.minecraft.husk": "Brigand",
+  "entity.minecraft.pillager": "Musketeer",
+  "entity.minecraft.polar_bear": "Bear",
+  "entity.minecraft.silverfish": "Rat",
+  "entity.minecraft.zoglin": "Boar",
+  "entity.minecraft.zombie": "Brigand Leader"
 }

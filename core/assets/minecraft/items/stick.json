@@ -1005,7 +1005,7 @@
                 "threshold": 149,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:blacksmith/animation/lightaxe/beardedaxehead_animation_2"
+                    "model": "mvndicraft:blacksmith/animation/lightaxe/bearedaxehead_animation_2"
                 }
             },
             {
@@ -1278,7 +1278,7 @@
                 "threshold": 188,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:blacksmith/animation/blunt/spikedflangedhead_animation_2"
+                    "model": "mvndicraft:blacksmith/animation/blunt/spikedflangedmacehead_animation_2"
                 }
             },
             {
@@ -1421,9 +1421,64 @@
                       {
                         "type": "model",
                         "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+                      }
+                    ]
+                  }
+            },
+            {
+                "threshold": 195,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/undamaged/full"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
                       }                                        
                     ]
                   }
+            },
+            {
+                "threshold": 196,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/undamaged/full"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
+                      }                                        
+                    ]
+                  }
+            },
+            {
+                "threshold": 2000,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:blacksmith/cast_iron_ingot"
+                }
             },
             {
                 "threshold": 3000,

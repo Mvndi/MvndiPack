@@ -6,9 +6,10 @@
             { "model": "block/foliage/mushroom/brown_mushroom", "y": 180 },
             { "model": "block/foliage/mushroom/brown_mushroom", "y": 270 },				
             { "model": "block/foliage/mushroom/brown_mushroom1" },
-            { "model": "block/foliage/mushroom/brown_mushroom1", "y": 90 },
-            { "model": "block/foliage/mushroom/brown_mushroom1", "y": 180 },
-            { "model": "block/foliage/mushroom/brown_mushroom1", "y": 270 }	
+            { "model": "block/foliage/mushroom/brown_mushroom1", "y": 90  },				
+            { "model": "block/foliage/mushroom/brown_mushroom1", "y": 180 },				
+            { "model": "block/foliage/mushroom/brown_mushroom1", "y": 270 },	
+            { "model": "block/foliage/mushroom/brown_mooshroom" }			
         ]
     }
 }
