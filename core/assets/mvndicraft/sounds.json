@@ -1472,5 +1472,25 @@
         "pitch": 1
       }
     ]
+  },
+  "ship.ambience.moving": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "mvndicraft:ship/ambience_moving_0",
+        "volume": 0.15,
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:ship/ambience_moving_1",
+        "volume": 0.15,
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:ship/ambience_moving_2",
+        "volume": 0.15,
+        "pitch": 1
+      }
+    ]
   }
 }
