@@ -11,42 +11,42 @@
                 "threshold": 1,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/gambeson_skirt"
+                    "model": "item/custom/gambeson_leggings"
                 }
             },
             {
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/brigandine_skirt"
+                    "model": "item/custom/brigandine_leggings"
                 }
             },
             {
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/bronze_scale_skirt"
+                    "model": "item/custom/bronze_scale_leggings"
                 }
             },
             {
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/lamellar_skirt"
+                    "model": "item/custom/lamellar_leggings"
                 }
             },
             {
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/plated_brigandine_skirt"
+                    "model": "item/custom/plated_brigandine_leggings"
                 }
             },
             {
                 "threshold": 6,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/steel_chain_skirt"
+                    "model": "item/custom/steel_chain_leggings"
                 }
             },
             {
@@ -60,21 +60,21 @@
                 "threshold": 8,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/strapped_chainmail_skirt"
+                    "model": "item/custom/strapped_chainmail_leggings"
                 }
             },
             {
                 "threshold": 9,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/tabard_hauberk_skirt"
+                    "model": "item/custom/tabard_hauberk_leggings"
                 }
             },
             {
                 "threshold": 10,
                 "model": {
                     "type": "model",
-                    "model": "item/custom/tabard_plate_skirt"
+                    "model": "item/custom/tabard_plate_leggings"
                 }
             },
             {
