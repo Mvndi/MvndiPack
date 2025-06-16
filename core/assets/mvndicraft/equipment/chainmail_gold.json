@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:chainmail_gold" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:chainmail_gold" }
+		]
+	}
+}

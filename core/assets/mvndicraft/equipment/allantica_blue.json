@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:allantica_blue" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:allantica_blue" }
+		]
+	}
+}
