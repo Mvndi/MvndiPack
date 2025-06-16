@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mvndicraft:item/armor/gambeson_skirt",
+    "model": "mvndicraft:item/armor/gambeson_chest",
     "tints": [
       {
         "type": "minecraft:dye",
