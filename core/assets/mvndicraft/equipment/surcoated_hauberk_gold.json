@@ -6,7 +6,7 @@
         "texture": "mvndicraft:surcoated_hauberk"
       },
       {
-        "texture": "mvndicraft:surcoated_hauberk_gold"
+        "texture": "mvndicraft:surcoated_hauberk_gold_overlay"
       }
     ],
     "humanoid_leggings": [
@@ -15,7 +15,7 @@
         "texture": "mvndicraft:surcoated_hauberk"
       },
       {
-        "texture": "mvndicraft:surcoated_hauberk_gold_gold"
+        "texture": "mvndicraft:surcoated_hauberk_gold_overlay"
       }
     ]
   }
