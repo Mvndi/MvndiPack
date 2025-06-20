@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": 
+    [
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_1" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_2" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_3" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_4" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_5" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_6" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_7" },
+      { "model": "minecraft:block/foliage/flowers/potted_orange_tulip_8" }
+    ]
+  }
+}

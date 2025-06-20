@@ -1,0 +1,126 @@
+{
+  "multipart": [
+    	{
+		"apply": [
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_1", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_2", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_3", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_4", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_5", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_6", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_7", "y": 0, "weight": 3200  },
+			{ "model": "minecraft:block/foliage/flowers/orange_tulip_8", "y": 0, "weight": 3200  }
+			]
+    	},
+    	{
+		"apply": [
+			{ "model": "minecraft:block/air", "weight": 128 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 }, 
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/black_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/black_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/black_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/black_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/blue_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/blue_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/blue_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/blue_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/brown_15", "y":   0, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/brown_15", "y":  90, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/brown_15", "y": 180, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/brown_15", "y": 270, "weight": 1 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 }, 
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/cyan_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/cyan_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/cyan_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/cyan_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/gray_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/gray_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/gray_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/gray_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/green_15", "y":   0, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/green_15", "y":  90, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/green_15", "y": 180, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/green_15", "y": 270, "weight": 1 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_blue_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_blue_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_blue_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_blue_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_gray_15", "y":   0, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_gray_15", "y":  90, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_gray_15", "y": 180, "weight": 1 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/light_gray_15", "y": 270, "weight": 1 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/lime_15", "y":   0, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/lime_15", "y":  90, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/lime_15", "y": 180, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/lime_15", "y": 270, "weight": 3 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/magenta_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/magenta_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/magenta_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/magenta_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/orange_15", "y":   0, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/orange_15", "y":  90, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/orange_15", "y": 180, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/orange_15", "y": 270, "weight": 3 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/pink_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/pink_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/pink_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/pink_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/purple_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/purple_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/purple_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/purple_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/red_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/red_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/red_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/red_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/white_15", "y":   0, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/white_15", "y":  90, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/white_15", "y": 180, "weight": 2 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/white_15", "y": 270, "weight": 2 },
+			
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/yellow_15", "y":   0, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/yellow_15", "y":  90, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/yellow_15", "y": 180, "weight": 3 },
+			{ "model": "minecraft:block/foliage/flowers/flower_butterfly/yellow_15", "y": 270, "weight": 3 },
+
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 },
+			{ "model": "minecraft:block/air", "weight": 128 }
+			]
+	  	}
+	]
+}
