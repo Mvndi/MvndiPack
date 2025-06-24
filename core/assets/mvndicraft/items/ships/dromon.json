@@ -1260,6 +1260,10 @@
       {
         "type": "minecraft:model",
         "model": "mvndicraft:vehicles/ships/dromon/oars/0"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "mvndicraft:vehicles/ships/dromon/seats"
       }
     ]
   }

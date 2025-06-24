@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:vehicles/ships/oak_planks",
+		"particle": "mvndicraft:vehicles/ships/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [6.25, 1.85, 29.5],
+			"to": [6.5, 2.6, 30],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0.85, 29.25]},
+			"faces": {
+				"north": {"uv": [0.25, 0, 0, 0.75], "texture": "#0"},
+				"east": {"uv": [0.5, 0, 0, 0.75], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0, 0.75], "texture": "#0"},
+				"west": {"uv": [0.5, 0, 0, 0.75], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0.5], "texture": "#0"},
+				"down": {"uv": [0.25, 0, 0, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 1.85, 29.5],
+			"to": [8.25, 2.6, 30],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 0.85, 29.25]},
+			"faces": {
+				"north": {"uv": [0.25, 0, 0, 0.75], "texture": "#0"},
+				"east": {"uv": [0.5, 0, 0, 0.75], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0, 0.75], "texture": "#0"},
+				"west": {"uv": [0.5, 0, 0, 0.75], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0.5], "texture": "#0"},
+				"down": {"uv": [0.25, 0, 0, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 2.6, 29.25],
+			"to": [8.5, 2.85, 30.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.75, 0.85, 29.25]},
+			"faces": {
+				"north": {"uv": [2.5, 0, 0, 0.25], "texture": "#0"},
+				"east": {"uv": [1, 0, 0, 0.25], "texture": "#0"},
+				"south": {"uv": [2.5, 0, 0, 0.25], "texture": "#0"},
+				"west": {"uv": [1, 0, 0, 0.25], "texture": "#0"},
+				"up": {"uv": [2.5, 0, 0, 1], "texture": "#0"},
+				"down": {"uv": [2.5, 0, 0, 1], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [3.5, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
