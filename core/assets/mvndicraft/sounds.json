@@ -1425,6 +1425,36 @@
       }
     ]
   },
+  "ui.farmer": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "mvndicraft:ui/profession_farming",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "farming.windmill": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:farming/windmill",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "farming.wrench": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mvndicraft:farming/wrench",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
   "farming.saw_in": {
     "category": "block",
     "sounds": [

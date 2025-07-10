@@ -605,7 +605,7 @@
                 "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/professions/profession_smith_silver"
+                    "model": "mvndicraft:ui/professions/profession_blacksmith_silver"
                 }
             },
             {
@@ -613,7 +613,7 @@
                 "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/professions/profession_smith_gold"
+                    "model": "mvndicraft:ui/professions/profession_blacksmith_gold"
                 }
             },
             {
@@ -1159,7 +1159,247 @@
                     "type": "model",
                     "model": "mvndicraft:ui/stats"
                 }
-            }
+            },
+            {
+                "threshold": 153,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_herdsman"
+                }
+            },
+            {
+                "threshold": 154,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/herdsman_steve"
+                }
+            },
+            {
+                "threshold": 155,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_herdsman"
+                }
+            },
+            {
+                "threshold": 156,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_mining"
+                }
+            },
+            {
+                "threshold": 157,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/mining_steve"
+                }
+            },
+            {
+                "threshold": 158,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_miner"
+                }
+            },
+            {
+                "threshold": 159,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_10"
+                }
+            },
+            {
+                "threshold": 160,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_9"
+                }
+            },
+            {
+                "threshold": 161,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_8"
+                }
+            },
+            {
+                "threshold": 162,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_7"
+                }
+            },
+            {
+                "threshold": 163,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_6"
+                }
+            },
+            {
+                "threshold": 164,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_5"
+                }
+            },
+            {
+                "threshold": 165,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_4"
+                }
+            },
+            {
+                "threshold": 166,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_3"
+                }
+            },
+            {
+                "threshold": 167,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_2"
+                }
+            },
+            {
+                "threshold": 168,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_1"
+                }
+            },
+            {
+                "threshold": 169,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_10"
+                }
+            },
+            {
+                "threshold": 170,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_9"
+                }
+            },
+            {
+                "threshold": 171,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_8"
+                }
+            },
+            {
+                "threshold": 172,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_7"
+                }
+            },
+            {
+                "threshold": 173,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_6"
+                }
+            },
+            {
+                "threshold": 174,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_5"
+                }
+            },
+            {
+                "threshold": 175,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_4"
+                }
+            },
+            {
+                "threshold": 176,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_3"
+                }
+            },
+            {
+                "threshold": 177,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_2"
+                }
+            },
+            {
+                "threshold": 178,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_1"
+                }
+            },
+            {
+                "threshold": 179,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_herdsman_silver"
+                }
+            },
+            {
+                "threshold": 180,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_herdsman_gold"
+                }
+            },
+            {
+                "threshold": 181,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_miner_silver"
+                }
+            },
+            {
+                "threshold": 182,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_miner_gold"
+                }
+            }               
         ]
     }
 }
