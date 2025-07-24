@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:ui/stats_menu",
-		"particle": "mvndicraft:ui/stats_menu"
+		"0": "mvndicraft:ui/attributes_menu",
+		"particle": "mvndicraft:ui/attributes_menu"
 	},
 	"elements": [
 		{

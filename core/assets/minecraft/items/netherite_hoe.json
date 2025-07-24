@@ -1157,7 +1157,7 @@
                 "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/stats"
+                    "model": "mvndicraft:ui/attributes_menu"
                 }
             },
             {
