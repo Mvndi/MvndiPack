@@ -1,3 +1,4 @@
+# this doesnt do the equipment files
 import os
 import json
 
@@ -9,6 +10,7 @@ ARMOR_TYPES = {
     "scale": ["", "_blue", "_brass", "_gold"] # there's gray but only for leggings
     # allantica_iron, allantica_brass_iron, and allantica_blue_gold added but only for leggings?
     # surcoated_hauberk_black_overlay added but only for leggings?
+    # brigandine iron leggings but no chest
 }
 
 def create_item_file(item_name, armor_type):

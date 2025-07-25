@@ -2,7 +2,7 @@
   "parent": "item/chestplate_layer1",
   "textures": {
     "chestplate": "mvndicraft:entity/equipment/humanoid/brigandine",
-    "layer1": "mvndicraft:entity/equipment/humanoid/brigandine_bblack_overlay",
+    "layer1": "mvndicraft:entity/equipment/humanoid/brigandine_black_overlay",
     "particle": "mvndicraft:entity/equipment/humanoid/brigandine"
   }
 }

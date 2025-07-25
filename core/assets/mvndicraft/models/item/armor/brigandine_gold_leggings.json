@@ -1,7 +1,7 @@
 {
-  "parent": "item/chestplate_layer1",
+  "parent": "item/leggings_layer1",
   "textures": {
-    "chestplate": "mvndicraft:entity/equipment/humanoid_leggings/brigandine",
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/brigandine",
     "layer1": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_gold_overlay",
     "particle": "mvndicraft:entity/equipment/humanoid_leggings/brigandine"
   }
