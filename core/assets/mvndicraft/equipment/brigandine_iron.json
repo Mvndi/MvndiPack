@@ -5,7 +5,7 @@
         "texture": "mvndicraft:brigandine"
       },
       {
-        "texture": "mvndicraft:brigandine_overlay"
+        "texture": "mvndicraft:brigandine_iron_overlay"
       }
     ],
     "humanoid_leggings": [
@@ -13,7 +13,7 @@
         "texture": "mvndicraft:brigandine"
       },
       {
-        "texture": "mvndicraft:brigandine_overlay"
+        "texture": "mvndicraft:brigandine_iron_overlay"
       }
     ]
   }
