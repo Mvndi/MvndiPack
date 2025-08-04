@@ -65,7 +65,7 @@
   "block.minecraft.end_stone_brick_wall": "Base de colonne de grès",
   "block.minecraft.stone_brick_wall": "Muret de pierre sculptée",
   "block.minecraft.deepslate_tile_wall": "Base de colonne de pierre",
-  "block.minecraft.mossy_cobblestone_wall": "Muret de pierre moussue sculptée",
+  "block.minecraft.mossy_cobblestone_wall": "Muret de pilier de quartz",
   "block.minecraft.polished_blackstone_wall": "Muret de grès sculptée",
   "block.minecraft.polished_deepslate_wall": "Muret de quartz sculpté",
   "block.minecraft.chiseled_tuff_bricks": "Grès gravé",
@@ -86,7 +86,6 @@
 
   "block.minecraft.purpur_pillar": "Pilier orange",
   "block.minecraft.birch_stairs": "Escalier de chaume",
-  "block.minecraft.diorite_wall": "Muret de pilier de quartz",
   "block.minecraft.andesite_stairs": "Escalier de terre cuite",
   "block.minecraft.andesite_slab": "Dalle de terre cuite",
   "block.minecraft.cornflower": "Lin",

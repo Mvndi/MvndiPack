@@ -63,7 +63,7 @@
   "block.minecraft.end_stone_brick_wall": "Sandstone Column Base",
   "block.minecraft.stone_brick_wall": "Chiseled Stone Bricks Wall",
   "block.minecraft.deepslate_tile_wall": "Stone Column Base",
-  "block.minecraft.mossy_cobblestone_wall": "Chiseled Mossy Stone Bricks Wall",
+  "block.minecraft.mossy_cobblestone_wall": "Marble Pillar Wall",
   "block.minecraft.polished_blackstone_wall": "Chiseled Sandstone Bricks Wall",
   "block.minecraft.polished_deepslate_wall": "Chiseled Marble Wall",
   "block.minecraft.chiseled_tuff_bricks": "Engraved Sandstone",
@@ -84,7 +84,7 @@
 
   "block.minecraft.purpur_pillar": "Orange Pillar",
   "block.minecraft.birch_stairs": "Thatch Stairs",
-  "block.minecraft.diorite_wall": "Marble Pillar Wall",
+
   "block.minecraft.andesite_stairs": "Terracotta Stairs",
   "block.minecraft.andesite_slab": "Terracotta Slab",
   "block.minecraft.cornflower": "Flax",
