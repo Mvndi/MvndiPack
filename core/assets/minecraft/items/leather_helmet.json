@@ -193,7 +193,7 @@
                 "threshold": 27,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/italo-norman_helm"
+                    "model": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm"
                 }
             },
             {
@@ -797,7 +797,42 @@
                     "type": "model",
                     "model": "mvndicraft:armor/helms/barbute/gw_barbute"
                 }
-            }        
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm_1"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm_2"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm_3"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm_4"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm_5"
+                }
+            }
         ]
     }
 }

@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/italo_norman_helm/italo_norman_helm",
+	"textures": {
+		"1": "mvndicraft:armor/helms/italo_norman/italo_norman_variant_5",
+		"2": "mvndicraft:armor/helms/italo_norman/italo_norman_2_variant_5",
+		"3": "mvndicraft:armor/helms/italo_norman/italo_norman_3_variant_5",
+		"particle": "mvndicraft:armor/helms/italo_norman/italo_norman_variant_5"
+	}
+}

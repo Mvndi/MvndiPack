@@ -1473,6 +1473,24 @@
       }
     ]
   },
+  "ship.drum": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:ship/drum",
+        "pitch": 1
+      }
+    ]
+  },
+  "ship.bells": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "mvndicraft:ship/bells",
+        "pitch": 1
+      }
+    ]
+  },
   "ship.sinking.thud": {
     "category": "block",
     "sounds": [
