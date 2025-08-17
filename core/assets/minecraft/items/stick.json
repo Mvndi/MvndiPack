@@ -2081,6 +2081,13 @@
                     "type": "model",
                     "model": "mvndicraft:siege/block/parts/wheel"
                 }
+            },
+             {
+                "threshold": 439102,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/greek_fire/head_ship"
+                }
             }
         ]
     }
