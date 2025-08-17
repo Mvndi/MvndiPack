@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/attributes_menu",
+		"particle": "mvndicraft:ui/attributes_menu"
+	},
+	"elements": [
+		{
+			"from": [-16, -10.9545, 0],
+			"to": [8, 26.9545, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [5.5, 0, 11, 8.6875], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 2], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [68, -46.75, -80],
+			"scale": [3.65234, 3.65234, 3.65234]
+		}
+	}
+}

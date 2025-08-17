@@ -1157,7 +1157,7 @@
                 "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/attributes_menu"
+                    "model": "mvndicraft:ui/attributes_menu_left"
                 }
             },
             {
@@ -1399,7 +1399,15 @@
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_miner_gold"
                 }
-            }               
+            },
+            {
+                "threshold": 183,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/attributes_menu_right"
+                }
+            }         
         ]
     }
 }
