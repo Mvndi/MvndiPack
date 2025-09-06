@@ -1,5 +1,5 @@
 {
-  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installled, oars_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
   "model": {
     "type": "minecraft:composite",
     "models": [
@@ -1258,45 +1258,6 @@
         }
       },
       {
-        "type": "minecraft:range_dispatch",
-        "property": "minecraft:custom_model_data",
-        "index": 5,
-        "entries": [
-          {
-            "threshold": 3,
-            "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/galley/oars/3"
-            }
-          },
-          {
-            "threshold": 2,
-            "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/galley/oars/2"
-            }
-          },
-          {
-            "threshold": 1,
-            "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/galley/oars/1"
-            }
-          },
-          {
-            "threshold": 0,
-            "model": {
-              "type": "minecraft:model",
-              "model": "mvndicraft:vehicles/ships/galley/oars/0"
-            }
-          }
-        ]
-      },
-      {
-        "type": "minecraft:model",
-        "model": "mvndicraft:vehicles/ships/galley/seats"
-      },
-      {
         "type": "minecraft:condition",
         "property": "minecraft:custom_model_data",
         "index": 1,
@@ -1306,6 +1267,73 @@
         "on_true": {
           "type": "minecraft:model",
           "model": "mvndicraft:vehicles/ships/galley/ram"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/drum"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/bells"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 5,
+          "entries": [
+            {
+              "threshold": 3,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/3"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/2"
+              }
+            },
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/1"
+              }
+            },
+            {
+              "threshold": 0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/0"
+              }
+            }
+          ]
         }
       }
     ]
