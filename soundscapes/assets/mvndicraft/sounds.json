@@ -1047,5 +1047,166 @@
         "name": "mvndicraft:siege_event/round/end_1"
       }
     ]
+  },
+  "music.overworld.abbasid": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/abbasid",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/regional/yemen",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.balkan": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/balkan",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.eastern_europe": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/eastern_europe",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.egyptian": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/egyptian",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.french": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/french",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.german": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/german",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.greek": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/greek",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.italy": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/italy",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.maghreb": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/maghreb",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.northern_europe": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/northern_europe",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.persian": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/persian",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.spanish": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/spanish",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
   }
 }
