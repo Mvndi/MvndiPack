@@ -55,6 +55,27 @@
                     "type": "model",
                     "model": "mvndicraft:ui/menu/endurance"
                 }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/brain"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/red_rose"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/blue_rose"
+                }
             }
         ]
     }

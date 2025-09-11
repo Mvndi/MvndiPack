@@ -1,6 +1,30 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "mvndicraft:ui/menu/strength"
-    }
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/attributes_menu",
+		"particle": "mvndicraft:ui/attributes_menu"
+	},
+	"elements": [
+		{
+			"name": "icon",
+			"from": [0, 0, 0],
+			"to": [8, 8, 0],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4, 4, 0]},
+			"faces": {
+				"north": {"uv": [5, 14.4375, 6, 15.4375], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [180, 0, 180],
+			"translation": [-8, 8, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}
