@@ -1482,11 +1482,11 @@
       }
     ]
   },
-  "ship.bells": {
+  "ship.bell": {
     "category": "block",
     "sounds": [
       {
-        "name": "mvndicraft:ship/bells",
+        "name": "mvndicraft:ship/bell",
         "pitch": 1
       }
     ]
