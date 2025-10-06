@@ -51,7 +51,6 @@
             },
             {
                 "threshold": 7,
-                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/menu/endurance"
