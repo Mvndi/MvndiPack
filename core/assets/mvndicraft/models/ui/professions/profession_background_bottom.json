@@ -1,29 +1,31 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
+	"texture_size": [20, 12],
 	"textures": {
-		"0": "mvndicraft:ui/professions/profession_menu",
-		"particle": "mvndicraft:ui/professions/profession_menu"
+		"0": "mvndicraft:ui/professions/background_bottom",
+		"particle": "mvndicraft:ui/professions/background_bottom"
 	},
 	"elements": [
 		{
-			"from": [-16, -15.68182, 8],
-			"to": [32, 6.68182, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.31818, 6]},
+			"from": [-16, -16, 0],
+			"to": [28, 4.5, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [44, 0, 8]},
 			"faces": {
-				"north": {"uv": [0.875, 12.99063, 6.375, 15.5625], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+				"north": {"uv": [0, 0, 14.08, 10.93333], "texture": "#0"},
+				"east": {"uv": [2, 13.3727, 2, 13.76125], "texture": "#0"},
+				"south": {"uv": [0, 0, 14.08, 10.93333], "texture": "#0"},
+				"west": {"uv": [2.375, 13.3727, 2.375, 13.76125], "texture": "#0"},
+				"up": {"uv": [2.375, 13.3727, 2, 13.3727], "texture": "#0"},
+				"down": {"uv": [2.75, 13.3727, 2.375, 13.3727], "texture": "#0"}
 			}
 		}
 	],
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [-180, 0, -180],
-			"translation": [-72, -72.5, 0],
-			"scale": [3.68164, 3.68164, 3.68164]
+			"translation": [-64, -64, 80],
+			"scale": [4, 4, 4]
 		}
 	}
 }

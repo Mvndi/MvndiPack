@@ -1,12 +1,14 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
+	"texture_size": [256, 256],
 	"textures": {
 		"0": "mvndicraft:ui/professions/profession_menu",
 		"particle": "mvndicraft:ui/professions/profession_menu"
 	},
 	"elements": [
 		{
-			"from": [-16, 0, 8],
+			"from": [5, 7, 8],
 			"to": [32, 16, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 8]},
 			"faces": {
@@ -21,9 +23,9 @@
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [0, -0.5, 28],
-			"scale": [1.13672, 1.13672, 1.13672]
+			"rotation": [0, -180, 0],
+			"translation": [20, -7, 0],
+			"scale": [2, 2, 2]
 		}
 	}
 }
