@@ -1,0 +1,8 @@
+{
+  "parent": "item/leggings_layer1",
+  "textures": {
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/allantica_brass_iron",
+    "layer1": "mvndicraft:entity/equipment/humanoid_leggings/allantica_brass_iron",
+    "particle": "mvndicraft:entity/equipment/humanoid_leggings/allantica_brass_iron"
+  }
+}

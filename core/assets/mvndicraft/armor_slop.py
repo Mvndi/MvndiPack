@@ -3,14 +3,11 @@ import os
 import json
 
 ARMOR_TYPES = {
-    "full_plate": ["_golden", "_half_golden"], # blue_gold exists but only for leggings, rust exists but only chest
-    "half_plate": ["", "_black_gold", "_black", "_blue", "_brass", "_gold", "_iron_gold"], # there's rust but only for chest
-    # "cuirass": ["iron", "gold", "gold_iron", "brass_iron", "black", "black_rust", "black_gold"], # these are only leggings??
-    # "round_plate": ["_black", "_blue", "_brass", "_gold", "_iron"], # these are only chests??
-    "scale": ["", "_blue", "_brass", "_gold"] # there's gray but only for leggings
-    # allantica_iron, allantica_brass_iron, and allantica_blue_gold added but only for leggings?
-    # surcoated_hauberk_black_overlay added but only for leggings?
-    # brigandine iron leggings but no chest
+    "full_plate": ["_blue_gold", "_rust"],
+    "half_plate": ["_rust"],
+    "surcoated_hauberk": ["_black"], # _overlay
+    "allantica": ["_iron", "_brass_iron", "_blue_gold"],
+    "round_plate": ["", "_black", "_black_gold", "_rust", "_blue", "_brass", "_gold", "_gold_iron"],
 }
 
 def create_item_file(item_name, armor_type):
