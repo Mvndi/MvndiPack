@@ -772,175 +772,6 @@
       }
     ]
   },
-  "soundscapes.soundtrack.desert": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:silence",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.egypt": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/egypt/ra",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.forest": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/forest/medieval_england",
-        "stream": true,
-        "volume": 0.3
-      }
-    ]
-  },
-  "soundscapes.soundtrack.germany": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/germany/dungeon_5",
-        "stream": true,
-        "volume": 0.25
-      },
-      {
-        "name": "mvndicraft:soundtrack/germany/dungeon_6",
-        "stream": true,
-        "volume": 0.25
-      }
-    ]
-  },
-  "soundscapes.soundtrack.greece": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/greece/theme_3",
-        "stream": true,
-        "volume": 0.3
-      }
-    ]
-  },
-  "soundscapes.soundtrack.italy": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/italy/italy_1_dominum",
-        "stream": true,
-        "volume": 0.25
-      }
-    ]
-  },
-  "soundscapes.soundtrack.mountains": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/mountains/slow_1",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.ocean": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/ocean/theme_1",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.cave": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/cave/dungeon_3",
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.plains": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/plains/field_2",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/plains/theme_6",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.snowy": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/snowy/slow_5",
-        "stream": true,
-        "volume": 0.3
-      },
-      {
-        "name": "mvndicraft:soundtrack/snowy/theme_6",
-        "stream": true,
-        "volume": 0.3
-      }
-    ]
-  },
-  "soundscapes.soundtrack.spawn": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/spawn/liar_fairy",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.siege": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/siege/last_boss_1",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/siege/last_boss_2",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/siege/last_boss_3",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.battle": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/battle/battle_1",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/battle/battle_4",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
   "siege_event.romans_defeat_byzantine": {
     "category": "player",
     "sounds": [
@@ -1048,21 +879,137 @@
       }
     ]
   },
+  "soundscapes.soundtrack.cave": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundtrack/cave/dungeon_3",
+        "volume": 0.15
+      }
+    ]
+  },
+  "soundscapes.soundtrack.spawn": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "mvndicraft:soundtrack/spawn/liar_fairy",
+        "stream": true,
+        "volume": 0.15
+      }
+    ]
+  },
+  "music.siege.briefing": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/briefing",
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.start": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/start",
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.attackers_advance": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/attackers_advance",
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.end": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/end",
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.victory": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/victory",
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.defeat": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/defeat",
+        "stream": true
+      }
+    ]
+  },          
+  "music.battle.naval": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/naval",
+        "stream": true
+      }
+    ]
+  },  
+  "music.battle.arabic": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/arabic",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.european": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/european",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.greek": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/greek",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.north_african": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/north_african",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.northern_european": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/northern_european",
+        "stream": true
+      }
+    ]
+  },
   "music.overworld.abbasid": {
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/abbasid",
         "stream": true,
-        "weight": 10
+        "weight": 45
       },
       {
         "name": "mvndicraft:music/game/regional/yemen",
         "stream": true,
-        "weight": 10
+        "weight": 45
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1071,11 +1018,12 @@
       {
         "name": "mvndicraft:music/game/regional/balkan",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1084,11 +1032,12 @@
       {
         "name": "mvndicraft:music/game/regional/eastern_europe",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1097,11 +1046,12 @@
       {
         "name": "mvndicraft:music/game/regional/egyptian",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1110,11 +1060,12 @@
       {
         "name": "mvndicraft:music/game/regional/french",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1123,11 +1074,12 @@
       {
         "name": "mvndicraft:music/game/regional/german",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1136,11 +1088,12 @@
       {
         "name": "mvndicraft:music/game/regional/greek",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1149,11 +1102,12 @@
       {
         "name": "mvndicraft:music/game/regional/italy",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1162,11 +1116,12 @@
       {
         "name": "mvndicraft:music/game/regional/maghreb",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1175,11 +1130,12 @@
       {
         "name": "mvndicraft:music/game/regional/northern_europe",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1188,11 +1144,12 @@
       {
         "name": "mvndicraft:music/game/regional/persian",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   },
@@ -1201,11 +1158,12 @@
       {
         "name": "mvndicraft:music/game/regional/spanish",
         "stream": true,
-        "weight": 10
+        "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
-        "stream": true
+        "stream": true,
+        "weight": 10
       }
     ]
   }
