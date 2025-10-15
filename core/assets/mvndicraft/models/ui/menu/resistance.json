@@ -1,6 +1,27 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "mvndicraft:ui/menu/resistance"
-    }
-  }
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [40, 22],
+	"textures": {
+		"0": "mvndicraft:ui/attributes_icons/1",
+		"particle": "mvndicraft:ui/attributes_icons/1"
+	},
+	"elements": [
+		{
+			"name": "icon",
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4, 4, 0]},
+			"faces": {
+				"north": {"uv": [0, 2.90909, 6.4, 14.54545], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 2.90909, 6.4, 14.54545], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {}
+}

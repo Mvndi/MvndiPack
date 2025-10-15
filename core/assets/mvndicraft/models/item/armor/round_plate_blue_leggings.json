@@ -1,0 +1,8 @@
+{
+  "parent": "item/leggings_layer1",
+  "textures": {
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_blue",
+    "layer1": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_blue",
+    "particle": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_blue"
+  }
+}

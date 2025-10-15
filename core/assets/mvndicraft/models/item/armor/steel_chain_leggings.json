@@ -1,8 +1,8 @@
 {
   "parent": "item/leggings_layer1",
   "textures": {
-    "leggings": "models/armor/leatherlayer2/250",
-    "layer1": "models/armor/leatherlayer1/250",
-    "particle": "models/armor/leatherlayer2/250"
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/steel_chain",
+    "layer1": "mvndicraft:entity/equipment/humanoid/steel_chain",
+    "particle": "mvndicraft:entity/equipment/humanoid_leggings/steel_chain"
   }
 }

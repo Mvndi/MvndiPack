@@ -1,6 +1,31 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "mvndicraft:ui/menu/dexterity"
-    }
-  }
+	"credit": "Made with Blockbench",
+	"texture_size": [42, 22],
+	"textures": {
+		"1": "mvndicraft:ui/attributes_icons/4"
+	},
+	"elements": [
+		{
+			"name": "icon",
+			"from": [-10, -7, 0],
+			"to": [8, 10, 0],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4, 4, 0]},
+			"faces": {
+				"north": {"uv": [0, 2.18182, 6.85714, 14.54545], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [-9, 7, 0]
+		}
+	},
+	"format_version": "1.21.6"
+}

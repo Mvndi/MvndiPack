@@ -1278,7 +1278,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "mvndicraft:vehicles/ships/drum"
+          "model": "mvndicraft:vehicles/ships/galley/drum"
         }
       },
       {
@@ -1290,7 +1290,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "mvndicraft:vehicles/ships/bells"
+          "model": "mvndicraft:vehicles/ships/galley/bell"
         }
       },
       {

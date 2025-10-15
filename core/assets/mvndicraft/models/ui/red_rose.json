@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:ui/attributes_menu",
+		"particle": "mvndicraft:ui/attributes_menu"
+	},
+	"elements": [
+		{
+			"name": "icon",
+			"from": [-8, -8, 7.625],
+			"to": [24, 24, 7.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
+			"faces": {
+				"north": {"uv": [0.09375, 12.5, 1.09375, 13.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [-180, -25.5, -180],
+			"translation": [0, 0.75, 9],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

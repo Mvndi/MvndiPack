@@ -1474,6 +1474,20 @@
                   }
             },
             {
+                "threshold": 197,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/ships/repair_patch"
+                }
+            },
+            {
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/shepherds_staff"
+                }
+            },
+            {
                 "threshold": 2000,
                 "model": {
                     "type": "model",
