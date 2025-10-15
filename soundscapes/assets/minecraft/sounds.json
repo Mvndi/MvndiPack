@@ -1,0 +1,175 @@
+{
+  "music.overworld.badlands": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/abbasid",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/regional/yemen",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/balkan",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/eastern_europe",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/egyptian",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.old_growth_taiga": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/french",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/german",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/greek",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.swamp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/italy",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.desert": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/maghreb",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/northern_europe",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/persian",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/spanish",
+        "stream": true,
+        "weight": 10
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  }
+}
