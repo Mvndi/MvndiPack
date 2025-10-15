@@ -898,6 +898,14 @@
       }
     ]
   },
+  "music.siege.war_declaration": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/war_declaration",
+        "stream": true
+      }
+    ]
+  },
   "music.siege.briefing": {
     "sounds": [
       {
