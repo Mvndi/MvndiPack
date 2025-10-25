@@ -888,13 +888,19 @@
       }
     ]
   },
-  "soundscapes.soundtrack.spawn": {
-    "category": "music",
+  "music.main": {
     "sounds": [
       {
-        "name": "mvndicraft:soundtrack/spawn/liar_fairy",
-        "stream": true,
-        "volume": 0.15
+        "name": "mvndicraft:music/game/main",
+        "stream": true
+      }
+    ]
+  },
+  "music.cave": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/cave",
+        "stream": true
       }
     ]
   },
