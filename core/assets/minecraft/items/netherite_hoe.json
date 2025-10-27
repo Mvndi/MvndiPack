@@ -1415,6 +1415,46 @@
                     "type": "model",
                     "model": "mvndicraft:ui/menu/endurance"
                 }
+            },
+            {
+                "threshold": 185,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_seaman_silver"
+                }
+            },
+            {
+                "threshold": 186,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_seaman_gold"
+                }
+            },
+            {
+                "threshold": 187,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_seaman"
+                }
+            },
+            {
+                "threshold": 188,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/seaman_steve"
+                }
+            },
+            {
+                "threshold": 189,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_seaman"
+                }
             }
         ]
     }
