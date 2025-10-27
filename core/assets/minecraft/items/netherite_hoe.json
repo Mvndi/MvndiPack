@@ -1455,6 +1455,86 @@
                     "type": "model",
                     "model": "mvndicraft:ui/professions/text_seaman"
                 }
+            },
+            {
+                "threshold": 190,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_10"
+                }
+            },
+            {
+                "threshold": 191,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_9"
+                }
+            },
+            {
+                "threshold": 192,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_8"
+                }
+            },
+            {
+                "threshold": 193,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_7"
+                }
+            },
+            {
+                "threshold": 194,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_6"
+                }
+            },
+            {
+                "threshold": 195,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_5"
+                }
+            },
+            {
+                "threshold": 196,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_4"
+                }
+            },
+            {
+                "threshold": 197,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_3"
+                }
+            },
+            {
+                "threshold": 198,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_2"
+                }
+            },
+            {
+                "threshold": 199,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_1"
+                }
             }
         ]
     }
