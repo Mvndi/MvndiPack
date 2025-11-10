@@ -1,5 +1,5 @@
 {
-  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installled, oars_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installled, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
   "model": {
     "type": "minecraft:composite",
     "models": [
@@ -1247,14 +1247,32 @@
       {
         "type": "minecraft:condition",
         "property": "minecraft:custom_model_data",
-        "index": 0,
+        "index": 5,
         "on_false": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:vehicles/ships/cog/anchor/up"
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/cog/anchor/up"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/cog/anchor/down"
+          }
         },
         "on_true": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:vehicles/ships/cog/anchor/down"
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/cog/winch/up"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/cog/winch/down"
+          }
         }
       },
       {
