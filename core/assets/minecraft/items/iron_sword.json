@@ -440,7 +440,14 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/longsword_thrust"
                 }
-            }     
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/harpoon"
+                }
+            }
         ]
     }
 }
