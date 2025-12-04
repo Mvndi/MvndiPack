@@ -1355,8 +1355,17 @@
         }
       },
       {
-        "type": "minecraft:model",
-        "model": "mvndicraft:vehicles/ships/cog/seats"
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/cog/seats_oars"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/cog/seats"
+        }
       }
     ]
   }
