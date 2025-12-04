@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+		"0": "block/magenta_glazed_terracotta_front",
+		"1": "block/magenta_glazed_terracotta_back",
+		"2": "block/magenta_glazed_terracotta_bottom",
+		"3": "block/magenta_glazed_terracotta_sides",
+		"particle": "block/magenta_glazed_terracotta_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "ancient_debris",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "bee_nest",
+					"origin": [8, 8, 8],
+					"children": [0]
+				}
+			]
+		}
+	]
+}

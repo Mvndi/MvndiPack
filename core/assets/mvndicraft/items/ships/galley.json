@@ -1353,6 +1353,10 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "mvndicraft:vehicles/ships/galley/seats"
       }
     ]
   }

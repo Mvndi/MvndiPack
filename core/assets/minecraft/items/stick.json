@@ -1416,6 +1416,13 @@
                 }
             },
             {
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/greek_fire_grenade"
+                }
+            },
+            {
                 "threshold": 2000,
                 "model": {
                     "type": "model",
