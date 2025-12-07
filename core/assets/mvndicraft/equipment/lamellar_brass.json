@@ -1,7 +1,6 @@
 {
-	"layers": {
-		"humanoid": [
-			{ "texture": "mvndicraft:lamellar_brass" }
-		]
-	}
+  "layers": {
+    "humanoid": [{ "texture": "mvndicraft:lamellar_brass" }],
+	"humanoid_leggings": [{ "texture": "mvndicraft:lamellar_brass" }]
+  }
 }

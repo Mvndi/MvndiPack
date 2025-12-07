@@ -1,8 +1,0 @@
-{
-  "parent": "item/boots_layer1",
-  "textures": {
-    "boots": "mvndicraft:entity/equipment/humanoid/steel",
-    "layer1": "models/armor/blank",
-    "particle": "mvndicraft:entity/equipment/humanoid/steel"
-  }
-}
