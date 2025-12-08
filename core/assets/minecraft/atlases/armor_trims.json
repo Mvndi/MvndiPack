@@ -37,6 +37,7 @@
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
+        "resin": "trims/color_palettes/resin",
         "quartz": "trims/color_palettes/quartz",
         "iron": "trims/color_palettes/iron",
         "netherite": "trims/color_palettes/netherite",
