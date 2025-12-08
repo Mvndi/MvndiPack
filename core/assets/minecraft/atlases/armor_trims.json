@@ -16,52 +16,17 @@
         "mvndicraft:trims/entity/humanoid/gambeson_t",
         "mvndicraft:trims/entity/humanoid/gambeson_hash",
         "mvndicraft:trims/entity/humanoid/gambeson_tree",
-        "mvndicraft:trims/entity/humanoid/gambeson_strip"
-      ],
-      "palette_key": "trims/color_palettes/trim_palette",
-      "permutations": {
-        "quartz": "trims/color_palettes/quartz",
-        "iron": "trims/color_palettes/iron",
-        "netherite": "trims/color_palettes/netherite",
-        "redstone": "trims/color_palettes/redstone",
-        "copper": "trims/color_palettes/copper",
-        "gold": "trims/color_palettes/gold",
-        "emerald": "trims/color_palettes/emerald",
-        "diamond": "trims/color_palettes/diamond",
-        "lapis": "trims/color_palettes/lapis",
-        "amethyst": "trims/color_palettes/amethyst",
-        "iron_darker": "trims/color_palettes/iron_darker",
-        "netherite_darker": "trims/color_palettes/netherite_darker",
-        "gold_darker": "trims/color_palettes/gold_darker",
-        "diamond_darker": "trims/color_palettes/diamond_darker"
-      }
-    },
-    {
-      "type": "minecraft:paletted_permutations",
-      "textures": [
-        "mvndicraft:trims/entity/humanoid/half_plate_vertical"
-      ],
-      "palette_key": "trims/color_palettes/trim_palette",
-      "permutations": {
-        "quartz": "trims/color_palettes/quartz",
-        "iron": "trims/color_palettes/iron",
-        "netherite": "trims/color_palettes/netherite",
-        "redstone": "trims/color_palettes/redstone",
-        "copper": "trims/color_palettes/copper",
-        "gold": "trims/color_palettes/gold",
-        "emerald": "trims/color_palettes/emerald",
-        "diamond": "trims/color_palettes/diamond",
-        "lapis": "trims/color_palettes/lapis",
-        "amethyst": "trims/color_palettes/amethyst",
-        "iron_darker": "trims/color_palettes/iron_darker",
-        "netherite_darker": "trims/color_palettes/netherite_darker",
-        "gold_darker": "trims/color_palettes/gold_darker",
-        "diamond_darker": "trims/color_palettes/diamond_darker"
-      }
-    },
-    {
-      "type": "minecraft:paletted_permutations",
-      "textures": [
+        "mvndicraft:trims/entity/humanoid_leggings/gambeson_vertical",
+        "mvndicraft:trims/entity/humanoid_leggings/gambeson_strip",
+
+        "mvndicraft:trims/entity/humanoid/half_plate_cup",
+        "mvndicraft:trims/entity/humanoid/half_plate_horizontal",
+        "mvndicraft:trims/entity/humanoid/half_plate_quarter",
+        "mvndicraft:trims/entity/humanoid/half_plate_chess",
+        "mvndicraft:trims/entity/humanoid/half_plate_triangle",
+        "mvndicraft:trims/entity/humanoid/half_plate_cross",
+        "mvndicraft:trims/entity/humanoid/half_plate_vertical",
+
         "mvndicraft:trims/entity/humanoid/round_plate_cross",
         "mvndicraft:trims/entity/humanoid/round_plate_quarter",
         "mvndicraft:trims/entity/humanoid/round_plate_cross_iron",
