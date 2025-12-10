@@ -1,0 +1,9 @@
+{
+  "parent": "item/chestplate_layer2",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/full_plate_half_golden",
+    "layer1": "mvndicraft:entity/equipment/humanoid/full_plate_half_golden",
+    "particle": "mvndicraft:entity/equipment/humanoid/full_plate_half_golden",
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/full_plate_fabric_diamond"
+  }
+}

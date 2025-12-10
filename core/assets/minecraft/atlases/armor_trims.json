@@ -33,7 +33,10 @@
         "mvndicraft:trims/entity/humanoid/round_plate_cross_small",
         "mvndicraft:trims/entity/humanoid/round_plate_half",
         "mvndicraft:trims/entity/humanoid/round_plate_horizontal",
-        "mvndicraft:trims/entity/humanoid/round_plate_vertical"
+        "mvndicraft:trims/entity/humanoid/round_plate_vertical",
+        "mvndicraft:trims/entity/humanoid/round_plate_fabric",
+
+        "mvndicraft:trims/entity/humanoid/full_plate_fabric"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {

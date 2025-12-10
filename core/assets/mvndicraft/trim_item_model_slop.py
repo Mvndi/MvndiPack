@@ -4,31 +4,35 @@ from PIL import Image
 
 # Hardcoded from the provided YAML
 armors = {
-    'gambeson': {
-        'base_items': ['gambeson_chest'],
-        'allowed_patterns': [
-            'gambeson_cross', 'gambeson_horizontal', 'gambeson_vertical', 'gambeson_fancy_cross',
-            'gambeson_lorraine_cross', 'gambeson_x', 'gambeson_four', 'gambeson_plus',
-            'gambeson_y', 'gambeson_half', 'gambeson_t', 'gambeson_hash', 'gambeson_tree'
-        ]
-    },
-    'gambeson_leggings': {
-        'base_items': ['gambeson_leggings'],
-        'allowed_patterns': ['gambeson_vertical', 'gambeson_strip']
-    },
-    'half_plate': {
-        'base_items': ['half_plate_chest'],
-        'allowed_patterns': [
-            'half_plate_cup', 'half_plate_horizontal', 'half_plate_quarter', 'half_plate_chess',
-            'half_plate_triangle', 'half_plate_cross', 'half_plate_vertical'
-        ]
-    },
+    # 'gambeson': {
+    #     'base_items': ['gambeson_chest'],
+    #     'allowed_patterns': [
+    #         'gambeson_cross', 'gambeson_horizontal', 'gambeson_vertical', 'gambeson_fancy_cross',
+    #         'gambeson_lorraine_cross', 'gambeson_x', 'gambeson_four', 'gambeson_plus',
+    #         'gambeson_y', 'gambeson_half', 'gambeson_t', 'gambeson_hash', 'gambeson_tree'
+    #     ]
+    # },
+    # 'gambeson_leggings': {
+    #     'base_items': ['gambeson_leggings'],
+    #     'allowed_patterns': ['gambeson_vertical', 'gambeson_strip']
+    # },
+    # 'half_plate': {
+    #     'base_items': ['half_plate_chest'],
+    #     'allowed_patterns': [
+    #         'half_plate_cup', 'half_plate_horizontal', 'half_plate_quarter', 'half_plate_chess',
+    #         'half_plate_triangle', 'half_plate_cross', 'half_plate_vertical'
+    #     ]
+    # },
     'round_plate': {
         'base_items': ['round_plate_chest'],
         'allowed_patterns': [
             'round_plate_cross', 'round_plate_quarter', 'round_plate_cross_iron', 'round_plate_cross_small',
-            'round_plate_half', 'round_plate_horizontal', 'round_plate_vertical'
+            'round_plate_half', 'round_plate_horizontal', 'round_plate_vertical', 'round_plate_fabric'
         ]
+    },
+    'full_plate': {
+        'base_items': ['full_plate_chest'],
+        'allowed_patterns': ['full_plate_fabric']
     }
 }
 
@@ -121,7 +125,11 @@ for armor_key, armor in armors.items():
             path = os.path.join(items_dir, variant_file)
             with open(path, 'r') as f:
                 current_json = json.load(f)
-            fallback_model_str = current_json['model']['model']
+            inner_model = current_json['model']
+            if inner_model.get('type') == 'minecraft:select':
+                fallback_model_str = inner_model['fallback']['model']
+            else:
+                fallback_model_str = inner_model['model']
             base_model_path = f'models/item/armor/{variant_name}.json'
             with open(base_model_path, 'r') as f:
                 base_model = json.load(f)
