@@ -1,0 +1,10 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/mast/default/heavily_damaged/stowed",
+  "textures": {
+    "0": "mvndicraft:vehicles/ships/white_wool",
+    "1": "mvndicraft:vehicles/ships/oak_planks",
+    "2": "mvndicraft:vehicles/ships/dromon/sail/blue",
+    "3": "mvndicraft:vehicles/ships/dromon/sail/blue",
+    "particle": "mvndicraft:vehicles/ships/white_wool"
+  }
+}

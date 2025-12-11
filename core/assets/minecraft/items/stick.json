@@ -1380,26 +1380,9 @@
             {
                 "threshold": 193,
                 "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/rowboat/bow/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/rowboat/hull/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/rowboat/mast/default/undamaged/full"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/rowboat/stern/default/undamaged"
-                      }                                  
-                    ]
-                  }
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/ships/rowboat/showcase"
+                }
             },                                     
             {
                 "threshold": 197,
@@ -2031,11 +2014,18 @@
                     "model": "mvndicraft:siege/block/parts/wheel"
                 }
             },
-             {
+            {
                 "threshold": 439102,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:siege/block/greek_fire/head_ship"
+                }
+            },
+            {
+                "threshold": 439103,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/base_mounted"
                 }
             }
         ]

@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/hull/default/lightly_damaged",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/hull/daring_venture"
+  }
+}

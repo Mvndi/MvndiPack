@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/bow/default/undamaged",
+  "textures": {
+    "5": "mvndicraft:vehicles/ships/dromon/bow/orange_fiend",
+    "particle": "mvndicraft:vehicles/ships/dromon/bow/3"
+  }
+}

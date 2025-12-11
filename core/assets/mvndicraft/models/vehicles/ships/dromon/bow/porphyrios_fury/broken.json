@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/bow/default/broken",
+  "textures": {
+    "5": "mvndicraft:vehicles/ships/dromon/bow/porphyrios_fury",
+    "particle": "mvndicraft:vehicles/ships/oak_planks"
+  }
+}

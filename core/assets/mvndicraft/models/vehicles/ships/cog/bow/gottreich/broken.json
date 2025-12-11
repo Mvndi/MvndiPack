@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/bow/default/broken",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/bow/gottreich"
+  }
+}

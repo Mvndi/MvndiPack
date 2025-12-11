@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/stern/default/undamaged",
+  "textures": {
+    "4": "mvndicraft:vehicles/ships/dromon/stern/porphyrios_fury",
+    "particle": "mvndicraft:vehicles/ships/oak_planks"
+  }
+}

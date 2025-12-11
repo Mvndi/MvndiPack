@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/stern/default/heavily_damaged",
+  "textures": {
+    "4": "mvndicraft:vehicles/ships/dromon/stern/orange_fiend",
+    "particle": "mvndicraft:vehicles/ships/oak_planks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "mvndicraft:vehicles/ships/galley/bow/default/undamaged",
+  "textures": {
+    "1": "mvndicraft:vehicles/ships/oak_planks",
+    "2": "mvndicraft:vehicles/ships/galley/bow/noblesse_oblige",
+    "particle": "mvndicraft:vehicles/ships/oak_planks"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installled, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installed, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
   "model": {
     "type": "minecraft:composite",
     "models": [
@@ -41,6 +41,196 @@
                   "model": {
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/galley/bow/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "dazling_waters",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/dazling_waters/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/dazling_waters/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/dazling_waters/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/dazling_waters/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "grey_slug",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grey_slug/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grey_slug/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grey_slug/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grey_slug/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "grinta_marinara",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grinta_marinara/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grinta_marinara/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grinta_marinara/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/grinta_marinara/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "noblesse_oblige",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/noblesse_oblige/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/noblesse_oblige/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/noblesse_oblige/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/noblesse_oblige/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "test_of_faith",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/test_of_faith/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/test_of_faith/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/test_of_faith/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/test_of_faith/broken"
                   }
                 }
               ]
@@ -121,6 +311,196 @@
                   "model": {
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/galley/hull/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "dazling_waters",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/dazling_waters/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/dazling_waters/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/dazling_waters/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/dazling_waters/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "grey_slug",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grey_slug/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grey_slug/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grey_slug/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grey_slug/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "grinta_marinara",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grinta_marinara/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grinta_marinara/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grinta_marinara/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/grinta_marinara/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "noblesse_oblige",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/noblesse_oblige/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/noblesse_oblige/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/noblesse_oblige/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/noblesse_oblige/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "test_of_faith",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/test_of_faith/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/test_of_faith/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/test_of_faith/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/hull/test_of_faith/broken"
                   }
                 }
               ]
@@ -286,7 +666,7 @@
             }
           },
           {
-            "when": "red_stripes",
+            "when": "blue",
             "model": {
               "type": "minecraft:range_dispatch",
               "property": "minecraft:custom_model_data",
@@ -303,21 +683,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/undamaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/undamaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/undamaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/undamaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/undamaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/undamaged/stowed"
                         }
                       }
                     ]
@@ -334,21 +714,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/lightly_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/lightly_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/lightly_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/lightly_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/lightly_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/lightly_damaged/stowed"
                         }
                       }
                     ]
@@ -365,21 +745,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/heavily_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/heavily_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/heavily_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/heavily_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/heavily_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/blue/heavily_damaged/stowed"
                         }
                       }
                     ]
@@ -389,7 +769,337 @@
                   "threshold": 0.0,
                   "model": {
                     "type": "minecraft:model",
-                    "model": "mvndicraft:vehicles/ships/galley/mast/red_stripes/broken"
+                    "model": "mvndicraft:vehicles/ships/galley/mast/blue/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/brown/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/mast/brown/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/cyan/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/mast/cyan/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "dark_orange",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/mast/dark_orange/broken"
                   }
                 }
               ]
@@ -616,7 +1326,7 @@
             }
           },
           {
-            "when": "orange_black_stripes",
+            "when": "red",
             "model": {
               "type": "minecraft:range_dispatch",
               "property": "minecraft:custom_model_data",
@@ -633,21 +1343,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/undamaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/undamaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/undamaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/undamaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/undamaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/undamaged/stowed"
                         }
                       }
                     ]
@@ -664,21 +1374,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/lightly_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/lightly_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/lightly_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/lightly_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/lightly_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/lightly_damaged/stowed"
                         }
                       }
                     ]
@@ -695,21 +1405,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/heavily_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/heavily_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/heavily_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/heavily_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/heavily_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/red/heavily_damaged/stowed"
                         }
                       }
                     ]
@@ -719,14 +1429,14 @@
                   "threshold": 0.0,
                   "model": {
                     "type": "minecraft:model",
-                    "model": "mvndicraft:vehicles/ships/galley/mast/orange_black_stripes/broken"
+                    "model": "mvndicraft:vehicles/ships/galley/mast/red/broken"
                   }
                 }
               ]
             }
           },
           {
-            "when": "red_white_band",
+            "when": "lime",
             "model": {
               "type": "minecraft:range_dispatch",
               "property": "minecraft:custom_model_data",
@@ -743,21 +1453,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/undamaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/undamaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/undamaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/undamaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/undamaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/undamaged/stowed"
                         }
                       }
                     ]
@@ -774,21 +1484,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/lightly_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/lightly_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/lightly_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/lightly_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/lightly_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/lightly_damaged/stowed"
                         }
                       }
                     ]
@@ -805,21 +1515,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/heavily_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/heavily_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/heavily_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/heavily_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/heavily_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/lime/heavily_damaged/stowed"
                         }
                       }
                     ]
@@ -829,14 +1539,14 @@
                   "threshold": 0.0,
                   "model": {
                     "type": "minecraft:model",
-                    "model": "mvndicraft:vehicles/ships/galley/mast/red_white_band/broken"
+                    "model": "mvndicraft:vehicles/ships/galley/mast/lime/broken"
                   }
                 }
               ]
             }
           },
           {
-            "when": "yellow_red_sides",
+            "when": "orange",
             "model": {
               "type": "minecraft:range_dispatch",
               "property": "minecraft:custom_model_data",
@@ -853,21 +1563,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/undamaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/undamaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/undamaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/undamaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/undamaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/undamaged/stowed"
                         }
                       }
                     ]
@@ -884,21 +1594,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/lightly_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/lightly_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/lightly_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/lightly_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/lightly_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/lightly_damaged/stowed"
                         }
                       }
                     ]
@@ -915,21 +1625,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/heavily_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/heavily_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/heavily_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/heavily_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/heavily_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/orange/heavily_damaged/stowed"
                         }
                       }
                     ]
@@ -939,14 +1649,14 @@
                   "threshold": 0.0,
                   "model": {
                     "type": "minecraft:model",
-                    "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_sides/broken"
+                    "model": "mvndicraft:vehicles/ships/galley/mast/orange/broken"
                   }
                 }
               ]
             }
           },
           {
-            "when": "yellow_red_stripes",
+            "when": "yellow",
             "model": {
               "type": "minecraft:range_dispatch",
               "property": "minecraft:custom_model_data",
@@ -963,21 +1673,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/undamaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/undamaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/undamaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/undamaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/undamaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/undamaged/stowed"
                         }
                       }
                     ]
@@ -994,21 +1704,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/lightly_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/lightly_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/lightly_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/lightly_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/lightly_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/lightly_damaged/stowed"
                         }
                       }
                     ]
@@ -1025,21 +1735,21 @@
                         "threshold": 0.5,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/heavily_damaged/full"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/heavily_damaged/full"
                         }
                       },
                       {
                         "threshold": 0.01,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/heavily_damaged/half"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/heavily_damaged/half"
                         }
                       },
                       {
                         "threshold": 0.0,
                         "model": {
                           "type": "minecraft:model",
-                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/heavily_damaged/stowed"
+                          "model": "mvndicraft:vehicles/ships/galley/mast/yellow/heavily_damaged/stowed"
                         }
                       }
                     ]
@@ -1049,7 +1759,7 @@
                   "threshold": 0.0,
                   "model": {
                     "type": "minecraft:model",
-                    "model": "mvndicraft:vehicles/ships/galley/mast/yellow_red_stripes/broken"
+                    "model": "mvndicraft:vehicles/ships/galley/mast/yellow/broken"
                   }
                 }
               ]
@@ -1202,6 +1912,196 @@
                   "model": {
                     "type": "minecraft:model",
                     "model": "mvndicraft:vehicles/ships/galley/stern/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "dazling_waters",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/dazling_waters/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/dazling_waters/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/dazling_waters/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/dazling_waters/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "grey_slug",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grey_slug/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grey_slug/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grey_slug/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grey_slug/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "grinta_marinara",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grinta_marinara/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grinta_marinara/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grinta_marinara/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/grinta_marinara/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "noblesse_oblige",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/noblesse_oblige/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/noblesse_oblige/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/noblesse_oblige/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/noblesse_oblige/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "test_of_faith",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/test_of_faith/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/test_of_faith/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/test_of_faith/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/stern/test_of_faith/broken"
                   }
                 }
               ]
