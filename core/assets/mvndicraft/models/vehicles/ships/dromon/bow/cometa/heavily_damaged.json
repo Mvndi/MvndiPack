@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/bow/default/heavily_damaged",
+  "textures": {
+    "5": "mvndicraft:vehicles/ships/dromon/bow/cometa",
+    "particle": "mvndicraft:vehicles/ships/oak_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/hull/default/heavily_damaged",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/hull/gottreich"
+  }
+}

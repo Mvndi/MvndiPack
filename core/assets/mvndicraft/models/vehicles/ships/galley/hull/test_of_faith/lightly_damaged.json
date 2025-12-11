@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:vehicles/ships/galley/hull/default/lightly_damaged",
+  "textures": {
+    "0": "mvndicraft:vehicles/ships/white_wool",
+    "2": "mvndicraft:vehicles/ships/galley/hull/test_of_faith"
+  }
+}

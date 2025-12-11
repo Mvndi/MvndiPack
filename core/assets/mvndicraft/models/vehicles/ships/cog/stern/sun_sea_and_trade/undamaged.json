@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/stern/default/undamaged",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/stern/sun_sea_and_trade"
+  }
+}

@@ -5,8 +5,8 @@
 	"textures": {
 		"0": "mvndicraft:vehicles/ships/white_wool",
 		"1": "mvndicraft:vehicles/ships/oak_planks",
-		"2": "mvndicraft:vehicles/ships/cog/sail/default",
-		"3": "mvndicraft:vehicles/ships/galley/sail/default",
+		"2": "mvndicraft:vehicles/ships/dromon/sail/default",
+		"3": "mvndicraft:vehicles/ships/dromon/sail/default",
 		"particle": "mvndicraft:vehicles/ships/white_wool"
 	},
 	"elements": [
