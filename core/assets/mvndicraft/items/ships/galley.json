@@ -1,5 +1,5 @@
 {
-  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installed, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installed, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, frames: 45, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
   "model": {
     "type": "minecraft:composite",
     "models": [
@@ -2223,6 +2223,293 @@
           "property": "minecraft:custom_model_data",
           "index": 5,
           "entries": [
+            {
+              "threshold": 44,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/44"
+              }
+            },
+            {
+              "threshold": 43,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/43"
+              }
+            },
+            {
+              "threshold": 42,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/42"
+              }
+            },
+            {
+              "threshold": 41,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/41"
+              }
+            },
+            {
+              "threshold": 40,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/40"
+              }
+            },
+            {
+              "threshold": 39,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/39"
+              }
+            },
+            {
+              "threshold": 38,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/38"
+              }
+            },
+            {
+              "threshold": 37,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/37"
+              }
+            },
+            {
+              "threshold": 36,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/36"
+              }
+            },
+            {
+              "threshold": 35,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/35"
+              }
+            },
+            {
+              "threshold": 34,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/34"
+              }
+            },
+            {
+              "threshold": 33,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/33"
+              }
+            },
+            {
+              "threshold": 32,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/32"
+              }
+            },
+            {
+              "threshold": 31,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/31"
+              }
+            },
+            {
+              "threshold": 30,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/30"
+              }
+            },
+            {
+              "threshold": 29,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/29"
+              }
+            },
+            {
+              "threshold": 28,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/28"
+              }
+            },
+            {
+              "threshold": 27,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/27"
+              }
+            },
+            {
+              "threshold": 26,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/26"
+              }
+            },
+            {
+              "threshold": 25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/25"
+              }
+            },
+            {
+              "threshold": 24,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/24"
+              }
+            },
+            {
+              "threshold": 23,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/23"
+              }
+            },
+            {
+              "threshold": 22,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/22"
+              }
+            },
+            {
+              "threshold": 21,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/21"
+              }
+            },
+            {
+              "threshold": 20,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/20"
+              }
+            },
+            {
+              "threshold": 19,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/19"
+              }
+            },
+            {
+              "threshold": 18,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/18"
+              }
+            },
+            {
+              "threshold": 17,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/17"
+              }
+            },
+            {
+              "threshold": 16,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/16"
+              }
+            },
+            {
+              "threshold": 15,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/15"
+              }
+            },
+            {
+              "threshold": 14,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/14"
+              }
+            },
+            {
+              "threshold": 13,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/13"
+              }
+            },
+            {
+              "threshold": 12,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/12"
+              }
+            },
+            {
+              "threshold": 11,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/11"
+              }
+            },
+            {
+              "threshold": 10,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/10"
+              }
+            },
+            {
+              "threshold": 9,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/9"
+              }
+            },
+            {
+              "threshold": 8,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/8"
+              }
+            },
+            {
+              "threshold": 7,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/7"
+              }
+            },
+            {
+              "threshold": 6,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/6"
+              }
+            },
+            {
+              "threshold": 5,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/5"
+              }
+            },
+            {
+              "threshold": 4,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/galley/oars/4"
+              }
+            },
             {
               "threshold": 3,
               "model": {
