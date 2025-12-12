@@ -73,9 +73,10 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [0, -1, 2],
 			"scale": [0.74, 0.74, 0.74]
 		},
