@@ -1,0 +1,7 @@
+{
+  "parent": "item/chestplate_layer1_tint",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/round_plate_gold",
+    "layer1": "mvndicraft:entity/equipment/humanoid/round_plate_fabric"
+  }
+}
