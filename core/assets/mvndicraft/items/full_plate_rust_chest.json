@@ -1,12 +1,6 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:trim",
-    "cases": [],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "mvndicraft:item/armor/full_plate_rust_chest"
-    }
+    "type": "minecraft:model",
+    "model": "mvndicraft:item/armor/full_plate_rust_chest"
   }
 }
