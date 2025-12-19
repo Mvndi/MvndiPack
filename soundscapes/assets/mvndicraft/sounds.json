@@ -969,6 +969,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -977,6 +978,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/cave",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -985,6 +987,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/war_declaration",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -993,6 +996,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/briefing",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -1001,6 +1005,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/start",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -1009,6 +1014,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/attackers_advance",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -1017,6 +1023,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/end",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -1025,6 +1032,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/victory",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -1033,6 +1041,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/siege/defeat",
+        "volume": 1.0,
         "stream": true
       }
     ]
@@ -1041,6 +1050,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/battle/naval",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -1049,6 +1059,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/battle/arabic",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -1057,6 +1068,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/battle/european",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -1065,6 +1077,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/battle/greek",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -1073,6 +1086,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/battle/north_african",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -1081,6 +1095,7 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/battle/northern_european",
+        "volume": 0.7,
         "stream": true
       }
     ]
@@ -1089,16 +1104,19 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/abbasid",
+        "volume": 0.7,
         "stream": true,
         "weight": 45
       },
       {
         "name": "mvndicraft:music/game/regional/yemen",
+        "volume": 0.7,
         "stream": true,
         "weight": 45
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1108,11 +1126,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/balkan",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1122,11 +1142,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/eastern_europe",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1136,11 +1158,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/egyptian",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1150,11 +1174,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/french",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1164,11 +1190,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/german",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1178,11 +1206,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/greek",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1192,11 +1222,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/italy",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1206,11 +1238,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/maghreb",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1220,11 +1254,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/northern_europe",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1234,11 +1270,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/persian",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
@@ -1248,11 +1286,13 @@
     "sounds": [
       {
         "name": "mvndicraft:music/game/regional/spanish",
+        "volume": 0.7,
         "stream": true,
         "weight": 90
       },
       {
         "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
         "stream": true,
         "weight": 10
       }
