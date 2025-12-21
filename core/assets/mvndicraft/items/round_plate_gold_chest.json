@@ -11,7 +11,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_quartz"
         }
       },
       {
@@ -21,7 +21,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron"
         }
       },
       {
@@ -31,7 +31,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_netherite"
         }
       },
       {
@@ -41,7 +41,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_redstone"
         }
       },
       {
@@ -51,7 +51,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_copper"
         }
       },
       {
@@ -61,7 +61,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_gold"
         }
       },
       {
@@ -71,7 +71,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_emerald"
         }
       },
       {
@@ -81,7 +81,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_diamond"
         }
       },
       {
@@ -91,7 +91,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_lapis"
         }
       },
       {
@@ -101,7 +101,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_amethyst"
         }
       },
       {
@@ -111,7 +111,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_resin"
         }
       },
       {
@@ -121,7 +121,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_quartz"
         }
       },
       {
@@ -131,7 +131,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_iron"
         }
       },
       {
@@ -141,7 +141,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_netherite"
         }
       },
       {
@@ -151,7 +151,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_redstone"
         }
       },
       {
@@ -161,7 +161,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_copper"
         }
       },
       {
@@ -171,7 +171,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_gold"
         }
       },
       {
@@ -181,7 +181,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_emerald"
         }
       },
       {
@@ -191,7 +191,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_diamond"
         }
       },
       {
@@ -201,7 +201,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_lapis"
         }
       },
       {
@@ -211,7 +211,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_amethyst"
         }
       },
       {
@@ -221,7 +221,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_quarter_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_quarter_resin"
         }
       },
       {
@@ -231,7 +231,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_quartz"
         }
       },
       {
@@ -241,7 +241,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_iron"
         }
       },
       {
@@ -251,7 +251,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_netherite"
         }
       },
       {
@@ -261,7 +261,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_redstone"
         }
       },
       {
@@ -271,7 +271,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_copper"
         }
       },
       {
@@ -281,7 +281,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_gold"
         }
       },
       {
@@ -291,7 +291,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_emerald"
         }
       },
       {
@@ -301,7 +301,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_diamond"
         }
       },
       {
@@ -311,7 +311,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_lapis"
         }
       },
       {
@@ -321,7 +321,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_amethyst"
         }
       },
       {
@@ -331,7 +331,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_iron_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_iron_resin"
         }
       },
       {
@@ -341,7 +341,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_quartz"
         }
       },
       {
@@ -351,7 +351,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_iron"
         }
       },
       {
@@ -361,7 +361,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_netherite"
         }
       },
       {
@@ -371,7 +371,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_redstone"
         }
       },
       {
@@ -381,7 +381,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_copper"
         }
       },
       {
@@ -391,7 +391,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_gold"
         }
       },
       {
@@ -401,7 +401,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_emerald"
         }
       },
       {
@@ -411,7 +411,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_diamond"
         }
       },
       {
@@ -421,7 +421,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_lapis"
         }
       },
       {
@@ -431,7 +431,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_amethyst"
         }
       },
       {
@@ -441,7 +441,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_cross_small_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_cross_small_resin"
         }
       },
       {
@@ -451,7 +451,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_quartz"
         }
       },
       {
@@ -461,7 +461,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_iron"
         }
       },
       {
@@ -471,7 +471,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_netherite"
         }
       },
       {
@@ -481,7 +481,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_redstone"
         }
       },
       {
@@ -491,7 +491,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_copper"
         }
       },
       {
@@ -501,7 +501,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_gold"
         }
       },
       {
@@ -511,7 +511,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_emerald"
         }
       },
       {
@@ -521,7 +521,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_diamond"
         }
       },
       {
@@ -531,7 +531,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_lapis"
         }
       },
       {
@@ -541,7 +541,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_amethyst"
         }
       },
       {
@@ -551,7 +551,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_half_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_half_resin"
         }
       },
       {
@@ -561,7 +561,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_quartz"
         }
       },
       {
@@ -571,7 +571,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_iron"
         }
       },
       {
@@ -581,7 +581,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_netherite"
         }
       },
       {
@@ -591,7 +591,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_redstone"
         }
       },
       {
@@ -601,7 +601,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_copper"
         }
       },
       {
@@ -611,7 +611,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_gold"
         }
       },
       {
@@ -621,7 +621,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_emerald"
         }
       },
       {
@@ -631,7 +631,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_diamond"
         }
       },
       {
@@ -641,7 +641,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_lapis"
         }
       },
       {
@@ -651,7 +651,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_amethyst"
         }
       },
       {
@@ -661,7 +661,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_horizontal_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_horizontal_resin"
         }
       },
       {
@@ -671,7 +671,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_quartz"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_quartz"
         }
       },
       {
@@ -681,7 +681,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_iron"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_iron"
         }
       },
       {
@@ -691,7 +691,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_netherite"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_netherite"
         }
       },
       {
@@ -701,7 +701,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_redstone"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_redstone"
         }
       },
       {
@@ -711,7 +711,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_copper"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_copper"
         }
       },
       {
@@ -721,7 +721,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_gold"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_gold"
         }
       },
       {
@@ -731,7 +731,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_emerald"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_emerald"
         }
       },
       {
@@ -741,7 +741,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_diamond"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_diamond"
         }
       },
       {
@@ -751,7 +751,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_lapis"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_lapis"
         }
       },
       {
@@ -761,7 +761,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_amethyst"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_amethyst"
         }
       },
       {
@@ -771,117 +771,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_vertical_resin"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:quartz",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_quartz"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:iron",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_iron"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:netherite",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_netherite"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:redstone",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_redstone"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:copper",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_copper"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:gold",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_gold"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:emerald",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_emerald"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:diamond",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_diamond"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:lapis",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_lapis"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:amethyst",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_amethyst"
-        }
-      },
-      {
-        "when": {
-          "material": "minecraft:resin",
-          "pattern": "mvndicraft:round_plate_fabric"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_round_plate_fabric_resin"
+          "model": "mvndicraft:item/armor/trims/round_plate_gold_chest_vertical_resin"
         }
       }
     ],

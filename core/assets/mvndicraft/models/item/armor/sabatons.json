@@ -1,0 +1,8 @@
+{
+  "parent": "item/leggings_layer1",
+  "textures": {
+    "leggings": "mvndicraft:entity/equipment/humanoid/sabatons",
+    "layer1": "mvndicraft:entity/equipment/humanoid/sabatons",
+    "particle": "mvndicraft:entity/equipment/humanoid/sabatons"
+  }
+}
