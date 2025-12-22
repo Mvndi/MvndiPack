@@ -1122,6 +1122,38 @@
       }
     ]
   },
+  "music.overworld.iraq": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/abbasid",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.yemen": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/yemen",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
   "music.overworld.balkan": {
     "sounds": [
       {

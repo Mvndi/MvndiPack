@@ -2,16 +2,16 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
-    "textures": {
-        "0": "item/hanging_cooked_chicken",
-        "particle": "item/hanging_cooked_chicken"
-    },
+	"textures": {
+		"0": "item/hanging_cooked_chicken",
+		"particle": "item/hanging_cooked_chicken"
+	},
 	"elements": [
 		{
 			"name": "body3",
 			"from": [8.6, 1.95, 2],
 			"to": [10.6, 3.95, 2],
-			"rotation": {"x": 56.65589, "y": -11.31335, "z": -16.60179, "origin": [9.1, 2.95, 2]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.1, 2.95, 2]},
 			"faces": {
 				"north": {"uv": [10, 11, 11, 12], "texture": "#0"},
 				"east": {"uv": [10, 11, 10, 12], "texture": "#0"},
@@ -53,7 +53,7 @@
 			"name": "body2",
 			"from": [5.6, 1.95, 2],
 			"to": [7.6, 3.95, 2],
-			"rotation": {"x": 58.15593, "y": 15.35793, "z": 23.09454, "origin": [7.1, 2.95, 2]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.1, 2.95, 2]},
 			"faces": {
 				"north": {"uv": [8, 11, 9, 12], "texture": "#0"},
 				"east": {"uv": [8, 11, 8, 12], "texture": "#0"},
@@ -189,10 +189,27 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 0, -93],
 			"translation": [8.25, -2.25, -0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [100, 0, 0],
+			"translation": [6, -2, 4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [100, 0, 0],
+			"translation": [6, -2, 4]
+		},
+		"gui": {
+			"rotation": [90, -45, -180],
+			"translation": [-2.25, -1.75, -8]
+		},
+		"fixed": {
+			"rotation": [90, 45, 180],
+			"translation": [3, -2.75, -8]
 		}
 	},
 	"groups": [
