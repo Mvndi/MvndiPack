@@ -784,13 +784,6 @@
       }
     ]
   },
-  "siege_event.ms_igloo": {
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/ms_igloo"
-      }
-    ]
-  },
   "siege_event.sector.taken_0": {
     "sounds": [
       {
