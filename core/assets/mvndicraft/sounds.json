@@ -43,10 +43,10 @@
   },
   "combat.attack.no_damage": {
     "sounds": [
-      { "name": "mvndicraft:combat/attack/weak1", "volume": 0.0 },
-      { "name": "mvndicraft:combat/attack/weak2", "volume": 0.0 },
-      { "name": "mvndicraft:combat/attack/weak3", "volume": 0.0 },
-      { "name": "mvndicraft:combat/attack/weak4", "volume": 0.0 }
+      { "name": "mvndicraft:combat/attack/weak1", "volume": 0.0001 },
+      { "name": "mvndicraft:combat/attack/weak2", "volume": 0.0001 },
+      { "name": "mvndicraft:combat/attack/weak3", "volume": 0.0001 },
+      { "name": "mvndicraft:combat/attack/weak4", "volume": 0.0001 }
     ]
   },
   "combat.attack.strong": {
