@@ -291,7 +291,7 @@
                 "threshold": 41,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/spikedpolemace"
+                    "model": "mvndicraft:weapons/pole_arms/spiked_polemace"
                 }
             },
             {

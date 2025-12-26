@@ -403,7 +403,7 @@
                 "threshold": 57,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:blacksmith/head/spikedpolemace_head"
+                    "model": "mvndicraft:blacksmith/head/spiked_polemace_head"
                 }
             },
             {
@@ -536,7 +536,7 @@
                 "threshold": 76,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:blacksmith/tong/tongs_spikedpolemace_head"
+                    "model": "mvndicraft:blacksmith/tong/tongs_spiked_polemace_head"
                 }
             },
             {
