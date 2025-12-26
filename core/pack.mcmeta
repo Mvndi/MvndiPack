@@ -1,7 +1,9 @@
 {
   "pack": {
-    "pack_format": 64,
-    "supported_formats": [37, 38, 39, 40, 41, 46],
-    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʟᴏʀᴅꜱ ᴀᴛ ᴡᴀʀ     §7For §61.21.7"
+    "pack_format": 75,
+    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʟᴏʀᴅꜱ ᴀᴛ ᴡᴀʀ     §7For §61.21.7",
+    "supported_formats": [64, 75],
+    "min_format": 64,
+    "max_format": 75
   }
 }
