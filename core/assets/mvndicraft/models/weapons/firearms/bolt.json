@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/archery/arrow",
-		"1": "item/leather",
+		"1": "mvndicraft:shields/leather",
 		"particle": "mvndicraft:weapons/archery/arrow"
 	},
 	"elements": [

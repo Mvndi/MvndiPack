@@ -291,7 +291,7 @@
                 "threshold": 41,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/spikedpolemace"
+                    "model": "mvndicraft:weapons/pole_arms/spiked_polemace"
                 }
             },
             {
@@ -446,6 +446,13 @@
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:weapons/pole_arms/harpoon"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/spiked_polemace_point"
                 }
             }
         ]

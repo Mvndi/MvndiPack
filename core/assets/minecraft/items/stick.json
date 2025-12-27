@@ -1381,7 +1381,7 @@
                 "threshold": 193,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:vehicles/ships/rowboat/showcase"
+                    "model": "mvndicraft:vehicles/ships/rowboat/hull"
                 }
             },                                     
             {
