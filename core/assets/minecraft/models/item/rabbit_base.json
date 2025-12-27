@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"texture_size": [64, 32],
 	"textures": {
 		"0": "item/hanging_raw_rabbit",
@@ -118,6 +120,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [65, 0, 0],
@@ -159,12 +162,14 @@
 		{
 			"name": "rearFootLeft",
 			"origin": [3, 6.5, 3.7],
+			"color": 0,
 			"shade": false,
 			"children": []
 		},
 		{
 			"name": "rearFootRight",
 			"origin": [-3, 6.5, 3.7],
+			"color": 0,
 			"shade": false,
 			"children": [0]
 		},
@@ -172,6 +177,7 @@
 			"name": "haunchLeft",
 			"origin": [3, 6.5, 3.7],
 			"rotation": [20, 0, 0],
+			"color": 0,
 			"shade": false,
 			"children": [1, 2, 3]
 		},
@@ -179,6 +185,7 @@
 			"name": "haunchRight",
 			"origin": [-3, 6.5, 3.7],
 			"rotation": [20, 0, 0],
+			"color": 0,
 			"shade": false,
 			"children": []
 		},
@@ -186,6 +193,7 @@
 			"name": "body",
 			"origin": [0, 5, 8],
 			"rotation": [20, 0, 0],
+			"color": 0,
 			"shade": false,
 			"children": [4]
 		},
@@ -193,6 +201,7 @@
 			"name": "frontLegLeft",
 			"origin": [3, 7, -1],
 			"rotation": [10, 0, 0],
+			"color": 0,
 			"shade": false,
 			"children": [5]
 		},
@@ -200,12 +209,14 @@
 			"name": "frontLegRight",
 			"origin": [-3, 7, -1],
 			"rotation": [10, 0, 0],
+			"color": 0,
 			"shade": false,
 			"children": [6]
 		},
 		{
 			"name": "head",
 			"origin": [0, 8, -1],
+			"color": 0,
 			"shade": false,
 			"children": [7]
 		},
@@ -213,6 +224,7 @@
 			"name": "earRight",
 			"origin": [0, 8, -1],
 			"rotation": [0, -15, 0],
+			"color": 0,
 			"shade": false,
 			"children": []
 		},
@@ -220,6 +232,7 @@
 			"name": "earLeft",
 			"origin": [0, 8, -1],
 			"rotation": [0, 15, 0],
+			"color": 0,
 			"shade": false,
 			"children": []
 		}

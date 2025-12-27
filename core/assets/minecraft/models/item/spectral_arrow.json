@@ -1,6 +1,10 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/spectral_arrow"
-    }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/spectral_arrow"
+	},
+	"gui_light": "front",
+	"display": {}
 }
