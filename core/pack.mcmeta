@@ -1,9 +1,8 @@
 {
   "pack": {
     "pack_format": 75,
-    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʟᴏʀᴅꜱ ᴀᴛ ᴡᴀʀ     §7For §61.21.7",
-    "supported_formats": [64, 75],
-    "min_format": 64,
+    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʟᴏʀᴅꜱ ᴀᴛ ᴡᴀʀ     §7For §61.21.11",
+    "min_format": 75,
     "max_format": 75
   }
 }

@@ -2,8 +2,7 @@
   "pack": {
     "pack_format": 75,
     "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʜᴜᴅ               §7For §61.21.11",
-    "supported_formats": [64, 75],
-    "min_format": 64,
+    "min_format": 75,
     "max_format": 75
   },
   "overlays": {
