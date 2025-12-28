@@ -1,0 +1,8 @@
+{
+  "parent": "item/chestplate_layer1",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/half_plate_blue",
+    "layer1": "mvndicraft:entity/equipment/humanoid/half_plate_blue",
+    "particle": "mvndicraft:entity/equipment/humanoid/half_plate_blue"
+  }
+}

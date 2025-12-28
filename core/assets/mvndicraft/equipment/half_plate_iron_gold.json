@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:half_plate_iron_gold" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:half_plate_iron_gold" }
+		]
+	}
+}

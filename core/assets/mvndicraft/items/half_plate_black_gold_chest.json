@@ -1,0 +1,783 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:trim",
+    "cases": [
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_cup"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cup_resin"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_horizontal_resin"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_quarter"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_quarter_resin"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_chess"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_chess_resin"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_triangle"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_triangle_resin"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_cross_resin"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_quartz"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_iron"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_netherite"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_redstone"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_copper"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_gold"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_emerald"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_diamond"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_lapis"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_amethyst"
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:half_plate_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/half_plate_black_gold_chest_half_plate_vertical_resin"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mvndicraft:item/armor/half_plate_black_gold_chest"
+    }
+  }
+}
