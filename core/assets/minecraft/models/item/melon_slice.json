@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/melon_slice",
-		"particle": "item/melon_slice"
+		"particle": "item/melon_slice_p"
 	},
 	"elements": [
 		{
@@ -45,8 +45,8 @@
 			"translation": [-0.5, 4.75, 2.5]
 		},
 		"gui": {
-			"rotation": [90, 104, -90],
-			"translation": [1.5, 4.75, 0]
+			"rotation": [113, 162, -124],
+			"translation": [-2.5, 3.5, 0]
 		},
 		"head": {
 			"translation": [0, 0.25, -2.75]
