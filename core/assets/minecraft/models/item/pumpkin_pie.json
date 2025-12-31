@@ -1,0 +1,64 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/pumpkin_pie",
+		"particle": "item/pumpkin_pie_p"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 2],
+			"to": [9, 8, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 2]},
+			"faces": {
+				"north": {"uv": [1, 4, 3, 12], "texture": "#0"},
+				"east": {"uv": [11, 4, 3, 12], "texture": "#0"},
+				"south": {"uv": [11, 4, 13, 12], "texture": "#0"},
+				"west": {"uv": [3, 4, 11, 12], "texture": "#0"},
+				"up": {"uv": [3, 2, 11, 4], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [11, 12, 3, 14], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-63, -44, -57],
+			"translation": [-1.25, 5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-63, -44, -57],
+			"translation": [-1.25, 5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-54, 0, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-54, 0, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"ground": {
+			"rotation": [0, 0, 1],
+			"translation": [-0.5, 4.75, 2.5]
+		},
+		"gui": {
+			"rotation": [113, 162, -124],
+			"translation": [-2.5, 3.5, 0]
+		},
+		"head": {
+			"translation": [0, 0.25, -2.75]
+		},
+		"fixed": {
+			"rotation": [-90, 45, 90],
+			"translation": [-2.25, 7.25, 0],
+			"scale": [1.45, 1.45, 1.45]
+		},
+		"on_shelf": {
+			"rotation": [0, 85, 9],
+			"translation": [3, 0, 0]
+		}
+	}
+}
