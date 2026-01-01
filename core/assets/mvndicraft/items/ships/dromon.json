@@ -1,5 +1,5 @@
 {
-  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step], flags:[anchor_state, ram_installed, drum_installed, bell_installed, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step, rudder_angle], flags:[anchor_state, ram_installed, drum_installed, bell_installed, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
   "model": {
     "type": "minecraft:composite",
     "models": [
@@ -2323,6 +2323,146 @@
             }
           ]
         }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 6,
+        "entries": [
+          {
+            "threshold": 45,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/45"
+            }
+          },
+          {
+            "threshold": 40,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/40"
+            }
+          },
+          {
+            "threshold": 35,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/35"
+            }
+          },
+          {
+            "threshold": 30,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/30"
+            }
+          },
+          {
+            "threshold": 25,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/25"
+            }
+          },
+          {
+            "threshold": 20,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/20"
+            }
+          },
+          {
+            "threshold": 15,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/15"
+            }
+          },
+          {
+            "threshold": 10,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/10"
+            }
+          },
+          {
+            "threshold": 5,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/5"
+            }
+          },
+          {
+            "threshold": 0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/0"
+            }
+          },
+          {
+            "threshold": -5,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_5"
+            }
+          },
+          {
+            "threshold": -10,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_10"
+            }
+          },
+          {
+            "threshold": -15,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_15"
+            }
+          },
+          {
+            "threshold": -20,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_20"
+            }
+          },
+          {
+            "threshold": -25,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_25"
+            }
+          },
+          {
+            "threshold": -30,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_30"
+            }
+          },
+          {
+            "threshold": -35,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_35"
+            }
+          },
+          {
+            "threshold": -40,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_40"
+            }
+          },
+          {
+            "threshold": -45,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_45"
+            }
+          }
+        ]
       },
       {
         "type": "minecraft:model",
