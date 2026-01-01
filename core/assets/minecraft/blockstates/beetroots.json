@@ -1,0 +1,11 @@
+{
+    "variants": {
+
+      "age=3": [
+			{ "model": "minecraft:models/block/beetroots_stage3", "weight": 5 },
+            { "model": "minecraft:models/block/beetroots_stage3_1", "weight": 5 },
+			{ "model": "minecraft:models/block/beetroots_stage3_2", "weight": 5 },
+			{ "model": "mvndicraft/models/farming/beetroots_stage3_3", "weight": 5 }
+		]	
+      }
+    }
