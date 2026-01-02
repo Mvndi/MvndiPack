@@ -1,11 +1,13 @@
 {
     "variants": {
-
-      "age=3": [
-			{ "model": "minecraft:models/block/beetroots_stage3", "weight": 5 },
-            { "model": "minecraft:models/block/beetroots_stage3_1", "weight": 5 },
-			{ "model": "minecraft:models/block/beetroots_stage3_2", "weight": 5 },
-			{ "model": "mvndicraft/models/farming/beetroots_stage3_3", "weight": 5 }
+        "age=0": { "model": "block/beetroots_stage0" },
+        "age=1": { "model": "block/beetroots_stage1" },
+        "age=2": { "model": "block/beetroots_stage2" },
+        "age=3": [
+			{ "model": "block/beetroots_stage3", "weight": 10 },
+            { "model": "block/beetroots_stage3_1", "weight": 10 },
+			{ "model": "block/beetroots_stage3_2", "weight": 10 },
+			{ "model": "block/beetroots_stage3_3", "weight": 10 }
 		]	
-      }
     }
+}
