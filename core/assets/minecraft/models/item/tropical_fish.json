@@ -4,7 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "item/tropical_fish",
-		"1": "item/tropical_fish_p"
+		"1": "item/tropical_fish_p",
+		"particle": "item/tropical_fish"
 	},
 	"elements": [
 		{
