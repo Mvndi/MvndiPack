@@ -180,6 +180,13 @@
 		"thirdperson_righthand": {
 			"rotation": [51, 0, 0],
 			"translation": [2, -2.25, 0.75]
+		},
+		"ground": {
+			"translation": [0, 6.75, 0]
+		},
+		"fixed": {
+			"translation": [3, 9.75, 0],
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [

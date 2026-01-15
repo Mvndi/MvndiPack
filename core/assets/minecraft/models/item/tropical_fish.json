@@ -181,8 +181,8 @@
 		},
 		"fixed": {
 			"rotation": [0, 91, 0],
-			"translation": [-1, 8, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [-1, 11.75, 0],
+			"scale": [1.99, 2, 2]
 		},
 		"on_shelf": {
 			"rotation": [0, 90, 0]

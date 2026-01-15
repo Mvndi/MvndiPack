@@ -53,6 +53,7 @@
 			"name": "fin_left",
 			"from": [5, 1, 0],
 			"to": [7, 1, 2],
+			"rotation": {"x": 0, "y": 0, "z": 52.5, "origin": [7, 1, 1]},
 			"faces": {
 				"north": {"uv": [1, 1, 2, 1], "texture": "#0"},
 				"east": {"uv": [0, 1, 1, 1], "texture": "#0"},
@@ -66,6 +67,7 @@
 			"name": "fin_right",
 			"from": [10, 1, 0],
 			"to": [12, 1, 2],
+			"rotation": {"x": 0, "y": 0, "z": -52.5, "origin": [10, 1, 1]},
 			"faces": {
 				"north": {"uv": [-1, 1, 0, 1], "texture": "#0"},
 				"east": {"uv": [-2, 1, -1, 1], "texture": "#0"},
@@ -149,7 +151,8 @@
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [0, 5.5, 0]
+			"translation": [0, 11, 0],
+			"scale": [2, 2, 2]
 		},
 		"on_shelf": {
 			"rotation": [88, 0, 82],
