@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "dyeable": { "color_when_undyed": 16777215 },
+        "texture": "mvndicraft:tabard_plate"
+      },
+      {
+        "texture": "mvndicraft:tabard_plate_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": { "color_when_undyed": 16777215 },
+        "texture": "mvndicraft:tabard_plate"
+      }
+    ]
+  }
+}

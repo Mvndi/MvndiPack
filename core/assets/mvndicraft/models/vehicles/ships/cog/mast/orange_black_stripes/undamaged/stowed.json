@@ -1,6 +1,0 @@
-{
-  "parent": "mvndicraft:vehicles/ships/cog/mast/default/undamaged/stowed",
-  "textures": {
-    "sail": "mvndicraft:vehicles/ships/cog/sail/orange_black_stripes"
-  }
-}

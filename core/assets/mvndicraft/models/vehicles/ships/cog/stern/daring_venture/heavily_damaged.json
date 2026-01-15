@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/stern/default/heavily_damaged",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/stern/daring_venture"
+  }
+}

@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"parent": "item/chestplate_layer1",
 	"textures": {
-		"layer1": "models/armor/leatherlayer1/250"
+		"layer1": "mvndicraft:entity/equipment/humanoid/steel_chain"
 	},
 	"elements": [
 		{
@@ -32,6 +33,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [75, 45, 0],

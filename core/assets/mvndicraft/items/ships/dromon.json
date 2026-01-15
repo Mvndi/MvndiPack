@@ -1,0 +1,2473 @@
+{
+  "__comment__": "Custom model data is setup in the following way: {floats:[bow_damage, hull_damage, mast_damage, stern_damage, sail_state, animation_step, rudder_angle], flags:[anchor_state, ram_installed, drum_installed, bell_installed, oars_installed, winch_installed], strings:[bow_skin, hull_skin, mast_skin, stern_skin]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "test",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/test/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/test/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/test/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "ace_of_tides",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/ace_of_tides/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/ace_of_tides/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/ace_of_tides/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/ace_of_tides/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "cometa",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/cometa/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/cometa/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/cometa/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/cometa/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "orange_fiend",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/orange_fiend/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/orange_fiend/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/orange_fiend/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/orange_fiend/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "porphyrios_fury",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/porphyrios_fury/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/porphyrios_fury/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/porphyrios_fury/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/bow/porphyrios_fury/broken"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "entries": [
+            {
+              "threshold": 0.67,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/bow/default/undamaged"
+              }
+            },
+            {
+              "threshold": 0.33,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/bow/default/lightly_damaged"
+              }
+            },
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/bow/default/heavily_damaged"
+              }
+            },
+            {
+              "threshold": 0.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/bow/default/broken"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "test",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/test/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/test/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/test/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "ace_of_tides",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/ace_of_tides/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/ace_of_tides/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/ace_of_tides/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/ace_of_tides/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "cometa",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/cometa/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/cometa/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/cometa/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/cometa/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "orange_fiend",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/orange_fiend/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/orange_fiend/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/orange_fiend/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/orange_fiend/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "porphyrios_fury",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 1,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/porphyrios_fury/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/porphyrios_fury/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/porphyrios_fury/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/hull/porphyrios_fury/broken"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "entries": [
+            {
+              "threshold": 0.67,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/hull/default/undamaged"
+              }
+            },
+            {
+              "threshold": 0.33,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/hull/default/lightly_damaged"
+              }
+            },
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/hull/default/heavily_damaged"
+              }
+            },
+            {
+              "threshold": 0.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/hull/default/broken"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "cases": [
+          {
+            "when": "empty",
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/air"
+            }
+          },
+          {
+            "when": "test",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/test/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/blue/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/blue/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "boar_red",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/boar_red/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "cross_blue",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/cross_blue/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/green/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/green/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "red_yellow_stripes_ornament",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/red_yellow_stripes_ornament/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/red/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/red/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "saracen_green",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/saracen_green/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "dolphin_red_stripes",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/dolphin_red_stripes/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "orange_black_stripes",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 2,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/undamaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/undamaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/undamaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/lightly_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/lightly_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/lightly_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:custom_model_data",
+                    "index": 4,
+                    "entries": [
+                      {
+                        "threshold": 0.5,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/heavily_damaged/full"
+                        }
+                      },
+                      {
+                        "threshold": 0.01,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/heavily_damaged/half"
+                        }
+                      },
+                      {
+                        "threshold": 0.0,
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/heavily_damaged/stowed"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/mast/orange_black_stripes/broken"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 2,
+          "entries": [
+            {
+              "threshold": 0.67,
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:custom_model_data",
+                "index": 4,
+                "entries": [
+                  {
+                    "threshold": 0.5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/undamaged/full"
+                    }
+                  },
+                  {
+                    "threshold": 0.01,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/undamaged/half"
+                    }
+                  },
+                  {
+                    "threshold": 0.0,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/undamaged/stowed"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "threshold": 0.33,
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:custom_model_data",
+                "index": 4,
+                "entries": [
+                  {
+                    "threshold": 0.5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/lightly_damaged/full"
+                    }
+                  },
+                  {
+                    "threshold": 0.01,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/lightly_damaged/half"
+                    }
+                  },
+                  {
+                    "threshold": 0.0,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/lightly_damaged/stowed"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:custom_model_data",
+                "index": 4,
+                "entries": [
+                  {
+                    "threshold": 0.5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/heavily_damaged/full"
+                    }
+                  },
+                  {
+                    "threshold": 0.01,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/heavily_damaged/half"
+                    }
+                  },
+                  {
+                    "threshold": 0.0,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "mvndicraft:vehicles/ships/dromon/mast/default/heavily_damaged/stowed"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "threshold": 0.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/mast/default/broken"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "cases": [
+          {
+            "when": "test",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/test/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/test/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/test/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/test/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "ace_of_tides",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/ace_of_tides/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/ace_of_tides/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/ace_of_tides/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/ace_of_tides/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "cometa",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/cometa/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/cometa/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/cometa/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/cometa/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "orange_fiend",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/orange_fiend/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/orange_fiend/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/orange_fiend/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/orange_fiend/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "when": "porphyrios_fury",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 3,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/porphyrios_fury/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/porphyrios_fury/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/porphyrios_fury/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/dromon/stern/porphyrios_fury/broken"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 3,
+          "entries": [
+            {
+              "threshold": 0.67,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/stern/default/undamaged"
+              }
+            },
+            {
+              "threshold": 0.33,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/stern/default/lightly_damaged"
+              }
+            },
+            {
+              "threshold": 0.01,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/stern/default/heavily_damaged"
+              }
+            },
+            {
+              "threshold": 0.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/stern/default/broken"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 5,
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/dromon/anchor/up"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/dromon/anchor/down"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/dromon/winch/up"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:vehicles/ships/dromon/winch/down"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/dromon/ram"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/dromon/drum"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:vehicles/ships/dromon/bell"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "on_false": {
+          "type": "minecraft:empty"
+        },
+        "on_true": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 5,
+          "entries": [
+            {
+              "threshold": 45,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/45"
+              }
+            },
+            {
+              "threshold": 44,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/44"
+              }
+            },
+            {
+              "threshold": 43,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/43"
+              }
+            },
+            {
+              "threshold": 42,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/42"
+              }
+            },
+            {
+              "threshold": 41,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/41"
+              }
+            },
+            {
+              "threshold": 40,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/40"
+              }
+            },
+            {
+              "threshold": 39,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/39"
+              }
+            },
+            {
+              "threshold": 38,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/38"
+              }
+            },
+            {
+              "threshold": 37,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/37"
+              }
+            },
+            {
+              "threshold": 36,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/36"
+              }
+            },
+            {
+              "threshold": 35,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/35"
+              }
+            },
+            {
+              "threshold": 34,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/34"
+              }
+            },
+            {
+              "threshold": 33,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/33"
+              }
+            },
+            {
+              "threshold": 32,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/32"
+              }
+            },
+            {
+              "threshold": 31,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/31"
+              }
+            },
+            {
+              "threshold": 30,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/30"
+              }
+            },
+            {
+              "threshold": 29,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/29"
+              }
+            },
+            {
+              "threshold": 28,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/28"
+              }
+            },
+            {
+              "threshold": 27,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/27"
+              }
+            },
+            {
+              "threshold": 26,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/26"
+              }
+            },
+            {
+              "threshold": 25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/25"
+              }
+            },
+            {
+              "threshold": 24,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/24"
+              }
+            },
+            {
+              "threshold": 23,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/23"
+              }
+            },
+            {
+              "threshold": 22,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/22"
+              }
+            },
+            {
+              "threshold": 21,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/21"
+              }
+            },
+            {
+              "threshold": 20,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/20"
+              }
+            },
+            {
+              "threshold": 19,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/19"
+              }
+            },
+            {
+              "threshold": 18,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/18"
+              }
+            },
+            {
+              "threshold": 17,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/17"
+              }
+            },
+            {
+              "threshold": 16,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/16"
+              }
+            },
+            {
+              "threshold": 15,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/15"
+              }
+            },
+            {
+              "threshold": 14,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/14"
+              }
+            },
+            {
+              "threshold": 13,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/13"
+              }
+            },
+            {
+              "threshold": 12,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/12"
+              }
+            },
+            {
+              "threshold": 11,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/11"
+              }
+            },
+            {
+              "threshold": 10,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/10"
+              }
+            },
+            {
+              "threshold": 9,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/9"
+              }
+            },
+            {
+              "threshold": 8,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/8"
+              }
+            },
+            {
+              "threshold": 7,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/7"
+              }
+            },
+            {
+              "threshold": 6,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/6"
+              }
+            },
+            {
+              "threshold": 5,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/5"
+              }
+            },
+            {
+              "threshold": 4,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/4"
+              }
+            },
+            {
+              "threshold": 3,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/3"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/2"
+              }
+            },
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/1"
+              }
+            },
+            {
+              "threshold": 0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "mvndicraft:vehicles/ships/dromon/oars/0"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 6,
+        "entries": [
+          {
+            "threshold": 45,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/45"
+            }
+          },
+          {
+            "threshold": 40,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/40"
+            }
+          },
+          {
+            "threshold": 35,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/35"
+            }
+          },
+          {
+            "threshold": 30,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/30"
+            }
+          },
+          {
+            "threshold": 25,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/25"
+            }
+          },
+          {
+            "threshold": 20,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/20"
+            }
+          },
+          {
+            "threshold": 15,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/15"
+            }
+          },
+          {
+            "threshold": 10,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/10"
+            }
+          },
+          {
+            "threshold": 5,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/5"
+            }
+          },
+          {
+            "threshold": 0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/0"
+            }
+          },
+          {
+            "threshold": -5,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_5"
+            }
+          },
+          {
+            "threshold": -10,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_10"
+            }
+          },
+          {
+            "threshold": -15,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_15"
+            }
+          },
+          {
+            "threshold": -20,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_20"
+            }
+          },
+          {
+            "threshold": -25,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_25"
+            }
+          },
+          {
+            "threshold": -30,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_30"
+            }
+          },
+          {
+            "threshold": -35,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_35"
+            }
+          },
+          {
+            "threshold": -40,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_40"
+            }
+          },
+          {
+            "threshold": -45,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/dromon/rudder/_45"
+            }
+          }
+        ]
+      },
+      {
+        "type": "minecraft:model",
+        "model": "mvndicraft:vehicles/ships/dromon/seats"
+      }
+    ]
+  }
+}

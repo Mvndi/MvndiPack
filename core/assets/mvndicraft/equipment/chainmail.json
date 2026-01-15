@@ -4,7 +4,7 @@
 			{ "texture": "mvndicraft:chainmail" }
 		],
 		"humanoid_leggings": [
-			{ "texture": "mvndicraft:chainmail_leggings" }
+			{ "texture": "mvndicraft:chainmail" }
 		]
 	}
 }

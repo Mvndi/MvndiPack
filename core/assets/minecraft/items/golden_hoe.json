@@ -1,26 +1,6 @@
 {
-    "model": {
-        "type": "range_dispatch",
-        "property": "custom_model_data",
-        "fallback": {
-            "type": "model",
-	    "model": "minecraft:item/golden_hoe"
-        },
-        "entries": [
-            {
-                "threshold": 13,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:ui/gui/hub_gui"
-                }
-            },
-            {
-                "threshold": 14,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:ui/gui/hub_gui_help"
-                }
-            }
-        ]
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/golden_hoe"
+  }
 }

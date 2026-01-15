@@ -1,17 +1,20 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
+	"texture_size": [512, 512],
 	"textures": {
 		"0": "mvndicraft:ui/professions/profession_menu",
-		"particle": "mvndicraft:ui/professions/profession_menu"
+		"particle": "mvndicraft:ui/professions/background_top"
 	},
 	"elements": [
 		{
-			"from": [-16, -13.68182, 8],
-			"to": [32, 29.68182, 8],
+			"from": [-15, -13, 8],
+			"to": [30.5, 26.75, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.31818, 6]},
 			"faces": {
-				"north": {"uv": [0.875, 8.03125, 6.375, 13], "texture": "#0"},
+				"north": {"uv": [0.78125, 8.03125, 6.46875, 13], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
 				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
@@ -22,8 +25,8 @@
 	"display": {
 		"gui": {
 			"rotation": [-180, 0, -180],
-			"translation": [-72, -33.75, 0],
-			"scale": [3.68164, 3.68164, 3.68164]
+			"translation": [71, -30, 0],
+			"scale": [4, 4, 4]
 		}
 	}
 }

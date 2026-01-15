@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/bow/default/heavily_damaged",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/bow/navis_hanseatica"
+  }
+}

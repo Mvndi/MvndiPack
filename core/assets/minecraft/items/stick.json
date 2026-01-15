@@ -1312,20 +1312,20 @@
                     "models": [
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                        "model": "mvndicraft:vehicles/ships/dromon/bow/default/undamaged"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                        "model": "mvndicraft:vehicles/ships/dromon/hull/default/undamaged"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/green/undamaged/full"
+                        "model": "mvndicraft:vehicles/ships/dromon/mast/default/undamaged/full"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
+                        "model": "mvndicraft:vehicles/ships/dromon/stern/default/undamaged"
+                      }                                  
                     ]
                   }
             },
@@ -1336,20 +1336,20 @@
                     "models": [
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                        "model": "mvndicraft:vehicles/ships/galley/bow/default/undamaged"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                        "model": "mvndicraft:vehicles/ships/galley/hull/default/undamaged"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/light_blue/undamaged/full"
+                        "model": "mvndicraft:vehicles/ships/galley/mast/default/undamaged/full"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
+                        "model": "mvndicraft:vehicles/ships/galley/stern/default/undamaged"
+                      }                                  
                     ]
                   }
             },
@@ -1360,118 +1360,50 @@
                     "models": [
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
+                        "model": "mvndicraft:vehicles/ships/longship/bow/default/undamaged"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
+                        "model": "mvndicraft:vehicles/ships/longship/hull/default/undamaged"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/orange_black_stripes/undamaged/full"
+                        "model": "mvndicraft:vehicles/ships/longship/mast/default/undamaged/full"
                       },
                       {
                         "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
+                        "model": "mvndicraft:vehicles/ships/longship/stern/default/undamaged"
+                      }                                  
                     ]
                   }
-            },
+            }, 
             {
                 "threshold": 193,
                 "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/red_stripes/undamaged/full"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
-                    ]
-                  }
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/ships/rowboat/hull"
+                }
+            },                                     
+            {
+                "threshold": 197,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:vehicles/ships/repair_patch"
+                }
             },
             {
-                "threshold": 194,
+                "threshold": 198,
                 "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_sides/undamaged/full"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
-                    ]
-                  }
+                    "type": "model",
+                    "model": "mvndicraft:farming/shepherds_staff"
+                }
             },
             {
-                "threshold": 195,
+                "threshold": 199,
                 "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/yellow_red_stripes/undamaged/full"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
-                    ]
-                  }
-            },
-            {
-                "threshold": 196,
-                "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/bow/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/hull/default/undamaged"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/mast/red_white_band/undamaged/full"
-                      },
-                      {
-                        "type": "model",
-                        "model": "mvndicraft:vehicles/ships/cog/stern/default/undamaged"
-                      }                                        
-                    ]
-                  }
+                    "type": "model",
+                    "model": "mvndicraft:weapons/firearms/greek_fire_grenade"
+                }
             },
             {
                 "threshold": 2000,
@@ -2080,6 +2012,20 @@
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:siege/block/parts/wheel"
+                }
+            },
+            {
+                "threshold": 439102,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/greek_fire/head_ship"
+                }
+            },
+            {
+                "threshold": 439103,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:siege/block/cannon/base_mounted"
                 }
             }
         ]

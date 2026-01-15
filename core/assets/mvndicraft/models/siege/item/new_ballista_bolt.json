@@ -5,6 +5,7 @@
 		"0": "mvndicraft:siege/block/new_new_ballista",
 		"particle": "mvndicraft:siege/block/new_new_ballista"
 	},
+	"gui_light": "front",
 	"elements": [
 		{
 			"from": [12, -7.5, -7],

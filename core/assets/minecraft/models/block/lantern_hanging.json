@@ -3,12 +3,12 @@
 	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "item/chains_hanger",
-		"1": "item/bronze_bowl",
+		"0": "block/chains_hanger",
+		"1": "block/bronze_bowl",
 		"2": "block/candlebase",
 		"3": "block/candle_wax",
-		"4": "item/candleflame",
-		"particle": "item/bronze_bowl",
+		"4": "block/chains_hanger",
+		"particle": "block/bronze_bowl",
 		"1_1": "block/candle"
 	},
 	"elements": [

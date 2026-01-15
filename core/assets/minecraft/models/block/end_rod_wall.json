@@ -2,9 +2,9 @@
 	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "item/chains_hanger",
+		"0": "block/chains_hanger",
 		"5": "block/redstone_torch",
-		"1_1": "item/bronze_bowl",
+		"1_1": "block/bronze_bowl",
 		"1_3": "block/candle_wax",
 		"1_1_1": "block/candle",
 		"1_1_0": "block/redstone_torch_base",

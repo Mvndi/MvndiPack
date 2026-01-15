@@ -30,7 +30,7 @@
 	"display": {
 		"gui": {
 			"rotation": [-180, 0, -180],
-			"translation": [25, -70, -10],
+			"translation": [9, -70, -10],
 			"scale": [3.25586, 3.25586, 3.25586]
 		}
 	}

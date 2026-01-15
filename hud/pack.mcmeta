@@ -1,7 +1,30 @@
 {
   "pack": {
-    "pack_format": 55,
-    "supported_formats": [37, 38, 39, 40, 41, 46],
-    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʜᴜᴅ               §7For §61.21.5"
+    "pack_format": 75,
+    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʜᴜᴅ               §7For §61.21.11",
+    "min_format": 75,
+    "max_format": 75
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [35, 45],
+        "directory": "betterhud_1_21_2",
+        "min_format": 35,
+        "max_format": 45
+      },
+      {
+        "formats": [46, 55],
+        "directory": "betterhud_1_21_4",
+        "min_format": 46,
+        "max_format": 55
+      },
+      {
+        "formats": [56, 99],
+        "directory": "betterhud_1_21_6",
+        "min_format": 56,
+        "max_format": 99
+      }
+    ]
   }
 }

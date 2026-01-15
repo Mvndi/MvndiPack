@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mvndicraft:round_plate_black"
+      },
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "mvndicraft:round_plate_fabric"
+      }
+    ]
+  }
+}

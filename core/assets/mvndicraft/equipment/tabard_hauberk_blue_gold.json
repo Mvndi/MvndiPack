@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mvndicraft:full_plate_blue_gold"
+      },
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "mvndicraft:full_plate_fabric"
+      }
+    ]
+  }
+}

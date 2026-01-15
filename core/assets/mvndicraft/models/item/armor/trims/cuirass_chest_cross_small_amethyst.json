@@ -1,0 +1,8 @@
+{
+  "parent": "item/chestplate_layer2_tint",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/round_plate",
+    "layer1": "mvndicraft:entity/equipment/humanoid/round_plate_fabric",
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_amethyst"
+  }
+}

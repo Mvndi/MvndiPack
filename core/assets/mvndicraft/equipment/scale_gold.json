@@ -1,0 +1,12 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:scale_gold" },
+			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:scale_overlay" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:scale_gold" },
+			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:scale_overlay" }
+		]
+	}
+}

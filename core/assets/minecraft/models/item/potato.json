@@ -1,6 +1,129 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "mvndicraft:farming/cabbage"
-    }
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "mvndicraft:farming/cabbage",
+		"particle": "mvndicraft:farming/cabbage"
+	},
+	"elements": [
+		{
+			"from": [7, 3, 10],
+			"to": [13, 10, 10],
+			"rotation": {"angle": 25, "axis": "x", "origin": [10, 6.5, 10]},
+			"faces": {
+				"north": {"uv": [3.5, 7, 0.5, 10.5], "texture": "#0"},
+				"east": {"uv": [0.5, 7, 0.5, 10.5], "texture": "#0"},
+				"south": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"},
+				"west": {"uv": [3.5, 7, 0.5, 10.5], "texture": "#0"},
+				"up": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"},
+				"down": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 3, 6],
+			"to": [12, 10, 6],
+			"rotation": {"x": -8.65641, "y": 21.40584, "z": 7.09999, "origin": [9, 6.5, 6]},
+			"faces": {
+				"north": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"},
+				"east": {"uv": [0.5, 7, 0.5, 10.5], "texture": "#0"},
+				"south": {"uv": [3.5, 7, 0.5, 10.5], "texture": "#0"},
+				"west": {"uv": [3.5, 7, 0.5, 10.5], "texture": "#0"},
+				"up": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"},
+				"down": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, -1, 8],
+			"to": [12, 6, 8],
+			"rotation": {"x": 77.05404, "y": -17.11443, "z": -175.61893, "origin": [9, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"},
+				"east": {"uv": [0.5, 7, 0.5, 10.5], "texture": "#0"},
+				"south": {"uv": [3.5, 7, 0.5, 10.5], "texture": "#0"},
+				"west": {"uv": [3.5, 7, 0.5, 10.5], "texture": "#0"},
+				"up": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"},
+				"down": {"uv": [0.5, 7, 3.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 2, 8.25],
+			"to": [11, 9, 8.25],
+			"rotation": {"angle": -20, "axis": "y", "origin": [8, 5.5, 8.25]},
+			"faces": {
+				"north": {"uv": [3.5, 1.5, 0.5, 5], "texture": "#0"},
+				"east": {"uv": [0.5, 7, 0.5, 10.5], "texture": "#0"},
+				"south": {"uv": [0.5, 1.5, 3.5, 5], "texture": "#0"},
+				"west": {"uv": [3.5, 1.5, 0.5, 5], "texture": "#0"},
+				"up": {"uv": [0.5, 1.5, 3.5, 5], "texture": "#0"},
+				"down": {"uv": [0.5, 1.5, 3.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 2, 8.25],
+			"to": [14, 9, 8.25],
+			"rotation": {"x": 0, "y": 17.5, "z": -20, "origin": [11, 5.5, 8.25]},
+			"faces": {
+				"north": {"uv": [6.5, 1.5, 3.5, 5], "texture": "#0"},
+				"east": {"uv": [0.5, 7, 0.5, 10.5], "texture": "#0"},
+				"south": {"uv": [3.5, 1.5, 6.5, 5], "texture": "#0"},
+				"west": {"uv": [6.5, 1.5, 3.5, 5], "texture": "#0"},
+				"up": {"uv": [3.5, 1.5, 6.5, 5], "texture": "#0"},
+				"down": {"uv": [3.5, 1.5, 6.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 2, 5.25],
+			"to": [15, 9, 5.25],
+			"rotation": {"x": -131.9301, "y": 41.56076, "z": -140.78973, "origin": [12, 5.5, 5.25]},
+			"faces": {
+				"north": {"uv": [3, 1.5, 0, 5], "texture": "#0"},
+				"east": {"uv": [0.5, 7, 0.5, 10.5], "texture": "#0"},
+				"south": {"uv": [0, 1.5, 3, 5], "texture": "#0"},
+				"west": {"uv": [3, 1.5, 0, 5], "texture": "#0"},
+				"up": {"uv": [0, 1.5, 3, 5], "texture": "#0"},
+				"down": {"uv": [0, 1.5, 3, 5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 110, 0],
+			"translation": [2, 5.75, 2.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 110, 0],
+			"translation": [2, 5.75, 2.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [21, 142, 0],
+			"translation": [1, 4, 3.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [21, 142, 0],
+			"translation": [1, 4, 3.5]
+		},
+		"ground": {
+			"translation": [-1.75, 0.75, 3.75]
+		},
+		"gui": {
+			"rotation": [0, 162, 0],
+			"translation": [2, 3.25, 0],
+			"scale": [1.32, 1.32, 1.32]
+		},
+		"head": {
+			"rotation": [37, -180, 7],
+			"translation": [5.75, 17.25, 1.25],
+			"scale": [2.21, 2.21, 2.21]
+		},
+		"fixed": {
+			"translation": [-2, 1.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"translation": [-0.5, 0, 0],
+			"scale": [1.47, 1.47, 1.47]
+		}
+	}
+}

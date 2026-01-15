@@ -1,8 +1,8 @@
 {
     "parent": "block/wall_inventory",
     "textures": {
-        "wall": "block/cobble_mossy_wall_side",
-		"top": "block/moss_block"
+        "wall": "block/quartz_pillar",
+		"top": "block/quartz_pillar_top"
     },
     "elements": [
         {   "from": [ 4, 0, 4 ],

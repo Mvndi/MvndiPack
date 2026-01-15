@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [512, 512],
+	"textures": {
+		"0": "mvndicraft:ui/professions/profession_menu_mining",
+		"particle": "mvndicraft:ui/professions/profession_menu_mining"
+	},
+	"elements": [
+		{
+			"name": "frame",
+			"from": [-8, -8, 8],
+			"to": [24, 24, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
+			"faces": {
+				"north": {"uv": [0.90625, 1, 1.90625, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "backing",
+			"from": [-8, -8, 8],
+			"to": [24, 24, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
+			"faces": {
+				"north": {"uv": [0.03125, 1.96875, 1.03125, 2.96875], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "icon",
+			"from": [-8, -8, 8],
+			"to": [24, 24, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [-180, 0, -180],
+			"translation": [-3, 0, 0]
+		}
+	}
+}

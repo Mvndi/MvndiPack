@@ -1,6 +1,6 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/debug_stick"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/debug_stick"
+  }
 }

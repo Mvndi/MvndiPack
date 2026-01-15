@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:paletted_permutations",
+      "textures": [
+        "mvndicraft:trims/entity/humanoid/gambeson_cross",
+        "mvndicraft:trims/entity/humanoid/gambeson_horizontal",
+        "mvndicraft:trims/entity/humanoid/gambeson_vertical",
+        "mvndicraft:trims/entity/humanoid/gambeson_fancy_cross",
+        "mvndicraft:trims/entity/humanoid/gambeson_lorraine_cross",
+        "mvndicraft:trims/entity/humanoid/gambeson_x",
+        "mvndicraft:trims/entity/humanoid/gambeson_four",
+        "mvndicraft:trims/entity/humanoid/gambeson_plus",
+        "mvndicraft:trims/entity/humanoid/gambeson_y",
+        "mvndicraft:trims/entity/humanoid/gambeson_half",
+        "mvndicraft:trims/entity/humanoid/gambeson_t",
+        "mvndicraft:trims/entity/humanoid/gambeson_hash",
+        "mvndicraft:trims/entity/humanoid/gambeson_tree",
+        "mvndicraft:trims/entity/humanoid_leggings/gambeson_vertical",
+        "mvndicraft:trims/entity/humanoid_leggings/gambeson_strip",
+
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_cup",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_horizontal",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_quarter",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_chess",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_triangle",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_cross",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_vertical",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_fancy_cross",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_lorraine_cross",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_x",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_four",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_plus",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_y",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_half",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_t",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_hash",
+        "mvndicraft:trims/entity/humanoid/tabard_hauberk_tree",
+
+        "mvndicraft:trims/entity/humanoid/cuirass_cross",
+        "mvndicraft:trims/entity/humanoid/cuirass_quarter",
+        "mvndicraft:trims/entity/humanoid/cuirass_cross_iron",
+        "mvndicraft:trims/entity/humanoid/cuirass_cross_small",
+        "mvndicraft:trims/entity/humanoid/cuirass_half",
+        "mvndicraft:trims/entity/humanoid/cuirass_horizontal",
+        "mvndicraft:trims/entity/humanoid/cuirass_vertical"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "resin": "trims/color_palettes/resin",
+        "quartz": "trims/color_palettes/quartz",
+        "iron": "trims/color_palettes/iron",
+        "netherite": "trims/color_palettes/netherite",
+        "redstone": "trims/color_palettes/redstone",
+        "copper": "trims/color_palettes/copper",
+        "gold": "trims/color_palettes/gold",
+        "emerald": "trims/color_palettes/emerald",
+        "diamond": "trims/color_palettes/diamond",
+        "lapis": "trims/color_palettes/lapis",
+        "amethyst": "trims/color_palettes/amethyst",
+        "iron_darker": "trims/color_palettes/iron_darker",
+        "netherite_darker": "trims/color_palettes/netherite_darker",
+        "gold_darker": "trims/color_palettes/gold_darker",
+        "diamond_darker": "trims/color_palettes/diamond_darker"
+      }
+    }
+  ]
+}

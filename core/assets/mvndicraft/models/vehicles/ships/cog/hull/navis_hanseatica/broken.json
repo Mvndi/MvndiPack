@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/cog/hull/default/broken",
+  "textures": {
+    "hull": "mvndicraft:vehicles/ships/cog/hull/navis_hanseatica"
+  }
+}

@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/crossbow",
-		"1": "item/pilummeme",
-		"4": "entity/projectiles/fletching",
+		"0": "mvndicraft:weapons/archery/crossbow",
+		"1": "mvndicraft:weapons/archery/pilum",
+		"4": "mvndicraft:weapons/archery/fletching",
 		"1_0": "mvndicraft:weapons/archery/arrow",
-		"1_1": "item/pilum"
+		"1_1": "mvndicraft:weapons/archery/pilum"
 	},
 	"elements": [
 		{

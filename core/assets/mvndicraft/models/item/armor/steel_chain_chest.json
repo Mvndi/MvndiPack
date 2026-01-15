@@ -1,0 +1,8 @@
+{
+  "parent": "item/chestplate_layer1",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/steel_chain",
+    "layer1": "mvndicraft:entity/equipment/humanoid/steel_chain",
+    "particle": "mvndicraft:entity/equipment/humanoid/steel_chain"
+  }
+}

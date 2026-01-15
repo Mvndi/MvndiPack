@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "mvndicraft:full_plate_rust" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "mvndicraft:full_plate_rust" }
+		]
+	}
+}

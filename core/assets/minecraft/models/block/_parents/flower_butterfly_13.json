@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#butterfly"
+	},
+	"elements": [
+		{
+			"name": "flat",
+			"from": [3.5, 13, 4],
+			"to": [14.5, 13, 12],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 13, 8]},
+			"faces": {
+				"up": {"uv": [2, 8, 13, 16], "texture": "#butterfly"},
+				"down": {"uv": [2, 16, 13, 8], "texture": "#butterfly"}
+			}
+		},
+		{
+			"name": "angle",
+			"from": [3.5, 13, 4],
+			"to": [14.5, 13, 12],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [9, 13, 8]},
+			"faces": {
+				"up": {"uv": [13, 0, 2, 8], "texture": "#butterfly"},
+				"down": {"uv": [13, 8, 2, 0], "texture": "#butterfly"}
+			}
+		},
+		{
+			"name": "angle",
+			"from": [3.5, 13, 4],
+			"to": [14.5, 13, 12],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [9, 13, 8]},
+			"faces": {
+				"up": {"uv": [2, 0, 13, 8], "texture": "#butterfly"},
+				"down": {"uv": [2, 8, 13, 0], "texture": "#butterfly"}
+			}
+		},
+		{
+			"name": "antenna",
+			"from": [7.5, 13, 5],
+			"to": [8.5, 13, 6],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8.5, 13, 5.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 1, 1], "rotation": 270, "texture": "#butterfly"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 270, "texture": "#butterfly"}
+			}
+		},
+		{
+			"name": "antenna",
+			"from": [9.5, 13, 5],
+			"to": [10.5, 13, 6],
+			"rotation": {"angle": 45, "axis": "z", "origin": [9.5, 13, 5.5]},
+			"faces": {
+				"up": {"uv": [15, 0, 16, 1], "rotation": 90, "texture": "#butterfly"},
+				"down": {"uv": [15, 0, 16, 1], "rotation": 90, "texture": "#butterfly"}
+			}
+		}
+	]
+}

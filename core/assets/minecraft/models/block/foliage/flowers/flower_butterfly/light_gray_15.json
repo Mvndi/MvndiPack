@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/_parents/flower_butterfly_15",
+  "textures": {
+    "butterfly": "minecraft:block/flower_butterfly/light_gray"
+  }
+}

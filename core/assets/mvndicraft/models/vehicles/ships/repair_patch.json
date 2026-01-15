@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:vehicles/ships/display",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "mvndicraft:vehicles/ships/repair_patch"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.25, 0.25, 0.25]
+		}
+	}
+}

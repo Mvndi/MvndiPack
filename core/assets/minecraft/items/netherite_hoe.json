@@ -1,5 +1,6 @@
 {
-    "model": {
+    "oversized_in_gui": true,
+                "model": {
         "type": "range_dispatch",
         "property": "custom_model_data",
         "fallback": {
@@ -9,6 +10,7 @@
         "entries": [
             {
                 "threshold": 1,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/team_select_options"
@@ -16,6 +18,7 @@
             },
             {
                 "threshold": 2,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/team_select"
@@ -23,6 +26,7 @@
             },
             {
                 "threshold": 3,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/number_1_depressed"
@@ -30,6 +34,7 @@
             },
             {
                 "threshold": 4,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/number_2_depressed"
@@ -37,6 +42,7 @@
             },
             {
                 "threshold": 5,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/number_3_depressed"
@@ -44,6 +50,7 @@
             },
             {
                 "threshold": 6,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/number_1_pressed"
@@ -51,6 +58,7 @@
             },
             {
                 "threshold": 7,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/number_2_pressed"
@@ -58,6 +66,7 @@
             },
             {
                 "threshold": 8,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:pvp/number_3_pressed"
@@ -65,6 +74,7 @@
             },
             {
                 "threshold": 9,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:recipes/crafting"
@@ -72,6 +82,7 @@
             },
             {
                 "threshold": 10,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:recipes/left_arrow"
@@ -79,6 +90,7 @@
             },
             {
                 "threshold": 11,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:recipes/right_arrow"
@@ -86,6 +98,7 @@
             },
             {
                 "threshold": 12,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:recipes/door"
@@ -93,6 +106,7 @@
             },
             {
                 "threshold": 13,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skilltree_backboard"
@@ -100,6 +114,7 @@
             },
             {
                 "threshold": 14,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/top_paper"
@@ -107,6 +122,7 @@
             },
             {
                 "threshold": 15,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/back_paper"
@@ -114,6 +130,7 @@
             },
             {
                 "threshold": 9159,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/pig"
@@ -121,6 +138,7 @@
             },
             {
                 "threshold": 16,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/sheep"
@@ -128,6 +146,7 @@
             },
             {
                 "threshold": 17,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/chicken"
@@ -135,6 +154,7 @@
             },
             {
                 "threshold": 18,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/wolf"
@@ -142,6 +162,7 @@
             },
             {
                 "threshold": 19,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/goat"
@@ -149,6 +170,7 @@
             },
             {
                 "threshold": 20,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/cow"
@@ -156,6 +178,7 @@
             },
             {
                 "threshold": 21,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/animals/horse"
@@ -163,6 +186,7 @@
             },
             {
                 "threshold": 920,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_0"
@@ -170,6 +194,7 @@
             },
             {
                 "threshold": 921,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_1"
@@ -177,6 +202,7 @@
             },
             {
                 "threshold": 922,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_2"
@@ -184,6 +210,7 @@
             },
             {
                 "threshold": 923,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_3"
@@ -191,6 +218,7 @@
             },
             {
                 "threshold":924,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_4"
@@ -198,6 +226,7 @@
             },
             {
                 "threshold": 925,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_5"
@@ -205,6 +234,7 @@
             },
             {
                 "threshold": 926,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_6"
@@ -212,6 +242,7 @@
             },
             {
                 "threshold": 927,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_7"
@@ -219,6 +250,7 @@
             },
             {
                 "threshold": 928,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_8"
@@ -226,6 +258,7 @@
             },
             {
                 "threshold": 929,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/digit_9"
@@ -233,6 +266,7 @@
             },
             {
                 "threshold": 30,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_0"
@@ -240,6 +274,7 @@
             },
             {
                 "threshold": 31,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_1"
@@ -247,6 +282,7 @@
             },
             {
                 "threshold": 32,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_2"
@@ -254,6 +290,7 @@
             },
             {
                 "threshold": 33,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_3"
@@ -261,6 +298,7 @@
             },
             {
                 "threshold": 34,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_4"
@@ -268,6 +306,7 @@
             },
             {
                 "threshold": 35,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_5"
@@ -275,6 +314,7 @@
             },
             {
                 "threshold": 36,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_6"
@@ -282,6 +322,7 @@
             },
             {
                 "threshold": 37,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_7"
@@ -289,6 +330,7 @@
             },
             {
                 "threshold": 38,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_8"
@@ -296,6 +338,7 @@
             },
             {
                 "threshold": 39,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/right_digit_9"
@@ -303,6 +346,7 @@
             },
             {
                 "threshold": 40,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_05"
@@ -310,6 +354,7 @@
             },
             {
                 "threshold": 41,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_15"
@@ -317,6 +362,7 @@
             },
             {
                 "threshold": 42,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_25"
@@ -324,6 +370,7 @@
             },
             {
                 "threshold": 43,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_35"
@@ -331,6 +378,7 @@
             },
             {
                 "threshold": 44,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_45"
@@ -338,6 +386,7 @@
             },
             {
                 "threshold": 45,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_gold_55"
@@ -345,6 +394,7 @@
             },
             {
                 "threshold": 50,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_03"
@@ -352,6 +402,7 @@
             },
             {
                 "threshold": 51,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_13"
@@ -359,6 +410,7 @@
             },
             {
                 "threshold": 52,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_23"
@@ -366,6 +418,7 @@
             },
             {
                 "threshold": 53,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_gold_33"
@@ -373,6 +426,7 @@
             },
             {
                 "threshold": 60,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_01"
@@ -380,6 +434,7 @@
             },
             {
                 "threshold": 61,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_gold_11"
@@ -387,6 +442,7 @@
             },
             {
                 "threshold": 62,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_05_dark"
@@ -394,6 +450,7 @@
             },
             {
                 "threshold": 63,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_03_dark"
@@ -401,6 +458,7 @@
             },
             {
                 "threshold": 64,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_01_dark"
@@ -408,6 +466,7 @@
             },
             {
                 "threshold": 65,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/mill/mill_gui"
@@ -415,6 +474,7 @@
             },
             {
                 "threshold": 66,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/mill/mill_gui_loading"
@@ -422,6 +482,7 @@
             },
             {
                 "threshold": 67,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_01_dark_left"
@@ -429,6 +490,7 @@
             },
             {
                 "threshold": 68,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_silver_01_left"
@@ -436,6 +498,7 @@
             },
             {
                 "threshold": 69,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/skill/skill_gold_11_left"
@@ -443,6 +506,7 @@
             },
             {
                 "threshold": 70,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/mill/sawmill_gui"
@@ -450,6 +514,7 @@
             },
             {
                 "threshold": 71,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/mill/sawmill_gui_loading"
@@ -457,6 +522,7 @@
             },
             {
                 "threshold": 72,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/top_paper_dark"
@@ -464,6 +530,7 @@
             },
             {
                 "threshold": 73,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_background_top"
@@ -471,6 +538,7 @@
             },
             {
                 "threshold": 74,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_background_bottom"
@@ -478,6 +546,7 @@
             },
             {
                 "threshold": 75,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_castle_top_left"
@@ -485,6 +554,7 @@
             },
             {
                 "threshold": 76,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_castle_bottom_left"
@@ -492,6 +562,7 @@
             },
             {
                 "threshold": 77,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_castle_bottom_right"
@@ -499,6 +570,7 @@
             },
             {
                 "threshold": 78,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_castle_top_right"
@@ -506,6 +578,7 @@
             },
             {
                 "threshold": 79,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_banner"
@@ -513,6 +586,7 @@
             },
             {
                 "threshold": 80,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_farming_silver"
@@ -520,6 +594,7 @@
             },
             {
                 "threshold": 81,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_farming_gold"
@@ -527,20 +602,23 @@
             },
             {
                 "threshold": 82,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/professions/profession_smith_silver"
+                    "model": "mvndicraft:ui/professions/profession_blacksmith_silver"
                 }
             },
             {
                 "threshold": 83,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/professions/profession_smith_gold"
+                    "model": "mvndicraft:ui/professions/profession_blacksmith_gold"
                 }
             },
             {
                 "threshold": 84,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_button_inspect"
@@ -548,6 +626,7 @@
             },
             {
                 "threshold": 85,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_button_join"
@@ -555,6 +634,7 @@
             },
             {
                 "threshold": 86,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_button_leave"
@@ -562,6 +642,7 @@
             },
             {
                 "threshold": 87,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_background_top_farming"
@@ -569,6 +650,7 @@
             },
             {
                 "threshold": 89,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/farming_steve"
@@ -576,6 +658,7 @@
             },
             {
                 "threshold": 90,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/profession_background_top_smithing"
@@ -583,6 +666,7 @@
             },
             {
                 "threshold": 91,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/smithing_steve"
@@ -590,6 +674,7 @@
             },
             {
                 "threshold": 92,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_10"
@@ -597,6 +682,7 @@
             },
             {
                 "threshold": 93,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_9"
@@ -604,6 +690,7 @@
             },
             {
                 "threshold": 94,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_8"
@@ -611,6 +698,7 @@
             },
             {
                 "threshold": 95,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_7"
@@ -618,6 +706,7 @@
             },
             {
                 "threshold": 96,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_6"
@@ -625,6 +714,7 @@
             },
             {
                 "threshold": 97,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_5"
@@ -632,6 +722,7 @@
             },
             {
                 "threshold": 98,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_4"
@@ -639,6 +730,7 @@
             },
             {
                 "threshold": 99,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_3"
@@ -646,6 +738,7 @@
             },
             {
                 "threshold": 100,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_2"
@@ -653,6 +746,7 @@
             },
             {
                 "threshold": 101,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/farming_steve_1"
@@ -660,6 +754,7 @@
             },
             {
                 "threshold": 102,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_10"
@@ -667,6 +762,7 @@
             },
             {
                 "threshold": 103,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_9"
@@ -674,6 +770,7 @@
             },
             {
                 "threshold": 104,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_8"
@@ -681,6 +778,7 @@
             },
             {
                 "threshold": 105,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_7"
@@ -688,6 +786,7 @@
             },
             {
                 "threshold": 106,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_6"
@@ -695,6 +794,7 @@
             },
             {
                 "threshold": 107,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_5"
@@ -702,6 +802,7 @@
             },
             {
                 "threshold": 108,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_4"
@@ -709,6 +810,7 @@
             },
             {
                 "threshold": 109,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_3"
@@ -716,6 +818,7 @@
             },
             {
                 "threshold": 110,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_2"
@@ -723,6 +826,7 @@
             },
             {
                 "threshold": 111,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/smithing_steve_1"
@@ -730,6 +834,7 @@
             },
             {
                 "threshold": 112,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/text_farmer"
@@ -737,6 +842,7 @@
             },
             {
                 "threshold": 113,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/text_smith"
@@ -744,6 +850,7 @@
             },
             {
                 "threshold": 114,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/professions_left_0"
@@ -751,6 +858,7 @@
             },
             {
                 "threshold": 115,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/professions_left_1"
@@ -758,6 +866,7 @@
             },
             {
                 "threshold": 116,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/professions/professions_left_2"
@@ -765,6 +874,7 @@
             },
             {
                 "threshold": 117,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_gui"
@@ -772,6 +882,7 @@
             },
             {
                 "threshold": 118,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_molten_0"
@@ -779,6 +890,7 @@
             },
             {
                 "threshold": 119,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_molten_1"
@@ -786,6 +898,7 @@
             },
             {
                 "threshold": 120,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_molten_2"
@@ -793,6 +906,7 @@
             },
             {
                 "threshold": 121,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_molten_3"
@@ -800,6 +914,7 @@
             },
             {
                 "threshold": 122,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_molten_4"
@@ -807,6 +922,7 @@
             },
             {
                 "threshold": 123,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/liquid_0"
@@ -814,6 +930,7 @@
             },
             {
                 "threshold": 124,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/liquid_1"
@@ -821,6 +938,7 @@
             },
             {
                 "threshold": 125,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/liquid_2"
@@ -828,6 +946,7 @@
             },
             {
                 "threshold": 126,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/liquid_3"
@@ -835,6 +954,7 @@
             },
             {
                 "threshold": 127,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/liquid_color"
@@ -842,6 +962,7 @@
             },
             {
                 "threshold": 128,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/main"
@@ -849,6 +970,7 @@
             },
             {
                 "threshold": 129,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_tools_depressed"
@@ -856,6 +978,7 @@
             },
             {
                 "threshold": 130,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_tools_pressed"
@@ -863,6 +986,7 @@
             },
             {
                 "threshold": 131,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_weapons_depressed"
@@ -870,6 +994,7 @@
             },
             {
                 "threshold": 132,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_weapons_pressed"
@@ -877,6 +1002,7 @@
             },
             {
                 "threshold": 133,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_armor_depressed"
@@ -884,6 +1010,7 @@
             },
             {
                 "threshold": 134,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_armor_pressed"
@@ -891,6 +1018,7 @@
             },
             {
                 "threshold": 135,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_misc_1"
@@ -898,6 +1026,7 @@
             },
             {
                 "threshold": 136,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_misc_2"
@@ -905,6 +1034,7 @@
             },
             {
                 "threshold": 137,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/anvil/icon_anvil"
@@ -912,6 +1042,7 @@
             },
             {
                 "threshold": 138,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/blacksmith_difficulty"
@@ -919,6 +1050,7 @@
             },
             {
                 "threshold": 139,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_apprentice_light"
@@ -926,6 +1058,7 @@
             },
             {
                 "threshold": 140,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_journeyman_light"
@@ -933,6 +1066,7 @@
             },
             {
                 "threshold": 141,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_artisan_light"
@@ -940,6 +1074,7 @@
             },
             {
                 "threshold": 142,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_master_light"
@@ -947,6 +1082,7 @@
             },
             {
                 "threshold": 143,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_apprentice_dark"
@@ -954,6 +1090,7 @@
             },
             {
                 "threshold": 144,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_journeyman_dark"
@@ -961,6 +1098,7 @@
             },
             {
                 "threshold": 145,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_artisan_dark"
@@ -968,6 +1106,7 @@
             },
             {
                 "threshold": 146,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/blacksmith_difficulty/difficulty_master_dark"
@@ -975,6 +1114,7 @@
             },
             {
                 "threshold": 147,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/smithing_table_top"
@@ -982,6 +1122,7 @@
             },
             {
                 "threshold": 148,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/smithing_table_bottom"
@@ -989,6 +1130,7 @@
             },
             {
                 "threshold": 149,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_real"
@@ -996,6 +1138,7 @@
             },
             {
                 "threshold": 150,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/bloomery/bloomery_real_stages"
@@ -1003,6 +1146,7 @@
             },
             {
                 "threshold": 151,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
                     "model": "mvndicraft:ui/smithing_table_crafting"
@@ -1010,9 +1154,386 @@
             },
             {
                 "threshold": 152,
+                "oversized_in_gui": true,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:ui/stats"
+                    "model": "mvndicraft:ui/attributes_menu_left"
+                }
+            },
+            {
+                "threshold": 153,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_herdsman"
+                }
+            },
+            {
+                "threshold": 154,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/herdsman_steve"
+                }
+            },
+            {
+                "threshold": 155,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_herdsman"
+                }
+            },
+            {
+                "threshold": 156,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_mining"
+                }
+            },
+            {
+                "threshold": 157,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/mining_steve"
+                }
+            },
+            {
+                "threshold": 158,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_miner"
+                }
+            },
+            {
+                "threshold": 159,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_10"
+                }
+            },
+            {
+                "threshold": 160,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_9"
+                }
+            },
+            {
+                "threshold": 161,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_8"
+                }
+            },
+            {
+                "threshold": 162,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_7"
+                }
+            },
+            {
+                "threshold": 163,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_6"
+                }
+            },
+            {
+                "threshold": 164,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_5"
+                }
+            },
+            {
+                "threshold": 165,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_4"
+                }
+            },
+            {
+                "threshold": 166,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_3"
+                }
+            },
+            {
+                "threshold": 167,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_2"
+                }
+            },
+            {
+                "threshold": 168,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/herdsman_steve_1"
+                }
+            },
+            {
+                "threshold": 169,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_10"
+                }
+            },
+            {
+                "threshold": 170,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_9"
+                }
+            },
+            {
+                "threshold": 171,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_8"
+                }
+            },
+            {
+                "threshold": 172,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_7"
+                }
+            },
+            {
+                "threshold": 173,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_6"
+                }
+            },
+            {
+                "threshold": 174,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_5"
+                }
+            },
+            {
+                "threshold": 175,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_4"
+                }
+            },
+            {
+                "threshold": 176,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_3"
+                }
+            },
+            {
+                "threshold": 177,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_2"
+                }
+            },
+            {
+                "threshold": 178,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/mining_steve_1"
+                }
+            },
+            {
+                "threshold": 179,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_herdsman_silver"
+                }
+            },
+            {
+                "threshold": 180,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_herdsman_gold"
+                }
+            },
+            {
+                "threshold": 181,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_miner_silver"
+                }
+            },
+            {
+                "threshold": 182,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_miner_gold"
+                }
+            },
+            {
+                "threshold": 183,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/attributes_menu_right"
+                }
+            },
+			{
+                "threshold": 184,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/menu/endurance"
+                }
+            },
+            {
+                "threshold": 185,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_seaman_silver"
+                }
+            },
+            {
+                "threshold": 186,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_seaman_gold"
+                }
+            },
+            {
+                "threshold": 187,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_seaman"
+                }
+            },
+            {
+                "threshold": 188,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/seaman_steve"
+                }
+            },
+            {
+                "threshold": 189,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_seaman"
+                }
+            },
+            {
+                "threshold": 190,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_10"
+                }
+            },
+            {
+                "threshold": 191,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_9"
+                }
+            },
+            {
+                "threshold": 192,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_8"
+                }
+            },
+            {
+                "threshold": 193,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_7"
+                }
+            },
+            {
+                "threshold": 194,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_6"
+                }
+            },
+            {
+                "threshold": 195,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_5"
+                }
+            },
+            {
+                "threshold": 196,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_4"
+                }
+            },
+            {
+                "threshold": 197,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_3"
+                }
+            },
+            {
+                "threshold": 198,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_2"
+                }
+            },
+            {
+                "threshold": 199,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/seaman_steve_1"
                 }
             }
         ]

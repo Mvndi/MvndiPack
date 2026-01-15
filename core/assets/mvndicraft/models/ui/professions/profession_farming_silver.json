@@ -1,8 +1,10 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
+	"texture_size": [512, 512],
 	"textures": {
-		"0": "mvndicraft:ui/professions/profession_menu",
-		"particle": "mvndicraft:ui/professions/profession_menu"
+		"0": "mvndicraft:ui/professions/profession_menu_farming",
+		"particle": "mvndicraft:ui/professions/profession_menu_farming"
 	},
 	"elements": [
 		{
@@ -11,7 +13,7 @@
 			"to": [24, 24, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
 			"faces": {
-				"north": {"uv": [3.09375, 1.03125, 4.09375, 2.03125], "texture": "#0"},
+				"north": {"uv": [0.03125, 1, 1.03125, 2], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
@@ -20,11 +22,11 @@
 		},
 		{
 			"name": "backing",
-			"from": [-8, -8, 7.85],
-			"to": [24, 24, 7.85],
+			"from": [-8, -8, 8],
+			"to": [24, 24, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
 			"faces": {
-				"north": {"uv": [2.09375, 0, 3.09375, 1], "texture": "#0"},
+				"north": {"uv": [0.03125, 1.96875, 1.03125, 2.96875], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
@@ -33,8 +35,8 @@
 		},
 		{
 			"name": "icon",
-			"from": [-8, -8, 7.625],
-			"to": [24, 24, 7.625],
+			"from": [-8, -8, 8],
+			"to": [24, 24, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-8, -1, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#0"},
@@ -48,9 +50,8 @@
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [-180, -25.5, -180],
-			"translation": [0, 0, 9],
-			"scale": [0.54492, 0.54492, 0.54492]
+			"rotation": [-180, 0, -180],
+			"translation": [-3, 0, 0]
 		}
 	}
 }

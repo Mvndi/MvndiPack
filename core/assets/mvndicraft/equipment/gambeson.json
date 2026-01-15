@@ -1,10 +1,22 @@
 {
-	"layers": {
-		"humanoid": [
-			{ "texture": "mvndicraft:chainmail" }
-		],
-		"humanoid_leggings": [
-			{ "texture": "mvndicraft:chainmail_leggings" }
-		]
-	}
+  "layers": {
+    "humanoid": [
+      {
+        "dyeable": { "color_when_undyed": 16777215 },
+        "texture": "mvndicraft:gambeson"
+      },
+      {
+        "texture": "mvndicraft:gambeson_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": { "color_when_undyed": 16777215 },
+        "texture": "mvndicraft:gambeson"
+      },
+      {
+        "texture": "mvndicraft:gambeson_overlay"
+      }
+    ]
+  }
 }

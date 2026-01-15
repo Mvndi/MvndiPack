@@ -1,0 +1,8 @@
+{
+  "parent": "item/chestplate_layer1",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk",
+    "layer1": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_black_overlay",
+    "particle": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk"
+  }
+}

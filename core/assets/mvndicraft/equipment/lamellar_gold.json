@@ -1,0 +1,6 @@
+{
+  "layers": {
+    "humanoid": [{ "texture": "mvndicraft:lamellar_gold" }],
+    "humanoid_leggings": [{ "texture": "mvndicraft:lamellar_gold" }]
+  }
+}

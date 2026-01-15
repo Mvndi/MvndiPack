@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:item/food/rat_base",
+	"textures": {
+		"0": "mvndicraft:item/food/cooked_rat",
+		"particle": "mvndicraft:item/food/cooked_rat"
+	}
+}

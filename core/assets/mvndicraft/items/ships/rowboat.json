@@ -1,0 +1,244 @@
+
+{
+  "__comment__": "Custom model data is setup in the following way: {floats:[animation_step]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "mvndicraft:vehicles/ships/rowboat/hull"
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 5,
+        "entries": [
+          {
+            "threshold": 31,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/31"
+            }
+          },
+          {
+            "threshold": 30,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/30"
+            }
+          },
+          {
+            "threshold": 29,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/29"
+            }
+          },
+          {
+            "threshold": 28,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/28"
+            }
+          },
+          {
+            "threshold": 27,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/27"
+            }
+          },
+          {
+            "threshold": 26,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/26"
+            }
+          },
+          {
+            "threshold": 25,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/25"
+            }
+          },
+          {
+            "threshold": 24,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/24"
+            }
+          },
+          {
+            "threshold": 23,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/23"
+            }
+          },
+          {
+            "threshold": 22,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/22"
+            }
+          },
+          {
+            "threshold": 21,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/21"
+            }
+          },
+          {
+            "threshold": 20,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/20"
+            }
+          },
+          {
+            "threshold": 19,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/19"
+            }
+          },
+          {
+            "threshold": 18,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/18"
+            }
+          },
+          {
+            "threshold": 17,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/17"
+            }
+          },
+          {
+            "threshold": 16,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/16"
+            }
+          },
+          {
+            "threshold": 15,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/15"
+            }
+          },
+          {
+            "threshold": 14,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/14"
+            }
+          },
+          {
+            "threshold": 13,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/13"
+            }
+          },
+          {
+            "threshold": 12,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/12"
+            }
+          },
+          {
+            "threshold": 11,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/11"
+            }
+          },
+          {
+            "threshold": 10,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/10"
+            }
+          },
+          {
+            "threshold": 9,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/9"
+            }
+          },
+          {
+            "threshold": 8,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/8"
+            }
+          },
+          {
+            "threshold": 7,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/7"
+            }
+          },
+          {
+            "threshold": 6,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/6"
+            }
+          },
+          {
+            "threshold": 5,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/5"
+            }
+          },
+          {
+            "threshold": 4,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/4"
+            }
+          },
+          {
+            "threshold": 3,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/3"
+            }
+          },
+          {
+            "threshold": 2,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/2"
+            }
+          },
+          {
+            "threshold": 1,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/1"
+            }
+          },
+          {
+            "threshold": 0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:vehicles/ships/rowboat/oars/0"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

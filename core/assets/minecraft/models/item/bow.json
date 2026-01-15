@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "item/pilum",
-		"particle": "item/pilum"
+		"0": "mvndicraft:weapons/archery/pilum",
+		"particle": "mvndicraft:weapons/archery/pilum"
 	},
 	"elements": [
 		{

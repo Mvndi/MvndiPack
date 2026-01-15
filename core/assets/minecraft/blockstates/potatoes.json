@@ -21,8 +21,14 @@
       "age=6": {
         "model": "mvndicraft:farming/cabbage_stage1"
       },
-      "age=7": {
-        "model": "mvndicraft:farming/cabbage_stage2"
+      "age=7": [
+			{ "model": "mvndicraft:farming/cabbage_stage2", "weight": 5 },
+            { "model": "mvndicraft:farming/cabbage_stage2_1", "weight": 15 },
+			{ "model": "mvndicraft:farming/cabbage_stage2_2", "weight": 15 },
+			{ "model": "mvndicraft:farming/cabbage_stage2_3", "weight": 5 },
+			{ "model": "mvndicraft:farming/cabbage_stage2_4", "weight": 5 },
+			{ "model": "mvndicraft:farming/cabbage_stage2_5", "weight": 5 },
+			{ "model": "mvndicraft:farming/cabbage_stage2_6", "weight": 5 }
+		]	
       }
     }
-  }

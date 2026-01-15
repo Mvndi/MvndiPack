@@ -117,7 +117,7 @@
 		{"predicate": {"custom_model_data": 38}, "model": "mvndicraft:weapons/axes/francisca_axe_throw"},
 		{"predicate": {"custom_model_data": 39}, "model": "mvndicraft:weapons/pole_arms/javelin_throw"},
 		{"predicate": {"custom_model_data": 40}, "model": "mvndicraft:entity/arrow"},
-		{"predicate": {"custom_model_data": 41}, "model": "mvndicraft:weapons/pole_arms/spikedpolemace"},
+		{"predicate": {"custom_model_data": 41}, "model": "mvndicraft:weapons/pole_arms/spiked_polemace"},
 		{"predicate": {"custom_model_data": 42}, "model": "mvndicraft:weapons/swords/claymore"},
 		{"predicate": {"custom_model_data": 43}, "model": "mvndicraft:weapons/swords/straight_sword_slide"},
 		{"predicate": {"custom_model_data": 44}, "model": "mvndicraft:weapons/blunt/war_hammer_reverse"},

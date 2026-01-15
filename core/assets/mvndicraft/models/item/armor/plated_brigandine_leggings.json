@@ -1,0 +1,9 @@
+{
+  "parent": "item/leggings_layer1",
+  "textures": {
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/plated_brigandine",
+    "layer1": "mvndicraft:entity/equipment/humanoid/plated_brigandine_overlay",
+    "layer2": "mvndicraft:entity/equipment/humanoid/plated_brigandine",
+    "particle": "mvndicraft:entity/equipment/humanoid_leggings/plated_brigandine"
+  }
+}

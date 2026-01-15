@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/sandstone_wall_top_new",
 		"1": "block/sandstone_wall_side",
@@ -31,10 +33,10 @@
 			"from": [4, 11.9, 4],
 			"to": [12, 16, 12],
 			"faces": {
-				"north": {"uv": [4, 12, 12, 16], "texture": "#1"},
-				"east": {"uv": [4, 12, 12, 16], "texture": "#1"},
-				"south": {"uv": [4, 12, 12, 16], "texture": "#1"},
-				"west": {"uv": [4, 12, 12, 16], "texture": "#1"},
+				"north": {"uv": [12, 12, 4, 16], "texture": "#1"},
+				"east": {"uv": [12, 12, 4, 16], "texture": "#1"},
+				"south": {"uv": [12, 12, 4, 16], "texture": "#1"},
+				"west": {"uv": [12, 12, 4, 16], "texture": "#1"},
 				"up": {"uv": [4, 4, 12, 12], "texture": "#0"},
 				"down": {"uv": [4, 4, 12, 12], "texture": "#0"}
 			}

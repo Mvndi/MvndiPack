@@ -1,6 +1,5 @@
 {
   "sandstorms.strong_wind": {
-    "category": "weather",
     "sounds": [
       {
         "name": "mvndicraft:sandstorms/strong_wind0",
@@ -13,7 +12,6 @@
     ]
   },
   "sandstorms.weak_wind": {
-    "category": "weather",
     "sounds": [
       {
         "name": "mvndicraft:sandstorms/weak_wind0",
@@ -26,7 +24,6 @@
     ]
   },
   "soundscapes.ambient.caves.addition": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/caves/cave_addition1",
@@ -74,7 +71,6 @@
     ]
   },
   "soundscapes.ambient.caves.loop1": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/caves/cave_loop1",
@@ -103,7 +99,6 @@
     ]
   },
   "soundscapes.ambient.caves.loop2": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/caves/cave_loop1",
@@ -132,7 +127,6 @@
     ]
   },
   "soundscapes.ambient.caves.loop3": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/caves/cave_loop1",
@@ -161,7 +155,6 @@
     ]
   },
   "soundscapes.ambient.caves.loop4": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/caves/cave_loop1",
@@ -190,7 +183,6 @@
     ]
   },
   "soundscapes.ambient.caves.loop_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/caves/cave_loop_fadeout1",
@@ -215,7 +207,6 @@
     ]
   },
   "soundscapes.ambient.mineshaft.addition": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/mineshaft/mineshaft_addition1",
@@ -240,7 +231,6 @@
     ]
   },
   "soundscapes.ambient.mineshaft.loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/mineshaft/mineshaft_loop1",
@@ -265,7 +255,6 @@
     ]
   },
   "soundscapes.ambient.mineshaft.loop_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/mineshaft/mineshaft_loop_fadeout1",
@@ -282,7 +271,6 @@
     ]
   },
   "soundscapes.ambient.surface.beach.fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/beach/fadeout1",
@@ -295,7 +283,6 @@
     ]
   },
   "soundscapes.ambient.surface.beach.loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/beach/loop1",
@@ -312,7 +299,6 @@
     ]
   },
   "soundscapes.ambient.surface.desert.day_loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/desert/day_loop1",
@@ -341,7 +327,6 @@
     ]
   },
   "soundscapes.ambient.surface.desert.day_loop_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/desert/day_loop_fadeout1",
@@ -358,7 +343,6 @@
     ]
   },
   "soundscapes.ambient.surface.desert.night_loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/desert/night_loop1",
@@ -387,7 +371,6 @@
     ]
   },
   "soundscapes.ambient.surface.desert.night_loop_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/desert/night_loop_fadeout1",
@@ -404,7 +387,6 @@
     ]
   },
   "soundscapes.ambient.surface.forest.day_addition": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/forest/day_addition3",
@@ -447,17 +429,16 @@
       {
         "name": "mvndicraft:ambient/surface/forest/day_addition3",
         "pitch": 0.8,
-        "volume": 1.2
+        "volume": 1
       },
       {
         "name": "mvndicraft:ambient/surface/forest/day_addition3",
         "pitch": 0.95,
-        "volume": 1.5
+        "volume": 1
       }
     ]
   },
   "soundscapes.ambient.surface.forest.day_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/forest/day_fadeout1"
@@ -465,7 +446,6 @@
     ]
   },
   "soundscapes.ambient.surface.forest.day_loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/forest/day_loop1",
@@ -486,7 +466,6 @@
     ]
   },
   "soundscapes.ambient.surface.forest.night_addition": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/forest/night_addition1",
@@ -525,7 +504,6 @@
     ]
   },
   "soundscapes.ambient.surface.forest.night_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/forest/night_fadeout1",
@@ -538,7 +516,6 @@
     ]
   },
   "soundscapes.ambient.surface.forest.night_loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/forest/night_loop1",
@@ -555,7 +532,6 @@
     ]
   },
   "soundscapes.ambient.surface.river.fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/river/fadeout1",
@@ -568,7 +544,6 @@
     ]
   },
   "soundscapes.ambient.surface.river.loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/river/loop1",
@@ -581,7 +556,6 @@
     ]
   },
   "soundscapes.ambient.surface.sea.addition": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:silence",
@@ -606,7 +580,6 @@
     ]
   },
   "soundscapes.ambient.surface.sea.fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/sea/fadeout1",
@@ -619,7 +592,6 @@
     ]
   },
   "soundscapes.ambient.surface.sea.loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/sea/loop1",
@@ -636,7 +608,6 @@
     ]
   },
   "soundscapes.ambient.surface.swamp.addition": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/swamp/additions1",
@@ -657,7 +628,6 @@
     ]
   },
   "soundscapes.ambient.surface.swamp.day_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/swamp/day_fadeout1",
@@ -670,7 +640,6 @@
     ]
   },
   "soundscapes.ambient.surface.swamp.day_loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/swamp/day_loop1",
@@ -687,7 +656,6 @@
     ]
   },
   "soundscapes.ambient.surface.swamp.night_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/swamp/night_fadeout1",
@@ -700,7 +668,6 @@
     ]
   },
   "soundscapes.ambient.surface.swamp.night_loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/swamp/night_loop1",
@@ -717,7 +684,6 @@
     ]
   },
   "soundscapes.ambient.surface.weather.snowy": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/weather/snowy1",
@@ -734,7 +700,6 @@
     ]
   },
   "soundscapes.ambient.surface.weather.snowy_fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/weather/snowy_fadeout1",
@@ -747,7 +712,6 @@
     ]
   },
   "soundscapes.ambient.surface.wind.fadeout": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/wind/fadeout1",
@@ -760,7 +724,6 @@
     ]
   },
   "soundscapes.ambient.surface.wind.loop": {
-    "category": "ambient",
     "sounds": [
       {
         "name": "mvndicraft:ambient/surface/wind/loop1",
@@ -772,177 +735,7 @@
       }
     ]
   },
-  "soundscapes.soundtrack.desert": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:silence",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.egypt": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/egypt/ra",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.forest": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/forest/medieval_england",
-        "stream": true,
-        "volume": 0.3
-      }
-    ]
-  },
-  "soundscapes.soundtrack.germany": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/germany/dungeon_5",
-        "stream": true,
-        "volume": 0.25
-      },
-      {
-        "name": "mvndicraft:soundtrack/germany/dungeon_6",
-        "stream": true,
-        "volume": 0.25
-      }
-    ]
-  },
-  "soundscapes.soundtrack.greece": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/greece/theme_3",
-        "stream": true,
-        "volume": 0.3
-      }
-    ]
-  },
-  "soundscapes.soundtrack.italy": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/italy/italy_1_dominum",
-        "stream": true,
-        "volume": 0.25
-      }
-    ]
-  },
-  "soundscapes.soundtrack.mountains": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/mountains/slow_1",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.ocean": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/ocean/theme_1",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.cave": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/cave/dungeon_3",
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.plains": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/plains/field_2",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/plains/theme_6",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.snowy": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/snowy/slow_5",
-        "stream": true,
-        "volume": 0.3
-      },
-      {
-        "name": "mvndicraft:soundtrack/snowy/theme_6",
-        "stream": true,
-        "volume": 0.3
-      }
-    ]
-  },
-  "soundscapes.soundtrack.spawn": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/spawn/liar_fairy",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.siege": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/siege/last_boss_1",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/siege/last_boss_2",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/siege/last_boss_3",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
-  "soundscapes.soundtrack.battle": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "mvndicraft:soundtrack/battle/battle_1",
-        "stream": true,
-        "volume": 0.15
-      },
-      {
-        "name": "mvndicraft:soundtrack/battle/battle_4",
-        "stream": true,
-        "volume": 0.15
-      }
-    ]
-  },
   "siege_event.romans_defeat_byzantine": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/romans/defeat/defeat_byzantine"
@@ -950,7 +743,6 @@
     ]
   },
   "siege_event.romans_intro": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/romans/intro/intro_greek"
@@ -958,7 +750,6 @@
     ]
   },
   "siege_event.romans_victory_byzantine": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/romans/victory/victory_byzantine"
@@ -966,7 +757,6 @@
     ]
   },
   "siege_event.venetians_defeat": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/venetians/defeat/defeat"
@@ -974,7 +764,6 @@
     ]
   },
   "siege_event.venetians_victory": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/venetians/victory/victory"
@@ -982,7 +771,6 @@
     ]
   },
   "siege_event.venetians_introduzione": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/venetians/intro/introduzione"
@@ -990,23 +778,13 @@
     ]
   },
   "siege_event.venetians_introduzione_full": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/venetians/intro/introduzione_full"
       }
     ]
   },
-  "siege_event.ms_igloo": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "mvndicraft:siege_event/ms_igloo"
-      }
-    ]
-  },
   "siege_event.sector.taken_0": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/sector/taken_0"
@@ -1014,7 +792,6 @@
     ]
   },
   "siege_event.sector.taken_1": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/sector/taken_1"
@@ -1022,7 +799,6 @@
     ]
   },
   "siege_event.round.end": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/round/end_0"
@@ -1033,7 +809,6 @@
     ]
   },
   "siege_event.round.end_0": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/round/end_0"
@@ -1041,10 +816,510 @@
     ]
   },
   "siege_event.round.end_1": {
-    "category": "player",
     "sounds": [
       {
         "name": "mvndicraft:siege_event/round/end_1"
+      }
+    ]
+  },
+  "towny.newnation": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/new_nation_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.deletednation": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/delete_nation_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationkingchange": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_king_change_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationinvitetown": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_invite_town_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationaddtown": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_add_town_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationremovetown": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_remove_town_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationpreaddally": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_add_ally_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationremoveally": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_remove_ally_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationaddenemy": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_add_enemy_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationremoveenemy": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_remove_enemy_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.newtown": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/new_town_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.deletetown": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/delete_town_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.townmayorchange": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/town_mayor_changed_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.towninviteplayer": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/town_invite_player_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.townaddresident": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/town_add_resident_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.townremoveresident": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/town_remove_resident_event",
+        "stream": true
+      }
+    ]
+  },
+  "towny.nationmerge": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/towny/nation_merge_event",
+        "stream": true
+      }
+    ]
+  },
+  "music.main": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.cave": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/cave",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.war_declaration": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/war_declaration",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.briefing": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/briefing",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.start": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/start",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.attackers_advance": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/attackers_advance",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.end": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/end",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.victory": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/victory",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.siege.defeat": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/siege/defeat",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.naval": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/naval",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.arabic": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/arabic",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.european": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/european",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.greek": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/greek",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.north_african": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/north_african",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.northern_european": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/battle/northern_european",
+        "volume": 0.7,
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.abbasid": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/abbasid",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 45
+      },
+      {
+        "name": "mvndicraft:music/game/regional/yemen",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 45
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.iraq": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/abbasid",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.yemen": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/yemen",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.balkan": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/balkan",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.eastern_europe": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/eastern_europe",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.egyptian": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/egyptian",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.french": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/french",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.german": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/german",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.greek": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/greek",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.italy": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/italy",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.maghreb": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/maghreb",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.northern_europe": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/northern_europe",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.persian": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/persian",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
+      }
+    ]
+  },
+  "music.overworld.spanish": {
+    "sounds": [
+      {
+        "name": "mvndicraft:music/game/regional/spanish",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 90
+      },
+      {
+        "name": "mvndicraft:music/game/main",
+        "volume": 0.7,
+        "stream": true,
+        "weight": 10
       }
     ]
   }

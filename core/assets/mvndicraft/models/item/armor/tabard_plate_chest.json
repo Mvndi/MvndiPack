@@ -1,0 +1,9 @@
+{
+  "parent": "item/chestplate_layer1",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/tabard_plate",
+    "layer1": "mvndicraft:entity/equipment/humanoid/tabard_plate_overlay",
+    "layer2": "mvndicraft:entity/equipment/humanoid_leggings/tabard_plate",
+    "particle": "mvndicraft:entity/equipment/humanoid/tabard_plate"
+  }
+}
