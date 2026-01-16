@@ -81,7 +81,8 @@
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [0, 5.5, 0]
+			"translation": [0, 11, 0],
+			"scale": [2, 2, 2]
 		},
 		"on_shelf": {
 			"rotation": [88, 0, 82],

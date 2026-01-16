@@ -41,6 +41,69 @@
                     "type": "model",
                     "model": "mvndicraft:furs/fox_snow"
                 }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_ashen"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_black"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_chestnut"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_pale"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_rusty"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_snowy"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_spotted"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_striped"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:furs/wolf_woods"
+                }
             }
         ]
     }
