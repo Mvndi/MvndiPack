@@ -1,9 +1,10 @@
 {
 	"format_version": "1.21.11",
+	"ambientocclusion": false,
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "",
+		"particle": "textures/block/acacia_shelf",
 		"all": "textures/block/acacia_shelf"
 	},
 	"elements": [

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:ui/professions/hot_blade",
-		"particle": "mvndicraft::ui/professions/hot_blade"
+		"particle": "mvndicraft:ui/professions/hot_blade"
 	},
 	"elements": [
 		{
