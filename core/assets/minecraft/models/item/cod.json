@@ -25,6 +25,7 @@
 			"name": "right_fin",
 			"from": [9, 1, 5],
 			"to": [11, 1, 7],
+			"rotation": {"angle": -37.5, "axis": "z", "origin": [9, 1, 6]},
 			"faces": {
 				"north": {"uv": [13, 1.5, 14, 1.5], "texture": "#0"},
 				"east": {"uv": [12, 1.5, 13, 1.5], "texture": "#0"},
@@ -38,6 +39,7 @@
 			"name": "left_fin",
 			"from": [5, 1, 5],
 			"to": [7, 1, 7],
+			"rotation": {"angle": 37.5, "axis": "z", "origin": [7, 1, 6]},
 			"faces": {
 				"north": {"uv": [13, 3, 14, 3], "texture": "#0"},
 				"east": {"uv": [12, 3, 13, 3], "texture": "#0"},

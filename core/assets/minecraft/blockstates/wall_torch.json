@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "facing=east": [
+      { "model": "block/wall_torch" , "weight": 20 },
+		{ "model": "block/wall_torch2" , "weight": 20 },
+		{ "model": "block/wall_torch3" , "weight": 20 },
+		{ "model": "block/wall_torch4" , "weight": 20 },
+		{ "model": "block/wall_torch5" , "weight": 20 },
+		{ "model": "block/wall_torch6" , "weight": 20 },
+		{ "model": "block/wall_torch7" , "weight": 20 },
+    ],
+    "facing=north": [
+      { "model": "block/wall_torch" , "weight": 20 },
+		{ "model": "block/wall_torch2" , "weight": 20 },
+		{ "model": "block/wall_torch3" , "weight": 20 },
+		{ "model": "block/wall_torch4" , "weight": 20 },
+		{ "model": "block/wall_torch5" , "weight": 20 },
+		{ "model": "block/wall_torch6" , "weight": 20 },
+		{ "model": "block/wall_torch7" , "weight": 20 },
+      "y": 270
+    ],
+    "facing=south": [
+      { "model": "block/wall_torch" , "weight": 20 },
+		{ "model": "block/wall_torch2" , "weight": 20 },
+		{ "model": "block/wall_torch3" , "weight": 20 },
+		{ "model": "block/wall_torch4" , "weight": 20 },
+		{ "model": "block/wall_torch5" , "weight": 20 },
+		{ "model": "block/wall_torch6" , "weight": 20 },
+		{ "model": "block/wall_torch7" , "weight": 20 },
+      "y": 90
+    ],
+    "facing=west": [
+      { "model": "block/wall_torch" , "weight": 20 },
+		{ "model": "block/wall_torch2" , "weight": 20 },
+		{ "model": "block/wall_torch3" , "weight": 20 },
+		{ "model": "block/wall_torch4" , "weight": 20 },
+		{ "model": "block/wall_torch5" , "weight": 20 },
+		{ "model": "block/wall_torch6" , "weight": 20 },
+		{ "model": "block/wall_torch7" , "weight": 20 },
+      "y": 180
+    ]
+  }
+}
