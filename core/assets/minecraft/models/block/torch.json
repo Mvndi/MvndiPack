@@ -11,23 +11,23 @@
 		{
 			"name": "Torch",
 			"from": [7, 0, 7],
-			"to": [9, 10, 9],
+			"to": [9, 13, 9],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [7, 6, 9, 16], "texture": "#2"},
-				"east": {"uv": [7, 6, 9, 16], "texture": "#2"},
-				"south": {"uv": [7, 6, 9, 16], "texture": "#2"},
-				"west": {"uv": [7, 6, 9, 16], "texture": "#2"},
-				"up": {"uv": [7, 6, 9, 8], "texture": "#2"},
+				"north": {"uv": [7, 3, 9, 16], "texture": "#2"},
+				"east": {"uv": [7, 3, 9, 16], "texture": "#2"},
+				"south": {"uv": [7, 3, 9, 16], "texture": "#2"},
+				"west": {"uv": [7, 3, 9, 16], "texture": "#2"},
+				"up": {"uv": [7, 3, 9, 5], "texture": "#2"},
 				"down": {"uv": [7, 14, 9, 16], "texture": "#2"}
 			}
 		},
 		{
 			"name": "Flame",
-			"from": [5, 9, 8],
-			"to": [11, 24, 8],
+			"from": [5, 12, 8],
+			"to": [11, 27, 8],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 12, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 15, 8]},
 			"faces": {
 				"north": {"uv": [5, 1, 11, 16], "texture": "#3"},
 				"south": {"uv": [5, 1, 11, 16], "texture": "#3"}
@@ -35,10 +35,10 @@
 		},
 		{
 			"name": "Flame",
-			"from": [8, 9, 5],
-			"to": [8, 24, 11],
+			"from": [8, 12, 5],
+			"to": [8, 27, 11],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 7.5]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15, 7.5]},
 			"faces": {
 				"east": {"uv": [5, 1, 11, 16], "texture": "#3"},
 				"west": {"uv": [5, 1, 11, 16], "texture": "#3"}

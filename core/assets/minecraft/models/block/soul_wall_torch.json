@@ -50,7 +50,7 @@
 			"name": "Grip",
 			"from": [3.5, 7, 6.5],
 			"to": [6.5, 8, 9.5],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 11.25, 8]},
 			"faces": {
 				"north": {"uv": [7, 10, 10, 11], "texture": "#0"},
@@ -65,7 +65,7 @@
 			"name": "Tray",
 			"from": [3, 9, 6],
 			"to": [7, 10, 10],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 11.25, 8]},
 			"faces": {
 				"north": {"uv": [6, 8, 10, 9], "texture": "#0"},
@@ -80,7 +80,7 @@
 			"name": "Bar",
 			"from": [3, 10, 6],
 			"to": [7, 13, 6],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 11.25, 8]},
 			"faces": {
 				"north": {"uv": [6, 5, 10, 8], "texture": "#0"},
@@ -91,7 +91,7 @@
 			"name": "Bar",
 			"from": [3, 10, 10],
 			"to": [7, 13, 10],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 11.25, 8]},
 			"faces": {
 				"north": {"uv": [6, 5, 10, 8], "texture": "#0"},
@@ -102,7 +102,7 @@
 			"name": "Bar",
 			"from": [3, 10, 6],
 			"to": [3, 13, 10],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 11.25, 8]},
 			"faces": {
 				"east": {"uv": [6, 5, 10, 8], "texture": "#0"},
@@ -113,7 +113,7 @@
 			"name": "Bar",
 			"from": [7, 10, 6],
 			"to": [7, 13, 10],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 11.25, 8]},
 			"faces": {
 				"east": {"uv": [6, 5, 10, 8], "texture": "#0"},
@@ -124,7 +124,7 @@
 			"name": "WallGrip",
 			"from": [0.25, 6, 6.925],
 			"to": [4.25, 7, 9.05],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 6.5, 7.675]},
 			"faces": {
 				"north": {"uv": [1, 12, 5, 13], "texture": "#0"},
@@ -138,7 +138,7 @@
 			"name": "Wall",
 			"from": [0, 5, 6],
 			"to": [1, 11, 10],
-			"shade": false,
+			"shade": true,
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 12, 8]},
 			"faces": {
 				"north": {"uv": [3, 5, 4, 11], "texture": "#0"},
