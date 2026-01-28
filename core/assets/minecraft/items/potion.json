@@ -1,0 +1,32 @@
+{
+	"model" : {
+			"type": "select",
+			"property":  "display_context",
+			"fallback": {
+				"type":"model",
+				"model": "item/potion",
+				"tints": [
+						  {
+							"type": "potion",
+							"default": -13083194
+						  }
+						]
+			},
+			"cases": [
+				{
+					"when": "gui",
+					"model": {
+						"type":"model",
+						"model":"item/potion",
+						"tints": [
+						  {
+							"type": "potion",
+							"default": -13083194
+						  }
+						]
+					}
+				
+				}
+			]
+	}
+}

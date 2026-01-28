@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"layer1": "item/potion_overlay",
 		"particle": "item/glass_bottle",
-		"layer0": "item/glass_bottle"
+		"layer0": "item/glass_bottle",
+		"layer1": "item/potion_overlay"
 	},
 	"elements": [
 		{
@@ -46,9 +46,9 @@
 			}
 		},
 		{
-			"from": [6.5, 1.75, 6.5],
-			"to": [9.5, 5.75, 9.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -0.25, 0.5]},
+			"from": [6.5, 0.5, 6.5],
+			"to": [9.5, 4.5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -1.5, 0.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 3, 4], "texture": "#layer1"},
 				"east": {"uv": [0, 0, 3, 4], "texture": "#layer1"},
@@ -101,8 +101,7 @@
 			"rotation": [0, 0, 48]
 		},
 		"ground": {
-			"rotation": [90, 0, 0],
-			"translation": [0, -1.25, 0]
+			"translation": [0, 4.5, 0]
 		},
 		"gui": {
 			"rotation": [42, 33, 11],
