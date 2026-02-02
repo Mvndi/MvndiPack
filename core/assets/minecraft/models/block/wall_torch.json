@@ -5,6 +5,7 @@
 	"textures": {
 		"2": "block/torch",
 		"3": "block/torch_flame",
+		"4": "block/soul_torch_base",
 		"particle": "block/torch"
 	},
 	"elements": [
@@ -43,6 +44,20 @@
 			"faces": {
 				"east": {"uv": [5, 0, 11, 16], "texture": "#3"},
 				"west": {"uv": [5, 0, 11, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "WallGrip",
+			"from": [0, 5.5, 6.925],
+			"to": [4, 6.5, 9.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.25, 6, 7.675]},
+			"faces": {
+				"north": {"uv": [1, 12, 5, 13], "texture": "#4"},
+				"east": {"uv": [0, 12, 2, 13], "texture": "#4"},
+				"south": {"uv": [1, 12, 5, 13], "texture": "#4"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"up": {"uv": [5, 13, 1, 13], "texture": "#4"},
+				"down": {"uv": [1, 11, 5, 13], "texture": "#4"}
 			}
 		}
 	]
