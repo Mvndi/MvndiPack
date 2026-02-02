@@ -1,6 +1,7 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"texture_size": [1152, 768],
 	"textures": {
 		"0": "shader_assets:item/sky_box",
@@ -19,5 +20,6 @@
 				"down": {"uv": [5.33333, 0, 10.66667, 8], "rotation": 180, "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {}
 }
