@@ -4,18 +4,18 @@ from PIL import Image
 
 # Hardcoded from the provided YAML
 armors = {
-    # 'gambeson': {
-    #     'base_items': ['gambeson_chest'],
-    #     'allowed_patterns': [
-    #         'gambeson_cross', 'gambeson_horizontal', 'gambeson_vertical', 'gambeson_fancy_cross',
-    #         'gambeson_lorraine_cross', 'gambeson_x', 'gambeson_four', 'gambeson_plus',
-    #         'gambeson_y', 'gambeson_half', 'gambeson_t', 'gambeson_hash', 'gambeson_tree'
-    #     ]
-    # },
-    # 'gambeson_leggings': {
-    #     'base_items': ['gambeson_leggings'],
-    #     'allowed_patterns': ['gambeson_vertical', 'gambeson_strip']
-    # },
+    'surcoated_hauberk': {
+        'base_items': ['surcoated_hauberk_chest'],
+        'allowed_patterns': [
+            'gambeson_cross', 'gambeson_horizontal', 'gambeson_vertical', 'gambeson_fancy_cross',
+            'gambeson_lorraine_cross', 'gambeson_x', 'gambeson_four', 'gambeson_plus',
+            'gambeson_y', 'gambeson_half', 'gambeson_t', 'gambeson_hash', 'gambeson_tree'
+        ]
+    },
+    'surcoated_hauberk_leggings': {
+        'base_items': ['surcoated_hauberk_leggings'],
+        'allowed_patterns': ['gambeson_vertical', 'gambeson_strip']
+    },
     # 'half_plate': {
     #     'base_items': ['half_plate_chest'],
     #     'allowed_patterns': [
@@ -23,17 +23,17 @@ armors = {
     #         'half_plate_triangle', 'half_plate_cross', 'half_plate_vertical'
     #     ]
     # },
-    'round_plate': {
-        'base_items': ['round_plate_chest'],
-        'allowed_patterns': [
-            'round_plate_cross', 'round_plate_quarter', 'round_plate_cross_iron', 'round_plate_cross_small',
-            'round_plate_half', 'round_plate_horizontal', 'round_plate_vertical', 'round_plate_fabric'
-        ]
-    },
-    'full_plate': {
-        'base_items': ['full_plate_chest'],
-        'allowed_patterns': ['full_plate_fabric']
-    }
+    # 'round_plate': {
+    #     'base_items': ['round_plate_chest'],
+    #     'allowed_patterns': [
+    #         'round_plate_cross', 'round_plate_quarter', 'round_plate_cross_iron', 'round_plate_cross_small',
+    #         'round_plate_half', 'round_plate_horizontal', 'round_plate_vertical', 'round_plate_fabric'
+    #     ]
+    # },
+    # 'full_plate': {
+    #     'base_items': ['full_plate_chest'],
+    #     'allowed_patterns': ['full_plate_fabric']
+    # }
 }
 
 materials = ['quartz', 'iron', 'netherite', 'redstone', 'copper', 'gold', 'emerald', 'diamond', 'lapis', 'amethyst', 'resin']
@@ -112,7 +112,7 @@ for armor_key, armor in armors.items():
 
 # Update item models and create trim models
 for armor_key, armor in armors.items():
-    is_dyeable = armor_key.startswith('gambeson')
+    is_dyeable = armor_key.startswith('surcoated_hauberk')
     default_tint = -6265536
     for base_item in armor['base_items']:
         prefix = base_item.rsplit('_', 1)[0] + '_'
