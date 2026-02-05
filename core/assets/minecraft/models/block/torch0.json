@@ -2,6 +2,6 @@
 	"texture_size": [64, 32],
 	"parent": "block/torch_generic",
 	"textures": {
-		"flame": "block/torch_var/4"
+		"flame": "minecraft:block/torch_flame"
 	}
 }

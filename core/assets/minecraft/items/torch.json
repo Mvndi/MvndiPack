@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/torch.gui"
+                },
+                "when": "gui"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/torch.handheld",
+                    "tints": [{"type": "constant","value": 2442538},{"type": "constant","value": 1138778}]
+                },
+                "when": "ground"
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "mvndicraft:item/torch.handheld",
+            "tints": [{"type": "constant","value": 2442538},{"type": "constant","value": 1138779}]
+        }
+    }
+}
