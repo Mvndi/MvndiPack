@@ -1,0 +1,7 @@
+{
+	"parent": "shader_assets:skybox/skybox",
+	"textures": {
+		"0": "shader_assets:item/sky_night",
+		"particle": "shader_assets:item/sky_night"
+	}
+}

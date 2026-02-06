@@ -1,12 +1,371 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "mvndicraft:item/armor/surcoated_hauberk_brass_leggings",
-    "tints": [
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:trim",
+    "cases": [
       {
-        "type": "minecraft:dye",
-        "default": -6265536
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_vertical_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_strip"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_brass_leggings_gambeson_strip_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mvndicraft:item/armor/surcoated_hauberk_brass_leggings",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    }
   }
 }

@@ -1,21 +1,21 @@
 {
 	"credit": "Made with Blockbench",
-  "parent": "mvndicraft:weapons/axes/bearded_axe",
+    "parent": "mvndicraft:weapons/axes/bearded_axe",
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [4, 2.25, 3]
+			"translation": [3.5, 4, 4.5]
 		},
 		"thirdperson_lefthand": {
-			"translation": [-3, 2.25, 3]
+			"translation": [-3.5, 4, 4.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [90, 0, 0],
-			"translation": [12, 2, -15]
+			"rotation": [65, 0, 0],
+			"translation": [4, 8, -6]
 		},
 		"firstperson_lefthand": {
-			"rotation": [90, 0, 0],
-			"translation": [12, 2, -15]
+			"rotation": [65, 0, 0],
+			"translation": [4, 8, -6]
 		}
 	}
 }

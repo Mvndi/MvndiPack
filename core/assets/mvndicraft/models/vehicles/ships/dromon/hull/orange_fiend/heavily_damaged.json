@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/hull/default/heavily_damaged",
+  "textures": {
+    "5": "mvndicraft:vehicles/ships/dromon/hull/orange_fiend"
+  }
+}

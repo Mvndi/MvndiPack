@@ -1,0 +1,10 @@
+{
+	"texture_size": [64, 32],
+	"parent": "block/soul_torch",
+	"textures": {
+		"0": "block/soul_torch_base",
+		"2": "block/torch",
+		"3": "block/torch_var/7",
+		"particle": "block/torch"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"texture_size": [64, 32],
+	"parent": "block/torch_generic",
+	"textures": {
+		"flame": "block/torch_var/2"
+	}
+}

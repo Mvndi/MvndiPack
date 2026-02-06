@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/longship/stern/default/heavily_damaged",
+  "textures": {
+    "3": "mvndicraft:vehicles/ships/longship/stern/ulfhednars_companion"
+  }
+}

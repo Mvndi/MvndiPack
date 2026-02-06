@@ -1,26 +1,26 @@
 {
   "credit": "Made with Blockbench",
   "parent": "mvndicraft:weapons/pole_arms/javelin",
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [80, -180, 0],
-      "translation": [-0.25, 1, 17],
-      "scale": [2, 2, 2]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [80, -180, 0],
-      "translation": [-0.25, 1, 17],
-      "scale": [2, 2, 2]
-    },
-    "firstperson_righthand": {
-      "rotation": [70, 10, 0],
-      "translation": [6, 30, 10],
-      "scale": [2, 2, 2]
-    },
-    "firstperson_lefthand": {
-      "rotation": [70, 10, 0],
-      "translation": [6, 30, 10],
-      "scale": [2, 2, 2]
-    }
-  }
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-0.25, 0.5, 16.75],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [158, 0, 0],
+			"translation": [0, -12.5, 13.75],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [8, -9, 3],
+			"translation": [-0.75, 30, 4.75],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [8, -9, 3],
+			"translation": [-0.75, 30, 4.75],
+			"scale": [2, 2, 2]
+		}
+	}
 }

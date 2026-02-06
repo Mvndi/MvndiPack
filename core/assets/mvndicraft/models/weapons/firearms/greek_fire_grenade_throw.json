@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+ 	"parent": "mvndicraft:weapons/firearms/greek_fire_grenade",
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.75, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 6.75, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 12, 4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 12, 4]
+		}
+	}
+}

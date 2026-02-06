@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "shader_assets:skybox/skybox"
+      }
+    ]
+  }
+}

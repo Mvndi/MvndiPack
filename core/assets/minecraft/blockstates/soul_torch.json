@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/soul_torch" , "weight": 20 },
+			{ "model": "block/soul_torch2" , "weight": 20 },
+			{ "model": "block/soul_torch3" , "weight": 20 },
+			{ "model": "block/soul_torch4" , "weight": 20 },
+			{ "model": "block/soul_torch5" , "weight": 20 },
+			{ "model": "block/soul_torch6" , "weight": 20 },
+			{ "model": "block/soul_torch7" , "weight": 20 }
+		]
+    }
+}

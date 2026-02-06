@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/longship/hull/default/broken",
+  "textures": {
+    "3": "mvndicraft:vehicles/ships/longship/hull/ulfhednars_companion"
+  }
+}

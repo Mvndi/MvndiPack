@@ -1,0 +1,9 @@
+{
+	"texture_size": [64, 32],
+	"parent": "block/wall_torch",
+	"textures": {
+		"2": "block/torch",
+		"3": "block/torch_var/3",
+		"particle": "block/torch"
+	}
+}

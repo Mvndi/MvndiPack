@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/galley/bow/default/broken",
+  "textures": {
+    "2": "mvndicraft:vehicles/ships/galley/bow/grey_slug"
+  }
+}

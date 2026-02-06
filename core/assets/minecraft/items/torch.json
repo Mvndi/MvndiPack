@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mvndicraft:item/torch.handheld",
+    "tints": [{"type": "constant","value": 2442538},{"type": "constant","value": 1138779}]
+  }
+}

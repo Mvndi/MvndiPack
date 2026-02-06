@@ -1,0 +1,10 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/mast/default/heavily_damaged/full",
+  "textures": {
+    "0": "mvndicraft:vehicles/ships/white_wool",
+    "1": "mvndicraft:vehicles/ships/oak_planks",
+    "2": "mvndicraft:vehicles/ships/dromon/sail/saracen_green",
+    "3": "mvndicraft:vehicles/ships/dromon/sail/green",
+    "particle": "mvndicraft:vehicles/ships/white_wool"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "item/leggings_layer1",
-  "textures": {
-    "leggings": "mvndicraft:entity/equipment/humanoid/light_boots_gold",
-    "layer1": "mvndicraft:entity/equipment/humanoid/light_boots_gold",
-    "particle": "mvndicraft:entity/equipment/humanoid/light_boots_gold"
-  }
-}

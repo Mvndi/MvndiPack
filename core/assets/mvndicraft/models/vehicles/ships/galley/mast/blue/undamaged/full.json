@@ -1,0 +1,8 @@
+{
+  "parent": "mvndicraft:vehicles/ships/galley/mast/default/undamaged/full",
+  "textures": {
+    "0": "mvndicraft:vehicles/ships/galley/sail/blue",
+    "2": "mvndicraft:vehicles/ships/white_wool",
+    "3": "mvndicraft:vehicles/ships/galley/mast/default"
+  }
+}

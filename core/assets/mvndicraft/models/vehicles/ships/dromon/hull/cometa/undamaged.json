@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/dromon/hull/default/undamaged",
+  "textures": {
+    "5": "mvndicraft:vehicles/ships/dromon/hull/cometa"
+  }
+}

@@ -1,12 +1,2307 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "mvndicraft:item/armor/surcoated_hauberk_gold_iron_chest",
-    "tints": [
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:trim",
+    "cases": [
       {
-        "type": "minecraft:dye",
-        "default": -6265536
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_horizontal"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_horizontal_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_vertical"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_vertical_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_fancy_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_fancy_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_lorraine_cross"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_lorraine_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_x"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_x_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_four"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_four_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_plus"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_plus_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_y"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_y_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_half"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_half_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_t"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_t_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_hash"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_hash_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:quartz",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:iron",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:netherite",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:redstone",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:copper",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:gold",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:emerald",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:diamond",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:lapis",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:amethyst",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "when": {
+          "material": "minecraft:resin",
+          "pattern": "mvndicraft:gambeson_tree"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:item/armor/trims/surcoated_hauberk_gold_iron_chest_gambeson_tree_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mvndicraft:item/armor/surcoated_hauberk_gold_iron_chest",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    }
   }
 }

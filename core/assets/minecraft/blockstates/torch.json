@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/torch1" , "weight": 20 },
+			{ "model": "block/torch2" , "weight": 20 },
+			{ "model": "block/torch3" , "weight": 20 },
+			{ "model": "block/torch4" , "weight": 20 },
+			{ "model": "block/torch5" , "weight": 20 },
+			{ "model": "block/torch6" , "weight": 20 },
+			{ "model": "block/torch7" , "weight": 20 }
+		]
+    }
+}

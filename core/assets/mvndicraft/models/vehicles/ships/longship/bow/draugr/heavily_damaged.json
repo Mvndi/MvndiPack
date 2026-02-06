@@ -1,0 +1,6 @@
+{
+  "parent": "mvndicraft:vehicles/ships/longship/bow/default/heavily_damaged",
+  "textures": {
+    "3": "mvndicraft:vehicles/ships/longship/bow/draugr"
+  }
+}
