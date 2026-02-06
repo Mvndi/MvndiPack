@@ -1,0 +1,42 @@
+{
+	"parent": "axallia:item/generic_torch.handheld",
+	"textures": {
+		"particle": "minecraft:block/torch",
+		"torch": "minecraft:block/torch",
+		"flame": "minecraft:block/torch_flame"
+	},
+	"gui_light": "front",
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 8, 9],
+			"faces": {
+				"north": {"uv": [7, 8, 9, 16], "texture": "#torch"},
+				"east": {"uv": [9, 8, 7, 16], "texture": "#torch"},
+				"south": {"uv": [7, 8, 9, 16], "texture": "#torch"},
+				"west": {"uv": [9, 8, 7, 16], "texture": "#torch"},
+				"down": {"uv": [7, 12, 9, 14], "rotation": 90, "texture": "#torch"}
+			}
+		},
+		{
+			"from": [7, 8, 7],
+			"to": [9, 10, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [7, 6, 9, 8], "texture": "#torch", "tintindex": 0},
+				"east": {"uv": [7, 6, 9, 8], "texture": "#torch", "tintindex": 0},
+				"south": {"uv": [7, 6, 9, 8], "texture": "#torch", "tintindex": 0},
+				"west": {"uv": [7, 6, 9, 8], "texture": "#torch", "tintindex": 0},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#torch", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 9, 8],
+			"to": [8.001, 9.001, 8],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [5, 0, 11, 13], "texture": "#flame", "tintindex": 1}
+			}
+		}
+	]
+}
