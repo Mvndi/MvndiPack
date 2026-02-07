@@ -7,7 +7,7 @@ jobs:
   packsquash:
     if: github.repository == 'Mvndi/MvndiPack'
     name: Optimize resource pack
-    runs-on: self-hosted
+    runs-on: ubuntu-latest 
     permissions:
       contents: write
     steps:
@@ -55,7 +55,6 @@ jobs:
             zip_spec_conformance_level = 'balanced'
             skip_pack_icon = false
             output_file_path = 'core.zip'
-            threads = 60
             
             ['**/*?.png']
             image_data_compression_iterations = 15
