@@ -7,7 +7,7 @@ jobs:
   packsquash:
     if: github.repository == 'Mvndi/MvndiPack'
     name: Optimize resource pack
-    runs-on: ubuntu-latest 
+    runs-on: self-hosted
     permissions:
       contents: write
     steps:
