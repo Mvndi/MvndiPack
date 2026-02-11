@@ -183,10 +183,10 @@
   "menu.returnToGame": "Revenir à Mvndicraft",
 
   "entity.minecraft.hoglin": "Sanglier",
-  "entity.minecraft.husk": "brigand",
+  "entity.minecraft.husk": "Brigand",
   "entity.minecraft.pillager": "Mousquetaire",
   "entity.minecraft.polar_bear": "Ours",
   "entity.minecraft.silverfish": "Rat",
   "entity.minecraft.zoglin": "Sanglier",
-  "entity.minecraft.zombie": "brigand Leader"
+  "entity.minecraft.zombie": "Chef brigand"
 }
