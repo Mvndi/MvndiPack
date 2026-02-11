@@ -1992,6 +1992,10 @@
         "model": "mvndicraft:vehicles/ships/longship/seats"
       },
       {
+        "type": "minecraft:model",
+        "model": "mvndicraft:vehicles/ships/longship/chest"
+      },
+      {
         "type": "minecraft:range_dispatch",
         "property": "minecraft:custom_model_data",
         "index": 6,

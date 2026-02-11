@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:vehicles/ships/display",
+	"texture_size": [4, 4],
+	"textures": {
+		"3": "entity/chest/normal"
+	},
+	"elements": [
+		{
+			"from": [7.125, 0.36719, 8.51406],
+			"to": [8.875, 1.67969, 10.26406],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.51719, 36.60156]},
+			"faces": {
+				"north": {"uv": [3.5, 8, 7.25, 10.75], "texture": "#3"},
+				"east": {"uv": [7, 8.25, 10.5, 10.75], "texture": "#3"},
+				"south": {"uv": [10.5, 8.25, 14, 10.75], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [0, 8.25, 3.5, 10.75], "texture": "#3"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#3"},
+				"down": {"uv": [3.5, 4.75, 7, 8.25], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.86875, 1.28594, 10.26406],
+			"to": [8.13125, 1.85469, 10.43906],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.51719, 36.60156]},
+			"faces": {
+				"north": {"uv": [3.5, 8, 4.1, 9.3], "texture": "#3"},
+				"east": {"uv": [0, 0.25, 0.25, 1.25], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [0, 0.25, 0.5, 1.25], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [0.75, 0.25, 1, 1.25], "texture": "#3"},
+				"up": {"uv": [0.75, 0, 1.25, 0.25], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0.25, 0, 0.75, 0.25], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.125, 1.67969, 8.51406],
+			"to": [8.875, 2.11719, 10.26406],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.51719, 36.60156]},
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 7, 4.75], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [7, 3.5, 10.5, 4.75], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [10.5, 3.5, 14, 4.75], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [0, 3.5, 3.5, 4.75], "rotation": 180, "texture": "#3"},
+				"up": {"uv": [7, 0, 10.5, 3.5], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0, 0, 3.5, 4.25], "rotation": 180, "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Chest",
+			"origin": [10.575, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
