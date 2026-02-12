@@ -60,7 +60,7 @@
   "block.minecraft.infested_stone_bricks": "Pièce de scierie",
   "block.minecraft.infested_mossy_stone_bricks": "§4Brique de pierre moussue infestée",
   "block.minecraft.infested_cracked_stone_bricks": "§4Briques de pierre fissurées infestées",
-  "block.minecraft.infested_deepslate": "§4Ardoise des abimes infestée",
+  "block.minecraft.infested_deepslate": "§4Ardoise des abîmes infestée",
   "block.minecraft.infested_chiseled_stone_bricks": "Argile durcie",
   "block.minecraft.end_stone_brick_wall": "Base de colonne de grès",
   "block.minecraft.stone_brick_wall": "Muret de pierre sculptée",
@@ -183,10 +183,10 @@
   "menu.returnToGame": "Revenir à Mvndicraft",
 
   "entity.minecraft.hoglin": "Sanglier",
-  "entity.minecraft.husk": "brigand",
+  "entity.minecraft.husk": "Brigand",
   "entity.minecraft.pillager": "Mousquetaire",
   "entity.minecraft.polar_bear": "Ours",
   "entity.minecraft.silverfish": "Rat",
   "entity.minecraft.zoglin": "Sanglier",
-  "entity.minecraft.zombie": "brigand Leader"
+  "entity.minecraft.zombie": "Chef brigand"
 }
