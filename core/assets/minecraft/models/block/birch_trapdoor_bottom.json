@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/balcony_trapdoor",
 		"particle": "block/balcony_trapdoor"
@@ -9,7 +11,7 @@
 			"to": [16, 3, 16],
 			"faces": {
 				"north": {"uv": [0, 4, 3, 7], "texture": "#0"},
-				"east": {"uv": [0, 13, 16, 16], "texture": "#0", "cullface": "west"},
+				"east": {"uv": [0, 13, 16, 16], "texture": "#0", "cullface": "east"},
 				"south": {"uv": [3, 13, 6, 16], "texture": "#0"},
 				"west": {"uv": [0, 13, 16, 16], "texture": "#0", "cullface": "west"},
 				"up": {"uv": [0, 13, 16, 16], "rotation": 270, "texture": "#0"},
@@ -65,7 +67,7 @@
 			"rotation": {"angle": -45, "axis": "y", "origin": [12, 1, 2]},
 			"faces": {
 				"east": {"uv": [0, 0, 1, 14], "rotation": 90, "texture": "#0"},
-				"west": {"uv": [0, 0, 1, 14], "rotation": 90, "texture": "#0", "cullface": "west"},
+				"west": {"uv": [0, 0, 1, 14], "rotation": 90, "texture": "#0"},
 				"up": {"uv": [14, 6, 0, 4], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [1, 12, 15, 14], "rotation": 270, "texture": "#0"}
 			}
