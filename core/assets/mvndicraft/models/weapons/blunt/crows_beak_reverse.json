@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/blunt/morning_star",
@@ -422,11 +423,11 @@
 			"translation": [0, 4.5, 1.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [-32, -180, 8],
+			"rotation": [159.25, 0, -172],
 			"translation": [0.75, 3.75, 0]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-32, -180, 8],
+			"rotation": [159, 0, -172],
 			"translation": [0.75, 3.75, 0]
 		},
 		"ground": {

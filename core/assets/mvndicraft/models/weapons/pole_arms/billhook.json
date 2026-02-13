@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "mvndicraft:weapons/pole_arms/billhook_blade_left",
@@ -241,7 +242,7 @@
 			"translation": [0, 2.5, 8.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [-35, 0, 0]
+			"rotation": [-23.75, 0, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [5, 0, 0]
