@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/pole_arms/winged_spear",
 		"3": "mvndicraft:weapons/pole_arms/spear_tip_steel2"
@@ -297,7 +299,8 @@
 			"translation": [0, 2.75, 9.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 90, -67]
+			"rotation": [-11.25, 90, 0],
+			"translation": [0, -1.75, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, 0]
