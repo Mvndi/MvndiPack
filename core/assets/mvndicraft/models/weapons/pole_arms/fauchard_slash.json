@@ -310,8 +310,8 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 90, 0],
-			"translation": [0, 7.75, 1],
+			"rotation": [135.39, 68.34, -133.9],
+			"translation": [1.75, 7.75, 1],
 			"scale": [0.9, 0.9, 0.9]
 		},
 		"thirdperson_lefthand": {
@@ -320,8 +320,8 @@
 			"scale": [0.9, 0.9, 0.9]
 		},
 		"firstperson_righthand": {
-			"rotation": [-38.25, 90, 0],
-			"translation": [12.75, -3.5, -13],
+			"rotation": [94.2, 49.03, -125.67],
+			"translation": [12.75, -6.75, -13],
 			"scale": [2, 2, 2]
 		},
 		"firstperson_lefthand": {

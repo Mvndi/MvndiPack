@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/pole_arms/earspoon",
@@ -356,7 +357,8 @@
 			"translation": [0, 0.75, 4.25]
 		},
 		"firstperson_righthand": {
-			"rotation": [-63.75, 0, 0]
+			"rotation": [-22, 0, 0],
+			"translation": [0, -2.5, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [1, 0, 0]

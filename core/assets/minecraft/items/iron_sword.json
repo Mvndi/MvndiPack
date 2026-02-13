@@ -454,6 +454,153 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/pole_arms/spiked_polemace_point"
                 }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/katzbalger_sword_slash"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/godenak_falchion_slash"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/falchion_slash"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/albion_falchion_slash"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/arabian_straight_sword_strike"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/axes/dane_axe_slash"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/glaive_slash"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/sword_staff_slash"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/fauchard_slash"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/harpoon_slash"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/h"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/"
+                }
             }
         ]
     }
