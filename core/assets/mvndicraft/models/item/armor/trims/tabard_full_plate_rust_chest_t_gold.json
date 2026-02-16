@@ -3,6 +3,6 @@
   "textures": {
     "chestplate": "mvndicraft:entity/equipment/humanoid/full_plate_rust",
     "layer1": "mvndicraft:entity/equipment/humanoid/full_plate_fabric",
-    "layer2": "mvndicraft:entity/equipment/humanoid/trims/tabard_full_plate_t_gold"
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/t_gold"
   }
 }

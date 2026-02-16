@@ -1,9 +1,0 @@
-{
-  "parent": "item/chestplate_layer2",
-  "textures": {
-    "chestplate": "mvndicraft:entity/equipment/humanoid/round_plate_brass",
-    "layer1": "mvndicraft:entity/equipment/humanoid/round_plate_brass",
-    "particle": "mvndicraft:entity/equipment/humanoid/round_plate_brass",
-    "layer2": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_diamond"
-  }
-}

@@ -3,6 +3,6 @@
   "textures": {
     "chestplate": "mvndicraft:entity/equipment/humanoid/full_plate_half_golden",
     "layer1": "mvndicraft:entity/equipment/humanoid/full_plate_fabric",
-    "layer2": "mvndicraft:entity/equipment/humanoid/trims/tabard_full_plate_half_redstone"
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/half_redstone"
   }
 }
