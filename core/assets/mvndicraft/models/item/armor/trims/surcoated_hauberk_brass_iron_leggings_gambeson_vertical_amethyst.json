@@ -1,9 +1,0 @@
-{
-  "parent": "item/leggings_layer2",
-  "textures": {
-    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk",
-    "layer1": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_brass_iron_overlay",
-    "particle": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk",
-    "layer2": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_amethyst"
-  }
-}

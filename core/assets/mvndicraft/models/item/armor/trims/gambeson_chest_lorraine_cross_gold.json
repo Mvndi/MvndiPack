@@ -1,0 +1,9 @@
+{
+  "parent": "item/chestplate_layer2",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/gambeson",
+    "layer1": "mvndicraft:entity/equipment/humanoid/gambeson_overlay",
+    "particle": "mvndicraft:entity/equipment/humanoid/gambeson",
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_gold"
+  }
+}

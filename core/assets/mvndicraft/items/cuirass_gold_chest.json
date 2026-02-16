@@ -11,13 +11,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_quartz"
         }
       },
       {
@@ -27,13 +21,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron"
         }
       },
       {
@@ -43,13 +31,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_netherite"
         }
       },
       {
@@ -59,13 +41,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_redstone"
         }
       },
       {
@@ -75,13 +51,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_copper"
         }
       },
       {
@@ -91,13 +61,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_gold"
         }
       },
       {
@@ -107,13 +71,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_emerald"
         }
       },
       {
@@ -123,13 +81,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_diamond"
         }
       },
       {
@@ -139,13 +91,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_lapis"
         }
       },
       {
@@ -155,13 +101,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_amethyst"
         }
       },
       {
@@ -171,13 +111,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_resin"
         }
       },
       {
@@ -187,13 +121,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_quartz"
         }
       },
       {
@@ -203,13 +131,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_iron"
         }
       },
       {
@@ -219,13 +141,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_netherite"
         }
       },
       {
@@ -235,13 +151,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_redstone"
         }
       },
       {
@@ -251,13 +161,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_copper"
         }
       },
       {
@@ -267,13 +171,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_gold"
         }
       },
       {
@@ -283,13 +181,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_emerald"
         }
       },
       {
@@ -299,13 +191,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_diamond"
         }
       },
       {
@@ -315,13 +201,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_lapis"
         }
       },
       {
@@ -331,13 +211,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_amethyst"
         }
       },
       {
@@ -347,13 +221,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_quarter_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_quarter_resin"
         }
       },
       {
@@ -363,13 +231,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_quartz"
         }
       },
       {
@@ -379,13 +241,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_iron"
         }
       },
       {
@@ -395,13 +251,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_netherite"
         }
       },
       {
@@ -411,13 +261,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_redstone"
         }
       },
       {
@@ -427,13 +271,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_copper"
         }
       },
       {
@@ -443,13 +281,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_gold"
         }
       },
       {
@@ -459,13 +291,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_emerald"
         }
       },
       {
@@ -475,13 +301,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_diamond"
         }
       },
       {
@@ -491,13 +311,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_lapis"
         }
       },
       {
@@ -507,13 +321,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_amethyst"
         }
       },
       {
@@ -523,13 +331,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_iron_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_iron_resin"
         }
       },
       {
@@ -539,13 +341,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_quartz"
         }
       },
       {
@@ -555,13 +351,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_iron"
         }
       },
       {
@@ -571,13 +361,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_netherite"
         }
       },
       {
@@ -587,13 +371,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_redstone"
         }
       },
       {
@@ -603,13 +381,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_copper"
         }
       },
       {
@@ -619,13 +391,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_gold"
         }
       },
       {
@@ -635,13 +401,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_emerald"
         }
       },
       {
@@ -651,13 +411,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_diamond"
         }
       },
       {
@@ -667,13 +421,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_lapis"
         }
       },
       {
@@ -683,13 +431,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_amethyst"
         }
       },
       {
@@ -699,13 +441,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cross_small_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_cross_small_resin"
         }
       },
       {
@@ -715,13 +451,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_quartz"
         }
       },
       {
@@ -731,13 +461,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_iron"
         }
       },
       {
@@ -747,13 +471,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_netherite"
         }
       },
       {
@@ -763,13 +481,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_redstone"
         }
       },
       {
@@ -779,13 +491,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_copper"
         }
       },
       {
@@ -795,13 +501,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_gold"
         }
       },
       {
@@ -811,13 +511,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_emerald"
         }
       },
       {
@@ -827,13 +521,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_diamond"
         }
       },
       {
@@ -843,13 +531,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_lapis"
         }
       },
       {
@@ -859,13 +541,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_amethyst"
         }
       },
       {
@@ -875,13 +551,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_half_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_half_resin"
         }
       },
       {
@@ -891,13 +561,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_quartz"
         }
       },
       {
@@ -907,13 +571,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_iron"
         }
       },
       {
@@ -923,13 +581,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_netherite"
         }
       },
       {
@@ -939,13 +591,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_redstone"
         }
       },
       {
@@ -955,13 +601,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_copper"
         }
       },
       {
@@ -971,13 +611,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_gold"
         }
       },
       {
@@ -987,13 +621,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_emerald"
         }
       },
       {
@@ -1003,13 +631,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_diamond"
         }
       },
       {
@@ -1019,13 +641,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_lapis"
         }
       },
       {
@@ -1035,13 +651,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_amethyst"
         }
       },
       {
@@ -1051,13 +661,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_horizontal_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_horizontal_resin"
         }
       },
       {
@@ -1067,13 +671,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_quartz",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_quartz"
         }
       },
       {
@@ -1083,13 +681,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_iron",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_iron"
         }
       },
       {
@@ -1099,13 +691,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_netherite",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_netherite"
         }
       },
       {
@@ -1115,13 +701,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_redstone",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_redstone"
         }
       },
       {
@@ -1131,13 +711,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_copper",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_copper"
         }
       },
       {
@@ -1147,13 +721,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_gold",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_gold"
         }
       },
       {
@@ -1163,13 +731,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_emerald",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_emerald"
         }
       },
       {
@@ -1179,13 +741,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_diamond",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_diamond"
         }
       },
       {
@@ -1195,13 +751,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_lapis",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_lapis"
         }
       },
       {
@@ -1211,13 +761,7 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_amethyst",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_amethyst"
         }
       },
       {
@@ -1227,25 +771,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_vertical_resin",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
+          "model": "mvndicraft:item/armor/trims/cuirass_gold_chest_cuirass_vertical_resin"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "mvndicraft:item/armor/cuirass_gold_chest",
-      "tints": [
-        {
-          "type": "minecraft:dye",
-          "default": -6265536
-        }
-      ]
+      "model": "mvndicraft:item/armor/cuirass_gold_chest"
     }
   }
 }

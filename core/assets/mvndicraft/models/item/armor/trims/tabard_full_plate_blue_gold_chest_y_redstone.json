@@ -1,0 +1,8 @@
+{
+  "parent": "item/chestplate_layer2_tint",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/full_plate_blue_gold",
+    "layer1": "mvndicraft:entity/equipment/humanoid/full_plate_fabric",
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/y_redstone"
+  }
+}
