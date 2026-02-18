@@ -1,9 +1,0 @@
-{
-  "parent": "item/chestplate_layer2",
-  "textures": {
-    "chestplate": "mvndicraft:entity/equipment/humanoid/round_plate",
-    "layer1": "mvndicraft:entity/equipment/humanoid/round_plate",
-    "particle": "mvndicraft:entity/equipment/humanoid/round_plate",
-    "layer2": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_redstone"
-  }
-}

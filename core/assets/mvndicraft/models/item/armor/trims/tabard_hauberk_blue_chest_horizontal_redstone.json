@@ -1,8 +1,0 @@
-{
-  "parent": "item/chestplate_layer2_tint",
-  "textures": {
-    "chestplate": "mvndicraft:entity/equipment/humanoid/full_plate_blue",
-    "layer1": "mvndicraft:entity/equipment/humanoid/full_plate_fabric",
-    "layer2": "mvndicraft:entity/equipment/humanoid/trims/tabard_hauberk_horizontal_redstone"
-  }
-}

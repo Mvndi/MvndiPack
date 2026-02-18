@@ -1,9 +1,0 @@
-{
-  "parent": "item/chestplate_layer2",
-  "textures": {
-    "chestplate": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk",
-    "layer1": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_gold_iron_overlay",
-    "particle": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk",
-    "layer2": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_netherite"
-  }
-}
