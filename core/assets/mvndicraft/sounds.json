@@ -1278,5 +1278,17 @@
         "pitch": 1
       }
     ]
+  },
+  "mob.wolf.howl": {
+    "sounds": [
+      {
+        "name": "mvndicraft:mob/wolf/howl1",
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:mob/wolf/howl2",
+        "pitch": 1
+      }
+    ]
   }
 }
