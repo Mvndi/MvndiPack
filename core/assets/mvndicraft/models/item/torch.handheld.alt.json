@@ -1,11 +1,12 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"parent": "axallia:item/generic_torch.handheld",
 	"textures": {
-		"particle": "minecraft:block/torch",
-		"torch": "minecraft:block/torch",
-		"flame": "minecraft:block/torch_flame"
+		"particle": "block/torch",
+		"torch": "block/torch",
+		"flame": "block/torch_flame"
 	},
-	"gui_light": "front",
 	"elements": [
 		{
 			"from": [7, 0, 7],
@@ -38,5 +39,11 @@
 				"north": {"uv": [5, 0, 11, 13], "texture": "#flame", "tintindex": 1}
 			}
 		}
-	]
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_lefthand": {
+			"translation": [0, 17.5, 0]
+		}
+	}
 }
