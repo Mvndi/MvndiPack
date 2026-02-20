@@ -18,8 +18,8 @@
 			}
 		},
 		{
-			"from": [7, 16, 8],
-			"to": [9, 24, 16],
+			"from": [7.01, 16.01, 8.01],
+			"to": [8.99, 23.99, 15.99],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
 			"faces": {
 				"east": {"uv": [0, 8, 8, 16], "texture": "#pane", "cullface": "up"},
