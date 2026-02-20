@@ -7,8 +7,8 @@
 	},
 	"elements": [
 		{
-			"from": [7, 16, 0],
-			"to": [9, 24, 8],
+			"from": [7.01, 16.01, 0.01],
+			"to": [8.99, 23.99, 7.99],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
 			"faces": {
 				"north": {"uv": [7, 8, 9, 16], "texture": "#edge", "cullface": "up"},
