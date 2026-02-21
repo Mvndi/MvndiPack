@@ -26,6 +26,13 @@ out vec4 fragColor;
 
 #define BLOCK_LIGHT_COLOR vec3(1.0, 0.9, 0.4)
 
+vec3 notGamma(vec3 color) {
+    float maxComponent = max(max(color.x, color.y), color.z);
+    float maxInverted = 1.0f - maxComponent;
+    float maxScaled = 1.0f - maxInverted * maxInverted * maxInverted * maxInverted;
+    return color * (maxScaled / maxComponent);
+}
+
 void main() {
     //if (texCoord.xy > vec2(1.0/17.0, 1.0/17.0)) {
     //    fragColor = vec4(1.0); return;
@@ -48,7 +55,7 @@ void main() {
 
     float daynight_factor = max(lightmapInfo.SkyFactor-0.25, 0.0)*1.3333;
 
-    vec3 skylight_color = mix(MOONLIGHT_COLOR, SUNLIGHT_COLOR, cubic_in_out(daynight_factor));
+    vec3 skylight_color = mix(MOONLIGHT_COLOR * (lightmapInfo.BrightnessFactor + 1.0), SUNLIGHT_COLOR, cubic_in_out(daynight_factor));
     vec3 sunset_color = vec3(
         skylight_color.r*1.4, 
         skylight_color.g*skylight_color.g*1.4, 
@@ -87,5 +94,6 @@ void main() {
         : pow(max(texCoord.x, texCoord.y), lightmapInfo.DarknessScale*5.0);
 
     fragColor = vec4((block_light+skylight_color*texCoord.y + vec3(lightmapInfo.NightVisionFactor*0.3))*darkening, 1.0);
+
     //fragColor.rgb = mix(fragColor.rgb, vec3(1.0), lightmapInfo.NightVisionFactor);  // just for debug
 }
