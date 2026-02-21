@@ -735,6 +735,13 @@
       }
     ]
   },
+  "cinematics.mvndi_intro": {
+    "sounds": [
+      {
+        "name": "mvndicraft:cinematics/mvndi_intro"
+      }
+    ]
+  },
   "siege_event.romans_defeat_byzantine": {
     "sounds": [
       {
