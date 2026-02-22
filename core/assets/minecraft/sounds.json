@@ -1,4 +1,17 @@
 {
+  "entity.enderman.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mvndicraft:mob/wolf/howl1",
+        "pitch": 1
+      },
+      {
+        "name": "mvndicraft:mob/wolf/howl2",
+        "pitch": 1
+      }
+    ]
+  },
   "entity.arrow.hit": {
     "replace": true,
     "sounds": [
