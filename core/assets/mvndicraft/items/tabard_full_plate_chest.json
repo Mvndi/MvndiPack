@@ -11,7 +11,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -21,7 +27,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -31,7 +43,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -41,7 +59,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -51,7 +75,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -61,7 +91,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -71,7 +107,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -81,7 +123,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -91,7 +139,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -101,7 +155,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -111,7 +171,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_cup_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -121,7 +187,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -131,7 +203,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -141,7 +219,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -151,7 +235,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -161,7 +251,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -171,7 +267,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -181,7 +283,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -191,7 +299,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -201,7 +315,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -211,7 +331,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -221,7 +347,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_horizontal_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -231,7 +363,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -241,7 +379,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -251,7 +395,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -261,7 +411,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -271,7 +427,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -281,7 +443,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -291,7 +459,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -301,7 +475,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -311,7 +491,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -321,7 +507,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -331,7 +523,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_quarter_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -341,7 +539,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -351,7 +555,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -361,7 +571,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -371,7 +587,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -381,7 +603,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -391,7 +619,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -401,7 +635,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -411,7 +651,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -421,7 +667,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -431,7 +683,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -441,7 +699,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_chess_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -451,7 +715,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -461,7 +731,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -471,7 +747,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -481,7 +763,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -491,7 +779,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -501,7 +795,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -511,7 +811,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -521,7 +827,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -531,7 +843,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -541,7 +859,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -551,7 +875,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_triangle_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -561,7 +891,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -571,7 +907,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -581,7 +923,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -591,7 +939,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -601,7 +955,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -611,7 +971,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -621,7 +987,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -631,7 +1003,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -641,7 +1019,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -651,7 +1035,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -661,7 +1051,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_full_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -671,7 +1067,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -681,7 +1083,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -691,7 +1099,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -701,7 +1115,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -711,7 +1131,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -721,7 +1147,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -731,7 +1163,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -741,7 +1179,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -751,7 +1195,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -761,7 +1211,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -771,7 +1227,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tabard_full_plate_vertical_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -781,7 +1243,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -791,7 +1259,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -801,7 +1275,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -811,7 +1291,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -821,7 +1307,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -831,7 +1323,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -841,7 +1339,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -851,7 +1355,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -861,7 +1371,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -871,7 +1387,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -881,7 +1403,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_fancy_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -891,7 +1419,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -901,7 +1435,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -911,7 +1451,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -921,7 +1467,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -931,7 +1483,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -941,7 +1499,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -951,7 +1515,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -961,7 +1531,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -971,7 +1547,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -981,7 +1563,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -991,7 +1579,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_lorraine_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1001,7 +1595,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1011,7 +1611,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1021,7 +1627,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1031,7 +1643,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1041,7 +1659,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1051,7 +1675,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1061,7 +1691,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1071,7 +1707,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1081,7 +1723,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1091,7 +1739,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1101,7 +1755,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_x_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1111,7 +1771,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1121,7 +1787,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1131,7 +1803,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1141,7 +1819,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1151,7 +1835,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1161,7 +1851,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1171,7 +1867,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1181,7 +1883,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1191,7 +1899,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1201,7 +1915,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1211,7 +1931,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_four_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1221,7 +1947,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1231,7 +1963,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1241,7 +1979,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1251,7 +1995,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1261,7 +2011,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1271,7 +2027,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1281,7 +2043,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1291,7 +2059,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1301,7 +2075,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1311,7 +2091,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1321,7 +2107,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_plus_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1331,7 +2123,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1341,7 +2139,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1351,7 +2155,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1361,7 +2171,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1371,7 +2187,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1381,7 +2203,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1391,7 +2219,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1401,7 +2235,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1411,7 +2251,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1421,7 +2267,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1431,7 +2283,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_y_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1441,7 +2299,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1451,7 +2315,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1461,7 +2331,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1471,7 +2347,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1481,7 +2363,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1491,7 +2379,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1501,7 +2395,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1511,7 +2411,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1521,7 +2427,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1531,7 +2443,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1541,7 +2459,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_half_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1551,7 +2475,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1561,7 +2491,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1571,7 +2507,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1581,7 +2523,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1591,7 +2539,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1601,7 +2555,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1611,7 +2571,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1621,7 +2587,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1631,7 +2603,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1641,7 +2619,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1651,7 +2635,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_t_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1661,7 +2651,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1671,7 +2667,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1681,7 +2683,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1691,7 +2699,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1701,7 +2715,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1711,7 +2731,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1721,7 +2747,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1731,7 +2763,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1741,7 +2779,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1751,7 +2795,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1761,7 +2811,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_hash_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1771,7 +2827,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1781,7 +2843,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1791,7 +2859,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1801,7 +2875,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1811,7 +2891,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1821,7 +2907,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1831,7 +2923,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1841,7 +2939,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1851,7 +2955,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1861,7 +2971,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1871,7 +2987,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_tree_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1881,7 +3003,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_quartz"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1891,7 +3019,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_iron"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1901,7 +3035,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_netherite"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1911,7 +3051,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_redstone"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1921,7 +3067,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_copper"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1931,7 +3083,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_gold"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1941,7 +3099,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_emerald"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1951,7 +3115,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_diamond"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1961,7 +3131,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_lapis"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1971,7 +3147,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_amethyst"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1981,13 +3163,25 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_resin"
+          "model": "mvndicraft:item/armor/trims/tabard_full_plate_chest_cross_resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "mvndicraft:item/armor/tabard_full_plate_chest"
+      "model": "mvndicraft:item/armor/tabard_full_plate_chest",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
     }
   }
 }
