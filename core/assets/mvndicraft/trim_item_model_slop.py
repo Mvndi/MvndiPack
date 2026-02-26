@@ -18,7 +18,7 @@ armors = {
     'surcoated_hauberk': {
         'base_items': ['surcoated_hauberk_chest'],
         'allowed_patterns': [
-            'tabard_full_plate_cup', 'tabard_full_plate_horizontal', 'tabard_full_plate_quarter', 'tabard_full_plate_chess',
+            'tabard_full_plate_cup', 'tabard_horizontal', 'tabard_full_plate_quarter', 'tabard_full_plate_chess',
             'tabard_full_plate_triangle', 'full_cross', 'tabard_full_plate_vertical', 'cross', 'fancy_cross',
             'lorraine_cross', 'x', 'four', 'plus', 'y', 'half', 't', 'hash', 'tree'
         ]
@@ -26,7 +26,7 @@ armors = {
     'tabard_full_plate': {
         'base_items': ['tabard_full_plate_chest'],
         'allowed_patterns': [
-            'tabard_full_plate_cup', 'tabard_full_plate_horizontal', 'tabard_full_plate_quarter', 'tabard_full_plate_chess',
+            'tabard_full_plate_cup', 'tabard_horizontal', 'tabard_full_plate_quarter', 'tabard_full_plate_chess',
             'tabard_full_plate_triangle', 'full_cross', 'tabard_full_plate_vertical', 'fancy_cross',
             'lorraine_cross', 'x', 'four', 'plus', 'y', 'half', 't', 'hash', 'tree', 'cross'
         ]
