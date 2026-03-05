@@ -515,7 +515,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/apple.png",
+      "file": "minecraft:item/apple_flat.png",
       "ascent": 10,
       "height": 16,
       "chars": [
@@ -533,7 +533,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:item/golden_carrot.png",
+      "file": "minecraft:block/hay_block_side.png",
       "ascent": 10,
       "height": 16,
       "chars": [
