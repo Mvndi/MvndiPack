@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/template_shelf_body",
   "textures": {
-    "1": "minecraft:block/polished_granite",
-  "particle": "minecraft:block/polished_granite"
+    "1": "minecraft:block/red_sandstone",
+    "particle": "minecraft:block/red_sandstone"
   }
 }
