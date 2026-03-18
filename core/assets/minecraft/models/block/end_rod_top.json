@@ -80,7 +80,7 @@
 				"east": {"uv": [2, 2, 16, 5.98], "texture": "#2"},
 				"west": {"uv": [15.75, 2, 1.75, 5.98], "texture": "#2"},
 				"up": {"uv": [2, 0, 16, 2], "rotation": 270, "texture": "#2"},
-				"down": {"uv": [2, 6, 16, 8], "rotation": 90, "texture": "#2"}
+				"down": {"uv": [2, 5, 16, 7], "rotation": 90, "texture": "#2"}
 			}
 		},
 		{

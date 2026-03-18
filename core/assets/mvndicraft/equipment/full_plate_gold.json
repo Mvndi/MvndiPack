@@ -5,6 +5,9 @@
 		],
 		"humanoid_leggings": [
 			{ "texture": "mvndicraft:full_plate_gold" }
+		],
+		"horse_body": [
+			{ "texture": "mvndicraft:full_plate_gold" }
 		]
 	}
 }

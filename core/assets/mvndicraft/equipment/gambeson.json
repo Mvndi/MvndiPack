@@ -17,6 +17,14 @@
       {
         "texture": "mvndicraft:gambeson_overlay"
       }
+    ],
+    "horse_body": [
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "mvndicraft:gambeson"
+      }
     ]
   }
 }

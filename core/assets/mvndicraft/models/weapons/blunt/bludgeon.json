@@ -1,6 +1,6 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "mvndicraft:weapons/blunt/bludgeon",
 		"particle": "mvndicraft:weapons/blunt/bludgeon"
@@ -14,7 +14,7 @@
 				"east": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
 				"south": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
 				"west": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
-				"up": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"up": {"uv": [3, 5, 4.5, 6.5], "texture": "#0"},
 				"down": {"uv": [3, 10.5, 4.5, 12], "texture": "#0"}
 			}
 		},
@@ -29,39 +29,67 @@
 				"up": {"uv": [4.5, 2, 2.5, 0], "texture": "#0"},
 				"down": {"uv": [2.5, 2.5, 4.5, 4.5], "texture": "#0"}
 			}
+		},
+		{
+			"from": [7, 18, 7],
+			"to": [9, 19, 9],
+			"faces": {
+				"north": {"uv": [2, 15, 4, 16], "texture": "#0"},
+				"east": {"uv": [6, 15, 8, 16], "texture": "#0"},
+				"south": {"uv": [4, 15, 6, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 2, 16], "texture": "#0"},
+				"up": {"uv": [16, 2, 14, 0], "texture": "#0"},
+				"down": {"uv": [14, 5, 16, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [9, 19, 9],
+			"to": [7, 18, 7],
+			"faces": {
+				"north": {"uv": [6, 15, 4, 16], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2, 15, 0, 16], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [4, 15, 2, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [8, 15, 6, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [14, 5, 16, 7], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [16, 2, 14, 0], "rotation": 180, "texture": "#0"}
+			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 3.5, 0.75]
+			"translation": [0, 4.25, 1.25],
+			"scale": [1.14, 1.14, 1.14]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 3.5, 0.75]
+			"translation": [0, 4.25, 1.25],
+			"scale": [1.14, 1.14, 1.14]
 		},
 		"firstperson_righthand": {
-			"rotation": [9, 0, 0],
-			"translation": [0, 4.5, 0.5]
+			"rotation": [-12, 14, 10],
+			"translation": [0, 4.75, 0.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [9, 0, 0],
-			"translation": [0, 4.5, 0.5]
+			"rotation": [-12, 14, 10],
+			"translation": [0, 4.75, 0.5]
 		},
 		"ground": {
 			"rotation": [-90, 0, 0],
-			"translation": [0, -1.25, 0]
+			"translation": [0, -2.75, 0]
 		},
 		"gui": {
-			"rotation": [14, 39, -49],
-			"translation": [-0.25, -0.75, 0]
+			"rotation": [14, 39, -58],
+			"translation": [-1.25, -1.25, 0],
+			"scale": [1.09, 1.09, 1.09]
 		},
 		"head": {
 			"rotation": [90, 0, 0],
-			"translation": [0, -25.25, -7.25],
-			"scale": [0.75, 0.75, 0.75]
+			"translation": [0, -25.25, -6],
+			"scale": [0.35, 0.35, 0.35]
 		},
 		"fixed": {
-			"rotation": [0, 0, 52],
-			"translation": [0.75, -1.75, 0],
+			"translation": [0.75, -1.75, -0.5],
 			"scale": [2, 2, 2]
 		}
 	}
