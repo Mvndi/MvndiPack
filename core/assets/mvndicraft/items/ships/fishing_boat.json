@@ -1,0 +1,8 @@
+
+{
+  "__comment__": "Custom model data is setup in the following way: {floats:[animation_step]}, and to whomever is forced to read this: may the gods have mercy on your damned soul.",
+  "model": {
+    "type": "minecraft:model",
+    "model": "mvndicraft:vehicles/ships/fishing_boat/showcase"
+  }
+}
