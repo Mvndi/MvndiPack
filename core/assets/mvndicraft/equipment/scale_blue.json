@@ -7,6 +7,9 @@
 		"humanoid_leggings": [
 			{ "texture": "mvndicraft:scale_blue" },
 			{ "dyeable": { "color_when_undyed": 16777215 }, "texture": "mvndicraft:scale_overlay" }
+		],
+		"horse_body": [
+			{ "texture": "mvndicraft:scale_blue" }
 		]
 	}
 }

@@ -5,6 +5,9 @@
 		],
 		"humanoid_leggings": [
 			{ "texture": "mvndicraft:chainmail_brass_iron" }
+		],
+		"horse_body": [
+			{ "texture": "mvndicraft:chainmail_brass_iron" }
 		]
 	}
 }
