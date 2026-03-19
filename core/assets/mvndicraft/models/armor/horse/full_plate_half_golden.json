@@ -1,0 +1,7 @@
+{
+  "parent": "mvndicraft:armor/horse/template_horse_armor",
+  "textures": {
+    "0": "mvndicraft:entity/equipment/horse_body/full_plate_half_golden",
+    "particle": "mvndicraft:entity/equipment/horse_body/full_plate_half_golden"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_shelf_body",
+  "textures": {
+    "1": "minecraft:block/nether_bricks",
+  "particle": "minecraft:block/nether_bricks"
+  }
+}
