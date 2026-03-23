@@ -193,5 +193,18 @@
   "entity.minecraft.polar_bear": "Bear",
   "entity.minecraft.silverfish": "Rat",
   "entity.minecraft.zoglin": "Boar",
-  "entity.minecraft.zombie": "Brigand Leader"
+  "entity.minecraft.zombie": "Brigand Leader",
+
+  "block.minecraft.acacia_shelf": "Cobblestone Vertical Slab",
+  "block.minecraft.bamboo_shelf": "White Terracotta Vertical Slab",
+  "block.minecraft.birch_shelf": "Sandstone Vertical Slab",
+  "block.minecraft.cherry_shelf": "Stone Bricks Vertical Slab",
+  "block.minecraft.crimson_shelf": "Quartz Bricks Vertical Slab",
+  "block.minecraft.dark_oak_shelf": "Red Sandstone Bricks Vertical Slab",
+  "block.minecraft.jungle_shelf": "Red Sandstone Vertical Slab",
+  "block.minecraft.mangrove_shelf": "Bricks Vertical Slab",
+  "block.minecraft.oak_shelf": "Polished Granite Vertical Slab",
+  "block.minecraft.pale_oak_shelf": "Polished Diorite Vertical Slab",
+  "block.minecraft.spruce_shelf": "Diorite Vertical Slab",
+  "block.minecraft.warped_shelf": "Dark Oak Vertical Slab"
 }

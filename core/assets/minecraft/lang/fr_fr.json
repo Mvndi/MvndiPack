@@ -188,5 +188,18 @@
   "entity.minecraft.polar_bear": "Ours",
   "entity.minecraft.silverfish": "Rat",
   "entity.minecraft.zoglin": "Sanglier",
-  "entity.minecraft.zombie": "Chef brigand"
+  "entity.minecraft.zombie": "Chef brigand",
+
+  "block.minecraft.acacia_shelf": "Dalle verticale de pierres",
+  "block.minecraft.bamboo_shelf": "Dalle verticale de terre cuite blanche",
+  "block.minecraft.birch_shelf": "Dalle verticale de grès",
+  "block.minecraft.cherry_shelf": "Dalle verticale de pierre taillée",
+  "block.minecraft.crimson_shelf": "Dalle verticale de quartz",
+  "block.minecraft.dark_oak_shelf": "Dalle verticale de briques de grès rouge",
+  "block.minecraft.jungle_shelf": "Dalle verticale de grès rouge",
+  "block.minecraft.mangrove_shelf": "Dalle verticale de briques",
+  "block.minecraft.oak_shelf": "Dalle verticale de granite poli",
+  "block.minecraft.pale_oak_shelf": "Dalle verticale de diorite polie",
+  "block.minecraft.spruce_shelf": "Dalle verticale de diorite",
+  "block.minecraft.warped_shelf": "Dalle verticale en chêne noir"
 }
