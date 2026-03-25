@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/stick"
+    },
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/primed_0"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/primed_1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/primed_2"
+        }
+      }
+    ]
+  }
+}

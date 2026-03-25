@@ -346,6 +346,21 @@
       }
     ]
   },
+  "siege.catapult.launch": {
+    "sounds": [
+      {
+        "name": "mvndicraft:siege/catapult/launch",
+        "pitch": 0.8
+      },
+      {
+        "name": "mvndicraft:siege/catapult/launch",
+        "pitch": 0.9
+      },
+      {
+        "name": "mvndicraft:siege/catapult/launch"
+      }
+    ]
+  },
   "soundscapes.ambient.caves.addition": {
     "sounds": [
       {
