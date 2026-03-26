@@ -6,8 +6,8 @@
 	"textures": {
 		"4": "block/chains_hanger",
 		"5": "block/redstone_torch",
-		"1_1": "block/copper_lantern",
-		"particle": "block/bronze_bowl"
+		"particle": "block/copper_lantern",
+		"1_1": "block/copper_lantern"
 	},
 	"elements": [
 		{

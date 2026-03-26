@@ -169,6 +169,11 @@
   "item.minecraft.baked_potato": "Cooked Cabbage",
   "item.minecraft.poisonous_potato": "Rotten Cabbage",
   "item.minecraft.cocoa_beans": "Dates",
+  "item.minecraft.potion.effect.poison": "Potion of Plague",
+  "item.minecraft.splash_potion.effect.poison": "Splash Potion of Plague",
+  "item.minecraft.tipped_arrow.effect.poison": "Arrow of Plague",
+  "item.minecraft.lingering_potion.effect.poison": "Lingering Potion of Plague",
+
 
   "block.minecraft.quartz_block": "Block of Marble",
   "block.minecraft.quartz_stairs": "Marble Stairs",
@@ -181,6 +186,7 @@
   "block.minecraft.smooth_quartz_slab": "Smooth Marble Slab",
   "item.minecraft.quartz": "Marble",
   "menu.playerReporting": "Report",
+  "effect.minecraft.poison": "Plague",
 
   "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
   "menu.game": "",

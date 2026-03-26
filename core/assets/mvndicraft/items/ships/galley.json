@@ -9,6 +9,44 @@
         "index": 0,
         "cases": [
           {
+            "when": "no_forecastle",
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:custom_model_data",
+              "index": 0,
+              "entries": [
+                {
+                  "threshold": 0.67,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/no_forecastle/undamaged"
+                  }
+                },
+                {
+                  "threshold": 0.33,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/no_forecastle/lightly_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.01,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/no_forecastle/heavily_damaged"
+                  }
+                },
+                {
+                  "threshold": 0.0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "mvndicraft:vehicles/ships/galley/bow/no_forecastle/broken"
+                  }
+                }
+              ]
+            }
+          },
+          {
             "when": "test",
             "model": {
               "type": "minecraft:range_dispatch",

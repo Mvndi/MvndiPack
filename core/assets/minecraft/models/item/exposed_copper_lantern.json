@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/copper_lantern",
+	"textures": {
+		"0": "block/copper_lantern_floor1",
+		"2": "block/redstone_torch",
+		"particle": "block/copper_lantern_floor1"
+  }
+}

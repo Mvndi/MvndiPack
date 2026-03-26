@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/copper_lantern_hanging",
+  	"textures": {
+		"4": "block/chains_hanger",
+		"5": "block/redstone_torch",
+		"particle": "block/copper_lantern3",
+		"1_1": "block/copper_lantern3"
+  }
+}
