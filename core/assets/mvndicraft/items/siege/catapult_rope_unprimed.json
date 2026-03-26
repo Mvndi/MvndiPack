@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/stick"
+    },
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_0"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_2"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_3"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_4"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_5"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_6"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_7"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:siege/block/catapult/rope/unprimed_8"
+        }
+      }
+    ]
+  }
+}
