@@ -371,7 +371,21 @@
       "ascent": 7,
       "height": 8,
       "chars": ["𐎁"]
-    },	
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/vip_plus.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎂"]
+    },
+    {
+      "type": "bitmap",
+      "file": "mvndicraft:ui/ranks/vip_plus_plus.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["𐎃"]
+    },
     {
       "type": "bitmap",
       "file": "mvndicraft:ui/ranks/def.png",
