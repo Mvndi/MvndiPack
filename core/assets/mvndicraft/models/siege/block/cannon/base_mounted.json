@@ -64,9 +64,9 @@
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [6.4, 6.4, 10]},
 			"faces": {
 				"north": {"uv": [3, 11.25, 13, 11.75], "rotation": 90, "texture": "#3"},
-				"east": {"uv": [3, 11.25, 13, 12.75], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [3, 11, 13, 12.5], "rotation": 90, "texture": "#3"},
 				"south": {"uv": [3, 11.25, 13, 11.75], "rotation": 90, "texture": "#3"},
-				"west": {"uv": [3, 11.25, 13, 12.75], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [3, 11, 13, 12.5], "rotation": 90, "texture": "#3"},
 				"up": {"uv": [4.75, 10, 5.25, 11.5], "texture": "#3"},
 				"down": {"uv": [4, 10.25, 4.5, 11.75], "texture": "#3"}
 			}
@@ -77,9 +77,9 @@
 			"rotation": {"angle": 0, "axis": "x", "origin": [6.4, 10.24, 22.16]},
 			"faces": {
 				"north": {"uv": [3, 11.25, 5, 11.75], "rotation": 90, "texture": "#3"},
-				"east": {"uv": [3, 11.25, 5, 12.75], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [5, 11, 3, 12.5], "rotation": 90, "texture": "#3"},
 				"south": {"uv": [3, 11.25, 5, 11.75], "rotation": 90, "texture": "#3"},
-				"west": {"uv": [3, 11.25, 5, 12.75], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [5, 11, 3, 12.5], "rotation": 90, "texture": "#3"},
 				"up": {"uv": [3, 11.25, 4.5, 11.75], "rotation": 90, "texture": "#3"},
 				"down": {"uv": [4.25, 10.5, 4.75, 12], "texture": "#3"}
 			}
@@ -122,11 +122,13 @@
 		{
 			"name": "Cannon",
 			"origin": [11, 0, 17],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "Stationary",
 					"origin": [0, 0, 11],
+					"scope": 0,
 					"color": 0,
 					"children": [0, 1, 2, 3, 4, 5, 6, 7]
 				}
