@@ -16,7 +16,9 @@
 				{ "up": "true", "north": "none", "east": "none", "south": "low", "west": "low" },
 				{ "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
 				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "none" },
-				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" }
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "low" }
 			]},
         "apply": { "model": "block/granite_wall/granite_wall_post" }
         },
@@ -29,7 +31,9 @@
 
 				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
 				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
-				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" }
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "low" }
 
 			]},
         "apply": { "model": "block/granite_wall/granite_wall_side", "y": 0 , "uvlock": true }
@@ -42,7 +46,10 @@
 
 				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
 				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
-				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" }
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "low" }
+
 			]},
         "apply": { "model": "block/granite_wall/granite_wall_side", "y": 90 , "uvlock": true }
         },
@@ -54,7 +61,10 @@
 
 				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
 				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
-				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" }
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "low" }
+
 			]},
         "apply": { "model": "block/granite_wall/granite_wall_side", "y": 180 , "uvlock": true }
         },
@@ -66,7 +76,10 @@
 
 				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
 				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
-				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" }
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
+
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "low" }
+
 			]},
         "apply": { "model": "block/granite_wall/granite_wall_side", "y": 270 , "uvlock": true }
         },
