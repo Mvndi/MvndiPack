@@ -1,10 +1,88 @@
 {
-    "variants": {
-        "north=none,south=none,east=low,west=low": { "model": "block/granite_wall_eastwest" },
-        "north=none,south=none,east=none,west=low": { "model": "block/granite_wall_eastwest" },
-        "north=none,south=none,east=low,west=none": { "model": "block/granite_wall_eastwest" },
-        "west=none,east=none,south=low,north=low": { "model": "block/granite_wall_northsouth" },
-        "west=none,east=none,south=none,north=low": { "model": "block/granite_wall_northsouth" },
-        "west=none,east=none,south=low,north=none": { "model": "block/granite_wall_northsouth" }
-    }
+    "multipart": [
+        {"when": { "OR": [
+				{ "north": "tall" },
+				{ "east": "tall" },
+				{ "south": "tall" },
+				{ "west": "tall" },
+				{ "up": "true", "north": "none", "west": "none", "east": "none", "south": "none" },
+				{ "up": "false", "north": "low", "west": "low", "east": "low", "south": "low" },
+
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "none", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "none" },
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" }
+			]},
+        "apply": { "model": "block/granite_wall/granite_wall_post" }
+        },
+
+        {"when": { "OR": [
+				{ "north": "tall" },
+				{ "up": "false", "north": "low", "west": "low", "east": "low", "south": "low" },
+				{ "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "none" },
+
+				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" }
+
+			]},
+        "apply": { "model": "block/granite_wall/granite_wall_side", "y": 0 , "uvlock": true }
+        },
+        {"when": { "OR": [
+				{ "east": "tall" },
+				{ "up": "false", "north": "low", "west": "low", "east": "low", "south": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "none" },
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" }
+			]},
+        "apply": { "model": "block/granite_wall/granite_wall_side", "y": 90 , "uvlock": true }
+        },
+        {"when": { "OR": [
+				{ "south": "tall" },
+				{ "up": "false", "north": "low", "west": "low", "east": "low", "south": "low" },
+				{ "up": "true", "north": "none", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" },
+
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" }
+			]},
+        "apply": { "model": "block/granite_wall/granite_wall_side", "y": 180 , "uvlock": true }
+        },
+        {"when": { "OR": [
+				{ "west": "tall" },
+				{ "up": "false", "north": "low", "west": "low", "east": "low", "south": "low" },
+				{ "up": "true", "north": "none", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
+
+				{ "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
+				{ "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" }
+			]},
+        "apply": { "model": "block/granite_wall/granite_wall_side", "y": 270 , "uvlock": true }
+        },
+
+
+        {   "when": { "OR": [
+				{ "north": "low", "west": "none", "east": "none" },
+				{ "south": "low", "west": "none", "east": "none" }
+			]},
+			"apply": { "model": "block/granite_wall/granite_wall_northsouth" }
+		},
+        {   "when": { "OR": [
+				{ "east": "low", "north": "none", "south": "none" },
+				{ "west": "low", "north": "none", "south": "none" }
+			]},
+			"apply": { "model": "block/granite_wall/granite_wall_eastwest" }
+		}
+    ]
 }
