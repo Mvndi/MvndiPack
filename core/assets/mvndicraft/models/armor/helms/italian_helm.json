@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "Armet_Helm_Toppiece_Regular",
-		"2": "Armet_Helmet_front_Regular",
-		"6": "Armet_Helm_Base_regular",
-		"particle": "Armet_Helm_Toppiece_Regular"
+		"1": "mvndicraft:armor/helms/Armet_Helm_Toppiece_Regular",
+		"2": "mvndicraft:armor/helms/Armet_Helmet_front_Regular",
+		"6": "mvndicraft:armor/helms/Armet_Helm_Base_regular",
+		"particle": "mvndicraft:armor/helms/Armet_Helm_Toppiece_Regular"
 	},
 	"elements": [
 		{
