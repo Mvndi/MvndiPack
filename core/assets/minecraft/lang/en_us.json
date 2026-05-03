@@ -212,5 +212,7 @@
   "block.minecraft.oak_shelf": "Polished Granite Vertical Slab",
   "block.minecraft.pale_oak_shelf": "Polished Diorite Vertical Slab",
   "block.minecraft.spruce_shelf": "Diorite Vertical Slab",
-  "block.minecraft.warped_shelf": "Dark Oak Vertical Slab"
+  "block.minecraft.warped_shelf": "Dark Oak Vertical Slab",
+  "block.minecraft.sunflower": "Lavender"
+  
 }
