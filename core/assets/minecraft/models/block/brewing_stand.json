@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "bottles:item/bottle_apothecary",
-		"3": "block/brewing_stand",
+		"3": "block/new_brewing_stand",
 		"4": "block/stove",
 		"5": "block/brewing_stand_fire",
 		"6": "block/drop",
