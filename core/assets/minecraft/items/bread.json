@@ -18,56 +18,42 @@
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:farming/cheese/bowl_of_brie"
+                    "model": "mvndicraft:farming/cheese/brie"
                 }
             },
             {
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:farming/cheese/brie"
+                    "model": "mvndicraft:farming/cheese/cheddar"
                 }
             },
             {
                 "threshold": 4,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:farming/cheese/cheddar"
+                    "model": "mvndicraft:farming/cheese/chevre"
                 }
             },
             {
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:farming/cheese/chevre"
+                    "model": "mvndicraft:farming/cheese/gloucester"
                 }
             },
             {
                 "threshold": 6,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:farming/cheese/gloucester"
+                    "model": "mvndicraft:farming/cheese/manchego"
                 }
             },
             {
                 "threshold": 7,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:item/kumys"
-                }
-            },
-            {
-                "threshold": 8,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:item/manchego"
-                }
-            },
-            {
-                "threshold": 9,
-                "model": {
-                    "type": "model",
-                    "model": "mvndicraft:item/pecorino"
+                    "model": "mvndicraft:farming/cheese/pecorino"
                 }
             }
         ]
