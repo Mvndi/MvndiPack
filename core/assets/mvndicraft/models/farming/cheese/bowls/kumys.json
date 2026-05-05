@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "item/bowl",
-		"1": "mvndicraft:farming/cheese/kumys",
+		"1": "item/kumys",
 		"particle": "item/bowl"
 	},
 	"elements": [
