@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/smooth_sandstone" },
+            { "model": "block/smooth_sandstone", "y": 90 },
+            { "model": "block/smooth_sandstone", "y": 180 },
+            { "model": "block/smooth_sandstone", "y": 270 },
+            { "model": "block/smooth_sandstone", "x": 90 },
+            { "model": "block/smooth_sandstone", "x": 90, "y": 90 },
+            { "model": "block/smooth_sandstone", "x": 90, "y": 180 },
+            { "model": "block/smooth_sandstone", "x": 90, "y": 270 },
+            { "model": "block/smooth_sandstone", "x": 180 },
+            { "model": "block/smooth_sandstone", "x": 180, "y": 90 },
+            { "model": "block/smooth_sandstone", "x": 180, "y": 180 },
+            { "model": "block/smooth_sandstone", "x": 180, "y": 270 },
+            { "model": "block/smooth_sandstone", "x": 270 },
+            { "model": "block/smooth_sandstone", "x": 270, "y": 90 },
+            { "model": "block/smooth_sandstone", "x": 270, "y": 180 },
+            { "model": "block/smooth_sandstone", "x": 270, "y": 270 }
+        ]
+    }
+}
