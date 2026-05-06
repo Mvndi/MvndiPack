@@ -108,8 +108,8 @@
 		},
 		"gui": {
 			"rotation": [32, 25, 0],
-			"translation": [0, 5.5, 0],
-			"scale": [1.31, 1.31, 1.31]
+			"translation": [0, 6, 0],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"head": {
 			"translation": [0, 33.25, 0],
@@ -125,7 +125,6 @@
 		{
 			"name": "cheese",
 			"origin": [8, 1, 8],
-			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
@@ -135,7 +134,6 @@
 				{
 					"name": "faces",
 					"origin": [7, 2, 7],
-					"scope": 0,
 					"color": 0,
 					"children": [4, 5]
 				}
