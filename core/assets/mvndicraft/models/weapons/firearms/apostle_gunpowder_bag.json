@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:weapons/firearms/apostle_powder_bag",
+		"particle": "mvndicraft:weapons/firearms/apostle_powder_bag"
+	},
+	"elements": [
+		{
+			"from": [6.28033, 3.36612, 8],
+			"to": [8.28033, 5.36612, 13],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.03033, 4.36612, 8.25]},
+			"faces": {
+				"north": {"uv": [2, 0, 0, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 1, 0, 3], "texture": "#0"},
+				"west": {"uv": [0, 5, 2, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2, 0, 0, 5], "texture": "#0"},
+				"down": {"uv": [0, 5, 2, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.78033, 2.86612, 7],
+			"to": [8.78033, 5.86612, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [6.53033, 3.86612, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 13, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 13, 1, 16], "texture": "#0"},
+				"south": {"uv": [0, 13, 3, 16], "texture": "#0"},
+				"west": {"uv": [0, 13, 1, 16], "texture": "#0"},
+				"up": {"uv": [0, 15, 3, 16], "texture": "#0"},
+				"down": {"uv": [0, 15, 3, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 2, 5.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-1.25, 2, 5.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 84],
+			"translation": [-7.5, 5.25, 7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, -55],
+			"translation": [0.25, 5.75, 7.75]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -0.5, 2.75]
+		},
+		"gui": {
+			"rotation": [121, 17, 75],
+			"translation": [-5.5, 0.75, 0],
+			"scale": [1.23, 1.23, 1.23]
+		},
+		"head": {
+			"rotation": [0, 0, 90],
+			"translation": [-7.5, -0.5, -9.75],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [1.5, 7.25, -10],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		{
+			"name": "group",
+			"origin": [6.53033, 3.86612, 8.25],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		}
+	]
+}
