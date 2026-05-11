@@ -1,32 +1,284 @@
 {
-	"model" : {
-			"type": "select",
-			"property":  "display_context",
-			"fallback": {
-				"type":"model",
-				"model": "item/potion",
-				"tints": [
-						  {
-							"type": "potion",
-							"default": -13083194
-						  }
-						]
-			},
-			"cases": [
-				{
-					"when": "gui",
-					"model": {
-						"type":"model",
-						"model":"item/potion",
-						"tints": [
-						  {
-							"type": "potion",
-							"default": -13083194
-						  }
-						]
-					}
-				
-				}
-			]
-	}
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/potion",
+            "tints": [
+                {
+                    "type": "potion",
+                    "default": -13083194
+                }
+            ]
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/airag"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/ale"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/amaretto"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/aqua_ardens"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/aqua_vitae"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/bochet"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/bock_beer"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/bragawd"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/brandy"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/budweiser"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/cider"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/clairet"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/dark_beer"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/date_wine"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/grodziskie"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/herbal_wine"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/honeyed_wine"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/khrenovukha"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/klosterbier"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/koyt_beer"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/mead"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/medovukha"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/melomel"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/metheglin"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/port_wine"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/raisin_wine"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/red_ale"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/red_wine"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/resinated_wine"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/sherry"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/sparkling_wine"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/sugarcane_wine"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/tej"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/vinegar"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/wheat_beer"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/whiskey"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/white_wine"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:item/bottles/wormwood_wine"
+                }
+            }
+        ]
+    }
 }

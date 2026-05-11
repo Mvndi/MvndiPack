@@ -20,6 +20,20 @@
                     "type": "model",
                     "model": "mvndicraft:farming/bowl_cottage_cheese"
                 }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/cheese/bowls/bowl_of_"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:farming/cheese/bowls/kumys"
+                }
             }
         ]
     }
