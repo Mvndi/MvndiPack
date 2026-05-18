@@ -1,5 +1,10 @@
 {
   "layers": {
-    "humanoid": [{ "texture": "mvndicraft:medium_boots" }]
+    "humanoid": [
+      {
+        "dyeable": { "color_when_undyed": 16777215 },
+        "texture": "mvndicraft:medium_boots"
+      }
+    ]
   }
 }
