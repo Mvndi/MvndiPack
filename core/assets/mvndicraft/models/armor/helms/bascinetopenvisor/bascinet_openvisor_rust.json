@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"4": "mvndicraft:armor/helms/BascinetOpenVisor/Bascinet_OpenVisor_Regular",
-		"12": "mvndicraft:armor/helms/BascinetOpenVisor/Bascinet_OpenVisorB_Regular",
-		"particle": "mvndicraft:armor/helms/BascinetOpenVisor/Bascinet_OpenVisor_Regular"
+		"4": "mvndicraft:armor/helms/bascinetopenvisor/bascinet_openvisoru_rust",
+		"12": "mvndicraft:armor/helms/bascinetopenvisor/bascinet_openvisorb_rust",
+		"particle": "mvndicraft:armor/helms/bascinetopenvisor/bascinet_openvisoru_rust"
 	},
 	"elements": [
 		{
