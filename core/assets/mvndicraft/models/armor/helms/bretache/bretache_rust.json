@@ -3,11 +3,11 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [8, 8],
 	"textures": {
-		"2": "mvndicraft:armor/helms/Bretache/BretacheAndHoundskullChainmail",
-		"3": "mvndicraft:armor/helms/Bretache/BretacheNose_Gold",
-		"4": "mvndicraft:armor/helms/Bretache/BRetacheUp_Gold",
-		"12": "mvndicraft:armor/helms/Bretache/BretacheBottom_Gold",
-		"particle": "mvndicraft:armor/helms/Bretache/BretacheAndHoundskullChainmail"
+		"2": "mvndicraft:armor/helms/bretache/bretacheandhoundskullchainmail",
+		"3": "mvndicraft:armor/helms/bretache/bretachenose_rust",
+		"4": "mvndicraft:armor/helms/bretache/bretacheup_rust",
+		"12": "mvndicraft:armor/helms/bretache/bretachebottom_rust",
+		"particle": "mvndicraft:armor/helms/bretache/bretacheandhoundskullchainmail"
 	},
 	"elements": [
 		{
