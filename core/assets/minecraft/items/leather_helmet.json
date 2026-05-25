@@ -445,7 +445,7 @@
                 "threshold": 63,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/barmitsa_conical_faceplate"
+                    "model": "mvndicraft:armor/helms/barmitsa/barmitsa_conical_faceplate"
                 }
             },
             {
