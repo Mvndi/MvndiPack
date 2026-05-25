@@ -389,7 +389,7 @@
                 "threshold": 55,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/bretache_bascinet"
+                    "model": "mvndicraft:armor/helms/bretache/bretache_regular"
                 }
             },
             {

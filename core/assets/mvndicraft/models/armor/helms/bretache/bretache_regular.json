@@ -4,9 +4,9 @@
 	"texture_size": [8, 8],
 	"textures": {
 		"2": "mvndicraft:armor/helms/bretache/bretacheandhoundskullchainmail",
-		"3": "mvndicraft:armor/helms/bretache/bretachenose2",
-		"4": "mvndicraft:armor/helms/bretache/bascinet_faceandup_bretache",
-		"12": "mvndicraft:armor/helms/bretache/bascinet_bottom_bretache",
+		"3": "mvndicraft:armor/helms/bretache/bretachenose_regular",
+		"4": "mvndicraft:armor/helms/bretache/bretacheup_regular",
+		"12": "mvndicraft:armor/helms/bretache/bretachebottom_regular",
 		"particle": "mvndicraft:armor/helms/bretache/bretacheandhoundskullchainmail"
 	},
 	"elements": [
