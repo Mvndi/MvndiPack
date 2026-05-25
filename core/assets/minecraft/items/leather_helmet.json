@@ -375,7 +375,7 @@
                 "threshold": 53,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/hounskull_bascinet"
+                    "model": "mvndicraft:armor/helms/flatfacedhoundskull/flatfacehoundskull_regular"
                 }
             },
             {
