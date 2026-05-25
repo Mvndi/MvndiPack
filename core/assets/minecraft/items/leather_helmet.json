@@ -354,7 +354,7 @@
                 "threshold": 50,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/visored_ridge_bascinet_helm"
+                    "model": "mvndicraft:armor/helms/flatfacedhoundskull/flatfacehoundskull_regular"
                 }
             },
             {
