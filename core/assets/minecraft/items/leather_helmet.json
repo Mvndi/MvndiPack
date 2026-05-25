@@ -228,7 +228,7 @@
                 "threshold": 32,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/morion_helm"
+                    "model": "mvndicraft:armor/helms/morionhelm/capacetehelmet"
                 }
             },
             {
