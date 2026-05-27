@@ -39,7 +39,7 @@
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/bucket_helm"
+                    "model": "mvndicraft:armor/helms/bascinetopenvisor/bascinet_openvisor"
                 }
             },
             {
