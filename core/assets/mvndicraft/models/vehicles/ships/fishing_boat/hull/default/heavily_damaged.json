@@ -1,6 +1,7 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:vehicles/ships/display",
 	"textures": {
 		"0": "mvndicraft:vehicles/ships/oak_planks",
 		"particle": "mvndicraft:vehicles/ships/oak_planks"

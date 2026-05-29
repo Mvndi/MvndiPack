@@ -1,6 +1,7 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [4, 4],
 	"textures": {
 		"1": "mvndicraft:vehicles/ships/white_wool",
