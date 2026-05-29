@@ -1383,7 +1383,31 @@
                     "type": "model",
                     "model": "mvndicraft:vehicles/ships/rowboat/hull"
                 }
-            },                                     
+            },
+            {
+                "threshold": 194,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/fishing_boat/bow/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/fishing_boat/hull/default/undamaged"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/fishing_boat/mast/default/undamaged/full"
+                      },
+                      {
+                        "type": "model",
+                        "model": "mvndicraft:vehicles/ships/fishing_boat/stern/default/undamaged"
+                      }                                  
+                    ]
+                  }
+            },                                   
             {
                 "threshold": 197,
                 "model": {
