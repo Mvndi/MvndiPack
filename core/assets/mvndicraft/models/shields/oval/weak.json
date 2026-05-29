@@ -2,7 +2,6 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "mvndicraft:shields/oval/base",
 		"2": "mvndicraft:shields/oval/weak",
 		"3": "mvndicraft:shields/oval/back",
 		"4": "mvndicraft:shields/shield_handle",
@@ -16,7 +15,11 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.05, 7.5, 7.89]},
 			"faces": {
 				"north": {"uv": [4.5, 2, 11.5, 14], "texture": "#3"},
-				"south": {"uv": [4.5, 2, 11.5, 14], "texture": "#1"}
+				"east": {"uv": [0, 0, 0, 0], "texture": "#3"},
+				"south": {"uv": [4.5, 2, 11.5, 14], "texture": "#3"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#3"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#3"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#3"}
 			}
 		},
 		{
