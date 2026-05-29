@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/barrier"
+    },
+    "entries": [
+      {
+        "threshold": 4100,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:farming/cheese/press/chesse_press"
+        }
+      },
+      {
+        "threshold": 4101,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:farming/cheese/press/chesse_pressing_1"
+        }
+      },
+      {
+        "threshold": 4102,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:farming/cheese/press/chesse_pressing_2"
+        }
+      },
+      {
+        "threshold": 4103,
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:farming/cheese/press/chesse_pressing_3"
+        }
+      }
+    ]
+  }
+}

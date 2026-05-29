@@ -1,7 +1,13 @@
 {
 	"layers": {
 		"humanoid": [
-			{ "texture": "mvndicraft:allantica_brigandine" }
+			{ "texture": "mvndicraft:allantica_brigandine" },
+			{
+				"dyeable": {
+				"color_when_undyed": 16777215
+				},
+				"texture": "mvndicraft:allantica_brigandine_fabric"
+			}
 		],
 		"humanoid_leggings": [
 			{ "texture": "mvndicraft:allantica" }
