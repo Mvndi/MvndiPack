@@ -1,0 +1,12 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:armor/helms/sallet/sallet_helm_new",
+	"textures": {
+		"1": "mvndicraft:armor/helms/sallet/sallet_feather",
+		"3": "mvndicraft:armor/helms/sallet/sallet_feather2",
+		"4": "mvndicraft:armor/helms/sallet/sallet_helmetbottompart_darkgold",
+		"8": "mvndicraft:armor/helms/sallet/sallet_helmettoppart_dark2gold",
+		"particle": "mvndicraft:armor/helms/sallet/sallet_helmetbottompart_darkgold"
+	}
+}

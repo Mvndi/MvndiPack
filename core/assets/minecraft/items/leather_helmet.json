@@ -39,7 +39,7 @@
                 "threshold": 5,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/bucket_helm"
+                    "model": "mvndicraft:armor/helms/bascinetopenvisor/bascinet_openvisor"
                 }
             },
             {
@@ -214,7 +214,7 @@
                 "threshold": 30,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/kipchak_helm"
+                    "model": "mvndicraft:armor/helms/kipchak/kipchak_helm"
                 }
             },
             {
@@ -228,7 +228,7 @@
                 "threshold": 32,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/morion_helm"
+                    "model": "mvndicraft:armor/helms/morionhelm/capacetehelmet"
                 }
             },
             {
@@ -354,7 +354,7 @@
                 "threshold": 50,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/visored_ridge_bascinet_helm"
+                    "model": "mvndicraft:armor/helms/flatfacedhoundskull/flatfacehoundskull_regular"
                 }
             },
             {
@@ -375,7 +375,7 @@
                 "threshold": 53,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/hounskull_bascinet"
+                    "model": "mvndicraft:armor/helms/houndskullrevised/houndskull_regular"
                 }
             },
             {
@@ -389,7 +389,7 @@
                 "threshold": 55,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/bretache_bascinet"
+                    "model": "mvndicraft:armor/helms/bretache/bretache_regular"
                 }
             },
             {
@@ -445,7 +445,7 @@
                 "threshold": 63,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/barmitsa_conical_faceplate"
+                    "model": "mvndicraft:armor/helms/barmitsa/barmitsa_conical_faceplate"
                 }
             },
             {
