@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/archery/arrow",
 		"1": "mvndicraft:weapons/archery/pilum",
@@ -107,32 +109,6 @@
 				"west": {"uv": [10, 12.5, 11, 14.5], "texture": "#1"},
 				"up": {"uv": [10, 12.5, 11, 14.5], "texture": "#1"},
 				"down": {"uv": [10, 12.5, 11, 14.5], "texture": "#1"}
-			}
-		},
-		{
-			"from": [7.71002, 0.33462, 11.82921],
-			"to": [8.29002, 1.33462, 12.40921],
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.00002, 7.33462, 11.82921]},
-			"faces": {
-				"north": {"uv": [15, 14, 16, 15.5], "texture": "#1"},
-				"east": {"uv": [15, 14, 16, 15.5], "texture": "#1"},
-				"south": {"uv": [15, 14, 16, 15.5], "texture": "#1"},
-				"west": {"uv": [15, 14, 16, 15.5], "texture": "#1"},
-				"up": {"uv": [15, 14, 16, 15.5], "texture": "#1"},
-				"down": {"uv": [15, 15, 15.5, 15.5], "texture": "#1"}
-			}
-		},
-		{
-			"from": [7.71002, 13.07315, 6.47164],
-			"to": [8.29002, 14.07315, 7.05164],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.00002, 21.07315, 6.47164]},
-			"faces": {
-				"north": {"uv": [15, 14, 16, 15.5], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [15, 14, 16, 15.5], "rotation": 180, "texture": "#1"},
-				"south": {"uv": [15, 14, 16, 15.5], "rotation": 180, "texture": "#1"},
-				"west": {"uv": [15, 14, 16, 15.5], "rotation": 180, "texture": "#1"},
-				"up": {"uv": [15, 15, 15.5, 15.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [15, 14, 16, 15.5], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
@@ -264,11 +240,25 @@
 			"scale": [2, 1, 1.5]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
 		{
 			"name": "arrow",
 			"origin": [8, 8, 8],
-			"children": [14, 15, 16, 17, 18]
+			"scope": 0,
+			"color": 0,
+			"children": [12, 13, 14, 15, 16]
 		}
 	]
 }

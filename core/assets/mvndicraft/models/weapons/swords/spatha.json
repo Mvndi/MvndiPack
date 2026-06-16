@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/swords/spatha_tip_steel",
 		"1": "mvndicraft:weapons/swords/blade_steel",
@@ -226,6 +228,7 @@
 		{
 			"name": "blade",
 			"origin": [7.93567, 11.98615, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
@@ -233,6 +236,7 @@
 				{
 					"name": "group",
 					"origin": [7.93567, 10.38615, 8.01406],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						2,
@@ -242,6 +246,7 @@
 						{
 							"name": "group",
 							"origin": [8.00045, 10.03646, 8],
+							"scope": 0,
 							"color": 0,
 							"children": []
 						}
@@ -252,6 +257,7 @@
 		{
 			"name": "handle",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [6, 7, 8, 9, 10, 11, 12, 13]
 		}

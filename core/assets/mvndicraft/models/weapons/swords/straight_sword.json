@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/swords/blade_iron_lsword_2",
 		"1": "mvndicraft:weapons/swords/tip_iron",
@@ -217,40 +219,40 @@
 			"to": [11.71995, 0.67721, 8.94002],
 			"rotation": {"angle": 0, "axis": "y", "origin": [10.77915, 0.33561, 8.00002]},
 			"faces": {
-				"north": {"uv": [4, 13.75, 4, 16], "rotation": 270, "texture": "#0"},
+				"north": {"uv": [4, 16, 4, 13.75], "rotation": 270, "texture": "#0"},
 				"east": {"uv": [1, 1, 1.5, 1.5], "rotation": 270, "texture": "#0"},
-				"south": {"uv": [4, 13.75, 4, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [3.75, 13.75, 4, 16], "rotation": 270, "texture": "#0"},
 				"west": {"uv": [1, 1, 1.5, 1.5], "rotation": 270, "texture": "#0"},
 				"up": {"uv": [3.75, 13.75, 4.25, 16], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [3.75, 13.75, 4.25, 16], "rotation": 270, "texture": "#0"}
+				"down": {"uv": [3.75, 16, 4.25, 13.75], "rotation": 270, "texture": "#0"}
 			}
 		},
 		{
 			"name": "guard",
-			"from": [3.52995, 0.09401, 7.06002],
-			"to": [4.56995, 0.87721, 8.94002],
+			"from": [3.49995, 0.06401, 7.03002],
+			"to": [4.59995, 0.90721, 8.97002],
 			"rotation": {"angle": 0, "axis": "y", "origin": [11.02915, 0.33561, 8.00002]},
 			"faces": {
-				"north": {"uv": [3.75, 15.75, 4, 16], "rotation": 270, "texture": "#0"},
-				"east": {"uv": [3.75, 15.75, 4, 16], "rotation": 270, "texture": "#0"},
-				"south": {"uv": [3.75, 15.75, 4, 16], "rotation": 270, "texture": "#0"},
-				"west": {"uv": [3.75, 15.75, 4, 16], "rotation": 270, "texture": "#0"},
-				"up": {"uv": [3.75, 15.75, 4, 16], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [3.75, 15.75, 4, 16], "rotation": 270, "texture": "#0"}
+				"north": {"uv": [3.75, 15.5, 4.25, 15.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [3.75, 14, 4.25, 14.25], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [4.25, 15.25, 3.75, 15.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [4.25, 15, 3.75, 15.5], "texture": "#0"},
+				"up": {"uv": [3.75, 15, 4.25, 15.25], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [3.75, 15.75, 4.25, 16], "rotation": 270, "texture": "#0"}
 			}
 		},
 		{
 			"name": "guard",
-			"from": [11.42995, 0.09401, 7.06002],
-			"to": [12.46995, 0.87721, 8.94002],
+			"from": [11.39995, 0.06401, 7.03002],
+			"to": [12.49995, 0.90721, 8.97002],
 			"rotation": {"angle": 0, "axis": "y", "origin": [18.52915, 0.33561, 8.00002]},
 			"faces": {
-				"north": {"uv": [3.75, 13.75, 4, 14], "rotation": 270, "texture": "#0"},
-				"east": {"uv": [3.75, 13.75, 4, 14], "rotation": 270, "texture": "#0"},
-				"south": {"uv": [3.75, 13.75, 4, 14], "rotation": 270, "texture": "#0"},
-				"west": {"uv": [3.75, 13.75, 4, 14], "rotation": 270, "texture": "#0"},
-				"up": {"uv": [3.75, 13.75, 4, 14], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [3.75, 13.75, 4, 14], "rotation": 270, "texture": "#0"}
+				"north": {"uv": [3.75, 13.5, 4.25, 13.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [3.75, 13.5, 4.25, 14], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [4.25, 15.75, 3.75, 16], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [3.75, 15.75, 4.25, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [3.75, 14, 4.25, 14.25], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [3.75, 15.75, 4.25, 16], "rotation": 270, "texture": "#0"}
 			}
 		},
 		{
@@ -276,7 +278,7 @@
 				"south": {"uv": [2, 14.5, 2.75, 15.25], "rotation": 270, "texture": "#0"},
 				"west": {"uv": [2, 14.5, 2.75, 15], "rotation": 270, "texture": "#0"},
 				"up": {"uv": [3.75, 14.25, 4.25, 15], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [3.75, 14.25, 4.25, 15], "rotation": 270, "texture": "#0"}
+				"down": {"uv": [1.75, 15, 2.5, 15.75], "rotation": 270, "texture": "#0"}
 			}
 		}
 	],
@@ -322,12 +324,14 @@
 		{
 			"name": "blade",
 			"origin": [7.93567, 11.98615, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
 				{
 					"name": "point",
 					"origin": [7.93567, 10.38615, 8.01406],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						1,
@@ -343,6 +347,7 @@
 						{
 							"name": "tip",
 							"origin": [8.00045, 10.03646, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [11, 12, 13, 14, 15, 16]
 						},
@@ -355,6 +360,7 @@
 		{
 			"name": "handle",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [19, 20, 21]
 		},

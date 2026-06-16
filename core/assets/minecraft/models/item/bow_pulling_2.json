@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/archery/arrow",
 		"1": "mvndicraft:weapons/archery/pilum",
@@ -32,9 +34,9 @@
 			}
 		},
 		{
-			"from": [7.92928, 7.28455, 13.81677],
-			"to": [8.07428, 8.18527, 13.9713],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8.01558, 2.28592, 13.23916]},
+			"from": [7.92928, 7.28455, 13.96677],
+			"to": [8.07428, 8.18527, 14.1213],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.01558, 2.28592, 13.38916]},
 			"faces": {
 				"north": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
 				"east": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
@@ -45,9 +47,9 @@
 			}
 		},
 		{
-			"from": [7.92846, 7.85391, 13.89454],
-			"to": [8.07346, 12.7478, 14.03954],
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.00155, 7.84945, 13.17192]},
+			"from": [7.92846, 8.1848, 13.98106],
+			"to": [8.07346, 13.07869, 14.12606],
+			"rotation": {"angle": -39.5, "axis": "x", "origin": [8.00155, 8.17445, 14.12192]},
 			"faces": {
 				"north": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
 				"east": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
@@ -58,9 +60,9 @@
 			}
 		},
 		{
-			"from": [7.93501, 3.16869, 11.63239],
-			"to": [8.08001, 8.06257, 11.77739],
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.0081, 2.16422, 10.90977]},
+			"from": [7.93501, 2.39028, 13.97982],
+			"to": [8.08001, 7.28416, 14.12482],
+			"rotation": {"angle": 40, "axis": "x", "origin": [8.00751, 7.29863, 14.11516]},
 			"faces": {
 				"north": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
 				"east": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
@@ -140,12 +142,12 @@
 			"to": [8.29072, 6.08372, 11.48129],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.00072, 5.50372, 5.48129]},
 			"faces": {
-				"north": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"east": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"south": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"west": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"up": {"uv": [14, 7.5, 15, 12.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [14, 7.5, 15, 12.5], "rotation": 180, "texture": "#1"}
+				"north": {"uv": [15, 13, 16, 8], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [15, 13, 16, 8], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [15, 13, 16, 8], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [15, 8, 16, 13], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [15, 13, 16, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [15, 8, 16, 13], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
@@ -179,12 +181,12 @@
 			"to": [8.28483, 10.01522, 11.70884],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.99483, 9.43522, 5.70884]},
 			"faces": {
-				"north": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"east": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"south": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"west": {"uv": [14, 7.5, 15, 12.5], "rotation": 270, "texture": "#1"},
-				"up": {"uv": [14, 7.5, 15, 12.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [14, 7.5, 15, 12.5], "rotation": 180, "texture": "#1"}
+				"north": {"uv": [15, 8, 16, 13], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [15, 13, 16, 8], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [15, 8, 16, 13], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [15, 8, 16, 13], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [16, 13, 15, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [15, 8, 16, 13], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
@@ -264,10 +266,26 @@
 			"scale": [2, 1, 1.5]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
 		{
 			"name": "arrow",
 			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
 			"children": [14, 15, 16, 17, 18]
 		}
 	]
