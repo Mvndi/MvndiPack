@@ -4,6 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "mvndicraft:weapons/firearms/greek_fire_grenade",
+		"1": "mvndicraft:siege/block/candle_fire",
 		"particle": "mvndicraft:weapons/firearms/greek_fire_grenade"
 	},
 	"elements": [
@@ -123,6 +124,19 @@
 				"up": {"uv": [12.5, 2.5, 12.625, 2.625], "texture": "#0"},
 				"down": {"uv": [12.5, 2.5, 12.75, 3.5], "texture": "#0"}
 			}
+		},
+		{
+			"from": [8, 6, 7.5],
+			"to": [8, 8.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5, -15.25, 12.75]},
+			"faces": {
+				"north": {"uv": [2, 1, 4, 6], "texture": "#1"},
+				"east": {"uv": [2, 1, 4, 6], "texture": "#1"},
+				"south": {"uv": [2, 1, 4, 6], "texture": "#1"},
+				"west": {"uv": [2, 1, 4, 6], "texture": "#1"},
+				"up": {"uv": [2, 1, 4, 6], "texture": "#1"},
+				"down": {"uv": [2, 1, 4, 6], "texture": "#1"}
+			}
 		}
 	],
 	"display": {
@@ -133,10 +147,12 @@
 			"translation": [0, 6.75, 0]
 		},
 		"firstperson_righthand": {
-			"translation": [0, 6.5, 0]
+			"rotation": [-8, 24, 0],
+			"translation": [0, 8, 0]
 		},
 		"firstperson_lefthand": {
-			"translation": [0, 6.5, 0]
+			"rotation": [-8, 24, 0],
+			"translation": [0, 8, 0]
 		},
 		"gui": {
 			"rotation": [22, -41, 0],
@@ -149,7 +165,9 @@
 			"scale": [4, 4, 4]
 		},
 		"fixed": {
-			"translation": [0, 5.5, 0]
+			"rotation": [17, 90, 0],
+			"translation": [0, 9.75, 1.5],
+			"scale": [2.14, 2.14, 2.14]
 		}
 	}
 }
