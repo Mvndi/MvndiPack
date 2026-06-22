@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:weapons/archery/pilum",
 		"particle": "mvndicraft:weapons/archery/pilum"
@@ -57,8 +59,8 @@
 			}
 		},
 		{
-			"from": [7.7101, 8.9093, 6.93436],
-			"to": [8.29001, 9.23673, 7.51336],
+			"from": [7.7111, 8.8853, 6.93536],
+			"to": [8.28901, 9.26073, 7.51236],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.00001, 12.58183, 6.93436]},
 			"faces": {
 				"north": {"uv": [10, 12.5, 11, 14.5], "rotation": 180, "texture": "#0"},
@@ -70,8 +72,8 @@
 			}
 		},
 		{
-			"from": [7.7101, 6.23673, 6.93436],
-			"to": [8.28992, 6.5642, 7.51336],
+			"from": [7.7111, 6.23773, 6.93536],
+			"to": [8.28892, 6.6382, 7.51236],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99992, 12.9093, 6.93436]},
 			"faces": {
 				"north": {"uv": [10, 12.5, 11, 14.5], "texture": "#0"},
@@ -137,55 +139,13 @@
 	],
 	"gui_light": "front",
 	"overrides": [
-		{
-			"predicate": {
-				"pulling": 1
-			},
-			"model": "item/bow_pulling_0"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.65
-			},
-			"model": "item/bow_pulling_1"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.9
-			},
-			"model": "item/bow_pulling_2"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1
-			},
-			"model": "mvndicraft:weapons/archery/longbow"
-		},		
-		{
-			"predicate": {
-				"custom_model_data": 1,
-				"pulling": 1
-			},
-			"model": "mvndicraft:weapons/archery/longbow_pulling_0"
-		},		
-		{
-			"predicate": {
-				"custom_model_data": 1,
-				"pulling": 1,
-				"pull": 0.65
-			},
-			"model": "mvndicraft:weapons/archery/longbow_pulling_1"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1,
-				"pulling": 1,
-				"pull": 0.9
-			},
-			"model": "mvndicraft:weapons/archery/longbow_pulling_2"
-		}
+		{"predicate": {"pulling": 1}, "model": "item/bow_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65}, "model": "item/bow_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9}, "model": "item/bow_pulling_2"},
+		{"predicate": {"custom_model_data": 1}, "model": "mvndicraft:weapons/archery/longbow"},
+		{"predicate": {"custom_model_data": 1, "pulling": 1}, "model": "mvndicraft:weapons/archery/longbow_pulling_0"},
+		{"predicate": {"custom_model_data": 1, "pulling": 1, "pull": 0.65}, "model": "mvndicraft:weapons/archery/longbow_pulling_1"},
+		{"predicate": {"custom_model_data": 1, "pulling": 1, "pull": 0.9}, "model": "mvndicraft:weapons/archery/longbow_pulling_2"}
 	],
 	"display": {
 		"thirdperson_righthand": {
