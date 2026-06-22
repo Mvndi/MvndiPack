@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mvndicraft:gambeson_cuirass_russeted"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mvndicraft:gambeson_russeted"
+      }
+    ]
+  }
+}
