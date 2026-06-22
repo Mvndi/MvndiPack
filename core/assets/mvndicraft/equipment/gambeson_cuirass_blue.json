@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mvndicraft:gambeson_cuirass_blue_brass"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mvndicraft:gambeson_cuirass_blue"
+      }
+    ]
+  }
+}
