@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mvndicraft:gambeson_cuirass_blue_brass"
+      },
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "mvndicraft:gambeson_cuirass_dyable"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mvndicraft:gambeson_cuirass_blue"
+      },
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "mvndicraft:gambeson_cuirass_dyable"
+      }
+    ]
+  }
+}

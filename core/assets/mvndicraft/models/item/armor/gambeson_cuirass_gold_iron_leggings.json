@@ -1,0 +1,8 @@
+{
+  "parent": "item/leggings_layer1",
+  "textures": {
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass_dyable",
+    "layer1": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_gold_iron",
+    "particle": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass_dyable"
+  }
+}

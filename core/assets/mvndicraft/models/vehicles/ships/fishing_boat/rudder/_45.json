@@ -1,0 +1,72 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:vehicles/ships/display",
+	"textures": {
+		"0": "mvndicraft:vehicles/ships/oak_planks",
+		"particle": "mvndicraft:vehicles/ships/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [9.59205, 1.01686, 15.37883],
+			"to": [9.74205, 2.51686, 15.62883],
+			"rotation": {"x": -22.5, "y": -45, "z": 0, "origin": [9.62955, 2.38453, 15.50518]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 0.15], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 1.5, 0.25], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 1.5, 0.15], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 0, 1.5, 0.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0.25, 0.15], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 0.25, 0.15], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [9.59205, -0.23314, 15.25383],
+			"to": [9.74205, 1.01686, 15.75383],
+			"rotation": {"x": -22.5, "y": -45, "z": 0, "origin": [9.62955, 2.38453, 15.50518]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.25, 0.15], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 1.25, 0.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 1.25, 0.15], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 0, 1.25, 0.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0.5, 0.15], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 0.5, 0.15], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [9.59205, -1.60814, 15.37883],
+			"to": [9.74205, -0.23314, 15.87883],
+			"rotation": {"x": -22.5, "y": -45, "z": 0, "origin": [9.62955, 2.38453, 15.50518]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.375, 0.15], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 1.375, 0.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 1.375, 0.15], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 0, 1.375, 0.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0.5, 0.15], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 0.5, 0.15], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.09205, 2.31686, 15.42882],
+			"to": [9.59205, 2.46686, 15.57882],
+			"rotation": {"x": -22.5, "y": -45, "z": 0, "origin": [9.62955, 2.38453, 15.50518]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 0.15], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 0.15, 0.15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 1.5, 0.15], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 0, 0.15, 0.15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 1.5, 0.15], "texture": "#0"},
+				"down": {"uv": [0, 0, 1.5, 0.15], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Rudder",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}
