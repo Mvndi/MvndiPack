@@ -143,6 +143,19 @@
 			}
 		},
 		{
+			"from": [7.825, 31.17183, 7.67752],
+			"to": [8.175, 31.49683, 8.00252],
+			"rotation": {"angle": 43, "axis": "x", "origin": [8, 31.17183, 8.01502]},
+			"faces": {
+				"north": {"uv": [6.75, 7.5, 6, 5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [6, 7.5, 6.1, 5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [6, 7.5, 6.75, 5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [6, 7.5, 6.1, 5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [7.5, 4.75, 7.6, 4], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7.6, 4.75, 7.5, 4], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
 			"from": [7.825, 24.17577, 7.88988],
 			"to": [8.175, 26.67577, 8.23988],
 			"rotation": {"angle": 15, "axis": "x", "origin": [8, 24.17577, 7.88988]},
@@ -291,19 +304,20 @@
 		10,
 		11,
 		12,
+		13,
 		{
 			"name": "wing1",
 			"origin": [8, 8, 8],
 			"scope": 0,
 			"color": 0,
-			"children": [13, 14, 15, 16]
+			"children": [14, 15, 16, 17]
 		},
 		{
 			"name": "wing2",
 			"origin": [8, 8, 8],
 			"scope": 0,
 			"color": 0,
-			"children": [17, 18]
+			"children": [18, 19]
 		},
 		{
 			"name": "group",
