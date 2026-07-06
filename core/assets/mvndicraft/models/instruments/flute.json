@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "mvndicraft:instruments/flute",
+		"particle": "mvndicraft:instruments/flute"
+	},
+	"elements": [
+		{
+			"from": [7, 4, -2],
+			"to": [8, 5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"faces": {
+				"north": {"uv": [4, 14, 5, 15], "texture": "#0"},
+				"east": {"uv": [3, 0, 4, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 15, 5, 16], "texture": "#0"},
+				"west": {"uv": [2, 0, 3, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"down": {"uv": [1, 0, 2, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-86, -4, 20],
+			"translation": [-3, 3, -2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-86, -4, 20],
+			"translation": [-3, 3, -2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-27, -16, 3],
+			"translation": [-4.25, 6.5, 1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-27, -16, 3],
+			"translation": [-4.25, 6.5, 1.75]
+		},
+		"ground": {
+			"translation": [0, 0.75, 0]
+		},
+		"gui": {
+			"rotation": [34, 34, 6],
+			"translation": [2.25, 2, 0.75],
+			"scale": [1.26, 1.26, 1.26]
+		},
+		"head": {
+			"translation": [0, 0, -12.75]
+		},
+		"fixed": {
+			"rotation": [0, 90, -90],
+			"translation": [4, -1, -8],
+			"scale": [2, 2, 2]
+		}
+	}
+}
