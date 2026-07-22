@@ -217,8 +217,8 @@
 			"scale": [2.26, 2.26, 2.26]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [20, 0, 0],
-			"translation": [0, 23.25, 9],
+			"rotation": [88, 0, 3],
+			"translation": [-2.25, 1.25, 41.75],
 			"scale": [2.26, 2.26, 2.26]
 		},
 		"firstperson_righthand": {
