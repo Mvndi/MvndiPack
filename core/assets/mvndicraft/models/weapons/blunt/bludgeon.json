@@ -2,39 +2,65 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:weapons/blunt/totalwarhammer",
-		"particle": "mvndicraft:weapons/blunt/totalwarhammer"
+		"0": "mvndicraft:weapons/blunt/bludgeon",
+		"particle": "mvndicraft:weapons/blunt/bludgeon"
 	},
 	"elements": [
 		{
-			"from": [7.5, 0, 7.75],
-			"to": [8.5, 16, 8.25],
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 5, 8.75],
 			"faces": {
-				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 1, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 1, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"down": {"uv": [0, 15, 1, 16], "texture": "#0"}
+				"north": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"east": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"south": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"west": {"uv": [3, 5, 4.5, 10], "texture": "#0"},
+				"up": {"uv": [3, 5, 4.5, 6.5], "texture": "#0"},
+				"down": {"uv": [3, 10.5, 4.5, 12], "texture": "#0"}
 			}
 		},
 		{
-			"from": [7.75, 0, 7.625],
-			"to": [8.25, 16, 8.375],
+			"from": [7, 5, 7],
+			"to": [9, 18, 9],
 			"faces": {
-				"north": {"uv": [5, 0, 5.5, 16], "texture": "#0"},
-				"east": {"uv": [5, 0, 5.5, 16], "texture": "#0"},
-				"south": {"uv": [5, 0, 5.5, 16], "texture": "#0"},
-				"west": {"uv": [5, 0, 5.5, 16], "texture": "#0"},
-				"up": {"uv": [5, 0, 5.5, 1], "texture": "#0"},
-				"down": {"uv": [5, 15, 5.5, 16], "texture": "#0"}
+				"north": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 13], "texture": "#0"},
+				"up": {"uv": [4.5, 2, 2.5, 0], "texture": "#0"},
+				"down": {"uv": [2.5, 2.5, 4.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 18, 7],
+			"to": [9, 19, 9],
+			"faces": {
+				"north": {"uv": [2, 15, 4, 16], "texture": "#0"},
+				"east": {"uv": [6, 15, 8, 16], "texture": "#0"},
+				"south": {"uv": [4, 15, 6, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 2, 16], "texture": "#0"},
+				"up": {"uv": [16, 2, 14, 0], "texture": "#0"},
+				"down": {"uv": [14, 5, 16, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [9, 19, 9],
+			"to": [7, 18, 7],
+			"faces": {
+				"north": {"uv": [6, 15, 4, 16], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2, 15, 0, 16], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [4, 15, 2, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [8, 15, 6, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [14, 5, 16, 7], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [16, 2, 14, 0], "rotation": 180, "texture": "#0"}
 			}
 		}
 	],
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 4.25, 1.25]
+			"translation": [0, 4.25, 1.25],
+			"scale": [1.14, 1.14, 1.14]
 		},
 		"thirdperson_lefthand": {
 			"translation": [0, 4.25, 1.25],
