@@ -295,8 +295,8 @@
 			"scale": [1.39, 1.39, 1.39]
 		},
 		"firstperson_righthand": {
-			"rotation": [-6, -85, 0],
-			"translation": [-4.5, 4.75, 6.25],
+			"rotation": [8, -63, 17],
+			"translation": [-2.75, 4.25, 6.25],
 			"scale": [1.23, 1.23, 1.23]
 		},
 		"firstperson_lefthand": {
@@ -314,8 +314,8 @@
 			"translation": [-5, 5.25, 0]
 		},
 		"fixed": {
-			"translation": [19, 3.75, 19],
-			"scale": [2.5, 2.5, 2.5]
+			"translation": [14.5, 3.75, 15],
+			"scale": [2.02, 2.02, 2.02]
 		}
 	},
 	"groups": [
