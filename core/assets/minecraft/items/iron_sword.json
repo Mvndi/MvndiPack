@@ -601,7 +601,14 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/"
                 }
-            }
+            },
+            {                                                                                                                                                                                          
+                "threshold": 86,                                                                                                                                                                       
+                "model": {                                                                                                                                                                             
+                     "type": "model",                                                                                                                                                                   
+                     "model": "mvndicraft:weapons/pole_arms/pike_braced"                                                                                                                                
+                  }                                                                                                                                                                                      
+             }    
         ]
     }
 }
