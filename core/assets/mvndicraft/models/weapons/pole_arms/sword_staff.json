@@ -348,9 +348,8 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-11.2, -34.29, -19.33],
-			"translation": [0, 1.5, 1.5],
-			"scale": [1, 1.23, 1]
+			"translation": [0, 0.75, 1.5],
+			"scale": [1.47, 1.47, 1.47]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [60, 0, 0],
