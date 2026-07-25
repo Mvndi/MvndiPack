@@ -398,6 +398,13 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/blunt/spiked_flanged_mace"
                 }
+            },
+            {
+                "threshold": 1037,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/swords/sweihander_block"
+                }
             }
         ]
     }
