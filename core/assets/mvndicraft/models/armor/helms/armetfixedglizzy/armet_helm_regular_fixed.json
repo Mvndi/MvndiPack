@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "mvndicraft:armor/helms/armet_helm_regular",
-        "particle": "mvndicraft:armor/helms/armet_helm_regular_fixed"
+        "particle": "mvndicraft:armor/helms/armet_helm_regular"
 	},
 	"elements": [
 		{

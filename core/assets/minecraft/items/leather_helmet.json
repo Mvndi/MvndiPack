@@ -67,7 +67,7 @@
                 "threshold": 9,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/byz_pot_padded_2"
+                    "model": "mvndicraft:armor/helms/vandalhelm"
                 }
             },
             {
@@ -452,7 +452,7 @@
                 "threshold": 64,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/bucket_helm_"
+                    "model": "mvndicraft:armor/helms/bucket_helm"
                 }
             },
             {
@@ -897,13 +897,13 @@
                 "threshold": 129,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/visored_bucket_helm"
                 }
             },  {
                 "threshold": 130,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/byz_pot_padded_2"
                 }
             },  {
                 "threshold": 131,
