@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"parent": "mvndicraft:weapons/swords/longsword",
 	"display": {
 		"thirdperson_righthand": {
@@ -10,7 +12,7 @@
 			"translation": [0, -6.5, 1.25]
 		},
 		"firstperson_righthand": {
-			"rotation": [-63.8, -0.9, -3.36],
+			"rotation": [-3, -0.9, -3.36],
 			"translation": [0.5, 1.25, -0.5],
 			"scale": [0.68, 0.68, 0.68]
 		},

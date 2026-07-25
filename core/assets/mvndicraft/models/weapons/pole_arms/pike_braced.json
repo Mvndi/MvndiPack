@@ -1,0 +1,25 @@
+{
+	"parent": "mvndicraft:weapons/pole_arms/pike",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-25, 0, 0],
+			"translation": [-0.75, 30, -12],
+			"scale": [2.26, 2.26, 2.26]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-35, 0, 0],
+			"translation": [-0.75, 35, -25],
+			"scale": [2.26, 2.26, 2.26]
+		},
+		"firstperson_righthand": {
+			"rotation": [-60, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [2.11, 2.11, 2.11]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-60, 0, 0],
+			"translation": [0, 30, -10],
+			"scale": [2.11, 2.11, 2.11]
+		}
+	}
+}

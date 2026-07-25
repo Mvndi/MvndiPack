@@ -1,7 +1,11 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
+<<<<<<< HEAD
 	"parent": "kriegsmeser",
+=======
+	"parent": "Kriegsmesser",
+>>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
 	"textures": {
 		"0": "mvndicraft:weapons/swords/kriegsmesser_blade",
 		"1": "mvndicraft:weapons/swords/kriegsmesser_hilt",
@@ -174,6 +178,7 @@
 		},
 		{
 			"from": [8.04104, 30.75615, 7.8],
+<<<<<<< HEAD
 			"to": [8.25354, 31.59715, 8.2],
 			"rotation": {"x": 0, "y": 0, "z": -50, "origin": [8.16604, 31.00615, 8]},
 			"faces": {
@@ -187,6 +192,8 @@
 		},
 		{
 			"from": [8.04104, 30.75615, 7.8],
+=======
+>>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
 			"to": [8.66604, 31.19715, 8.2],
 			"rotation": {"x": 0, "y": 0, "z": -50, "origin": [8.16604, 31.00615, 8]},
 			"faces": {
@@ -200,7 +207,11 @@
 		},
 		{
 			"from": [8.025, 31.125, 7.8],
+<<<<<<< HEAD
 			"to": [8.95, 31.2875, 8.2],
+=======
+			"to": [8.7, 31.275, 8.2],
+>>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
 			"rotation": {"x": 0, "y": 0, "z": 90, "origin": [8.65, 31.175, 8]},
 			"faces": {
 				"north": {"uv": [2.06452, 4.64516, 2.58065, 4.64516], "texture": "#0"},
@@ -235,11 +246,19 @@
 			"translation": [0, 0.5, 6.75]
 		},
 		"firstperson_righthand": {
+<<<<<<< HEAD
 			"rotation": [-13, -85, 0],
 			"translation": [0, 2.75, 2.25]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-13, -85, 0],
+=======
+			"rotation": [-13, 102, 0],
+			"translation": [0, 2.75, 2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-13, 102, 0],
+>>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
 			"translation": [0, 2.75, 2.25]
 		},
 		"ground": {
@@ -294,7 +313,11 @@
 			"origin": [7.61168, 23.9853, 8],
 			"scope": 0,
 			"color": 0,
+<<<<<<< HEAD
 			"children": [10, 11, 12, 13, 14, 15, 16]
+=======
+			"children": [10, 11, 12, 13, 14, 15]
+>>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
 		}
 	]
 }

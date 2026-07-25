@@ -2,7 +2,11 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+<<<<<<< HEAD
 		"1": "mvndicraft:weapons/swords/cinquedea",
+=======
+		"0": "mvndicraft:weapons/swords/cinquedea",
+>>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
 		"particle": "mvndicraft:weapons/swords/cinquedea"
 	},
 	"elements": [
