@@ -911,7 +911,7 @@
                     "type": "model",
                     "model": "mvndicraft:armor/helms/"
                 }
-            },  {
+            },  {   
                 "threshold": 132,
                 "model": {
                     "type": "model",

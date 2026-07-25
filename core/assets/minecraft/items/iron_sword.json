@@ -601,12 +601,6 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/"
                 }
-<<<<<<< HEAD
-            }   
-        ]   
-    } 
-}
-=======
             },
             {                                                                                                                                                                                          
                 "threshold": 86,                                                                                                                                                                       
@@ -618,4 +612,3 @@
         ]
     }
 }
->>>>>>> 58b945ccc34fc8837a01c9af531ac089d9a755ed
