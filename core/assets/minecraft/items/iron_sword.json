@@ -529,21 +529,21 @@
                 "threshold": 75,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/"
+                    "model": "mvndicraft:weapons/swords/cinquedea"
                 }
             },
             {
                 "threshold": 76,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/"
+                    "model": "mvndicraft:weapons/swords/messer"
                 }
             },
             {
                 "threshold": 77,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/h"
+                    "model": "mvndicraft:weapons/swords/kriegsmeser"
                 }
             },
             {
@@ -601,7 +601,7 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/"
                 }
-            }
-        ]
-    }
+            }   
+        ]   
+    } 
 }

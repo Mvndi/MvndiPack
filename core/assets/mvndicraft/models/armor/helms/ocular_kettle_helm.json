@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "mvndicraft:armor/helms/ocular_kettle_helm",
-		"1": "mvndicraft:armor/helms/nasal_kettle_helmet",
+		"1": "mvndicraft:armor/helms/nasal_kettle_helmet2",
 		"particle": "mvndicraft:armor/helms/ocular_kettle_helm"
 	},
 	"elements": [
