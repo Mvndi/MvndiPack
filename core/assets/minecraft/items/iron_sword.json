@@ -608,7 +608,14 @@
                      "type": "model",                                                                                                                                                                   
                      "model": "mvndicraft:weapons/pole_arms/pike_braced"                                                                                                                                
                   }                                                                                                                                                                                      
-             }    
+             },
+             {                                                                                                                                                                                          
+                  "threshold": 1037,                                                                                                                                                                     
+                  "model": {                                                                                                                                                                             
+                      "type": "model",                                                                                                                                                                   
+                      "model": "mvndicraft:weapons/swords/sweihander_block"                                                                                                                              
+                  }                                                                                                                                                                                      
+              }           
         ]
     }
 }
