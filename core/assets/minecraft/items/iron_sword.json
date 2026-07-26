@@ -543,7 +543,7 @@
                 "threshold": 77,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/kriegsmeser"
+                    "model": "mvndicraft:weapons/swords/kriegsmesser"
                 }
             },
             {

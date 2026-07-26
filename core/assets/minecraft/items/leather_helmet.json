@@ -669,7 +669,7 @@
                 "threshold": 95,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/al_andalus_nasal_helm_magenta"
+                    "model": "mvndicraft:armor/helms/nikolskoye_helm"
                 }
             },
             {
@@ -909,7 +909,7 @@
                 "threshold": 131,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/yr_great_helm"
                 }
             },  {   
                 "threshold": 132,
