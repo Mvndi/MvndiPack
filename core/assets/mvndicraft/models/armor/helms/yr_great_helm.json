@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mvndicraft:armor/helms/greathelmby",
-		"2": "mvndicraft:armor/helms/greathelmbysides",
-		"particle": "mvndicraft:armor/helms/greathelmby"
+		"0": "mvndicraft:armor/helms/greathelmrysides",
+		"2": "mvndicraft:armor/helms/greathelmrytopbottom",
+		"particle": "mvndicraft:armor/helms/greathelmrysides"
 	},
 	"elements": [
 		{
