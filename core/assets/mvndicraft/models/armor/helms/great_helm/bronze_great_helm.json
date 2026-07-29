@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mvndicraft:armor/helms/great_helm_bluered",
-		"2": "mvndicraft:armor/helms/great_topbottom_helm_bluered",
-		"particle": "mvndicraft:armor/helms/great_helm_bluered"
+		"0": "mvndicraft:armor/helms/test1greathelm_bronze",
+		"2": "mvndicraft:armor/helms/greathelm_bronzebottomup",
+		"particle": "mvndicraft:armor/helms/test1greathelm_bronze"
 	},
 	"elements": [
 		{

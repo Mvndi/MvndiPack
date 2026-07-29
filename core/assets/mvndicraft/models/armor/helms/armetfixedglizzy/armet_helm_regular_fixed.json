@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "mvndicraft:armor/helms/armet_helm_regular",
-        "particle": "mvndicraft:armor/helms/armet_helm_regular"
+		"3": "mvndicraft:armor/helms/armetfixedglizzy/armet_helm_regular",
+        "particle": "mvndicraft:armor/helms/armetfixedglizzy/armet_helm_regular"
 	},
 	"elements": [
 		{

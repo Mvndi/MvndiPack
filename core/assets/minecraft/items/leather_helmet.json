@@ -25,7 +25,7 @@
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/great_helm/black_great_helm"
+                    "model": "mvndicraft:armor/helms/great_helm/bronze_great_helm"
                 }
             },
             {
@@ -277,7 +277,7 @@
                 "threshold": 39,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/saracen_helm"
+                    "model": "mvndicraft:armor/helms/berezina_helm"
                 }
             },
             {
@@ -515,14 +515,14 @@
                 "threshold": 73,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/great_helm/bw_great_helm"
+                    "model": "mvndicraft:armor/helms/great_helm/yb_great_helm"
                 }
             },
             {
                 "threshold": 74,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/great_helm/gg_great_helm"
+                    "model": "mvndicraft:armor/helms/great_helm/by_great_helm"
                 }
             },
             {
