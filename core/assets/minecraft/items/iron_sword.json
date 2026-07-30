@@ -136,8 +136,30 @@
             {
                 "threshold": 19,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/halberd"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/halberd"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/halberd_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/halberd"
+                    }
                 }
             },
             {
@@ -153,8 +175,22 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "model",
-                        "model": "mvndicraft:weapons/pole_arms/pike_braced"
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/pike"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/pike_braced"
+                                }
+                            }
+                        ]
                     },
                     "on_false": {
                         "type": "model",
@@ -172,8 +208,30 @@
             {
                 "threshold": 23,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/glaive"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/glaive"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/glaive_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/glaive"
+                    }
                 }
             },
             {
@@ -228,8 +286,30 @@
             {
                 "threshold": 31,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/billhook"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/billhook"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/billhook_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/billhook"
+                    }
                 }
             },
             {
@@ -256,15 +336,59 @@
             {
                 "threshold": 35,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/sword_staff"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/sword_staff"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/sword_staff"
+                    }
                 }
             },
             {
                 "threshold": 36,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/fauchard"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/fauchard"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/fauchard"
+                    }
                 }
             },
             {
@@ -273,8 +397,22 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "model",
-                        "model": "mvndicraft:weapons/swords/sweihander_block"
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/swords/sweihander"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/swords/sweihander_block"
+                                }
+                            }
+                        ]
                     },
                     "on_false": {
                         "type": "model",
@@ -334,8 +472,30 @@
             {
                 "threshold": 45,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/halberd_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
+                    }
                 }
             },
             {
@@ -516,22 +676,88 @@
             {
                 "threshold": 71,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/glaive_slash"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/glaive_slash"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/glaive_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/glaive_slash"
+                    }
                 }
             },
             {
                 "threshold": 72,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/sword_staff_slash"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/sword_staff_slash"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/sword_staff_slash"
+                    }
                 }
             },
             {
                 "threshold": 73,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/fauchard_slash"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05,
+                        "fallback": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/fauchard_slash"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.15,
+                                "model": {
+                                    "type": "model",
+                                    "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
+                                }
+                            }
+                        ]
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/fauchard_slash"
+                    }
                 }
             },
             {
