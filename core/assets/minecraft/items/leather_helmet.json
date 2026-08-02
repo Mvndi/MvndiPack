@@ -849,7 +849,7 @@
                 "threshold": 121,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/great_helm/wr_great_helm"
+                    "model": "mvndicraft:armor/helms/"
                 }
             },  {
                 "threshold": 122,
