@@ -95,7 +95,7 @@
                 "threshold": 13,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/chain_spangenhelm"
+                    "model": "mvndicraft:armor/helms/horned_bascinet"
                 }
             },
             {
