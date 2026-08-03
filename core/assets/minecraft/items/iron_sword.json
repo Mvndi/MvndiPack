@@ -27,22 +27,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/swords/spadone"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/swords/spadone_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/spadone"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/spadone_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/swords/spadone_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -112,22 +115,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/axes/varangian_axe"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/axes/varangian_axe_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/varangian_axe"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/varangian_axe_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/axes/varangian_axe_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -141,22 +147,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/axes/dane_axe"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/axes/dane_axe_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/dane_axe"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/dane_axe_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/axes/dane_axe_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -177,22 +186,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/axes/broad_axe"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/axes/broad_axe_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/broad_axe"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/broad_axe_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/axes/broad_axe_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -227,22 +239,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/halberd"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/halberd_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/halberd"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/halberd_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/halberd_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -263,22 +278,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/pike"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/pike_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/pike"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/pike_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/pike_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -299,22 +317,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/glaive"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/glaive_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/glaive"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/glaive_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/glaive_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -377,22 +398,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/billhook"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/billhook_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/billhook"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/billhook_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/billhook_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -413,22 +437,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/blunt/crows_beak"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/blunt/crows_beak_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/blunt/crows_beak"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/blunt/crows_beak_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/blunt/crows_beak_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -442,22 +469,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/blunt/spiked_goedendag"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/blunt/spiked_goedendag_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/blunt/spiked_goedendag"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/blunt/spiked_goedendag_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/blunt/spiked_goedendag_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -471,22 +501,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/sword_staff"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/sword_staff"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -500,22 +533,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/fauchard"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/fauchard"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -529,22 +565,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/swords/sweihander"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/swords/sweihander_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/sweihander"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/sweihander_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/swords/sweihander_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -579,22 +618,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/spiked_polemace"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/spiked_polemace_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/spiked_polemace"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/spiked_polemace_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/spiked_polemace_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -608,22 +650,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/swords/claymore"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/swords/claymore_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/claymore"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/claymore_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/swords/claymore_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -651,22 +696,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/halberd_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/halberd_reverse"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/halberd_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/halberd_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -722,22 +770,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/axes/galloglach_axe"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/axes/galloglach_axe_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/galloglach_axe"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/axes/galloglach_axe_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/axes/galloglach_axe_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -800,22 +851,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/swords/longsword"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/swords/longsword_block"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/longsword"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/swords/longsword_block"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/swords/longsword_block"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -899,22 +953,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/glaive_slash"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/glaive_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/glaive_slash"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/glaive_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/glaive_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -928,22 +985,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/sword_staff_slash"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/sword_staff_slash"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/sword_staff_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -957,22 +1017,25 @@
                     "type": "minecraft:condition",
                     "property": "minecraft:using_item",
                     "on_true": {
-                        "type": "minecraft:range_dispatch",
-                        "property": "minecraft:use_duration",
-                        "scale": 0.05,
-                        "fallback": {
-                            "type": "model",
-                            "model": "mvndicraft:weapons/pole_arms/fauchard_slash"
-                        },
-                        "entries": [
-                            {
-                                "threshold": 0.15,
-                                "model": {
-                                    "type": "model",
-                                    "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
-                                }
+                        "type": "minecraft:condition",
+                        "property": "minecraft:view_entity",
+                        "on_true": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:keybind_down",
+                            "keybind": "key.sneak",
+                            "on_true": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/fauchard_slash"
+                            },
+                            "on_false": {
+                                "type": "model",
+                                "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
                             }
-                        ]
+                        },
+                        "on_false": {
+                            "type": "model",
+                            "model": "mvndicraft:weapons/pole_arms/fauchard_braced"
+                        }
                     },
                     "on_false": {
                         "type": "model",
@@ -1064,14 +1127,13 @@
                     "model": "mvndicraft:weapons/swords/"
                 }
             },
-            {                                                                                                                                                                                          
-                "threshold": 86,                                                                                                                                                                       
-                "model": {                                                                                                                                                                             
-                     "type": "model",                                                                                                                                                                   
-                     "model": "mvndicraft:weapons/pole_arms/pike_braced"                                                                                                                                
-                  }                                                                                                                                                                                      
-             }
-                     
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/pike_braced"
+                }
+            }
         ]
     }
 }
