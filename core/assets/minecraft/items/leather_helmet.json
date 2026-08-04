@@ -165,7 +165,7 @@
                 "threshold": 23,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/gothic_helm"
+                    "model": "mvndicraft:armor/helms/"
                 }
             },
             {
@@ -915,7 +915,7 @@
                 "threshold": 132,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/antisglizzyfixsallet"
                 }
             },  {
                 "threshold": 133,
