@@ -911,17 +911,17 @@
                     "type": "model",
                     "model": "mvndicraft:armor/helms/yr_great_helm"
                 }
-            },  {   
+            },  {
                 "threshold": 132,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/sallet/sallet_helm_new"
                 }
             },  {
                 "threshold": 133,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/horned_bascinet"
                 }
             }, {
                 "threshold": 134,
