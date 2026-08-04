@@ -550,7 +550,7 @@
                 "threshold": 78,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/wr2_nasal"
+                    "model": "mvndicraft:armor/helms/"
                 }
             },
             {
@@ -921,7 +921,7 @@
                 "threshold": 133,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/wr2_nasal"
                 }
             }, {
                 "threshold": 134,
