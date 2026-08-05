@@ -945,19 +945,19 @@
                 "threshold": 137,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/lightbourgonet"
                 }
             },  {
                 "threshold": 138,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/lykovohelm"
                 }
             },  {
                 "threshold": 139,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/lykovohelmornate"
                 }
             },  {
                 "threshold": 140,
