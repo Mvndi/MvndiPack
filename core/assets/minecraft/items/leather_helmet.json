@@ -165,7 +165,7 @@
                 "threshold": 23,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/gothic_helm"
+                    "model": "mvndicraft:armor/helms/"
                 }
             },
             {
@@ -550,7 +550,7 @@
                 "threshold": 78,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/wr2_nasal"
+                    "model": "mvndicraft:armor/helms/"
                 }
             },
             {
@@ -911,17 +911,17 @@
                     "type": "model",
                     "model": "mvndicraft:armor/helms/yr_great_helm"
                 }
-            },  {   
+            },  {
                 "threshold": 132,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/antisglizzyfixsallet"
                 }
             },  {
                 "threshold": 133,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/wr2_nasal"
                 }
             }, {
                 "threshold": 134,

@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"4": "mvndicraft:armor/helms/sallet_helm_bottom_reg",
-		"8": "mvndicraft:armor/helms/sallet_helm_top_reg",
-		"particle": "mvndicraft:armor/helms/sallet_helm_bottom_reg"
+		"4": "mvndicraft:armor/helms/sallet_helm_bottom_reg_heavy",
+		"8": "mvndicraft:armor/helms/sallet_helm_top_reg_heavy",
+		"particle": "mvndicraft:armor/helms/sallet_helm_bottom_reg_heavy"
 	},
 	"elements": [
 		{
