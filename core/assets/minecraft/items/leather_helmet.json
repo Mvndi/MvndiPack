@@ -927,19 +927,19 @@
                 "threshold": 134,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/capacetehelmetfacecovering"
                 }
             },  {
                 "threshold": 135,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/greathornbrass"
                 }
             },  {
                 "threshold": 136,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/italo_norman_nasal_helm"
                 }
             },  {
                 "threshold": 137,
