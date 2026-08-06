@@ -969,7 +969,7 @@
                 "threshold": 141,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:armor/helms/"
+                    "model": "mvndicraft:armor/helms/kyivhelm"
                 }
             },  {
                 "threshold": 142,
