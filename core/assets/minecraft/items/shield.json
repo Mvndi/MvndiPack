@@ -1505,6 +1505,21 @@
                         "model": "mvndicraft:shields/saracen/weak_blocking"
                     }
                 }
+            }, 
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/weak"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/saracen/weak_blocking"
+                    }
+                }
             }            
         ]
     },

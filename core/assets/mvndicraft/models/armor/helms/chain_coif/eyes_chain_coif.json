@@ -1,9 +1,110 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
-	"parent": "mvndicraft:armor/helms/chain_coif/chain_coif_blue",
 	"textures": {
-		"1": "mvndicraft:utilities/blank",
-		"2": "mvndicraft:armor/helms/eyes_chain_coif",
-		"particle": "mvndicraft:armor/helms/eyes_chain_coif"
+		"3": "mvndicraft:armor/helms/big_chain_coif_variant2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#3"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#3"},
+				"south": {"uv": [12, 8, 16, 4], "texture": "#3"},
+				"west": {"uv": [8, 8, 12, 4], "texture": "#3"},
+				"up": {"uv": [4, 4, 8, 0], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [4, 8, 8, 12], "texture": "#3"}
+			}
+		},
+		{
+			"from": [-0.2, -0.4, -0.3],
+			"to": [16.3, 13.4, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 10.4, 5.4]},
+			"faces": {
+				"north": {"uv": [5.75, 12.75, 9.75, 16], "texture": "#3"},
+				"east": {"uv": [0, 12.75, 1.75, 16], "texture": "#3"},
+				"south": {"uv": [10.5, 13.75, 12, 16], "texture": "#3"},
+				"west": {"uv": [1.75, 12.75, 0, 16], "texture": "#3"},
+				"up": {"uv": [12, 0.25, 16, 0], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [1.75, 14.5, 5.75, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [-0.4, 10, -0.5],
+			"to": [16.5, 11, 16.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 9, -1]},
+			"faces": {
+				"north": {"uv": [8.25, 3.5, 12.75, 3.75], "texture": "#3"},
+				"east": {"uv": [8.25, 3.5, 12.75, 3.75], "texture": "#3"},
+				"south": {"uv": [8.25, 3.5, 12.75, 3.75], "texture": "#3"},
+				"west": {"uv": [8.25, 3.5, 12.75, 3.75], "texture": "#3"},
+				"up": {"uv": [8.25, 3.5, 12.75, 3.75], "texture": "#3"},
+				"down": {"uv": [8.25, 3.5, 12.75, 3.75], "texture": "#3"}
+			}
+		},
+		{
+			"from": [16, 9.55, 4.5],
+			"to": [16.8, 11.4, 6.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 9, 4]},
+			"faces": {
+				"north": {"uv": [15.25, 12.25, 15.5, 12.75], "texture": "#3"},
+				"east": {"uv": [15.5, 12.25, 16, 12.75], "texture": "#3"},
+				"south": {"uv": [15, 12.25, 15.25, 12.75], "texture": "#3"},
+				"west": {"uv": [15, 12.25, 15.25, 12.75], "texture": "#3"},
+				"up": {"uv": [15, 12.25, 15.25, 12.75], "texture": "#3"},
+				"down": {"uv": [15, 12.25, 15.25, 12.75], "texture": "#3"}
+			}
+		},
+		{
+			"from": [-0.8, 9.55, 4.5],
+			"to": [0, 11.4, 6.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 9, 4]},
+			"faces": {
+				"north": {"uv": [15.5, 12.25, 15.25, 12.75], "texture": "#3"},
+				"east": {"uv": [15.25, 12.25, 15, 12.75], "texture": "#3"},
+				"south": {"uv": [15.25, 12.25, 15, 12.75], "texture": "#3"},
+				"west": {"uv": [16, 12.25, 15.5, 12.75], "texture": "#3"},
+				"up": {"uv": [15.25, 12.25, 15, 12.75], "texture": "#3"},
+				"down": {"uv": [15.25, 12.25, 15, 12.75], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [-14.5, 134.25, 0],
+			"translation": [0, 4.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-14.5, 134.25, 0],
+			"translation": [0, 4.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"scale": [0.91, 0.91, 0.91]
+		},
+		"fixed": {
+			"rotation": [-77.25, 0, 0],
+			"translation": [0, 0, -7.75]
+		}
 	}
 }

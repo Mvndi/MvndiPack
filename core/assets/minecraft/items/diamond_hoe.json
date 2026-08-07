@@ -150,8 +150,16 @@
             {
                 "threshold": 21,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/pole_arms/pike"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/pike_braced"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/pole_arms/pike"
+                    }
                 }
             },
             {
@@ -262,8 +270,16 @@
             {
                 "threshold": 37,
                 "model": {
-                    "type": "model",
-                    "model": "mvndicraft:weapons/swords/sweihander"
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/swords/sweihander_block"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "mvndicraft:weapons/swords/sweihander"
+                    }
                 }
             },
             {
@@ -440,7 +456,8 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/swords/longsword_thrust"
                 }
-            }     
+            }
+            
         ]
     }
 }

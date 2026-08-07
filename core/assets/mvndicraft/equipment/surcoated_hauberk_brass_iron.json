@@ -3,7 +3,7 @@
     "humanoid": [
       {
         "dyeable": { "color_when_undyed": 16777215 },
-        "texture": "mvndicraft:surcoated_hauberk"
+        "texture": "mvndicraft:surcoated_hauberk_brass_iron_chest"
       },
       {
         "texture": "mvndicraft:surcoated_hauberk_brass_iron_overlay"
@@ -12,7 +12,7 @@
     "humanoid_leggings": [
       {
         "dyeable": { "color_when_undyed": 16777215 },
-        "texture": "mvndicraft:surcoated_hauberk"
+        "texture": "mvndicraft:surcoated_hauberk_brass_iron_chest"
       },
       {
         "texture": "mvndicraft:surcoated_hauberk_brass_iron_overlay"

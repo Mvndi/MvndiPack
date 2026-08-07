@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:armor/helms/red_paint_nasal",
-		"particle": "mvndicraft:armor/helms/red_paint_nasal"
+		"0": "mvndicraft:armor/helms/b_nasalhelmdotpattern",
+		"particle": "mvndicraft:armor/helms/b_nasalhelm"
 	},
 	"elements": [
 		{
