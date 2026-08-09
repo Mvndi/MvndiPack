@@ -1,0 +1,930 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
+	"textures": {
+		"0": "mvndicraft:weapons/archery/heavy_crossbow",
+		"particle": "mvndicraft:weapons/archery/arrow"
+	},
+	"elements": [
+		{
+			"from": [12.18533, 7.30929, 3.71202],
+			"to": [13.92533, 7.87929, 4.28202],
+			"rotation": {"x": -6.27712, "y": -47.32834, "z": 4.62375, "origin": [7.76972, 7.5893, 7.14861]},
+			"faces": {
+				"north": {"uv": [1, 3.5, 0, 0], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 3.5, 1, 2.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 3.5, 1, 0], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 3.5, 1, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 3.5, 1, 0], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1, 3.5, 0, 0], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [1.82645, 7.30929, 3.71209],
+			"to": [3.81645, 7.87929, 4.28209],
+			"rotation": {"x": -6.27712, "y": 47.32834, "z": -4.62375, "origin": [8.23353, 7.5893, 7.1451]},
+			"faces": {
+				"north": {"uv": [1, 0, 0, 3.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 2.5, 1, 3.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 3.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 2.5, 1, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 3.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1, 0, 0, 3.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.48995, 7.29929, 6.93436],
+			"to": [10.51495, 7.87929, 7.56336],
+			"rotation": {"angle": -4.25, "axis": "x", "origin": [8.0024, 7.5893, 7.2489]},
+			"faces": {
+				"north": {"uv": [1, 8, 0, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [1, 10.5, 0, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1, 8, 0, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [1, 10.5, 0, 11], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [1, 8, 0, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 8, 1, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.98995, 7.10664, 6.83903],
+			"to": [7.37745, 8.06164, 7.66803],
+			"rotation": {"angle": -8.25, "axis": "x", "origin": [8.00245, 6.84234, 7.516]},
+			"faces": {
+				"north": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.62745, 7.10664, 6.83903],
+			"to": [9.01495, 8.06164, 7.66803],
+			"rotation": {"angle": -8.25, "axis": "x", "origin": [9.63995, 6.84234, 7.516]},
+			"faces": {
+				"north": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.98995, 7.50723, 7.1612],
+			"to": [7.37745, 8.86223, 7.5027],
+			"rotation": {"x": 97, "y": 0, "z": 0, "origin": [8.00245, 7.64292, 7.57567]},
+			"faces": {
+				"north": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.98995, 7.18379, 7.60477],
+			"to": [9.01495, 7.55129, 8.87127],
+			"rotation": {"angle": -8.25, "axis": "x", "origin": [8.00245, 7.31949, 8.01924]},
+			"faces": {
+				"north": {"uv": [4.5, 2, 4, 1], "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.98995, 7.18302, 7.52301],
+			"to": [9.01495, 7.77802, 8.91051],
+			"rotation": {"angle": -8.25, "axis": "x", "origin": [8.00245, 7.39371, 8.00848]},
+			"faces": {
+				"north": {"uv": [4.5, 2, 4, 1], "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.83995, 7.37429, 8.25936],
+			"to": [9.18995, 7.75429, 8.66336],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.50002, 7.56429, 7.65936]},
+			"faces": {
+				"north": {"uv": [2, 10.50625, 2.5, 11], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [2, 10.50625, 2.5, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 10.50625, 2.5, 11], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [2, 10.50625, 2.5, 11], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2, 10.50625, 2.5, 11], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [2, 10.50625, 2.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.37745, 6.96188, 12.48836],
+			"to": [8.62255, 7.92938, 18.56736],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.95002, 7.63938, 5.73836]},
+			"faces": {
+				"north": {"uv": [7.5, 3, 9.5, 4], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [6, 3.5, 4.5, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 12, 7.5, 10.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [6, 13.5, 4.5, 3.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7.5, 0.5, 9.5, 10.5], "texture": "#0"},
+				"down": {"uv": [10.5, 8.5, 12.5, 16], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.37745, 6.63938, 6.40936],
+			"to": [8.62255, 7.92938, 12.48836],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.95002, 7.62938, 0.40936]},
+			"faces": {
+				"north": {"uv": [8, 6.5, 10, 8.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6.5, 0, 4.5, 9.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 2.5, 10.5, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6.5, 9.5, 4.5, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [14, 0, 16, 9.5], "texture": "#0"},
+				"down": {"uv": [10, 12, 12.5, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.62745, 7.50723, 7.1612],
+			"to": [9.01495, 8.86223, 7.5027],
+			"rotation": {"x": 97, "y": 0, "z": 0, "origin": [8.00245, 7.64292, 7.57567]},
+			"faces": {
+				"north": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3.5, 0.5, 4, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.26495, 7.41438, 4.90536],
+			"to": [8.76495, 7.91438, 5.15536],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.83752, 7.62938, 0.15536]},
+			"faces": {
+				"north": {"uv": [4, 13.5, 1, 12.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2, 0, 2.5, 1], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4, 11.5, 1, 10.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [2, 0, 2.5, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 13, 1, 12.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 13.5, 1, 13], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.76364, 7.41438, 5.40562],
+			"to": [8.51364, 7.91438, 5.65562],
+			"rotation": {"x": 0, "y": -67.5, "z": 0, "origin": [7.38864, 7.78938, 5.53062]},
+			"faces": {
+				"north": {"uv": [4, 12.5, 1, 11.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2, 0, 2.5, 1], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4, 12.5, 1, 11.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [4, 12.5, 3.5, 11.5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [1, 12, 4, 11.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2, 0, 2.5, 1], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.82492, 7.41438, 5.86756],
+			"to": [9.57492, 7.91438, 6.11756],
+			"rotation": {"x": 0, "y": 67.5, "z": 0, "origin": [8.44992, 7.78938, 5.99256]},
+			"faces": {
+				"north": {"uv": [4, 12.5, 1, 11.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [4, 12.5, 3.5, 11.5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [4, 12.5, 1, 11.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [2, 0, 2.5, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 12, 1, 11.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2, 0, 2.5, 1], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.06495, 7.68888, 11.84252],
+			"to": [8.23505, 8.22638, 12.03402],
+			"rotation": {"angle": -37.5, "axis": "x", "origin": [8, 7.6769, 11.7094]},
+			"faces": {
+				"north": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 15.5, 15.5, 14], "texture": "#0"},
+				"west": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.76495, 7.77638, 11.49252],
+			"to": [8.23505, 8.08888, 11.97152],
+			"rotation": {"angle": -37.5, "axis": "x", "origin": [8, 7.6769, 11.7094]},
+			"faces": {
+				"north": {"uv": [14, 15, 15, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [14, 14.5, 15, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [14.5, 15.5, 15.5, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [14, 14.5, 15, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [12.5, 14, 13.5, 15], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [13.5, 15, 15, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.76495, 7.68888, 11.84252],
+			"to": [7.93505, 8.22638, 12.03402],
+			"rotation": {"angle": -37.5, "axis": "x", "origin": [8, 7.6769, 11.7094]},
+			"faces": {
+				"north": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 15.5, 15.5, 14], "texture": "#0"},
+				"west": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.32745, 7.51438, 11.55936],
+			"to": [8.67255, 7.81438, 11.85936],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.66438, 11.70936]},
+			"faces": {
+				"north": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"east": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"south": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"west": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"up": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"down": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.9399, 7.5894, 12.7469],
+			"to": [9.06, 7.7394, 12.8969],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.66438, 12.20936]},
+			"faces": {
+				"north": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"east": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"south": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"west": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"up": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"},
+				"down": {"uv": [3, 11, 2.5, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10.20296, 7.29949, 5.94891],
+			"to": [13.20296, 7.87929, 6.52891],
+			"rotation": {"x": -4.59872, "y": -22.43475, "z": 1.75824, "origin": [7.88185, 7.5893, 7.22586]},
+			"faces": {
+				"north": {"uv": [1, 16, 0, 11], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 11, 1, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 16, 1, 11], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 11, 1, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 16, 1, 11], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1, 16, 0, 11], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.8012, 7.29949, 5.94895],
+			"to": [5.8012, 7.87929, 6.52895],
+			"rotation": {"x": -4.59872, "y": 22.43475, "z": -1.75824, "origin": [8.12258, 7.5893, 7.22404]},
+			"faces": {
+				"north": {"uv": [1, 16, 0, 11], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 11, 1, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 16, 1, 11], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 11, 1, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 16, 1, 11], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1, 16, 0, 11], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.76005, 6.90851, 12.49217],
+			"to": [8.23505, 7.05851, 16.39217],
+			"rotation": {"angle": 10, "axis": "x", "origin": [7.99755, 6.98351, 12.56717]},
+			"faces": {
+				"north": {"uv": [1, 14.5, 2, 15], "texture": "#0"},
+				"east": {"uv": [9, 15.5, 1, 16], "texture": "#0"},
+				"south": {"uv": [1, 14.5, 2, 15], "texture": "#0"},
+				"west": {"uv": [1, 15, 9, 15.5], "texture": "#0"},
+				"up": {"uv": [1, 16, 9, 15], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [9, 16, 1, 15], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.16508, 7.79367, 10.57081],
+			"to": [8.83496, 8.03867, 10.81581],
+			"rotation": {"angle": -4.25, "axis": "x", "origin": [8.0024, 7.5893, 8.7489]},
+			"faces": {
+				"north": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [2.74808, 7.81931, 10.91588],
+			"to": [7.74808, 8.06431, 11.16088],
+			"rotation": {"x": -4.45544, "y": -17.45033, "z": 1.33855, "origin": [8.58064, 7.61494, 9.09397]},
+			"faces": {
+				"north": {"uv": [4, 0.5, 4.5, 0], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [4, 0.5, 4.5, 0], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4, 0.5, 4.5, 0], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [4, 0.5, 4.5, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 0.5, 4.5, 0], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [4, 0.5, 4.5, 0], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.25192, 7.81931, 10.91588],
+			"to": [13.25192, 8.06431, 11.16088],
+			"rotation": {"x": -4.45544, "y": 17.45033, "z": -1.33855, "origin": [7.41936, 7.61494, 9.09397]},
+			"faces": {
+				"north": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [4, 0, 4.5, 0.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.465, 8.63869, 11.83584],
+			"to": [8.6351, 9.85119, 12.02734],
+			"rotation": {"x": -118.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [4.5, 13.5, 8.5, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [4.5, 13.5, 8.5, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4.5, 13.5, 8.5, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [4.5, 13.5, 8.5, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [9.5, 14, 10, 14.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.6275, 4.93692, 12.86884],
+			"to": [8.7976, 7.61192, 13.06034],
+			"rotation": {"angle": -5.25, "axis": "x", "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.20245, 4.93691, 12.86885],
+			"to": [7.37255, 7.61191, 13.06035],
+			"rotation": {"angle": -5.25, "axis": "x", "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [15, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.36495, 8.63869, 11.83584],
+			"to": [7.53505, 9.85119, 12.02734],
+			"rotation": {"x": -118.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [8.5, 13.5, 4.5, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8.5, 13.5, 4.5, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 13.5, 4.5, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [8.5, 13.5, 4.5, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [9.5, 14, 10, 14.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.36495, 9.85119, 11.67335],
+			"to": [7.53505, 10.02619, 12.02735],
+			"rotation": {"x": -118.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.465, 9.85119, 11.67335],
+			"to": [8.6351, 10.02619, 12.02735],
+			"rotation": {"x": -118.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.2025, 9.34883, 11.70842],
+			"to": [8.7976, 9.53633, 11.89992],
+			"rotation": {"x": -60.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [9.5, 9.5, 10, 14], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [13.5, 12.5, 14, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 9.5, 10, 14], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [13.5, 12.5, 14, 13], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [9.5, 9.5, 10, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [9.5, 9.5, 10, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.9025, 9.53633, 11.70842],
+			"to": [8.0976, 10.78633, 11.89992],
+			"rotation": {"x": -60.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [12.5, 12.5, 16, 13], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [12.5, 12.5, 16, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.5, 12.5, 16, 13], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12.5, 12.5, 16, 13], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15, 12.5, 15.5, 13], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15, 12.5, 15.5, 13], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.6275, 7.11432, 12.3147],
+			"to": [8.7976, 7.62682, 12.5062],
+			"rotation": {"angle": -30.25, "axis": "x", "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [9.5, 15.5, 9, 14.5], "texture": "#0"},
+				"east": {"uv": [9.5, 15.5, 9, 14.5], "texture": "#0"},
+				"south": {"uv": [9.5, 15.5, 9, 14.5], "texture": "#0"},
+				"west": {"uv": [9.5, 15.5, 9, 14.5], "texture": "#0"},
+				"up": {"uv": [9.5, 15.5, 9, 14.5], "texture": "#0"},
+				"down": {"uv": [9.5, 15.5, 9, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.20245, 7.11431, 12.3147],
+			"to": [7.37255, 7.62681, 12.5062],
+			"rotation": {"angle": -30.25, "axis": "x", "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 16, 14.5, 15.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.20245, 7.33633, 11.70842],
+			"to": [7.37255, 9.34883, 11.89992],
+			"rotation": {"x": -60.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [9, 12.025, 9.5, 15], "texture": "#0"},
+				"east": {"uv": [9, 12.025, 9.5, 15], "texture": "#0"},
+				"south": {"uv": [9, 12.025, 9.5, 15], "texture": "#0"},
+				"west": {"uv": [9, 12.025, 9.5, 15], "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.6275, 7.33633, 11.70842],
+			"to": [8.7976, 9.34883, 11.89992],
+			"rotation": {"x": -60.25, "y": 0, "z": 0, "origin": [7.8375, 8.6129, 11.661]},
+			"faces": {
+				"north": {"uv": [9, 12.0125, 9.5, 16], "texture": "#0"},
+				"east": {"uv": [9, 12.0125, 9.5, 16], "texture": "#0"},
+				"south": {"uv": [9, 12.0125, 9.5, 16], "texture": "#0"},
+				"west": {"uv": [9, 12.0125, 9.5, 16], "texture": "#0"},
+				"up": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [15.5, 13.5, 16, 14], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"pulling": 1}, "model": "item/crossbow_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58}, "model": "item/crossbow_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 1}, "model": "item/crossbow_pulling_2"},
+		{"predicate": {"charged": 1}, "model": "item/crossbow_arrow"},
+		{"predicate": {"charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
+		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"pulling": 1}, "model": "item/crossbow_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58}, "model": "item/crossbow_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 1}, "model": "item/crossbow_pulling_2"},
+		{"predicate": {"charged": 1}, "model": "item/crossbow_arrow"},
+		{"predicate": {"charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
+		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"pulling": 1}, "model": "item/crossbow_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58}, "model": "item/crossbow_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 1}, "model": "item/crossbow_pulling_2"},
+		{"predicate": {"charged": 1}, "model": "item/crossbow_arrow"},
+		{"predicate": {"charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
+		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"pulling": 1}, "model": "item/crossbow_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.58}, "model": "item/crossbow_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 1}, "model": "item/crossbow_pulling_2"},
+		{"predicate": {"charged": 1}, "model": "item/crossbow_arrow"},
+		{"predicate": {"charged": 1, "firework": 1}, "model": "item/crossbow_firework"},
+		{"predicate": {"custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state1/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus"},
+		{"predicate": {"pulling": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 6002}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 6003}, "model": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_arrow"},
+		{"predicate": {"custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_6"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_arrow"},
+		{"predicate": {"custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne"},
+		{"predicate": {"pulling": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.01, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_2"},
+		{"predicate": {"pulling": 1, "pull": 0.15, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_3"},
+		{"predicate": {"pulling": 1, "pull": 0.2, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_4"},
+		{"predicate": {"pulling": 1, "pull": 0.25, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_5"},
+		{"predicate": {"pulling": 1, "pull": 0.3, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_6"},
+		{"predicate": {"pulling": 1, "pull": 0.35, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_7"},
+		{"predicate": {"pulling": 1, "pull": 0.4, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_8"},
+		{"predicate": {"pulling": 1, "pull": 0.5, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_9"},
+		{"predicate": {"pulling": 1, "pull": 0.6, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_10"},
+		{"predicate": {"pulling": 1, "pull": 0.7, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_11"},
+		{"predicate": {"pulling": 1, "pull": 0.8, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_12"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_13"},
+		{"predicate": {"pulling": 1, "pull": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_pulling_14"},
+		{"predicate": {"charged": 1, "custom_model_data": 7002}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"},
+		{"predicate": {"charged": 1, "firework": 1, "custom_model_data": 7003}, "model": "mvndicraft:weapons/firearms/handgonne/state2/handgonne_arrow"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1, 1.5, -8],
+			"scale": [1.55859, 1.75, 1.37891]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-15, 0, 0],
+			"translation": [0.25, -1.25, -11.75],
+			"scale": [1.55859, 1.75, 1.37891]
+		},
+		"firstperson_righthand": {
+			"rotation": [7, 5, 17],
+			"translation": [2.5, 2, -6.25],
+			"scale": [1.68, 1.68, 1.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-27, -14, 17],
+			"translation": [5.75, -4.25, -8.75],
+			"scale": [1.68, 1.68, 1.68]
+		},
+		"ground": {
+			"translation": [0, 0.75, -2.25],
+			"scale": [1.31, 1.31, 1.31]
+		},
+		"gui": {
+			"rotation": [38, -39, 9],
+			"translation": [2, 2.5, 0],
+			"scale": [1.34, 1.34, 1.34]
+		},
+		"fixed": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 11.25, -4.75],
+			"scale": [3.11718, 3.5, 2.75782]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		{
+			"name": "group",
+			"origin": [8, 7.72938, 12.71136],
+			"scope": 0,
+			"color": 0,
+			"children": [15, 16, 17]
+		},
+		18,
+		19,
+		20,
+		21,
+		{
+			"name": "crossbowloop",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "bow_pulling_0",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "arrowtip",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "group",
+							"origin": [8, 8, 8],
+							"scope": 0,
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		22,
+		{
+			"name": "group",
+			"origin": [8.00003, 8.16276, 12.22369],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "crossbowloop",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "bow_pulling_0",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "arrowtip",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "group",
+							"origin": [8, 8, 8],
+							"scope": 0,
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		23,
+		{
+			"name": "group",
+			"origin": [8.00003, 8.16276, 12.22369],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "crossbowloop",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "bow_pulling_0",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "arrowtip",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "group",
+							"origin": [8, 8, 8],
+							"scope": 0,
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		},
+		24,
+		25,
+		{
+			"name": "group",
+			"origin": [8, 7.72938, 12.71136],
+			"scope": 0,
+			"color": 0,
+			"children": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
+		}
+	]
+}
