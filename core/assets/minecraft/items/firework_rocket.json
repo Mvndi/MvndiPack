@@ -20,6 +20,13 @@
                     "type": "model",
                     "model": "mvndicraft:weapons/firearms/bullet"
                 }
+            },
+            {
+                "threshold": 9001,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/archery/heavy_crossbow/goat_foot"
+                }
             }
         ]
     }
