@@ -709,14 +709,14 @@
                             {
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_a"
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow"
                                 },
                                 "when": "arrow"
                             },
                             {
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_a"
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow"
                                 },
                                 "when": "rocket"
                             }
@@ -789,9 +789,31 @@
                         "property": "minecraft:crossbow/pull",
                         "fallback": {
                             "type": "minecraft:model",
-                            "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_a"
+                            "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf1"
                         },
-                        "entries": []
+                        "entries": [
+                            {
+                                "threshold": 0.3,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf2"
+                                }
+                            },
+                            {
+                                "threshold": 0.6,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf3"
+                                }
+                            },
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf4"
+                                }
+                            }
+                        ]
                     }
                 }
             }
