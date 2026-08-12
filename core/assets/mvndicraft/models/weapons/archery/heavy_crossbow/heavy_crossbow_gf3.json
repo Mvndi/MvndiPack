@@ -760,8 +760,8 @@
 			"scale": [1.55859, 1.75, 1.37891]
 		},
 		"firstperson_righthand": {
-			"rotation": [7, 5, 17],
-			"translation": [2.5, 2, -6.25],
+			"rotation": [34, 25, 13],
+			"translation": [-6.75, 5.25, -6.25],
 			"scale": [1.68, 1.68, 1.68]
 		},
 		"firstperson_lefthand": {
