@@ -692,6 +692,103 @@
                         ]
                     }
                 }
+            },
+            {
+                "threshold": 9002,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow"
+                                },
+                                "when": "arrow"
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf1"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.3,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf2"
+                                }
+                            },
+                            {
+                                "threshold": 0.6,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf3"
+                                }
+                            },
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_gf4"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 9003,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_a"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow"
+                                },
+                                "when": "arrow"
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_a"
+                    }
+                }
             }
         ]
     },
