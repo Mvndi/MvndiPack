@@ -199,7 +199,7 @@
 		"fixed": {
 			"rotation": [-83, -180, 0],
 			"translation": [0, -8.5, -28.5],
-			"scale": [2.45, 3, 2]
+			"scale": [2, 3, 2]
 		}
 	},
 	"groups": [
