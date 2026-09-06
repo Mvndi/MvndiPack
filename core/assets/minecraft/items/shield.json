@@ -292,6 +292,21 @@
                 }
             },
             {
+                "threshold": 101,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/lion"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "mvndicraft:shields/kite/lion_blocking"
+                    }
+                }
+            },
+            {
                 "threshold": 19,
                 "model": {
                     "type": "minecraft:condition",
