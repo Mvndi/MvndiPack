@@ -605,7 +605,7 @@
 		"firstperson_righthand": {
 			"rotation": [34, 25, 13],
 			"translation": [2, 5.25, -6.25],
-			"scale": [2.09, 2.09, 2.09]
+			"scale": [1.75, 1.75, 1.75]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-27, -14, 17],
