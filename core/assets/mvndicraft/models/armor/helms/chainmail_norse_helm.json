@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "mvndicraft:armor/helms/nikolskoye2",
+		"1": "mvndicraft:armor/helms/nikolskoye2fixed",
 		"3": "mvndicraft:armor/helms/big_chain_coif_eyehole",
 		"particle": "mvndicraft:armor/helms/big_chain_coif_eyehole"
 	},
