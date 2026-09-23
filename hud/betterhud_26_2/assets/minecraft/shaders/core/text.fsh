@@ -3,7 +3,7 @@
 #define MAX_BIT 10
 #define ADD_OFFSET 4095
 #define DEFAULT_OFFSET 10
-#define SHADER_VERSION 0
+#define SHADER_VERSION 3
 #if SHADER_VERSION >= 1
 #moj_import <minecraft:fog.glsl>
 #else
