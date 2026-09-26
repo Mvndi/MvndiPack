@@ -21,7 +21,7 @@ in vec2 texCoord;
 
 out vec4 fragColor;
 
-#define MOONLIGHT_COLOR vec3(0.04, 0.02, 0.06)
+#define MOONLIGHT_COLOR vec3(0.22, 0.20, 0.30)
 #define SUNLIGHT_COLOR  vec3(1.0, 1.0, 0.9)
 #define SUNSET_COLOR    vec3(1.2, 0.9, 0.3)
 
@@ -58,14 +58,14 @@ void main() {
 
     vec3 skylight_color = mix(MOONLIGHT_COLOR * (lightmapInfo.BrightnessFactor + 1.0), SUNLIGHT_COLOR, cubic_in_out(daynight_factor));
     vec3 sunset_color = vec3(
-        skylight_color.r*1.4, 
-        skylight_color.g*skylight_color.g*1.4, 
+        skylight_color.r*1.4,
+        skylight_color.g*skylight_color.g*1.4,
         skylight_color.b*skylight_color.b*skylight_color.b
     );
     skylight_color = mix(skylight_color, sunset_color, sunsetness*0.4);
 
 
-    float block_light_jitter = 
+    float block_light_jitter =
         -0.125 + (
             triangular_wave(GameTime*244.0)*0.3125
             + triangular_wave(GameTime*43454.678)*0.125
@@ -90,7 +90,7 @@ void main() {
         texCoord.y*daynight_factor
     );
 
-    float darkening = lightmapInfo.DarknessScale < 0.01 
+    float darkening = lightmapInfo.DarknessScale < 0.01
         ? 1.0
         : pow(max(texCoord.x, texCoord.y), lightmapInfo.DarknessScale*5.0);
 
