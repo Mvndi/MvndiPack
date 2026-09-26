@@ -21,7 +21,7 @@ in vec2 texCoord;
 
 out vec4 fragColor;
 
-#define MOONLIGHT_COLOR vec3(0.22, 0.20, 0.30)
+#define MOONLIGHT_COLOR vec3(0.12, 0.10, 0.15)
 #define SUNLIGHT_COLOR  vec3(1.0, 1.0, 0.9)
 #define SUNSET_COLOR    vec3(1.2, 0.9, 0.3)
 
