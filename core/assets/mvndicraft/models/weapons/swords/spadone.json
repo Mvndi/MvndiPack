@@ -1,7 +1,7 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
+	"texture_size": [64, 64],
 	"textures": {
 		"1": "mvndicraft:weapons/swords/paste"
 	},
@@ -35,7 +35,7 @@
 		{
 			"from": [4.75, 6, 7.875],
 			"to": [11.25, 6.5, 8.375],
-			"rotation": {"angle": 0, "axis": "z", "origin": [11.725, 6.05, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.725, 6.05, 8]},
 			"faces": {
 				"north": {"uv": [10, 13.775, 13.25, 14], "texture": "#1"},
 				"east": {"uv": [0.25, 0.025, 0.625, 0.25], "texture": "#1"},
@@ -105,9 +105,7 @@
 				"north": {"uv": [14.75, 7.75, 14.25, 10.75], "texture": "#1"},
 				"east": {"uv": [14.75, 7.75, 14.5, 10.75], "texture": "#1"},
 				"south": {"uv": [14.25, 7.75, 14.75, 10.75], "texture": "#1"},
-				"west": {"uv": [14.25, 7.75, 14.5, 10.75], "texture": "#1"},
-				"up": {"uv": [30, 2, 29, 3], "texture": "#1"},
-				"down": {"uv": [27.5, 11, 28.5, 10], "rotation": 90, "texture": "#1"}
+				"west": {"uv": [14.25, 7.75, 14.5, 10.75], "texture": "#1"}
 			}
 		},
 		{
