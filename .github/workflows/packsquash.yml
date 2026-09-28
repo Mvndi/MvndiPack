@@ -46,7 +46,7 @@ jobs:
         if: env.CORE_CHANGED == 'true'
         uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
-          packsquash_version: latest-unstable
+          packsquash_version: latest
           options: |
             pack_directory = 'core'
 
@@ -60,6 +60,12 @@ jobs:
             image_data_compression_iterations = 15
 
             ['**/{LICENSE,README.txt}']
+            force_include = true
+
+            ['26_1/**']
+            force_include = true
+
+            ['1_21_11/**']
             force_include = true
 
       - name: ZIP Hud
