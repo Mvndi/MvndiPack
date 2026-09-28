@@ -1,9 +1,9 @@
 {
   "pack": {
     "pack_format": 75,
-    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʜᴜᴅ               §7For §61.21.11",
+    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʜᴜᴅ               §7For §61.21.11+",
     "min_format": 75,
-    "max_format": 75
+    "max_format": 99
   },
   "overlays": {
     "entries": [
@@ -26,6 +26,18 @@
         "max_format": 99
       },
       {
+        "formats": [79, 99],
+        "directory": "betterhud_26_1",
+        "min_format": 79,
+        "max_format": 99
+      },
+      {
+        "formats": [85, 99],
+        "directory": "betterhud_26_2",
+        "min_format": 85,
+        "max_format": 99
+      },
+      {
         "formats": [22, 45],
         "directory": "bettermodel_legacy",
         "min_format": 22,
@@ -36,7 +48,7 @@
         "directory": "bettermodel_modern",
         "min_format": 46,
         "max_format": 99
-      }      
+      }
     ]
   }
 }

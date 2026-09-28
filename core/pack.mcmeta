@@ -1,8 +1,23 @@
 {
   "pack": {
     "pack_format": 75,
-    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʟᴏʀᴅꜱ ᴀᴛ ᴡᴀʀ     §7For §61.21.11",
+    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʟᴏʀᴅꜱ ᴀᴛ ᴡᴀʀ     §7For §61.21.11+",
     "min_format": 75,
-    "max_format": 75
+    "max_format": 99
+
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1_21_11",
+        "min_format": 75,
+        "max_format": 75
+      },
+      {
+        "directory": "26_1",
+        "min_format": 76,
+        "max_format": 99
+      }
+    ]
   }
 }
