@@ -46,19 +46,19 @@ jobs:
         if: env.CORE_CHANGED == 'true'
         uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
-          packsquash_version: latest
+          packsquash_version: latest-unstable
           options: |
             pack_directory = 'core'
-            
+
             recompress_compressed_files = true
             zip_compression_iterations = 30
             zip_spec_conformance_level = 'balanced'
             skip_pack_icon = false
             output_file_path = 'core.zip'
-            
+
             ['**/*?.png']
             image_data_compression_iterations = 15
-            
+
             ['**/{LICENSE,README.txt}']
             force_include = true
 
