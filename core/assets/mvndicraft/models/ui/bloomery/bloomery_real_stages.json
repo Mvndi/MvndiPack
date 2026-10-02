@@ -1,13 +1,15 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
+	"texture_size": [16, 20],
 	"textures": {
 		"0": "mvndicraft:ui/bloomery/bloomery_real_stages",
 		"particle": "mvndicraft:ui/bloomery/bloomery_real_stages"
 	},
 	"elements": [
 		{
-			"from": [0, 0, 8],
-			"to": [16, 16, 8],
+			"from": [0, -2, 8],
+			"to": [16, 18, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
@@ -20,9 +22,5 @@
 		}
 	],
 	"gui_light": "front",
-	"display": {
-		"gui": {
-			"translation": [0.25, -0.25, 0]
-		}
-	}
+	"display": {}
 }
