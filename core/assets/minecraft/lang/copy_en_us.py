@@ -1,8 +1,13 @@
-import shutil
-
-source_file = 'en_us.json'
-
 # Language files shipped with Minecraft 1.21.11, aside from en_us.json.
+# Keep the private-use characters as \u escapes so they match the other lang files.
+menu_json = """{
+  "menu.returnToMenu": "\\uE087Disconnect\\uE088\\uE086\\uE089",
+  "menu.game": "",
+  "menu.disconnect": "\\uE087Disconnect\\uE088\\uE086\\uE089",
+  "menu.returnToGame": "Back to Mvndicraft"
+}
+"""
+
 targets = [
     'af_za.json', 'ar_sa.json', 'ast_es.json', 'az_az.json', 'ba_ru.json', 'bar.json', 'be_by.json', 'be_latn.json', 'bg_bg.json', 'br_fr.json', 'brb.json', 'bs_ba.json',
     'ca_es.json', 'cs_cz.json', 'cv_cu.json', 'cy_gb.json', 'da_dk.json', 'de_at.json', 'de_ch.json', 'de_de.json', 'el_gr.json', 'en_au.json', 'en_ca.json', 'en_gb.json',
@@ -19,5 +24,10 @@ targets = [
 ]
 
 for target_file in targets:
-    shutil.copyfile(source_file, target_file)
-    print(f'Copied content from {source_file} to {target_file}')
+    try:
+        with open(target_file, 'x', encoding='utf-8') as handle:
+            handle.write(menu_json)
+    except FileExistsError:
+        print(f'Skipped {target_file}')
+        continue
+    print(f'Wrote menu keys to {target_file}')
