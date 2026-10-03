@@ -2,18 +2,20 @@ import shutil
 
 source_file = 'en_us.json'
 
+# Language files shipped with Minecraft 1.21.11, aside from en_us.json.
 targets = [
-    'af_za.json', 'bs_ba.json', 'en_gb.json', 'es_es.json', 'fr_ca.json', 'hr_hr.json', 'ka_ge.json', 'lol_us.json', 'nl_nl.json', 'ru_ru.json', 'sxu.json', 'val_es.json',
-    'ar_sa.json', 'ca_es.json', 'en_nz.json', 'es_mx.json', 'fr_fr.json', 'hu_hu.json', 'kk_kz.json', 'lt_lt.json', 'nn_no.json', 'ry_ua.json', 'szl.json', 'vec_it.json',
-    'ast_es.json', 'cs_cz.json', 'en_pt.json', 'es_uy.json', 'fra_de.json', 'hy_am.json', 'kn_in.json', 'lv_lv.json', 'no_no.json', 'sah_sah.json', 'ta_in.json', 'vi_vn.json',
-    'az_az.json', 'cy_gb.json', 'en_ud.json', 'es_ve.json', 'fur_it.json', 'id_id.json', 'ko_kr.json', 'lzh.json', 'oc_fr.json', 'se_no.json', 'th_th.json', 'vp_vl.json',
-    'ba_ru.json', 'da_dk.json', 'esan.json', 'fy_nl.json', 'ig_ng.json', 'ksh.json', 'mk_mk.json', 'ovd.json', 'sk_sk.json', 'tl_ph.json', 'yi_de.json',
-    'bar.json', 'de_at.json', 'enp.json', 'et_ee.json', 'ga_ie.json', 'io_en.json', 'kw_gb.json', 'mn_mn.json', 'pl_pl.json', 'sl_si.json', 'tlh_aa.json', 'yo_ng.json',
-    'be_by.json', 'de_ch.json', 'enws.json', 'eu_es.json', 'gd_gb.json', 'is_is.json', 'la_la.json', 'ms_my.json', 'pt_br.json', 'so_so.json', 'tok.json', 'zh_cn.json',
-    'be_latn.json', 'de_de.json', 'eo_uy.json', 'fa_ir.json', 'gl_es.json', 'isv.json', 'lb_lu.json', 'mt_mt.json', 'pt_pt.json', 'sq_al.json', 'tr_tr.json', 'zh_hk.json',
-    'bg_bg.json', 'el_gr.json', 'es_ar.json', 'fi_fi.json', 'haw_us.json', 'it_it.json', 'li_li.json', 'nah.json', 'qya_aa.json', 'sr_cs.json', 'tt_ru.json', 'zh_tw.json',
-    'br_fr.json', 'en_au.json', 'es_cl.json', 'fil_ph.json', 'he_il.json', 'ja_jp.json', 'lmo.json', 'nds_de.json', 'ro_ro.json', 'sr_sp.json', 'tzo_mx.json', 'zlm_arab.json',
-    'brb.json', 'en_ca.json', 'es_ec.json', 'fo_fo.json', 'hi_in.json', 'jbo_en.json', 'lo_la.json', 'nl_be.json', 'rpr.json', 'sv_se.json', 'uk_ua.json'
+    'af_za.json', 'ar_sa.json', 'ast_es.json', 'az_az.json', 'ba_ru.json', 'bar.json', 'be_by.json', 'be_latn.json', 'bg_bg.json', 'br_fr.json', 'brb.json', 'bs_ba.json',
+    'ca_es.json', 'cs_cz.json', 'cv_cu.json', 'cy_gb.json', 'da_dk.json', 'de_at.json', 'de_ch.json', 'de_de.json', 'el_gr.json', 'en_au.json', 'en_ca.json', 'en_gb.json',
+    'en_nz.json', 'en_pt.json', 'en_ud.json', 'enp.json', 'enws.json', 'eo_uy.json', 'es_ar.json', 'es_cl.json', 'es_ec.json', 'es_es.json', 'es_mx.json', 'es_uy.json',
+    'es_ve.json', 'esan.json', 'et_ee.json', 'eu_es.json', 'fa_ir.json', 'fi_fi.json', 'fil_ph.json', 'fo_fo.json', 'fr_ca.json', 'fr_ch.json', 'fr_fr.json', 'fra_de.json',
+    'fur_it.json', 'fy_nl.json', 'ga_ie.json', 'gd_gb.json', 'gl_es.json', 'go_fr.json', 'got_de.json', 'hal_ua.json', 'haw_us.json', 'he_il.json', 'hi_in.json', 'hn_no.json',
+    'hr_hr.json', 'hu_hu.json', 'hy_am.json', 'id_id.json', 'ig_ng.json', 'io_en.json', 'is_is.json', 'isv.json', 'it_it.json', 'ja_jp.json', 'jbo_en.json', 'ka_ge.json',
+    'kk_kz.json', 'kn_in.json', 'ko_kr.json', 'ksh.json', 'kw_gb.json', 'ky_kg.json', 'la_la.json', 'lb_lu.json', 'li_li.json', 'lmo.json', 'lo_la.json', 'lol_us.json',
+    'lt_lt.json', 'lv_lv.json', 'lzh.json', 'mk_mk.json', 'mn_mn.json', 'ms_my.json', 'mt_mt.json', 'nah.json', 'nds_de.json', 'nl_be.json', 'nl_nl.json', 'nn_no.json',
+    'no_no.json', 'oc_fr.json', 'ovd.json', 'pl_pl.json', 'pls.json', 'pt_br.json', 'pt_pt.json', 'qcb_es.json', 'qid.json', 'qya_aa.json', 'ro_ro.json', 'rpr.json',
+    'ru_ru.json', 'ry_ua.json', 'sah_sah.json', 'se_no.json', 'sk_sk.json', 'sl_si.json', 'so_so.json', 'sq_al.json', 'sr_cs.json', 'sr_sp.json', 'sv_se.json', 'sxu.json',
+    'szl.json', 'ta_in.json', 'th_th.json', 'tl_ph.json', 'tlh_aa.json', 'tok.json', 'tr_tr.json', 'tt_ru.json', 'tzo_mx.json', 'uk_ua.json', 'uz_uz.json', 'val_es.json',
+    'vec_it.json', 'vi_vn.json', 'vp_vl.json', 'vro.json', 'yi_de.json', 'yo_ng.json', 'zh_cn.json', 'zh_hk.json', 'zh_tw.json', 'zlm_arab.json',
 ]
 
 for target_file in targets:
