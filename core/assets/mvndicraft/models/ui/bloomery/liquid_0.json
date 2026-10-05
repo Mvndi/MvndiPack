@@ -1,4 +1,5 @@
 {
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:ui/bloomery/liquid",
@@ -6,10 +7,10 @@
 	},
 	"elements": [
 		{
-			"from": [1, 0, 0],
-			"to": [15, 4, 0],
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
 			"faces": {
-				"north": {"uv": [1, 0, 15, 4], "texture": "#0"},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
 				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
 				"up": {"uv": [0, 0, 14, 0], "texture": "#missing"},
@@ -20,9 +21,8 @@
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [-180, 0, -180],
-			"translation": [0, 0.8, 0],
-			"scale": [1.125, 1.125, 1.125]
+			"rotation": [0, -180, 0],
+			"translation": [0, -10, 80]
 		}
 	}
 }
