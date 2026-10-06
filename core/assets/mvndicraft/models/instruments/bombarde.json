@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:instruments/bombard",
-		"particle": "mvndicraft:instruments/bombard"
+		"0": "mvndicraft:item/instruments/bombard",
+		"particle": "mvndicraft:item/instruments/bombard"
 	},
 	"elements": [
 		{

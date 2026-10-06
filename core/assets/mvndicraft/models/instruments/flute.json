@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mvndicraft:instruments/flute",
-		"particle": "mvndicraft:instruments/flute"
+		"0": "mvndicraft:item/instruments/flute",
+		"particle": "mvndicraft:item/instruments/flute"
 	},
 	"elements": [
 		{
