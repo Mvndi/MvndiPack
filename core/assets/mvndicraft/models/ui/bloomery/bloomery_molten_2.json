@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:ui/bloomery/bloomery_stages",
@@ -6,11 +7,11 @@
 	},
 	"elements": [
 		{
-			"from": [-16, -1.52941, 0],
-			"to": [32, 17.52941, 0],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 17.42509, 0]},
+			"from": [-16, -1.5, 0],
+			"to": [18, 12.5, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 17.4545, 0]},
 			"faces": {
-				"north": {"uv": [0, 3.5, 4.25, 5.1875], "texture": "#0"},
+				"north": {"uv": [0, 3.5, 4.25, 5.25], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 2], "texture": "#missing"},
 				"west": {"uv": [0, 0, 0, 2], "texture": "#missing"},
 				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
@@ -21,9 +22,9 @@
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [0, 180, 0],
-			"translation": [-8, -7.75, -31],
-			"scale": [1.41797, 1.41797, 1.41797]
+			"rotation": [0, -180, 0],
+			"translation": [-22, -3, 0],
+			"scale": [2, 2, 2]
 		}
 	}
 }

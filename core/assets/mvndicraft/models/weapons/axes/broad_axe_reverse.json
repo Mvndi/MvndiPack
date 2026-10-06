@@ -11,7 +11,7 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -180, 0],
-			"translation": [-0.5, 8.5, 0.25]
+			"translation": [-0.5, 8.5, 2.75]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, -180, 0],

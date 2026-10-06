@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "mvndicraft:instruments/trumpet",
-		"particle": "mvndicraft:instruments/trumpet"
+		"0": "mvndicraft:item/instruments/trumpet",
+		"particle": "mvndicraft:item/instruments/trumpet"
 	},
 	"elements": [
 		{
