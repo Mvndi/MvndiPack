@@ -1430,6 +1430,48 @@
               }
             },
             {
+              "threshold": 200,
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:instruments/bombarde"
+              }
+            },
+            {
+              "threshold": 201,
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:instruments/flute"
+              }
+            },
+            {
+              "threshold": 202,
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:instruments/hurdy_gurdy"
+              }
+            },
+            {
+              "threshold": 203,
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:instruments/lute"
+              }
+            },
+            {
+              "threshold": 204,
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:instruments/trumpet"
+              }
+            },
+            {
+              "threshold": 205,
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:instruments/tambourine"
+              }
+            },
+            {
                 "threshold": 2000,
                 "model": {
                     "type": "model",
