@@ -55,6 +55,12 @@ jobs:
             skip_pack_icon = false
             output_file_path = 'core.zip'
             
+            # MvndiFrescoes pixel font: every texel is an exact colour (the palette has 32768 of
+            # them), so no lossy colour quantization. Must come before the general PNG section.
+            ['**/mvndifrescoes/textures/font/*.png']
+            color_quantization_target = 'none'
+            image_data_compression_iterations = 15
+            
             ['**/*?.png']
             image_data_compression_iterations = 15
             
