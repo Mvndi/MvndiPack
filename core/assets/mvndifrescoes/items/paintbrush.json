@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_true": {
+            "type": "minecraft:model",
+            "model": "mvndifrescoes:item/paintbrush_using",
+            "tints": [
+                {
+                    "type": "minecraft:custom_model_data",
+                    "index": 0,
+                    "default": 1381653
+                }
+            ]
+        },
+        "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndifrescoes:item/paintbrush",
+            "tints": [
+                {
+                    "type": "minecraft:custom_model_data",
+                    "index": 0,
+                    "default": 1381653
+                }
+            ]
+        }
+    }
+}
