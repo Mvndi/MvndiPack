@@ -1,0 +1,6 @@
+{
+  "parent": "item/brush/father",
+  "textures": {
+    "1": "minecraft:item/brush/e3"
+  }
+}
