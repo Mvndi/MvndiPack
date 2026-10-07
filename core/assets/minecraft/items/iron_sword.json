@@ -1075,28 +1075,28 @@
                 "threshold": 78,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/"
+                    "model": "mvndicraft:weapons/pole_arms/awl_pike"
                 }
             },
             {
                 "threshold": 79,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/"
+                    "model": "mvndicraft:weapons/pole_arms/fork"
                 }
             },
             {
                 "threshold": 80,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/"
+                    "model": "mvndicraft:weapons/pole_arms/fork_brace"
                 }
             },
             {
                 "threshold": 81,
                 "model": {
                     "type": "model",
-                    "model": "mvndicraft:weapons/swords/"
+                    "model": "mvndicraft:weapons/swords/war_razor"
                 }
             },
             {
