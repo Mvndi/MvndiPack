@@ -2484,10 +2484,6 @@
     },
     {
       "type": "minecraft:single",
-      "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_iron_overlay"
-    },
-    {
-      "type": "minecraft:single",
       "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_overlay"
     },
     {

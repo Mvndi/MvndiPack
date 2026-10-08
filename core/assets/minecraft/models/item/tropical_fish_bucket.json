@@ -8,8 +8,8 @@
   "textures": {
     "0": "item/bucket",
     "1": "item/water_flow",
-    "2": "mvndicraft:compat/uv/057c6ef86fecc9e5",
-    "3": "mvndicraft:compat/uv/818d0bbf9dd502f0",
+    "2": "mvndicraft:item/compat/uv/057c6ef86fecc9e5",
+    "3": "mvndicraft:item/compat/uv/818d0bbf9dd502f0",
     "particle": "item/tropical_fish"
   },
   "elements": [

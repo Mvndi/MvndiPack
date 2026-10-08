@@ -8,7 +8,7 @@
   "textures": {
     "0": "item/bucket",
     "1": "item/water_flow",
-    "2": "mvndicraft:compat/uv/187b58dd76e84a9b",
+    "2": "mvndicraft:item/compat/uv/187b58dd76e84a9b",
     "particle": "item/cod"
   },
   "elements": [
