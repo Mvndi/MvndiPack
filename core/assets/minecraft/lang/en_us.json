@@ -188,9 +188,9 @@
   "menu.playerReporting": "Report",
   "effect.minecraft.poison": "Plague",
 
-  "menu.returnToMenu": "\uE087Disconnect\uE088\uE086\uE089",
-  "menu.game": "",
-  "menu.disconnect": "\uE087Disconnect\uE088\uE086\uE089",
+  "menu.returnToMenu": "Disconnect",
+  "menu.game": "\uE086",
+  "menu.disconnect": "Disconnect",
   "menu.returnToGame": "Back to Mvndicraft",
 
   "entity.minecraft.hoglin": "Boar",
