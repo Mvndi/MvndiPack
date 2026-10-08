@@ -1,119 +1,2815 @@
 {
-    "sources": [
-        {
-            "type": "directory",
-            "source": "entity",
-            "prefix": "entity/"
-        },
-        {
-            "type": "directory",
-            "source": "models/armor",
-            "prefix": "models/armor/"
-        },
-        {
-            "type": "directory",
-            "source": "tools",
-            "prefix": "tools/"
-        },
-        {
-            "type": "directory",
-            "source": "pvp",
-            "prefix": "pvp/"
-        },
-        {
-            "type": "directory",
-            "source": "farming",
-            "prefix": "farming/"
-        },
-        {
-            "type": "directory",
-            "source": "recipes",
-            "prefix": "recipes/"
-        },
-        {
-            "type": "directory",
-            "source": "blocks",
-            "prefix": "blocks/"
-        },
-        {
-            "type": "directory",
-            "source": "siege",
-            "prefix": "siege/"
-        },
-        {
-            "type": "directory",
-            "source": "ui",
-            "prefix": "ui/"
-        },
-        {
-            "type": "directory",
-            "source": "minigame",
-            "prefix": "minigame/"
-        },
-        {
-            "type": "directory",
-            "source": "blacksmith",
-            "prefix": "blacksmith/"
-        },
-        {
-            "type": "directory",
-            "source": "mob_trophy",
-            "prefix": "mob_trophy/"
-        },
-        {
-            "type": "directory",
-            "source": "shields",
-            "prefix": "shields/"
-        },
-        {
-            "type": "directory",
-            "source": "equipment",
-            "prefix": "equipment/"
-        },
-        {
-            "type": "directory",
-            "source": "misc",
-            "prefix": "misc/"
-        },
-        {
-            "type": "directory",
-            "source": "armor",
-            "prefix": "armor/"
-        },
-        {
-            "type": "directory",
-            "source": "vehicles",
-            "prefix": "vehicles/"
-        },
-        {
-            "type": "directory",
-            "source": "weapons",
-            "prefix": "weapons/"
-        },
-        {
-            "type": "directory",
-            "source": "armour",
-            "prefix": "armour/"
-        },
-        {
-            "type": "directory",
-            "source": "placeables",
-            "prefix": "placeables/"
-        },
-        {
-            "type": "directory",
-            "source": "display",
-            "prefix": "display/"
-        },
-        {
-            "type": "directory",
-            "source": "utilities",
-            "prefix": "utilities/"
-        },
-	{
-            "type": "directory",
-            "source": "ui",
-            "prefix": "ui/"
-        }
-    ]
+  "sources": [
+    {
+      "type": "directory",
+      "source": "models/armor",
+      "prefix": "models/armor/"
+    },
+    {
+      "type": "directory",
+      "source": "tools",
+      "prefix": "tools/"
+    },
+    {
+      "type": "directory",
+      "source": "pvp",
+      "prefix": "pvp/"
+    },
+    {
+      "type": "directory",
+      "source": "farming",
+      "prefix": "farming/"
+    },
+    {
+      "type": "directory",
+      "source": "recipes",
+      "prefix": "recipes/"
+    },
+    {
+      "type": "directory",
+      "source": "blocks",
+      "prefix": "blocks/"
+    },
+    {
+      "type": "directory",
+      "source": "siege",
+      "prefix": "siege/"
+    },
+    {
+      "type": "directory",
+      "source": "ui",
+      "prefix": "ui/"
+    },
+    {
+      "type": "directory",
+      "source": "minigame",
+      "prefix": "minigame/"
+    },
+    {
+      "type": "directory",
+      "source": "blacksmith",
+      "prefix": "blacksmith/"
+    },
+    {
+      "type": "directory",
+      "source": "mob_trophy",
+      "prefix": "mob_trophy/"
+    },
+    {
+      "type": "directory",
+      "source": "shields",
+      "prefix": "shields/"
+    },
+    {
+      "type": "directory",
+      "source": "equipment",
+      "prefix": "equipment/"
+    },
+    {
+      "type": "directory",
+      "source": "misc",
+      "prefix": "misc/"
+    },
+    {
+      "type": "directory",
+      "source": "armor",
+      "prefix": "armor/"
+    },
+    {
+      "type": "directory",
+      "source": "vehicles",
+      "prefix": "vehicles/"
+    },
+    {
+      "type": "directory",
+      "source": "weapons",
+      "prefix": "weapons/"
+    },
+    {
+      "type": "directory",
+      "source": "armour",
+      "prefix": "armour/"
+    },
+    {
+      "type": "directory",
+      "source": "placeables",
+      "prefix": "placeables/"
+    },
+    {
+      "type": "directory",
+      "source": "display",
+      "prefix": "display/"
+    },
+    {
+      "type": "directory",
+      "source": "utilities",
+      "prefix": "utilities/"
+    },
+    {
+      "type": "directory",
+      "source": "ui",
+      "prefix": "ui/"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/arrow"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/bear/polarbear"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/cow/mooshroom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/equipment/horse_body/gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fox/fox"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fox/fox_back"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fox/snow_fox"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fox/snow_fox_back"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/hoglin/boar_back"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/hoglin/hoglin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/steve"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_ashen"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_chestnut"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_rusty"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_snowy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_spotted"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_striped"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf_woods"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:compat/entity/chest/normal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:compat/entity/shulker/shulker_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:compat/entity/shulker/shulker_orange"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/chainmail"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/chainmail_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/chainmail_brass_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/chainmail_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_blue_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_half_golden"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/full_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/gambeson"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/scale"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/scale_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/scale_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/horse_body/scale_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_blue_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brass_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brigandine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brigandine_black_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brigandine_blue_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brigandine_brass_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brigandine_fabric"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_brigandine_gold_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/allantica_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/black_rider"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/brigandine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/brigandine_black_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/brigandine_brass_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/brigandine_gold_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/brigandine_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/chainmail"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/chainmail_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/chainmail_brass_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/chainmail_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_blue_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_fabric"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_golden"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_half_golden"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/full_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_blue_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_dyable"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_gold_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_iron_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_cuirass_russeted"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/gambeson_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_black_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_iron_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/half_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/hard_leather"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/lamellar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/lamellar_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/lamellar_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/light_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/medium_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/plated_brigandine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/plated_brigandine_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_black_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_fabric"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_gold_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/round_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/sabatons"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/sabatons_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/sabatons_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/sabatons_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/sabatons_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/sabatons_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/scale"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/scale_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/scale_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/scale_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/steel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/steel_chain"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_black_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_brass_iron_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_brass_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_gold_iron_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_gold_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/tabard_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/tabard_plate_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_iron_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_cross_small_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_half_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_horizontal_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_quarter_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/cuirass_vertical_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/fancy_cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/four_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/full_cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_horizontal_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/gambeson_vertical_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_chess_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_cup_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_horizontal_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_quarter_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_triangle_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_plate_vertical_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/half_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/hash_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/lorraine_cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/plus_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_iron_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_half_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_horizontal_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_quarter_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/round_plate_vertical_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/t_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_chess_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_cup_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_horizontal_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_quarter_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_triangle_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tabard_vertical_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/tree_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/x_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid/trims/y_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_blue_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_brass_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/allantica_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/black_rider"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_black_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_brass_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_gold_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/brigandine_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/chainmail"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/chainmail_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/chainmail_brass_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/chainmail_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_blue_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_golden"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_half_golden"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/full_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass_dyable"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_cuirass_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_gold_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_iron_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/gambeson_russeted"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_black_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_iron_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/half_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/hard_leather"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/lamellar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/lamellar_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/lamellar_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/plated_brigandine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_black"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_black_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_gold_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/round_plate_rust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/scale"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/scale_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/scale_brass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/scale_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/steel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/steel_chain"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_black_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_brass_iron_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_brass_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_gold_iron_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_gold_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/surcoated_hauberk_overlay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/tabard_plate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_strip_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_amethyst"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_copper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_diamond"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_emerald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_iron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_lapis"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_netherite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_quartz"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_redstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/equipment/humanoid_leggings/trims/gambeson_vertical_resin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mvndicraft:entity/oar"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "compat",
+      "prefix": "compat/"
+    }
+  ]
 }
