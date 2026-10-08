@@ -1,56 +1,62 @@
 {
   "pack": {
     "pack_format": 75,
-    "description": "§eᴍᴠɴᴅɪᴄʀᴀꜰᴛ §8| §cʜᴜᴅ               §7For §61.21.11+",
+    "description": "\u00a7e\u1d0d\u1d20\u0274\u1d05\u026a\u1d04\u0280\u1d00\ua730\u1d1b \u00a78| \u00a7c\u029c\u1d1c\u1d05               \u00a77For \u00a761.21.11+",
     "min_format": 75,
     "max_format": 99
   },
   "overlays": {
     "entries": [
       {
-        "formats": [35, 45],
+        "formats": [
+          35,
+          45
+        ],
         "directory": "betterhud_1_21_2",
         "min_format": 35,
         "max_format": 45
       },
       {
-        "formats": [46, 55],
+        "formats": [
+          46,
+          55
+        ],
         "directory": "betterhud_1_21_4",
         "min_format": 46,
         "max_format": 55
       },
       {
-        "formats": [56, 99],
+        "formats": [
+          56,
+          99
+        ],
         "directory": "betterhud_1_21_6",
         "min_format": 56,
         "max_format": 99
       },
       {
-        "formats": [79, 99],
+        "formats": [
+          79,
+          99
+        ],
         "directory": "betterhud_26_1",
         "min_format": 79,
         "max_format": 99
       },
       {
-        "formats": [85, 99],
+        "formats": [
+          85,
+          99
+        ],
         "directory": "betterhud_26_2",
         "min_format": 85,
         "max_format": 99
       },
       {
-        "formats": [22, 45],
-        "directory": "bettermodel_legacy",
-        "min_format": 22,
-        "max_format": 45
-      },
-      {
-        "formats": [46, 99],
-        "directory": "bettermodel_modern",
-        "min_format": 46,
-        "max_format": 99
-      },
-      {
-        "formats": [97, 99],
+        "formats": [
+          97,
+          99
+        ],
         "directory": "betterhud_26_3",
         "min_format": 97,
         "max_format": 99
@@ -58,4 +64,3 @@
     ]
   }
 }
-
