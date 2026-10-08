@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/helmet",
+  "textures": {
+    "helmet": "mvndicraft:entity/equipment/humanoid/gambeson",
+    "particle": "mvndicraft:entity/equipment/humanoid/gambeson"
+  }
+}

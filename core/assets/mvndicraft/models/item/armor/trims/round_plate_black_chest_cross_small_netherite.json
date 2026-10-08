@@ -1,0 +1,9 @@
+{
+  "parent": "item/chestplate_layer2",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/round_plate_black",
+    "layer1": "mvndicraft:entity/equipment/humanoid/round_plate_black",
+    "particle": "mvndicraft:entity/equipment/humanoid/round_plate_black",
+    "layer2": "mvndicraft:entity/equipment/humanoid/trims/round_plate_cross_small_netherite"
+  }
+}

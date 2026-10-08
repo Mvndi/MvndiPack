@@ -158,7 +158,7 @@
   },
   "music.creative": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -166,7 +166,7 @@
   },
   "music.credits": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -174,7 +174,7 @@
   },
   "music.dragon": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -182,7 +182,7 @@
   },
   "music.end": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -190,7 +190,7 @@
   },
   "music.game": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -198,7 +198,7 @@
   },
   "music.menu": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -206,7 +206,7 @@
   },
   "music.nether.basalt_deltas": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -214,7 +214,7 @@
   },
   "music.nether.crimson_forest": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -222,7 +222,7 @@
   },
   "music.nether_wastes": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -230,7 +230,7 @@
   },
   "music.soul_sand_valley": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -238,7 +238,7 @@
   },
   "music.warped_forest": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -246,7 +246,7 @@
   },
   "music.overworld.dripstone_caves": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -254,7 +254,7 @@
   },
   "music.overworld.flower_forest": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -262,7 +262,7 @@
   },
   "music.overworld.frozen_peaks": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -270,7 +270,7 @@
   },
   "music.overworld.grove": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -278,7 +278,7 @@
   },
   "music.overworld.lush_caves": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -286,7 +286,7 @@
   },
   "music.overworld.sparse_jungle": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -294,7 +294,7 @@
   },
   "music.overworld.stony_peaks": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -302,7 +302,7 @@
   },
   "music.under_water": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
         "name": "mvndicraft:silence"
       }
@@ -310,33 +310,37 @@
   },
   "entity.zombie.ambient": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
-        "name": "minecraft:entity.pillager.ambient"
+        "name": "minecraft:entity.pillager.ambient",
+        "type": "event"
       }
     ]
   },
   "entity.zombie.death": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
-        "name": "minecraft:entity.pillager.death"
+        "name": "minecraft:entity.pillager.death",
+        "type": "event"
       }
     ]
   },
   "entity.zombie.hurt": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
-        "name": "minecraft:entity.pillager.hurt"
+        "name": "minecraft:entity.pillager.hurt",
+        "type": "event"
       }
     ]
   },
   "entity.zombie.step": {
     "replace": true,
-    "sounds" : [
+    "sounds": [
       {
-        "name": "minecraft:entity.cow.step"
+        "name": "minecraft:entity.cow.step",
+        "type": "event"
       }
     ]
   }

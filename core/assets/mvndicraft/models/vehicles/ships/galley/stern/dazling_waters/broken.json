@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/galley/stern/default/broken",
   "textures": {
+		"particle": "block/oak_planks",
     "0": "mvndicraft:vehicles/ships/white_wool",
     "1": "block/oak_planks",
     "2": "mvndicraft:vehicles/ships/galley/stern/dazling_waters"

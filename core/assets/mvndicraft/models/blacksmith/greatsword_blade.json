@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/swords/spadone",
 		"3": "mvndicraft:weapons/swords/spadone",
 		"4": "mvndicraft:weapons/swords/spadone_tip"
 	},

@@ -2,6 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:armor/helms/big_chain_coif_variant2",
 		"3": "mvndicraft:armor/helms/big_chain_coif_variant2"
 	},
 	"elements": [

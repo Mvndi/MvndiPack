@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/cog/mast/default/undamaged/stowed",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/cog/mast/default",
     "sail": "mvndicraft:vehicles/ships/cog/sail/red_stripes"
   }
 }

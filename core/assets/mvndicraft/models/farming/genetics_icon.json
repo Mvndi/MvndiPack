@@ -2,6 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 32],
 	"textures": {
+		"missing": "entity/cow/mooshroom",
+		"particle": "entity/cow/mooshroom",
 		"0": "entity/cow/mooshroom"
 	},
 	"elements": [
@@ -68,12 +70,12 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16.0325, 7.63875]},
 			"color": 8,
 			"faces": {
-				"north": {"uv": [14.25, 0.5, 13.25, 0], "rotation": 180, "texture": "#missing"},
-				"east": {"uv": [13, 0.5, 13.25, 3.5], "rotation": 90, "texture": "#missing"},
-				"south": {"uv": [15.25, 0, 14.25, 0.5], "texture": "#missing"},
-				"west": {"uv": [14.25, 0.5, 14.5, 3.5], "rotation": 270, "texture": "#missing"},
-				"up": {"uv": [14.5, 0.5, 15.5, 3.5], "texture": "#missing"},
-				"down": {"uv": [13.25, 0.5, 14.25, 3.5], "rotation": 180, "texture": "#missing"}
+				"north": {"uv": [14.25, 0.5, 13.25, 0], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [13, 0.5, 13.25, 3.5], "rotation": 90, "texture": "#particle"},
+				"south": {"uv": [15.25, 0, 14.25, 0.5], "texture": "#particle"},
+				"west": {"uv": [14.25, 0.5, 14.5, 3.5], "rotation": 270, "texture": "#particle"},
+				"up": {"uv": [14.5, 0.5, 15.5, 3.5], "texture": "#particle"},
+				"down": {"uv": [13.25, 0.5, 14.25, 3.5], "rotation": 180, "texture": "#particle"}
 			}
 		},
 		{

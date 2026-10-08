@@ -1,4 +1,5 @@
 {
+	"textures": {"particle": "entity/steve"},
 	"credit": "Made with Blockbench",
     "parent": "mvndicraft:ui/professions/smithing_steve",
 	"display": {

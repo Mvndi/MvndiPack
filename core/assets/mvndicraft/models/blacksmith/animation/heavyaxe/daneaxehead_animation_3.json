@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:blacksmith/hot_steel_generic",
 		"2": "mvndicraft:blacksmith/hot_steel_daneaxe",
 		"3": "mvndicraft:blacksmith/hot_steel_generic"
 	},

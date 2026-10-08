@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/galley/mast/default/heavily_damaged/stowed",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/galley/mast/default",
     "0": "mvndicraft:vehicles/ships/galley/sail/yellow",
     "2": "mvndicraft:vehicles/ships/white_wool",
     "3": "mvndicraft:vehicles/ships/galley/mast/default"

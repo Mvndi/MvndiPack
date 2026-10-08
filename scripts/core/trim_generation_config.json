@@ -1,0 +1,205 @@
+{
+  "materials": [
+    "quartz",
+    "iron",
+    "netherite",
+    "redstone",
+    "copper",
+    "gold",
+    "emerald",
+    "diamond",
+    "lapis",
+    "amethyst",
+    "resin"
+  ],
+  "groups": {
+    "gambeson": {
+      "patterns": {
+        "cross": "mvndicraft:cross",
+        "gambeson_horizontal": "mvndicraft:gambeson_horizontal",
+        "gambeson_vertical": "mvndicraft:gambeson_vertical",
+        "fancy_cross": "mvndicraft:fancy_cross",
+        "lorraine_cross": "mvndicraft:lorraine_cross",
+        "x": "mvndicraft:x",
+        "four": "mvndicraft:four",
+        "plus": "mvndicraft:plus",
+        "y": "mvndicraft:y",
+        "half": "mvndicraft:half",
+        "t": "mvndicraft:t",
+        "hash": "mvndicraft:hash",
+        "tree": "mvndicraft:tree"
+      },
+      "items": [
+        {
+          "id": "gambeson_chest",
+          "dye_default": 16777215
+        }
+      ]
+    },
+    "gambeson_leggings": {
+      "patterns": {
+        "gambeson_vertical": "mvndicraft:gambeson_vertical",
+        "gambeson_strip": "mvndicraft:gambeson_strip"
+      },
+      "items": [
+        {
+          "id": "gambeson_leggings",
+          "dye_default": 16777215
+        }
+      ]
+    },
+    "surcoated_hauberk": {
+      "patterns": {
+        "tabard_cup": "mvndicraft:tabard_cup",
+        "tabard_horizontal": "mvndicraft:tabard_horizontal",
+        "tabard_quarter": "mvndicraft:tabard_quarter",
+        "tabard_chess": "mvndicraft:tabard_chess",
+        "tabard_triangle": "mvndicraft:tabard_triangle",
+        "full_cross": "mvndicraft:full_cross",
+        "tabard_vertical": "mvndicraft:tabard_vertical",
+        "cross": "mvndicraft:cross",
+        "fancy_cross": "mvndicraft:fancy_cross",
+        "lorraine_cross": "mvndicraft:lorraine_cross",
+        "x": "mvndicraft:x",
+        "four": "mvndicraft:four",
+        "plus": "mvndicraft:plus",
+        "y": "mvndicraft:y",
+        "half": "mvndicraft:half",
+        "t": "mvndicraft:t",
+        "hash": "mvndicraft:hash",
+        "tree": "mvndicraft:tree"
+      },
+      "items": [
+        {
+          "id": "surcoated_hauberk_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "surcoated_hauberk_gold_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "surcoated_hauberk_black_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "surcoated_hauberk_brass_iron_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "surcoated_hauberk_brass_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "surcoated_hauberk_gold_iron_chest",
+          "dye_default": 16777215
+        }
+      ]
+    },
+    "tabard_full_plate": {
+      "patterns": {
+        "tabard_cup": "mvndicraft:tabard_cup",
+        "tabard_horizontal": "mvndicraft:tabard_horizontal",
+        "tabard_quarter": "mvndicraft:tabard_quarter",
+        "tabard_chess": "mvndicraft:tabard_chess",
+        "tabard_triangle": "mvndicraft:tabard_triangle",
+        "full_cross": "mvndicraft:full_cross",
+        "tabard_vertical": "mvndicraft:tabard_vertical",
+        "fancy_cross": "mvndicraft:fancy_cross",
+        "lorraine_cross": "mvndicraft:lorraine_cross",
+        "x": "mvndicraft:x",
+        "four": "mvndicraft:four",
+        "plus": "mvndicraft:plus",
+        "y": "mvndicraft:y",
+        "half": "mvndicraft:half",
+        "t": "mvndicraft:t",
+        "hash": "mvndicraft:hash",
+        "tree": "mvndicraft:tree",
+        "cross": "mvndicraft:cross"
+      },
+      "items": [
+        {
+          "id": "tabard_full_plate_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_gold_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_half_golden_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_rust_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_blue_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_golden_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_black_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_blue_gold_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "tabard_full_plate_brass_chest",
+          "dye_default": 16777215
+        }
+      ]
+    },
+    "cuirass": {
+      "patterns": {
+        "cuirass_cross": "mvndicraft:cuirass_cross",
+        "cuirass_quarter": "mvndicraft:cuirass_quarter",
+        "cuirass_cross_iron": "mvndicraft:cuirass_cross_iron",
+        "cuirass_cross_small": "mvndicraft:cuirass_cross_small",
+        "cuirass_half": "mvndicraft:cuirass_half",
+        "cuirass_horizontal": "mvndicraft:cuirass_horizontal",
+        "cuirass_vertical": "mvndicraft:cuirass_vertical"
+      },
+      "items": [
+        {
+          "id": "cuirass_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_gold_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_rust_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_blue_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_black_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_black_gold_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_brass_chest",
+          "dye_default": 16777215
+        },
+        {
+          "id": "cuirass_gold_iron_chest",
+          "dye_default": 16777215
+        }
+      ]
+    }
+  }
+}

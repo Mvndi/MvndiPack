@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [4, 4],
 	"textures": {
+		"particle": "mvndicraft:siege/block/brass",
 		"1": "mvndicraft:siege/block/brass",
 		"2": "mvndicraft:siege/block/barrel",
 		"3": "block/white_wool",

@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:siege/block/steel",
 		"2": "mvndicraft:siege/block/platform",
 		"3": "mvndicraft:siege/block/steel"
 	},

@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "diamond_pickaxe",
+	"parent": "item/diamond_pickaxe",
 	"textures": {
 		"5": "mvndicraft:tools/steeltooltexture",
 		"particle": "mvndicraft:tools/steeltooltexture"

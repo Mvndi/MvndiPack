@@ -2,6 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:siege/block/ballista",
 		"1": "mvndicraft:siege/block/ballista",
 		"2": "mvndicraft:siege/block/platform",
 		"3": "mvndicraft:siege/block/steel",

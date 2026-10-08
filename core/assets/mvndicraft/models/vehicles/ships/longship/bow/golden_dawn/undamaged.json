@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/longship/bow/default/undamaged",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/bow/golden_dawn",
     "3": "mvndicraft:vehicles/ships/longship/bow/golden_dawn"
   }
 }

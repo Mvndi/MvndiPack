@@ -2,7 +2,7 @@
   "parent": "item/boots_layer1",
   "textures": {
     "boots": "mvndicraft:entity/equipment/humanoid_leggings/hard_leather",
-    "layer1": "mvndicraft:entity/equipment/humanoid/hard_leggings",
+    "layer1": "mvndicraft:entity/equipment/humanoid/hard_leather",
     "particle": "mvndicraft:entity/equipment/humanoid_leggings/hard_leather"
   }
 }

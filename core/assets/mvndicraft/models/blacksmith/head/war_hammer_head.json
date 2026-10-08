@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/blunt/war_hammer",
 		"1": "mvndicraft:weapons/blunt/war_hammer"
 	},
 	"elements": [

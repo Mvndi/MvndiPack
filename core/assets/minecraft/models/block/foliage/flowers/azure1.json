@@ -1,6 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
+		"particle": "block/azure_bluet",
 		"bottom": "block/azure_bluet"
 	},
 	"elements": [

@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:ui/mill/mill_loading",
 		"1": "mvndicraft:ui/mill/mill_loading"
 	},
 	"elements": [

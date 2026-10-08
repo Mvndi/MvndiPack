@@ -4,7 +4,7 @@
 	"textures": {
 		"1": "mvndicraft:armor/helms/pteruges",
 		"3": "mvndicraft:armor/helms/b_byzconicalhelm",
-		"particle": "mvndicraft:armor/helms//b_byzconicalhelm"
+		"particle": "mvndicraft:armor/helms/b_byzconicalhelm"
 	},
 	"elements": [
 		{

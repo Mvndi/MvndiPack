@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/fishing_boat/hull/default",
 		"1": "mvndicraft:vehicles/ships/fishing_boat/hull/default"
 	},
 	"elements": [

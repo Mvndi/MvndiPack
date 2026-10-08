@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [4, 4],
 	"textures": {
+		"particle": "entity/chest/normal",
 		"3": "entity/chest/normal"
 	},
 	"elements": [

@@ -1,6 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
+		"particle": "block/iron_bars",
 		"0": "block/iron_bars"
 	},
 	"elements": [

@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/mast/default",
 		"2": "mvndicraft:vehicles/ships/white_wool",
 		"3": "mvndicraft:vehicles/ships/longship/sail/default",
 		"4": "mvndicraft:vehicles/ships/longship/mast/default"

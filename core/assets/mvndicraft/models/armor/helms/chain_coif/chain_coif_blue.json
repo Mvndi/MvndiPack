@@ -4,7 +4,7 @@
 	"textures": {
 		"2": "mvndicraft:armor/helms/wreath_redblack",
 		"3": "mvndicraft:armor/helms/big_chain_coif_brass",
-		"particle": "mvndicraft:armor/helms/tentshapedbascinet_blue"
+		"particle": "mvndicraft:armor/helms/tentshapedbascinet/tentshapedbascinet_blue"
 	},
 	"elements": [
 		{

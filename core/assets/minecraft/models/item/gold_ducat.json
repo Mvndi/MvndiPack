@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/gold_ducat"
+    "layer0": "mvndicraft:ui/icons/ducat",
+    "particle": "mvndicraft:ui/icons/ducat"
   }
 }

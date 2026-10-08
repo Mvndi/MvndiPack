@@ -3,6 +3,6 @@
   "textures": {
     "chestplate": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk",
     "layer1": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_gold_overlay",
-    "particle": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk_gold"
+    "particle": "mvndicraft:entity/equipment/humanoid/surcoated_hauberk"
   }
 }

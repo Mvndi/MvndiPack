@@ -1,5 +1,6 @@
 {
 	"textures": {
+		"particle": "block/fence_acacia",
 		"0": "block/fence_acacia",
 		"1": "block/fence_acacia_top"
 	},

@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "mvndicraft:farming/sawmill",
 		"1": "block/oak_log",
 		"2": "block/oak_log_top",
 		"3": "mvndicraft:farming/sawmill"

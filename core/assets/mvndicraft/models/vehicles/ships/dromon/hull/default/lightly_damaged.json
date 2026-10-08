@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [64, 64],
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/dromon/hull/default",
 		"5": "mvndicraft:vehicles/ships/dromon/hull/default"
 	},
 	"elements": [

@@ -3,6 +3,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/cog/mast/default",
 		"mast": "mvndicraft:vehicles/ships/cog/mast/default",
 		"rope": "block/white_wool",
 		"sail": "mvndicraft:vehicles/ships/cog/sail/default"

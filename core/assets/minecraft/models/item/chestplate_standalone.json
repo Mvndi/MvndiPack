@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/chestplate",
+  "textures": {
+    "chestplate": "mvndicraft:entity/equipment/humanoid/gambeson",
+    "particle": "mvndicraft:entity/equipment/humanoid/gambeson"
+  }
+}

@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [8, 8],
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/dromon/oak_planks",
 		"1": "mvndicraft:vehicles/ships/dromon/oak_planks"
 	},
 	"elements": [

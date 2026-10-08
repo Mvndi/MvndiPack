@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "diamond_axe",
+	"parent": "item/diamond_axe",
 	"textures": {
 		"4": "mvndicraft:tools/steeltooltexture"
 	},

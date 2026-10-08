@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
+		"particle": "mvndicraft:siege/item/boulder",
 		"2": "mvndicraft:siege/item/boulder"
 	},
 	"elements": [

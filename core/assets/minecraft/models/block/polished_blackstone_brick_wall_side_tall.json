@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "block/quartz_block_side",
 		"wall": "block/quartz_block_side",
 		"top": "block/quartz_block_top"
 	},

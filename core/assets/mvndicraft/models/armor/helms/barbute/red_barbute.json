@@ -2,6 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:armor/helms/barbute_yellowredstripes",
 		"2": "mvndicraft:armor/helms/barbute_yellowredstripes"
 	},
 	"elements": [

@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/blunt/morning_star",
 		"0": "mvndicraft:weapons/blunt/morning_star"
 	},
 	"elements": [

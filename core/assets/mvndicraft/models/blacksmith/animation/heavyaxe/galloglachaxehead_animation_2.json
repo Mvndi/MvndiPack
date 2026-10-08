@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [24, 24],
 	"textures": {
+		"missing": "mvndicraft:blacksmith/hot_steel_generic",
 		"0": "mvndicraft:blacksmith/hot_steel_generic",
 		"particle": "mvndicraft:blacksmith/hot_steel_generic"
 	},
@@ -64,12 +65,12 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.1875, 6.62631, 7.7158]},
 			"color": 8,
 			"faces": {
-				"north": {"uv": [3.75, 13.625, 3.5, 15.125], "texture": "#missing"},
-				"east": {"uv": [3.75, 13.625, 3.5, 15.125], "texture": "#missing"},
-				"south": {"uv": [3.75, 13.625, 3.5, 15.125], "texture": "#missing"},
-				"west": {"uv": [3.75, 13.625, 3.5, 15.125], "rotation": 180, "texture": "#missing"},
-				"up": {"uv": [3.75, 13.625, 3.5, 15.125], "rotation": 270, "texture": "#missing"},
-				"down": {"uv": [3.75, 13.625, 3.5, 15.125], "rotation": 90, "texture": "#missing"}
+				"north": {"uv": [3.75, 13.625, 3.5, 15.125], "texture": "#0"},
+				"east": {"uv": [3.75, 13.625, 3.5, 15.125], "texture": "#0"},
+				"south": {"uv": [3.75, 13.625, 3.5, 15.125], "texture": "#0"},
+				"west": {"uv": [3.75, 13.625, 3.5, 15.125], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [3.75, 13.625, 3.5, 15.125], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [3.75, 13.625, 3.5, 15.125], "rotation": 90, "texture": "#0"}
 			}
 		},
 		{
