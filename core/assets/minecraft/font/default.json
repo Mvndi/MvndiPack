@@ -757,7 +757,7 @@
     {
       "type": "bitmap",
       "file": "mvndicraft:ui/pause_art.png",
-      "ascent": 4,
+      "ascent": -13,
       "height": 256,
       "chars": [
         ""
