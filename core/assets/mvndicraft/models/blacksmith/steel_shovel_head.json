@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "diamond_shovel",
+	"parent": "item/diamond_shovel",
 	"textures": {
 		"4": "mvndicraft:tools/steeltooltexture"
 	},

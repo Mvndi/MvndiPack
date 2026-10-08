@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/swords/falchion_blade",
 		"0": "mvndicraft:weapons/swords/falchion_blade"
 	},
 	"elements": [

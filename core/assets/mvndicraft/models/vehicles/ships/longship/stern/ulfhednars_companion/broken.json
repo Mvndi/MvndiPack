@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/longship/stern/default/broken",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/stern/ulfhednars_companion",
     "3": "mvndicraft:vehicles/ships/longship/stern/ulfhednars_companion"
   }
 }

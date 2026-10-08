@@ -1,6 +1,7 @@
 {
   "parent": "item/chestplate_layer2_tint",
   "textures": {
+		"particle": "mvndicraft:entity/equipment/humanoid/full_plate_black",
     "chestplate": "mvndicraft:entity/equipment/humanoid/full_plate_black",
     "layer1": "mvndicraft:entity/equipment/humanoid/full_plate_fabric",
     "layer2": "mvndicraft:entity/equipment/humanoid/trims/tree_lapis"

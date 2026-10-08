@@ -2,6 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+		"missing": "mvndicraft:siege/item/wheellock_pistol",
 		"0": "mvndicraft:siege/item/wheellock_pistol",
 		"particle": "mvndicraft:siege/item/wheellock_pistol"
 	},
@@ -246,12 +247,12 @@
 			"to": [8.175, 10.425, 14.925],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 8.75, 6.25]},
 			"faces": {
-				"north": {"uv": [13, 3, 14, 4], "texture": "#missing"},
-				"east": {"uv": [13, 3, 14, 4], "texture": "#missing"},
-				"south": {"uv": [13, 3, 14, 4], "texture": "#missing"},
-				"west": {"uv": [13, 3, 14, 4], "texture": "#missing"},
-				"up": {"uv": [13, 3, 14, 4], "texture": "#missing"},
-				"down": {"uv": [14, 3, 15, 4], "texture": "#missing"}
+				"north": {"uv": [13, 3, 14, 4], "texture": "#0"},
+				"east": {"uv": [13, 3, 14, 4], "texture": "#0"},
+				"south": {"uv": [13, 3, 14, 4], "texture": "#0"},
+				"west": {"uv": [13, 3, 14, 4], "texture": "#0"},
+				"up": {"uv": [13, 3, 14, 4], "texture": "#0"},
+				"down": {"uv": [14, 3, 15, 4], "texture": "#0"}
 			}
 		}
 	],

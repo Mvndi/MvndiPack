@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/pole_arms/winged_spear",
 		"0": "mvndicraft:weapons/pole_arms/winged_spear",
 		"3": "mvndicraft:weapons/pole_arms/spear_tip_steel2"
 	},
@@ -88,12 +89,12 @@
 			"to": [8.64198, 10.2337, 8.371],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8.34598, 10.2867, 8]},
 			"faces": {
-				"north": {"uv": [12.75, 14, 15.5, 16], "rotation": 90, "texture": "#missing"},
-				"east": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#missing"},
+				"north": {"uv": [12.75, 14, 15.5, 16], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#particle"},
 				"south": {"uv": [12.5, 8.5, 15.5, 11.5], "texture": "#0"},
-				"west": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#missing"},
-				"up": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#missing"},
-				"down": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#missing"}
+				"west": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#particle"},
+				"up": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#particle"}
 			}
 		},
 		{
@@ -102,11 +103,11 @@
 			"rotation": {"angle": 0, "axis": "z", "origin": [8.34598, 10.2867, 8]},
 			"faces": {
 				"north": {"uv": [12.5, 8.5, 15.5, 11.5], "texture": "#0"},
-				"east": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#missing"},
-				"south": {"uv": [11.75, 12.25, 14.5, 14.25], "rotation": 270, "texture": "#missing"},
-				"west": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#missing"},
-				"up": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#missing"},
-				"down": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#missing"}
+				"east": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#particle"},
+				"south": {"uv": [11.75, 12.25, 14.5, 14.25], "rotation": 270, "texture": "#particle"},
+				"west": {"uv": [0, 0, 1.7, 0.5], "rotation": 270, "texture": "#particle"},
+				"up": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.5, 0.85], "rotation": 270, "texture": "#particle"}
 			}
 		},
 		{
@@ -124,11 +125,11 @@
 			"rotation": {"angle": 0, "axis": "z", "origin": [8.34598, 10.2867, 8]},
 			"faces": {
 				"north": {"uv": [5, 1.75, 7.75, 3.25], "rotation": 90, "texture": "#3"},
-				"east": {"uv": [13, 7, 16, 16], "rotation": 270, "texture": "#missing"},
+				"east": {"uv": [13, 7, 16, 16], "rotation": 270, "texture": "#particle"},
 				"south": {"uv": [5, 1.75, 7.5, 3.25], "rotation": 90, "texture": "#3"},
-				"west": {"uv": [10.75, 8.5, 16, 16], "rotation": 270, "texture": "#missing"},
-				"up": {"uv": [12, 12, 16, 16], "rotation": 270, "texture": "#missing"},
-				"down": {"uv": [11.5, 10.5, 14, 12], "rotation": 270, "texture": "#missing"}
+				"west": {"uv": [10.75, 8.5, 16, 16], "rotation": 270, "texture": "#particle"},
+				"up": {"uv": [12, 12, 16, 16], "rotation": 270, "texture": "#particle"},
+				"down": {"uv": [11.5, 10.5, 14, 12], "rotation": 270, "texture": "#particle"}
 			}
 		},
 		{

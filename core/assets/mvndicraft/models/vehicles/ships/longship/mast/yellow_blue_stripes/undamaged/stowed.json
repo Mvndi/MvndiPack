@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/longship/mast/default/undamaged/stowed",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/mast/default",
     "2": "mvndicraft:vehicles/ships/white_wool",
     "3": "mvndicraft:vehicles/ships/longship/sail/yellow_blue_stripes",
     "4": "mvndicraft:vehicles/ships/longship/mast/default"

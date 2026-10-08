@@ -3,6 +3,7 @@
 	"parent": "mvndicraft:siege/block/trebuchet/parent",
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "mvndicraft:siege/block/trebuchet_base",
 		"1": "mvndicraft:siege/block/trebuchet_base"
 	},
 	"elements": [

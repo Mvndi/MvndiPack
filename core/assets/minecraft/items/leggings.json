@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mvndicraft:item/leggings"
+    "model": "minecraft:item/leggings_standalone"
   }
 }

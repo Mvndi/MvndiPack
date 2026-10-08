@@ -4,6 +4,7 @@
 	"parent": "mvndicraft:vehicles/ships/display",
 	"texture_size": [64, 64],
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/stern/default",
 		"3": "mvndicraft:vehicles/ships/longship/stern/default"
 	},
 	"elements": [

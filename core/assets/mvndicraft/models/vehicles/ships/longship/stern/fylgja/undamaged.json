@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/longship/stern/default/undamaged",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/stern/fylgja",
     "3": "mvndicraft:vehicles/ships/longship/stern/fylgja"
   }
 }

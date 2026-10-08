@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "mvndicraft:vehicles/ships/display",
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/fishing_boat/bow/default",
 		"2": "mvndicraft:vehicles/ships/fishing_boat/bow/default"
 	},
 	"elements": [

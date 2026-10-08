@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "mvndicraft:farming/sawmill",
 		"3": "mvndicraft:farming/sawmill"
 	},
 	"elements": [

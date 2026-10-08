@@ -2,6 +2,7 @@
 	"parent": "block/block",
 	"ambientocclusion": false,
 	"textures": {
+		"particle": "block/fence_nether",
 		"texture": "block/fence_nether"
 	},
 	"elements": [

@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/longship/stern/default/lightly_damaged",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/stern/draugr",
     "3": "mvndicraft:vehicles/ships/longship/stern/draugr"
   }
 }

@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "mvndicraft:vehicles/ships/display",
 	"textures": {
+		"particle": "mvndicraft:vehicles/ships/galley/hull/default",
 		"0": "mvndicraft:vehicles/ships/white_wool",
 		"2": "mvndicraft:vehicles/ships/galley/hull/default"
 	},

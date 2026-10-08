@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/galley/bow/default/broken",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/galley/bow/test_of_faith",
     "2": "mvndicraft:vehicles/ships/galley/bow/test_of_faith"
   }
 }

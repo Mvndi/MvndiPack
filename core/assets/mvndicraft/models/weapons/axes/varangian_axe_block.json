@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [8, 8],
 	"textures": {
+		"particle": "mvndicraft:weapons/axes/varangian_blade",
 		"0": "mvndicraft:weapons/axes/varangian_blade",
 		"3": "mvndicraft:weapons/axes/varangian_wood"
 	},

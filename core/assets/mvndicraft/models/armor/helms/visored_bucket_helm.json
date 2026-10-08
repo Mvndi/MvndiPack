@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "mvndicraft:armor/helms/visored_bucket_helm",
 		"2": "mvndicraft:armor/helms/visoredchain_bucket_helm",
-		"particle": "mvndicraft:visoredchain_bucket_helm"
+		"particle": "mvndicraft:armor/helms/visoredchain_bucket_helm"
 	},
 	"elements": [
 		{

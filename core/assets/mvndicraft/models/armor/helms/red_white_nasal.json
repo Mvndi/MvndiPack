@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:armor/helms/red_white_nasal",
 		"1": "mvndicraft:armor/helms/red_white_nasal"
 	},
 	"elements": [

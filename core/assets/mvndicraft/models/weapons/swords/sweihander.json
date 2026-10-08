@@ -2,6 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/swords/sweihander",
 		"3": "mvndicraft:weapons/swords/sweihander"
 	},
 	"elements": [

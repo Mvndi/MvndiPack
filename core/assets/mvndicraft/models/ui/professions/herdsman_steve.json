@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
+		"particle": "entity/steve",
 		"1": "mvndicraft:siege/block/brass",
 		"2": "mvndicraft:siege/block/barrel",
 		"3": "block/white_wool",

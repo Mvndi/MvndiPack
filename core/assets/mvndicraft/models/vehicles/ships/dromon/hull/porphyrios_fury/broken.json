@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/dromon/hull/default/broken",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/dromon/hull/porphyrios_fury",
     "5": "mvndicraft:vehicles/ships/dromon/hull/porphyrios_fury"
   }
 }

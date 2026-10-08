@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
+		"particle": "mvndicraft:siege/block/trebuchet_base",
 		"1": "block/iron_block",
 		"2": "mvndicraft:siege/block/trebuchet_base"
 	},

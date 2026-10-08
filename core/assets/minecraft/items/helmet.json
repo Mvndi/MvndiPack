@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mvndicraft:item/helmet"
+    "model": "minecraft:item/helmet_standalone"
   }
 }

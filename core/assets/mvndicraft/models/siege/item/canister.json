@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:siege/block/brass",
 		"0": "mvndicraft:siege/block/trebuchet_base",
 		"3": "mvndicraft:siege/block/angle",
 		"4": "mvndicraft:siege/block/brass"

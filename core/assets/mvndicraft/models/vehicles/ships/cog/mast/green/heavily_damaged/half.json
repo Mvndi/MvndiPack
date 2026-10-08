@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/cog/mast/default/heavily_damaged/half",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/cog/mast/default",
     "sail": "mvndicraft:vehicles/ships/cog/sail/green"
   }
 }

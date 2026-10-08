@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "block/fence_cherry",
 		"0": "block/fence_cherry",
 		"1": "block/fence_cherry_top"
 	},

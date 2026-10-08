@@ -1,6 +1,7 @@
 {
     "parent": "block/button_inventory",
     "textures": {
+		"particle": "block/button_spruce",
         "texture": "block/button_spruce"
     }
 }

@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
+		"particle": "mvndicraft:armor/helms/burgonet_helm_rez",
 		"4": "mvndicraft:armor/helms/burgonet_helm_rez"
 	},
 	"elements": [

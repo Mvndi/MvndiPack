@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/cooked_porkchop.json"
+    "model": "minecraft:item/cooked_porkchop"
   }
 }

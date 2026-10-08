@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/leggings",
+  "textures": {
+    "leggings": "mvndicraft:entity/equipment/humanoid_leggings/gambeson",
+    "particle": "mvndicraft:entity/equipment/humanoid_leggings/gambeson"
+  }
+}

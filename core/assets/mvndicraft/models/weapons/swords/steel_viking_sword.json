@@ -2,6 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "mvndicraft:weapons/swords/guard_steel",
 		"0": "mvndicraft:weapons/swords/blade_steel_3",
 		"1": "mvndicraft:weapons/swords/guard_steel",
 		"2": "mvndicraft:weapons/swords/grip_wood_2",

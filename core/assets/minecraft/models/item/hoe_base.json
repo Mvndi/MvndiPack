@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "diamond_hoe",
+	"parent": "item/diamond_hoe",
 	"textures": {
 		"2": "mvndicraft:tools/toolbottomtip",
 		"3": "mvndicraft:tools/toolhandletexture",

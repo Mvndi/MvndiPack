@@ -1,6 +1,7 @@
 {
     "ambientocclusion": false,
     "textures": {
+		"particle": "block/short_grass0_top",
         "top": "block/short_grass0_top",
         "middle": "block/short_grass0_middle",
         "lower": "block/short_grass0_lower"

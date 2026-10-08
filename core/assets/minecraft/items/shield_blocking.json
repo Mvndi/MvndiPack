@@ -1,6 +1,9 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "mvndicraft:item/shield_blocking"
+    "type": "minecraft:special",
+    "base": "minecraft:item/shield_blocking",
+    "model": {
+      "type": "minecraft:shield"
+    }
   }
 }

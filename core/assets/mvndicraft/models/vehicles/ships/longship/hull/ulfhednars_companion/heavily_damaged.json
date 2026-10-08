@@ -1,6 +1,7 @@
 {
   "parent": "mvndicraft:vehicles/ships/longship/hull/default/heavily_damaged",
   "textures": {
+		"particle": "mvndicraft:vehicles/ships/longship/hull/ulfhednars_companion",
     "3": "mvndicraft:vehicles/ships/longship/hull/ulfhednars_companion"
   }
 }
