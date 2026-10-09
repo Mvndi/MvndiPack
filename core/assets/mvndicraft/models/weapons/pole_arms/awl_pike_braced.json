@@ -4,14 +4,14 @@
 	"parent": "mvndicraft:weapons/pole_arms/awl_pike",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-25, 0, 0],
-			"translation": [-0.75, 30, -12],
-			"scale": [1, 1.41, 1]
+			"rotation": [-18, -1, 0],
+			"translation": [-0.75, 7.5, -1],
+			"scale": [1, 1.4, 1]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-35, 0, 0],
-			"translation": [-0.75, 35, -25],
-			"scale": [1, 1.49, 1]
+			"rotation": [-18, -1, 0],
+			"translation": [-0.75, 7.5, -1],
+			"scale": [1, 1.4, 1]
 		},
 		"firstperson_righthand": {
 			"rotation": [-60, 0, 0]
