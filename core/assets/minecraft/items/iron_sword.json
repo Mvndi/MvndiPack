@@ -1102,7 +1102,8 @@
       {
         "threshold": 82,
         "model": {
-          "type": "minecraft:empty"
+          "type": "model",
+          "model": "mvndicraft:weapons/pole_arms/awl_pike_braced"
         }
       },
       {

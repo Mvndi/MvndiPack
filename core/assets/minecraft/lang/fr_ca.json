@@ -178,9 +178,9 @@
   "item.minecraft.cocoa_beans": "Dates",
 
   "menu.returnToMenu": "Retour au menu",
-  "menu.game": "\uE086",
+  "menu.game": "",
   "menu.disconnect": "Déconnexion",
-  "menu.returnToGame": "Revenir à Mvndicraft",
+  "menu.returnToGame": "\udb84\udc04\ue086\udb84\udc05Revenir \u00e0 Mvndicraft",
 
   "entity.minecraft.hoglin": "Sanglier",
   "entity.minecraft.husk": "Brigand",

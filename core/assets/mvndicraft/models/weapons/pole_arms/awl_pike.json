@@ -12,10 +12,10 @@
 			"to": [8, 29, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8]},
 			"faces": {
-				"north": {"uv": [2, 6.5, 2.25, 10.5], "texture": "#0"},
-				"east": {"uv": [2, 6.5, 2.25, 10.5], "texture": "#0"},
-				"south": {"uv": [2, 6.5, 2.25, 10.5], "texture": "#0"},
-				"west": {"uv": [2, 6.5, 2.25, 10.5], "texture": "#0"},
+				"north": {"uv": [2, 6.25, 2.25, 10.5], "texture": "#0"},
+				"east": {"uv": [2, 6.25, 2.25, 10.5], "texture": "#0"},
+				"south": {"uv": [2, 6.25, 2.25, 10.5], "texture": "#0"},
+				"west": {"uv": [2, 6.25, 2.25, 10.5], "texture": "#0"},
 				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
 			}
@@ -23,7 +23,7 @@
 		{
 			"name": "shaft",
 			"from": [7.25, -11, 7.25],
-			"to": [8.25, 16, 8.25],
+			"to": [8.25, 17, 8.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 16], "texture": "#0"},
@@ -36,7 +36,7 @@
 		},
 		{
 			"name": "shaft",
-			"from": [7.25, 16, 7.25],
+			"from": [7.25, 17, 7.25],
 			"to": [8.25, 22, 8.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
 			"faces": {
@@ -120,31 +120,36 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 11, 1.5]
+			"translation": [0, 6.25, 1.5],
+			"scale": [1, 1.4, 1]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [67.5, 0, 0],
-			"translation": [0, 1, 5.25]
+			"translation": [0, 2.75, 12.75],
+			"scale": [1, 1.41, 1]
 		},
 		"firstperson_righthand": {
 			"rotation": [-22, 0, 0],
-			"translation": [1.5, -2.5, 0]
+			"translation": [1.5, -6.5, 0],
+			"scale": [1, 1.46, 1]
 		},
 		"firstperson_lefthand": {
-			"rotation": [1, 0, 0],
-			"translation": [1.75, 0, -2.25]
+			"rotation": [5, 9, 0],
+			"translation": [4.5, -2.75, -2.25],
+			"scale": [1, 1.42, 1]
 		},
 		"ground": {
-			"rotation": [90, 0, 0]
+			"rotation": [90, 0, 0],
+			"scale": [0.87, 1.05, 0.86]
 		},
 		"gui": {
-			"rotation": [-90, -45, -90],
-			"translation": [2, 2.5, 0],
-			"scale": [0.4, 0.4, 0.4]
+			"rotation": [-46, -17, -44],
+			"translation": [-2.75, -3.25, 0],
+			"scale": [0.68, 0.68, 0.68]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"scale": [2.5, 2.5, 2.5]
+			"scale": [1.75, 2.53, 1.75]
 		}
 	},
 	"groups": [

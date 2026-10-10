@@ -189,9 +189,9 @@
   "effect.minecraft.poison": "Veba",
 
   "menu.returnToMenu": "Bağlantıyı Kes",
-  "menu.game": "\uE086",
+  "menu.game": "",
   "menu.disconnect": "Bağlantıyı Kes",
-  "menu.returnToGame": "Mvndicraft'a Geri Dön",
+  "menu.returnToGame": "\udb84\udc02\ue086\udb84\udc03Mvndicraft'a Geri D\u00f6n",
 
   "entity.minecraft.hoglin": "Yaban Domuzu",
   "entity.minecraft.husk": "Haydut",
