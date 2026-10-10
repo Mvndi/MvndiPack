@@ -1,16 +1,13 @@
 from pathlib import Path
+import json
 
 LANG_DIR = Path(__file__).resolve().parents[2] / "core" / "assets" / "minecraft" / "lang"
 
 # Language files shipped with Minecraft 1.21.11, aside from en_us.json.
 # Keep the private-use characters as \u escapes so they match the other lang files.
-menu_json = """{
-  "menu.returnToMenu": "\\uE087Disconnect\\uE088\\uE086\\uE089",
-  "menu.game": "",
-  "menu.disconnect": "\\uE087Disconnect\\uE088\\uE086\\uE089",
-  "menu.returnToGame": "Back to Mvndicraft"
-}
-"""
+menu_keys = ("menu.returnToMenu", "menu.game", "menu.disconnect", "menu.returnToGame")
+english = json.loads((LANG_DIR / "en_us.json").read_text(encoding="utf-8"))
+menu_json = json.dumps({key: english[key] for key in menu_keys}, indent=2, ensure_ascii=True) + "\n"
 
 targets = [
     'af_za.json', 'ar_sa.json', 'ast_es.json', 'az_az.json', 'ba_ru.json', 'bar.json', 'be_by.json', 'be_latn.json', 'bg_bg.json', 'br_fr.json', 'brb.json', 'bs_ba.json',
