@@ -729,18 +729,68 @@
           "model": "mvndicraft:weapons/swords/true_straight_sword_slide"
         }
       },
-      {
+     {
         "threshold": 47,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/axes/varangian_axe_reverse"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/axes/varangian_axe_reverse"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/axes/varangian_axe_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/axes/varangian_axe_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/axes/varangian_axe_reverse"
+          }
         }
       },
-      {
+     {
         "threshold": 48,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/axes/broad_axe_reverse"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/axes/broad_axe_reverse"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/axes/broad_axe_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/axes/broad_axe_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/axes/broad_axe_reverse"
+          }
         }
       },
       {
@@ -993,8 +1043,33 @@
       {
         "threshold": 70,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/axes/dane_axe_slash"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/axes/dane_axe_slash"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/axes/dane_axe_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/axes/dane_axe_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/axes/dane_axe_slash"
+          }
         }
       },
       {
