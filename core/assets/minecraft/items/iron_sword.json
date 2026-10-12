@@ -831,11 +831,36 @@
           "model": "mvndicraft:weapons/swords/claymore_reverse"
         }
       },
-      {
+     {
         "threshold": 58,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/blunt/crows_beak_reverse"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/blunt/crows_beak_reverse"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/blunt/crows_beak_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/blunt/crows_beak_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/blunt/crows_beak_reverse"
+          }
         }
       },
       {
@@ -899,10 +924,35 @@
         }
       },
       {
-        "threshold": 64,
+        "threshold": 41,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/pole_arms/spiked_polemace_point"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/spiked_polemace_point"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/spiked_polemace_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/pole_arms/spiked_polemace_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/spiked_polemace_point"
+          }
         }
       },
       {
