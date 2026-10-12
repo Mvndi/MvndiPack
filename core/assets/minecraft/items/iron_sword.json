@@ -1074,15 +1074,65 @@
       {
         "threshold": 78,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/pole_arms/awl_pike"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/awl_pike"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/awl_pike_braced"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/pole_arms/awl_pike_braced"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/awl_pike"
+          }
         }
       },
-      {
+       {
         "threshold": 79,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/pole_arms/fork"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/fork"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/fork_brace"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/pole_arms/fork_brace"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/fork"
+          }
         }
       },
       {
@@ -1095,8 +1145,33 @@
       {
         "threshold": 81,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/swords/war_razor"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/swords/war_razor"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/swords/war_razor_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/swords/war_razor_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/swords/war_razor"
+          }
         }
       },
       {

@@ -1,3 +1,6 @@
 *.zip
 *.sh
+core/**/*.py
+hud/**/*.py
+soundscapes/**/*.py
 core/assets/minecraft/textures/entity/equipment/horse_body/gold.png
