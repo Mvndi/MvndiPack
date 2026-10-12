@@ -1067,8 +1067,33 @@
       {
         "threshold": 77,
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/swords/kriegsmesser"
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/swords/kriegsmesser"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/swords/kriegsmesser_block"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/swords/kriegsmesser_block"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/swords/kriegsmesser"
+          }
         }
       },
       {
@@ -1178,7 +1203,7 @@
         "threshold": 82,
         "model": {
           "type": "model",
-          "model": "mvndicraft:weapons/pole_arms/"
+          "model": "mvndicraft:weapons/pole_arms/war_dart"
         }
       },
       {
