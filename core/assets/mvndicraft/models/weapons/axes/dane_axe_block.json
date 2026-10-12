@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "mvndicraft:weapons/axes/dane_axe",
-		"7": "mvndicraft:weapons/axes/dane_axe"
+		"7": "mvndicraft:weapons/axes/dane_axe",
+		"particle": "mvndicraft:weapons/axes/dane_axe"
 	},
 	"elements": [
 		{
@@ -181,8 +181,8 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [52, -5, 40],
-			"translation": [0, 0.25, 0.75],
+			"rotation": [52, 3, 40],
+			"translation": [0, -0.5, 1.5],
 			"scale": [0.99, 0.99, 0.99]
 		},
 		"thirdperson_lefthand": {
@@ -191,8 +191,8 @@
 			"scale": [0.95, 0.95, 0.95]
 		},
 		"firstperson_righthand": {
-			"rotation": [-47, 25, 77],
-			"translation": [-1.5, 3.25, 1.75]
+			"rotation": [30, -7, 61],
+			"translation": [0.75, 1.5, 1.75]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-180, -180, 0],
