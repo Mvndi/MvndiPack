@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/axes/varangian_axe_reverse",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -7,
+        -180,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -180,
+        0,
+        -4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0.5
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        77.25,
+        -180,
+        180
+      ],
+      "translation": [
+        0,
+        -0.5,
+        3.25
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    }
+  }
+}

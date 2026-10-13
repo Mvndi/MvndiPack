@@ -1,0 +1,39 @@
+{
+  "parent": "mvndicraft:weapons/swords/cinquedea",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -129,
+        90,
+        112
+      ],
+      "translation": [
+        0.5,
+        10.75,
+        -0.5
+      ],
+      "scale": [
+        1.77,
+        1.77,
+        1.77
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -129,
+        90,
+        112
+      ],
+      "translation": [
+        0.5,
+        8.5,
+        -0.5
+      ],
+      "scale": [
+        1.36,
+        1.36,
+        1.36
+      ]
+    }
+  }
+}

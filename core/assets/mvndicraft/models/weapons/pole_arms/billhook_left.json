@@ -1,0 +1,38 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/billhook",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -23.75,
+        0,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        5,
+        0,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        7.5,
+        0.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        70,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        8.5
+      ]
+    }
+  }
+}

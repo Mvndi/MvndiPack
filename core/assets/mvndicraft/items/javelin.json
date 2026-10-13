@@ -1,14 +1,35 @@
 {
-    "model": {
-        "type": "minecraft:condition",
-        "property": "minecraft:using_item",
-        "on_false": {
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
             "type": "minecraft:model",
-            "model": "mvndicraft:weapons/pole_arms/javelin"
-        },
-        "on_true": {
+            "model": "mvndicraft:weapons/pole_arms/javelin_left"
+          },
+          "on_true": {
             "type": "minecraft:model",
-            "model": "mvndicraft:weapons/pole_arms/javelin_throw"
+            "model": "mvndicraft:weapons/pole_arms/javelin_throw_left"
+          }
         }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/pole_arms/javelin"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/pole_arms/javelin_throw"
+      }
     }
   }
+}

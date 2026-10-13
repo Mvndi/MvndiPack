@@ -1,0 +1,48 @@
+{
+  "parent": "mvndicraft:weapons/axes/broad_axe_reverse",
+  "display": {
+    "firstperson_lefthand": {
+      "translation": [
+        -0.5,
+        5,
+        -0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -18,
+        -180,
+        0
+      ],
+      "translation": [
+        2.25,
+        -8.75,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        -0.5,
+        8.5,
+        2.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0.75,
+        -3.5,
+        2
+      ]
+    }
+  }
+}

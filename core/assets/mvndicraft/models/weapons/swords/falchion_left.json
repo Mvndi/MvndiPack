@@ -1,0 +1,73 @@
+{
+  "parent": "mvndicraft:weapons/swords/falchion",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -6,
+        -85,
+        0
+      ],
+      "translation": [
+        -4.5,
+        4.5,
+        6.25
+      ],
+      "scale": [
+        1.74,
+        1.74,
+        1.74
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        109,
+        0
+      ],
+      "translation": [
+        25,
+        2.5,
+        0.75
+      ],
+      "scale": [
+        1.7,
+        1.7,
+        1.7
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -9.75,
+        5.75,
+        10.75
+      ],
+      "scale": [
+        1.21,
+        1.21,
+        1.21
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        8,
+        7.5,
+        10.5
+      ],
+      "scale": [
+        1.21,
+        1.21,
+        1.21
+      ]
+    }
+  }
+}

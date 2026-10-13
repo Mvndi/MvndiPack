@@ -1,0 +1,19 @@
+{
+  "parent": "mvndicraft:weapons/axes/bearded_axe_throw",
+  "display": {
+    "thirdperson_lefthand": {
+      "translation": [
+        3.5,
+        4,
+        4.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        -3.5,
+        4,
+        4.5
+      ]
+    }
+  }
+}

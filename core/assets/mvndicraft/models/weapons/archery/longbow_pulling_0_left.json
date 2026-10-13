@@ -1,0 +1,68 @@
+{
+  "parent": "mvndicraft:weapons/archery/longbow_pulling_0",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        24.88,
+        7.19,
+        -21.77
+      ],
+      "translation": [
+        -5,
+        0,
+        -5.5
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        15,
+        0,
+        7
+      ],
+      "translation": [
+        0,
+        1.5,
+        -3.75
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        6.14,
+        -12.16,
+        1.32
+      ],
+      "translation": [
+        -1.5,
+        -6,
+        1.75
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        6.14,
+        -12.16,
+        1.32
+      ],
+      "translation": [
+        -1.5,
+        -6,
+        1.25
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ]
+    }
+  }
+}

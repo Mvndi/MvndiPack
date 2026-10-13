@@ -1,0 +1,58 @@
+{
+  "parent": "mvndicraft:weapons/blunt/war_hammer",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -13,
+        -83,
+        0
+      ],
+      "translation": [
+        -2.5,
+        3.5,
+        3.25
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -12,
+        100,
+        10
+      ],
+      "translation": [
+        0,
+        4.75,
+        0.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -89,
+        0
+      ],
+      "translation": [
+        0,
+        2.75,
+        1.25
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        95,
+        0
+      ],
+      "translation": [
+        0,
+        4.25,
+        1.25
+      ],
+      "scale": [
+        1.14,
+        1.14,
+        1.14
+      ]
+    }
+  }
+}

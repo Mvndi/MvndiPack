@@ -1,0 +1,68 @@
+{
+  "parent": "mvndicraft:weapons/archery/heavy_crossbow/heavy_crossbow_arrow",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -10,
+        0
+      ],
+      "translation": [
+        2.25,
+        4.75,
+        -5.5
+      ],
+      "scale": [
+        1.76,
+        1.76,
+        1.76
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -27,
+        -14,
+        17
+      ],
+      "translation": [
+        5.75,
+        -4.25,
+        -8.75
+      ],
+      "scale": [
+        1.68,
+        1.68,
+        1.68
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -1,
+        1.5,
+        -8
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -15,
+        0,
+        0
+      ],
+      "translation": [
+        0.25,
+        -1.25,
+        -11.75
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "mvndicraft:weapons/firearms/arquebus_state2/arquebus_pulling_13",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        57,
+        0,
+        0
+      ],
+      "translation": [
+        -1,
+        -1.5,
+        2.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        58,
+        0,
+        0
+      ],
+      "translation": [
+        -0.75,
+        -1,
+        2.5
+      ]
+    }
+  }
+}

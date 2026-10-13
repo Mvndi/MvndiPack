@@ -1,0 +1,73 @@
+{
+  "parent": "mvndicraft:weapons/swords/scimitar",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -21,
+        81.75,
+        20.25
+      ],
+      "translation": [
+        4.13,
+        6.5,
+        -4.87
+      ],
+      "scale": [
+        1.53,
+        1.53,
+        1.53
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -38.5,
+        -77,
+        -5
+      ],
+      "translation": [
+        4.13,
+        8.75,
+        -4.87
+      ],
+      "scale": [
+        1.53,
+        1.53,
+        1.53
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -1,
+        8,
+        2.5
+      ],
+      "scale": [
+        1.23,
+        1.23,
+        1.23
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -1,
+        8,
+        2.5
+      ],
+      "scale": [
+        1.23,
+        1.23,
+        1.23
+      ]
+    }
+  }
+}

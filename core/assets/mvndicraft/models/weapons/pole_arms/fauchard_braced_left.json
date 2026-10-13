@@ -1,0 +1,63 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/fauchard_braced",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -75,
+        5,
+        5
+      ],
+      "translation": [
+        -1.5,
+        4,
+        1.75
+      ],
+      "scale": [
+        1,
+        1.01,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -82,
+        9
+      ],
+      "translation": [
+        0.5,
+        6,
+        3.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -11,
+        0,
+        0
+      ],
+      "translation": [
+        -0.75,
+        16.5,
+        -2.5
+      ],
+      "scale": [
+        1.04,
+        1.04,
+        1.04
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        88,
+        -1,
+        0
+      ],
+      "translation": [
+        -0.75,
+        -0.25,
+        11.75
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "parent": "mvndicraft:weapons/swords/albion_falchion",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        8,
+        -63,
+        17
+      ],
+      "translation": [
+        -2.75,
+        4.25,
+        6.25
+      ],
+      "scale": [
+        1.23,
+        1.23,
+        1.23
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -8,
+        94,
+        4
+      ],
+      "translation": [
+        10,
+        6.25,
+        6.5
+      ],
+      "scale": [
+        0.92,
+        0.92,
+        0.92
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -11.25,
+        6.5,
+        12.25
+      ],
+      "scale": [
+        1.39,
+        1.39,
+        1.39
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        10,
+        5.5,
+        12
+      ],
+      "scale": [
+        1.39,
+        1.39,
+        1.39
+      ]
+    }
+  }
+}
