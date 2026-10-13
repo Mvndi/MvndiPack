@@ -1,0 +1,39 @@
+{
+  "parent": "mvndicraft:weapons/blunt/spiked_flanged_mace",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        12,
+        -46,
+        -3.36
+      ],
+      "translation": [
+        0.5,
+        0.5,
+        -1.25
+      ],
+      "scale": [
+        1.57,
+        1.57,
+        1.57
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        4,
+        -31,
+        -3.36
+      ],
+      "translation": [
+        0.5,
+        0.5,
+        -1.25
+      ],
+      "scale": [
+        1.55,
+        1.55,
+        1.55
+      ]
+    }
+  }
+}

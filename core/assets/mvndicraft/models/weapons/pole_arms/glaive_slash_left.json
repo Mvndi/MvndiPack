@@ -1,0 +1,48 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/glaive_slash",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -14,
+        -122,
+        15
+      ],
+      "translation": [
+        2,
+        3,
+        -2.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        5,
+        0,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        -0.25,
+        7.5,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        70,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        8.5
+      ]
+    }
+  }
+}

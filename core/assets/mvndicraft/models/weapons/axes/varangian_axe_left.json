@@ -1,0 +1,48 @@
+{
+  "parent": "mvndicraft:weapons/axes/varangian_axe",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -7,
+        13,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -180,
+        -180,
+        -4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        3,
+        0.5
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        77.25,
+        0,
+        -180
+      ],
+      "translation": [
+        0,
+        -0.5,
+        3.25
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    }
+  }
+}

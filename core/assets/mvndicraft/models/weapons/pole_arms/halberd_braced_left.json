@@ -1,0 +1,63 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/halberd_braced",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -76,
+        -158,
+        -6
+      ],
+      "translation": [
+        -1.5,
+        4,
+        1.75
+      ],
+      "scale": [
+        1,
+        1.01,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        1,
+        0,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -11,
+        0,
+        0
+      ],
+      "translation": [
+        -0.75,
+        14,
+        -0.75
+      ],
+      "scale": [
+        1.04,
+        1.04,
+        1.04
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        67.5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.75,
+        9
+      ],
+      "scale": [
+        1,
+        1.18,
+        1
+      ]
+    }
+  }
+}

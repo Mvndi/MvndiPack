@@ -1,0 +1,39 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/javelin_throw",
+  "display": {
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        -0.25,
+        0.5,
+        16.75
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        158,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -12.5,
+        13.75
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

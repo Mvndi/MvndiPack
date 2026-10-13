@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/swords/claymore",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -15,
+        100,
+        0
+      ],
+      "translation": [
+        1,
+        2.5,
+        -0.25
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        7,
+        0,
+        0
+      ],
+      "translation": [
+        1,
+        2.5,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        55.5,
+        -90,
+        55
+      ],
+      "translation": [
+        -1,
+        2.5,
+        1.16
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        88,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        -0.75,
+        7.16
+      ]
+    }
+  }
+}

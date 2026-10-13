@@ -1,0 +1,48 @@
+{
+  "parent": "mvndicraft:weapons/axes/galloglach_axe_block",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -47,
+        25,
+        77
+      ],
+      "translation": [
+        -1.5,
+        3.25,
+        1.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3.25,
+        0.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        34,
+        43,
+        33
+      ],
+      "translation": [
+        -2,
+        1.25,
+        4.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        -0.5,
+        3,
+        0.75
+      ]
+    }
+  }
+}

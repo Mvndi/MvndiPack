@@ -1,0 +1,68 @@
+{
+  "parent": "mvndicraft:weapons/archery/heavier_crossbow/heavier_crossbow",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        2,
+        0,
+        0
+      ],
+      "translation": [
+        -9,
+        6.5,
+        2.75
+      ],
+      "scale": [
+        1.28,
+        1.16,
+        1.16
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -27,
+        -14,
+        17
+      ],
+      "translation": [
+        5.75,
+        -4.25,
+        -8.75
+      ],
+      "scale": [
+        1.68,
+        1.68,
+        1.68
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -1,
+        1.5,
+        -7.25
+      ],
+      "scale": [
+        1.51,
+        1.51,
+        1.51
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -16,
+        0,
+        0
+      ],
+      "translation": [
+        -1,
+        -1.5,
+        -7.75
+      ],
+      "scale": [
+        1.51,
+        1.51,
+        1.51
+      ]
+    }
+  }
+}

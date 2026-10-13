@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/crossbow_pulling_1",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        35,
+        -13,
+        7.25
+      ],
+      "translation": [
+        2.25,
+        8.9,
+        -6.75
+      ],
+      "scale": [
+        1.82,
+        1.82,
+        1.82
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -4.75,
+        -13,
+        7.25
+      ],
+      "translation": [
+        1.5,
+        5.9,
+        -4.5
+      ],
+      "scale": [
+        1.82,
+        1.82,
+        1.82
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -1.75,
+        1,
+        -5.5
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -22.5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1.75,
+        -9.25
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    }
+  }
+}

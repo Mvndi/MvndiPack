@@ -1,0 +1,29 @@
+{
+  "parent": "mvndicraft:item/bottles/vinegar",
+  "display": {
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        3.5,
+        1
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    }
+  }
+}

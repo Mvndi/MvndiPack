@@ -1,0 +1,29 @@
+{
+  "parent": "mvndicraft:weapons/firearms/handgonne/state1/handgonne_pulling_4",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        77,
+        -7,
+        0
+      ],
+      "translation": [
+        4,
+        -7,
+        -0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -1,
+        0
+      ],
+      "translation": [
+        4,
+        3,
+        -3.75
+      ]
+    }
+  }
+}

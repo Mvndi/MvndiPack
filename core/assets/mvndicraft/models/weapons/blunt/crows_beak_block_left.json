@@ -1,0 +1,48 @@
+{
+  "parent": "mvndicraft:weapons/blunt/crows_beak_block",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -47,
+        25,
+        77
+      ],
+      "translation": [
+        -1.5,
+        3.25,
+        1.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -32,
+        10,
+        0
+      ],
+      "translation": [
+        0.75,
+        3.75,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -51,
+        47,
+        87
+      ],
+      "translation": [
+        -4,
+        3.5,
+        3.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        4.5,
+        1.5
+      ]
+    }
+  }
+}

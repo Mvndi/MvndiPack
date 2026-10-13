@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/swords/sweihander_block",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -47,
+        25,
+        77
+      ],
+      "translation": [
+        -1.5,
+        3.25,
+        1.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        7,
+        0,
+        0
+      ],
+      "translation": [
+        1,
+        2.5,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -32,
+        51,
+        72
+      ],
+      "translation": [
+        -2.5,
+        3.25,
+        4.25
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        88,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        -0.75,
+        7.16
+      ]
+    }
+  }
+}

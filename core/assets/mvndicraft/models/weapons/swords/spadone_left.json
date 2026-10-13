@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/swords/spadone",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -15,
+        100,
+        0
+      ],
+      "translation": [
+        1,
+        2.5,
+        -0.25
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -24.25,
+        80,
+        -180
+      ],
+      "translation": [
+        2,
+        -0.25,
+        -0.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        55.5,
+        -90,
+        55
+      ],
+      "translation": [
+        0,
+        2.25,
+        1.16
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -180,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        -6,
+        0.66
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/awl_pike_braced",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -60,
+        0,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -60,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        30,
+        -10
+      ]
+    }
+  }
+}

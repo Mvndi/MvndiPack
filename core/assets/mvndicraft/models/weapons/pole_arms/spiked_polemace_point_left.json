@@ -1,0 +1,24 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/spiked_polemace_point",
+  "display": {
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        9.75,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -107,
+        23,
+        1
+      ],
+      "translation": [
+        -0.25,
+        0.25,
+        -0.5
+      ]
+    }
+  }
+}

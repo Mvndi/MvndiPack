@@ -1,0 +1,48 @@
+{
+  "parent": "mvndicraft:weapons/blunt/spiked_goedendag",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -33,
+        -60,
+        -9
+      ],
+      "translation": [
+        0.75,
+        3.25,
+        0.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -173,
+        3,
+        -1
+      ],
+      "translation": [
+        0.75,
+        -9,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        10.25,
+        1.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -107,
+        23,
+        1
+      ],
+      "translation": [
+        -0.25,
+        0.25,
+        -0.5
+      ]
+    }
+  }
+}

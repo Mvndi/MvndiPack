@@ -1,0 +1,69 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:view_entity",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.sneak",
+              "on_true": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/halberd_left"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/halberd_braced_left"
+              }
+            },
+            "on_false": {
+              "type": "model",
+              "model": "mvndicraft:weapons/pole_arms/halberd_braced_left"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/halberd_left"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:view_entity",
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:keybind_down",
+          "keybind": "key.sneak",
+          "on_true": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/halberd"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/halberd_braced"
+          }
+        },
+        "on_false": {
+          "type": "model",
+          "model": "mvndicraft:weapons/pole_arms/halberd_braced"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "mvndicraft:weapons/pole_arms/halberd"
+      }
+    }
+  }
+}

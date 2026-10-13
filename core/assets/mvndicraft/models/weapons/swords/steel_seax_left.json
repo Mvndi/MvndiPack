@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/swords/steel_seax",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -112,
+        93,
+        118
+      ],
+      "translation": [
+        0.5,
+        3.25,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -112,
+        -93,
+        -124
+      ],
+      "translation": [
+        0.25,
+        3.25,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -1,
+        3,
+        1.25
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -1,
+        3,
+        1.25
+      ]
+    }
+  }
+}
