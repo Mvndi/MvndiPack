@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "mvndicraft:armor/helms/great_helm_green_gw_greathelm",
-		"2": "mvndicraft:armor/helms/crusader_helm_top_greenwhite_glizzynew.",
+		"2": "mvndicraft:armor/helms/crusader_helm_top_greenwhite_glizzynew",
 		"particle": "mvndicraft:armor/helms/great_helm"
 	},
 	"elements": [
