@@ -1,0 +1,63 @@
+{
+  "parent": "minecraft:item/crossbow_arrow",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -10,
+        0
+      ],
+      "translation": [
+        1.09,
+        5.75,
+        0.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -4.75,
+        -13,
+        7.25
+      ],
+      "translation": [
+        1.5,
+        2.15,
+        -4.5
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -1.75,
+        1,
+        -4.25
+      ],
+      "scale": [
+        1.49,
+        1.49,
+        1.49
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -22.5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1.75,
+        -9.25
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    }
+  }
+}

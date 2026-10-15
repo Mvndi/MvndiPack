@@ -1,0 +1,43 @@
+{
+  "parent": "mvndicraft:weapons/axes/bearded_axe",
+  "display": {
+    "firstperson_lefthand": {
+      "translation": [
+        13,
+        3.25,
+        0
+      ],
+      "scale": [
+        1.79,
+        1.79,
+        1.79
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        2.25,
+        3.25,
+        0
+      ],
+      "scale": [
+        1.79,
+        1.79,
+        1.79
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        3.5,
+        4,
+        4.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        -3.5,
+        4,
+        4.5
+      ]
+    }
+  }
+}

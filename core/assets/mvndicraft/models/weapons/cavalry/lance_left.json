@@ -1,0 +1,68 @@
+{
+  "parent": "mvndicraft:weapons/cavalry/lance",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -45,
+        45,
+        -6.25
+      ],
+      "translation": [
+        3.25,
+        0,
+        2.25
+      ],
+      "scale": [
+        1.5,
+        3,
+        1.5
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -1.5,
+        0,
+        2.25
+      ],
+      "scale": [
+        1,
+        2,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        3,
+        0,
+        0
+      ],
+      "translation": [
+        -0.5,
+        16,
+        2
+      ],
+      "scale": [
+        1,
+        1.44,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        67,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        4.25
+      ],
+      "scale": [
+        1,
+        2,
+        1
+      ]
+    }
+  }
+}

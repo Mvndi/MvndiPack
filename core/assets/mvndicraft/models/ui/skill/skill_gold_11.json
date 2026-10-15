@@ -1,4 +1,5 @@
 {
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "mvndicraft:ui/skilltree/skilltree",
@@ -11,7 +12,7 @@
 			"to": [19, 14, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 8]},
 			"faces": {
-				"north": {"uv": [1.625, 8.5625, 3, 10.0625], "texture": "#0"},
+				"north": {"uv": [3.375, 8.625, 4.5, 9.75], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
@@ -35,7 +36,7 @@
 	"gui_light": "front",
 	"display": {
 		"gui": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [-18.25, 4.5, 50],
 			"scale": [0.79883, 0.79883, 0.79883]
 		}

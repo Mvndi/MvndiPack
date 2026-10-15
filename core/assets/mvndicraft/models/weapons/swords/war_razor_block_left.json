@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/swords/war_razor_block",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        111,
+        -13,
+        99
+      ],
+      "translation": [
+        -2.5,
+        2.5,
+        -0.25
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        120,
+        80,
+        -180
+      ],
+      "translation": [
+        1,
+        2.5,
+        -0.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -23,
+        -137,
+        -64
+      ],
+      "translation": [
+        -3.75,
+        2.25,
+        3.41
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        88,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        -0.75,
+        7.16
+      ]
+    }
+  }
+}

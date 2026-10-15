@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "model",
+          "model": "mvndicraft:weapons/pole_arms/winged_spear_left"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "mvndicraft:weapons/pole_arms/winged_spear"
+    }
+  }
+}

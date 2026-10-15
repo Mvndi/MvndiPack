@@ -1,0 +1,91 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/longbow"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/archery/longbow"
+            },
+            "entries": [
+              {
+                "threshold": 0.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/archery/longbow_pulling_0_left"
+                }
+              },
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/archery/longbow_pulling_1_left"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/archery/longbow_pulling_2_left"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/longbow"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "scale": 0.05,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:weapons/archery/longbow"
+        },
+        "entries": [
+          {
+            "threshold": 0.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/archery/longbow_pulling_0"
+            }
+          },
+          {
+            "threshold": 0.65,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/archery/longbow_pulling_1"
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/archery/longbow_pulling_2"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "parent": "mvndicraft:weapons/swords/godenak_falchion_slash",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -15,
+        -84,
+        0
+      ],
+      "translation": [
+        -0.25,
+        3,
+        -0.25
+      ],
+      "scale": [
+        1.31,
+        1.31,
+        1.31
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -15,
+        90,
+        0
+      ],
+      "translation": [
+        3,
+        2.75,
+        -0.25
+      ],
+      "scale": [
+        1.31,
+        1.31,
+        1.31
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -1.5,
+        3.5,
+        1.41
+      ],
+      "scale": [
+        1.14,
+        1.14,
+        1.14
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0.5,
+        3.5,
+        1.41
+      ],
+      "scale": [
+        1.14,
+        1.14,
+        1.14
+      ]
+    }
+  }
+}

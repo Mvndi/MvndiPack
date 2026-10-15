@@ -1,0 +1,53 @@
+{
+  "parent": "mvndicraft:weapons/swords/kriegsmesser_block",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        131,
+        -21,
+        104
+      ],
+      "translation": [
+        0.75,
+        2.5,
+        0.75
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -13,
+        97,
+        0
+      ],
+      "translation": [
+        0,
+        2.75,
+        2.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        118,
+        -52,
+        71
+      ],
+      "translation": [
+        -2.25,
+        1.5,
+        3.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        6.75
+      ]
+    }
+  }
+}

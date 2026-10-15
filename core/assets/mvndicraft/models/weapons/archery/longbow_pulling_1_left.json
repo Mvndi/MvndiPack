@@ -1,0 +1,34 @@
+{
+  "parent": "mvndicraft:weapons/archery/longbow_pulling_1",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        27,
+        8,
+        -7
+      ],
+      "translation": [
+        -5,
+        -0.75,
+        -8
+      ],
+      "scale": [
+        1.55859,
+        1.51,
+        1.37891
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        15,
+        0,
+        7
+      ],
+      "translation": [
+        0,
+        1.5,
+        -3.75
+      ]
+    }
+  }
+}

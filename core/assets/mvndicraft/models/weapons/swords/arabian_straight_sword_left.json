@@ -1,0 +1,19 @@
+{
+  "parent": "mvndicraft:weapons/swords/arabian_straight_sword",
+  "display": {
+    "thirdperson_lefthand": {
+      "translation": [
+        -2,
+        2.75,
+        -0.25
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        2,
+        2.75,
+        -1
+      ]
+    }
+  }
+}

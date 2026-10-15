@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"particle": "mvndicraft:weapons/swords/claymore",
-		"3": "mvndicraft:weapons/swords/claymore"
+		"3": "mvndicraft:weapons/swords/claymore",
+		"particle": "mvndicraft:weapons/swords/claymore"
 	},
 	"elements": [
 		{
@@ -167,8 +167,8 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-32, 47, 72],
-			"translation": [-2, 1.75, 3.25]
+			"rotation": [-32, 61, 86],
+			"translation": [-0.75, 1.75, 3.75]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [88, 0, 1],

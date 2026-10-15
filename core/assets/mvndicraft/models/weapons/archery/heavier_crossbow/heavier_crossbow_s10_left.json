@@ -1,0 +1,39 @@
+{
+  "parent": "mvndicraft:weapons/archery/heavier_crossbow/heavier_crossbow_s10",
+  "display": {
+    "thirdperson_lefthand": {
+      "rotation": [
+        -26,
+        0,
+        0
+      ],
+      "translation": [
+        0.75,
+        1,
+        -13.5
+      ],
+      "scale": [
+        1.54,
+        1.54,
+        1.54
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -26,
+        0,
+        0
+      ],
+      "translation": [
+        -4.25,
+        -3,
+        -10
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    }
+  }
+}

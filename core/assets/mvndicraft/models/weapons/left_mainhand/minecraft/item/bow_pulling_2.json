@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:item/bow_pulling_2",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        25,
+        8,
+        4
+      ],
+      "translation": [
+        -4,
+        4.65,
+        1.5
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        27.5,
+        -5,
+        22.5
+      ],
+      "translation": [
+        -9.5,
+        3.4,
+        1.25
+      ],
+      "scale": [
+        1.55859,
+        1.75,
+        1.37891
+      ]
+    }
+  }
+}

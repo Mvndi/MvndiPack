@@ -1,0 +1,39 @@
+{
+  "parent": "mvndicraft:weapons/archery/sling/sling_staff_4",
+  "display": {
+    "thirdperson_lefthand": {
+      "rotation": [
+        53.25,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        10.75,
+        17.25
+      ],
+      "scale": [
+        1.14,
+        1.14,
+        1.14
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        60,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        18.5
+      ],
+      "scale": [
+        1.14,
+        1.14,
+        1.14
+      ]
+    }
+  }
+}

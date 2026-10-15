@@ -1,0 +1,73 @@
+{
+  "parent": "mvndicraft:weapons/swords/katzbalger_sword_slash",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        60.65,
+        75.92,
+        -60.54
+      ],
+      "translation": [
+        0.5,
+        3.75,
+        1.25
+      ],
+      "scale": [
+        0.82,
+        0.82,
+        0.82
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -83.14,
+        77.65,
+        83
+      ],
+      "translation": [
+        0.25,
+        3.75,
+        1.25
+      ],
+      "scale": [
+        0.82,
+        0.82,
+        0.82
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        56,
+        88,
+        -42
+      ],
+      "translation": [
+        0,
+        3.5,
+        2
+      ],
+      "scale": [
+        0.845,
+        1,
+        0.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        3.5,
+        1.25
+      ],
+      "scale": [
+        0.845,
+        1,
+        0.75
+      ]
+    }
+  }
+}

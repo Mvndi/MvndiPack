@@ -1,0 +1,29 @@
+{
+  "parent": "mvndicraft:weapons/swords/paramerion",
+  "display": {
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        11.75,
+        1.25
+      ],
+      "scale": [
+        1,
+        1.5,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        12.25,
+        1
+      ],
+      "scale": [
+        1,
+        1.5,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "mvndicraft:weapons/pole_arms/glaive_braced",
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        -68,
+        -172,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -2
+      ],
+      "scale": [
+        1.26,
+        1.26,
+        1.26
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        5,
+        0,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -11,
+        175,
+        0
+      ],
+      "translation": [
+        -0.75,
+        14,
+        -1.25
+      ],
+      "scale": [
+        1.04,
+        1.04,
+        1.04
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        70,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        8.5
+      ]
+    }
+  }
+}
