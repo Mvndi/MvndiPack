@@ -994,13 +994,13 @@
       {
         "threshold": 142,
         "model": {
-          "type": "minecraft:empty"
+          "type": "mvndicraft:armor/helms/crusader_helm_redwinged"
         }
       },
       {
         "threshold": 143,
         "model": {
-          "type": "minecraft:empty"
+          "type": "mmvndicraft:armor/helms/crusader_helm_gw_greathelm"
         }
       },
       {
