@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mvndicraft:armor/helms/great_helm_regular",
+		"0": "mvndicraft:armor/helms/great_helm_regwinged",
 		"2": "mvndicraft:armor/helms/crusader_helm_top",
 		"5": "mvndicraft:armor/helms/great_topbottom_helm_winged2",
 		"particle": "mvndicraft:armor/helms/great_helm_regular"
