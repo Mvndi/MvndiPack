@@ -5,8 +5,9 @@ on:
       - "master"
 jobs:
   packsquash:
+    if: github.repository == 'Mvndi/MvndiPack'
     name: Optimize resource pack
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: write
     steps:
@@ -43,28 +44,40 @@ jobs:
 
       - name: Conditionally Run PackSquash
         if: env.CORE_CHANGED == 'true'
-        uses: ComunidadAylas/PackSquash-action@v4
+        uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
           packsquash_version: latest
           options: |
             pack_directory = 'core'
-            
+
             recompress_compressed_files = true
             zip_compression_iterations = 30
             zip_spec_conformance_level = 'balanced'
             skip_pack_icon = false
             output_file_path = 'core.zip'
-            
+
             # MvndiFrescoes pixel font: every texel is an exact colour (the palette has 32768 of
             # them), so no lossy colour quantization. Must come before the general PNG section.
             ['**/mvndifrescoes/textures/font/*.png']
             color_quantization_target = 'none'
             image_data_compression_iterations = 15
-            
+
             ['**/*?.png']
             image_data_compression_iterations = 15
-            
+
             ['**/{LICENSE,README.txt}']
+            force_include = true
+
+            ['26_3/**']
+            force_include = true
+
+            ['26_2/**']
+            force_include = true
+
+            ['26_1/**']
+            force_include = true
+
+            ['1_21_11/**']
             force_include = true
 
       - name: ZIP Hud
