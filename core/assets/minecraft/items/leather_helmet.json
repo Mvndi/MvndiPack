@@ -1008,37 +1008,162 @@
       {
         "threshold": 144,
         "model": {
-          "type": "minecraft:empty"
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/great_helm/crusader_helm_clothcovered"
         }
       },
       {
         "threshold": 145,
         "model": {
-          "type": "minecraft:empty"
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/conical_nasal_helmmaskered"
         }
       },
       {
         "threshold": 146,
         "model": {
-          "type": "minecraft:empty"
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/skullcap_masked_facecover"
         }
       },
       {
         "threshold": 147,
         "model": {
-          "type": "minecraft:empty"
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/flattop_helmet_masked"
         }
       },
       {
         "threshold": 148,
         "model": {
-          "type": "minecraft:empty"
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/crusader_helm_regular"
         }
       },
       {
         "threshold": 149,
         "model": {
-          "type": "minecraft:empty"
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/italo_normridged_helm"
+        }
+      },
+      {
+        "threshold": 150,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/italo_normgorilla_helm"
+        }
+      },
+      {
+        "threshold": 151,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/teutonic_helm"
+        }
+      },
+      {
+        "threshold": 152,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 153,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 154,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 155,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 156,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 157,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 158,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 159,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 160,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 161,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms"
+        }
+      },
+      {
+        "threshold": 162,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 163,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 164,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 165,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 166,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
         }
       }
     ]
