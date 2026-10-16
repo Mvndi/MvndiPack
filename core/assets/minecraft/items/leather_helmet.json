@@ -1037,7 +1037,7 @@
         "threshold": 148,
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:armor/helms/"
+          "model": "mvndicraft:armor/helms/great_helm/crusader_helm_regular"
         }
       },
       {
@@ -1058,7 +1058,7 @@
         "threshold": 151,
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:armor/helms/"
+          "model": "mvndicraft:armor/helms/great_helm/great_helm_srbija"
         }
       },
       {
