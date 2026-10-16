@@ -1065,7 +1065,7 @@
         "threshold": 152,
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:armor/helms/"
+          "model": "mvndicraft:armor/helms/great_helm/great_helm_antioch"
         }
       },
       {
