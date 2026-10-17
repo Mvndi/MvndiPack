@@ -46,6 +46,7 @@ jobs:
         if: env.CORE_CHANGED == 'true'
         uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
+          artifact_name: Optimized core
           packsquash_version: latest
           options: |
             pack_directory = 'core'
@@ -86,6 +87,7 @@ jobs:
       - name: Optimize Soundscapes with PackSquash
         uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
+          artifact_name: Optimized soundscapes
           packsquash_version: latest
           options: |
             pack_directory = 'soundscapes'
