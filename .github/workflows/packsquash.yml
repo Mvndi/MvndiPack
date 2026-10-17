@@ -46,6 +46,7 @@ jobs:
         if: env.CORE_CHANGED == 'true'
         uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
+          artifact_name: Optimized core
           packsquash_version: latest
           options: |
             pack_directory = 'core'
@@ -83,8 +84,17 @@ jobs:
       - name: ZIP Hud
         run: cd hud && zip -r ../hud.zip . && cd ..
 
-      - name: ZIP Soundscapes
-        run: cd soundscapes && zip -r ../soundscapes.zip . && cd ..
+      - name: Optimize Soundscapes with PackSquash
+        uses: ComunidadAylas/PackSquash-action@v4.0.4
+        with:
+          artifact_name: Optimized soundscapes
+          packsquash_version: latest
+          options: |
+            pack_directory = 'soundscapes'
+            output_file_path = 'soundscapes.zip'
+
+            ['**/{LICENSE,README.txt}']
+            force_include = true
 
       - name: Clean ZIP Metadata
         run: |

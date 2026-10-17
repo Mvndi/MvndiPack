@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "mvndicraft:armor/helms/new_yellow_red_great_helm_flat",
-		"2": "mvndicraft:armor/helms/great_topbottom_helm_red_white",
+		"2": "mvndicraft:armor/helms/fixedredyellowtopgreathelm",
 		"particle": "mvndicraft:armor/helms/new_yellow_red_great_helm_flat"
 	},
 	"elements": [
