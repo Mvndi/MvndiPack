@@ -1205,7 +1205,7 @@
         "threshold": 172,
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:armor/helms/"
+          "model": "mvndicraft:armor/helms/italo_norman_helm/italonorm_helmred"
         }
       },
       {
