@@ -1535,6 +1535,61 @@
                     "type": "model",
                     "model": "mvndicraft:ui/professions/animation/seaman_steve_1"
                 }
+            },
+            {
+                "threshold": 9200,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/religion/parchment"
+                }
+            },
+            {
+                "threshold": 9201,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/religion/marble"
+                }
+            },
+            {
+                "threshold": 9202,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/religion/slate"
+                }
+            },
+            {
+                "threshold": 9203,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/religion/oak"
+                }
+            },
+            {
+                "threshold": 9204,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/religion/crimson"
+                }
+            },
+            {
+                "threshold": 9205,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/religion/azure"
+                }
+            },
+            {
+                "threshold": 9206,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/netherite_hoe"
+                }
             }
         ]
     }

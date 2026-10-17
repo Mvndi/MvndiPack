@@ -1,0 +1,7 @@
+{
+    "parent": "mvndicraft:ui/religion/panel",
+    "textures": {
+        "background": "mvndicraft:ui/religion/parchment",
+        "particle": "mvndicraft:ui/religion/parchment"
+    }
+}
