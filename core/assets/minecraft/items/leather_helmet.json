@@ -1170,7 +1170,7 @@
         "threshold": 167,
         "model": {
           "type": "minecraft:model",
-          "model": "mvndicraft:armor/helms/"
+          "model": "minecraft:item/leather_helmet"
         }
       },
       {
@@ -1206,13 +1206,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "mvndicraft:armor/helms/italo_norman_helm/italonorm_helmred"
-        }
-      },
-      {
-        "threshold": 167,
-        "model": {
-          "type": "minecraft:model",
-          "model": "mvndicraft:armor/helms/"
         }
       }
     ]
