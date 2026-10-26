@@ -1289,7 +1289,7 @@
         "threshold": 80,
         "model": {
           "type": "model",
-          "model": "mvndicraft:weapons/pole_arms/fork_brace"
+          "model": "minecraft:item/iron_sword"
         }
       },
       {

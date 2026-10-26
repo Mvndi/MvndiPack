@@ -1,6 +1,10 @@
 {
   "providers": [
     {
+      "type": "reference",
+      "id": "emoji:default"
+    },
+    {
       "type": "bitmap",
       "file": "mvndicraft:font/compat/mvndicraft/pvp/blue_team_shield.png",
       "ascent": 8,

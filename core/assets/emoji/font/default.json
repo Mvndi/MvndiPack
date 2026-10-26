@@ -1,0 +1,157 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "emoji:font/9999iq.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF053"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/bedge.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF47E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/coal.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF0B2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/crying.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF1E3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/doctos.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF694"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/doomed.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF794"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/gem.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF14D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/gigachad.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF53A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/happy_cat.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF02F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/mvndi.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF281"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/pepe.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF5FD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/pepetux.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF47C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/standing_cat.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF2D1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/steamhappy.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF240"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/troll.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF780"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/wholesome.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF63F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "emoji:font/wholesome_heart.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\uF461"
+      ]
+    }
+  ]
+}
