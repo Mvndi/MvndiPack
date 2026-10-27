@@ -1,19 +1,32 @@
 {
   "model": {
     "type": "minecraft:select",
-    "property": "minecraft:main_hand",
+    "property": "minecraft:display_context",
     "cases": [
       {
-        "when": "left",
+        "when": "none",
         "model": {
-          "type": "model",
-          "model": "mvndicraft:weapons/pole_arms/war_dart_left"
+          "type": "minecraft:model",
+          "model": "mvndicraft:weapons/pole_arms/war_dart_projectile"
         }
       }
     ],
     "fallback": {
-      "type": "model",
-      "model": "mvndicraft:weapons/pole_arms/war_dart"
+      "type": "minecraft:select",
+      "property": "minecraft:main_hand",
+      "cases": [
+        {
+          "when": "left",
+          "model": {
+            "type": "model",
+            "model": "mvndicraft:weapons/pole_arms/war_dart_left"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "mvndicraft:weapons/pole_arms/war_dart"
+      }
     }
   }
 }
