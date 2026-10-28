@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/axes/francisca_left"
+          },
+          "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": "firstperson_righthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/axes/francisca_axe_throw_left",
+                  "transformation": [
+                    0.90920694, 0.12785419, 0.06494818, 0.21863491,
+                    -0.14819632, 0.39487022, -0.83464043, 0.55452656,
+                    -0.22214781, 0.821637, 0.49827296, -0.03099205,
+                    0.0, 0.0, 0.0, 1.0
+                  ]
+                }
+              },
+              {
+                "when": "firstperson_lefthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/axes/francisca_axe_throw_left",
+                  "transformation": [
+                    0.90920694, -0.12785419, -0.06494818, -0.12784186,
+                    0.14819632, 0.39487022, -0.83464043, 0.40633024,
+                    0.22214781, 0.821637, 0.49827296, -0.25313986,
+                    0.0, 0.0, 0.0, 1.0
+                  ]
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/axes/francisca_axe_throw_left"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/axes/francisca"
+      },
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "firstperson_righthand",
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/axes/francisca_axe_throw",
+              "transformation": [
+                0.90920694, 0.12785419, 0.06494818, 0.21863491,
+                -0.14819632, 0.39487022, -0.83464043, 0.55452656,
+                -0.22214781, 0.821637, 0.49827296, -0.03099205,
+                0.0, 0.0, 0.0, 1.0
+              ]
+            }
+          },
+          {
+            "when": "firstperson_lefthand",
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/axes/francisca_axe_throw",
+              "transformation": [
+                0.90920694, -0.12785419, -0.06494818, -0.12784186,
+                0.14819632, 0.39487022, -0.83464043, 0.40633024,
+                0.22214781, 0.821637, 0.49827296, -0.25313986,
+                0.0, 0.0, 0.0, 1.0
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:weapons/axes/francisca_axe_throw"
+        }
+      }
+    }
+  }
+}
