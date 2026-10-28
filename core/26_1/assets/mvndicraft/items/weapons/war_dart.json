@@ -53,6 +53,22 @@
                       0.0, 0.0, 0.0, 1.0
                     ]
                   }
+                },
+                {
+                  "when": [
+                    "thirdperson_righthand",
+                    "thirdperson_lefthand"
+                  ],
+                  "model": {
+                    "type": "model",
+                    "model": "mvndicraft:weapons/pole_arms/war_dart_left",
+                    "transformation": [
+                      1.0, 0.0, 0.0, 0.0,
+                      0.0, -1.0, 0.0, 0.35416667,
+                      0.0, 0.0, -1.0, 1.0,
+                      0.0, 0.0, 0.0, 1.0
+                    ]
+                  }
                 }
               ],
               "fallback": {
@@ -96,6 +112,22 @@
                   0.74588341, -0.51394777, -0.41965161, 0.75043464,
                   0.65979642, 0.48934369, 0.56962096, -0.52244642,
                   -0.05905026, -0.61113056, 0.56712302, 0.54667296,
+                  0.0, 0.0, 0.0, 1.0
+                ]
+              }
+            },
+            {
+              "when": [
+                "thirdperson_righthand",
+                "thirdperson_lefthand"
+              ],
+              "model": {
+                "type": "model",
+                "model": "mvndicraft:weapons/pole_arms/war_dart",
+                "transformation": [
+                  1.0, 0.0, 0.0, 0.0,
+                  0.0, -1.0, 0.0, 0.35416667,
+                  0.0, 0.0, -1.0, 1.0,
                   0.0, 0.0, 0.0, 1.0
                 ]
               }
