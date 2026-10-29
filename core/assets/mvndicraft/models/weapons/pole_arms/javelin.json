@@ -138,8 +138,8 @@
 			"scale": [2, 2, 2]
 		},
 		"firstperson_righthand": {
-			"rotation": [8, -9, 3],
-			"translation": [-0.75, 20, 4.75],
+			"rotation": [60, -9, 3],
+			"translation": [1.5, 9.5, 11],
 			"scale": [2, 2, 2]
 		},
 		"firstperson_lefthand": {

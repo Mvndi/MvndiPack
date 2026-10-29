@@ -1,24 +1,18 @@
 {
-  "parent": "mvndicraft:weapons/axes/francisca_axe_throw",
-  "display": {
-    "thirdperson_lefthand": {
-      "translation": [
-        -0.5,
-        2.25,
-        1.25
-      ]
-    },
-    "thirdperson_righthand": {
-      "rotation": [
-        -107,
-        -180,
-        0
-      ],
-      "translation": [
-        -1,
-        -2,
-        -2.5
-      ]
-    }
-  }
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "mvndicraft:weapons/axes/francisca_axe_throw",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-107, -180, 0],
+			"translation": [-1, -2, -2.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.5, 2.25, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [38, 24, 0],
+			"translation": [2.25, 4.5, 0]
+		}
+	}
 }
