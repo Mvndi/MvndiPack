@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/sling_staff"
+      },
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/stone/sling_staff_0_stone"
+          }
+        },
+        {
+          "threshold": 12,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/stone/sling_staff_1_stone"
+          }
+        },
+        {
+          "threshold": 24,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/stone/sling_staff_2_stone"
+          }
+        },
+        {
+          "threshold": 32,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/stone/sling_staff_3_stone"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:cooldown",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/sling_staff"
+      },
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/sling_staff"
+          }
+        },
+        {
+          "threshold": 0.85,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/sling_staff_5"
+          }
+        },
+        {
+          "threshold": 0.925,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/sling_staff_4"
+          }
+        }
+      ]
+    }
+  }
+}
