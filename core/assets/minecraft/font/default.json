@@ -2,6 +2,10 @@
   "providers": [
     {
       "type": "reference",
+      "id": "minecraft:accented_latin"
+    },
+    {
+      "type": "reference",
       "id": "emoji:default"
     },
     {
@@ -748,7 +752,6 @@
         " ": 4,
         "‌": 0,
         "": 5,
-        "À": 1,
         "֎": 0,
         "⁤": -1,
         "": -6,
