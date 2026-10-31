@@ -15,7 +15,14 @@ in float sphericalVertexDistance;in float cylindricalVertexDistance;
 #else
 uniform vec4 ColorModulator;uniform float FogStart;uniform float FogEnd;uniform vec4 FogColor;in float vertexDistance;
 #endif
-uniform sampler2D Sampler0;in vec4 vertexColor;in vec2 texCoord0;out vec4 fragColor;void main() {vec4 texColor = texture(Sampler0, texCoord0);vec4 color = texColor * vertexColor * ColorModulator;if (color.a < 0.1) {discard;}
+uniform sampler2D Sampler0;in vec4 vertexColor;in vec2 texCoord0;out vec4 fragColor;void main() {vec4 texColor = texture(Sampler0, texCoord0);vec4 color = texColor * vertexColor * ColorModulator;
+#ifdef IS_SEE_THROUGH
+    // Alpha 254 marks the capture arrow's neutral pixels so team tint does not recolor them.
+    if (all(equal(ivec4(round(texColor * 255.0)), ivec4(170, 170, 170, 254)))) {
+        color = vec4(texColor.rgb, vertexColor.a) * ColorModulator;
+    }
+#endif
+if (color.a < 0.1) {discard;}
 #if SHADER_VERSION >= 3
 fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 #else
