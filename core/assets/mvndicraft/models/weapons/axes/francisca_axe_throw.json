@@ -1,6 +1,7 @@
 {
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
- 	"parent": "mvndicraft:weapons/axes/francisca",
+	"parent": "mvndicraft:weapons/axes/francisca",
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
@@ -11,8 +12,8 @@
 			"translation": [-1, -2, -2.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [65, 0, 0],
-			"translation": [0, 8, -6]
+			"rotation": [38, 24, 0],
+			"translation": [2.25, 8.75, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [65, 0, 0],

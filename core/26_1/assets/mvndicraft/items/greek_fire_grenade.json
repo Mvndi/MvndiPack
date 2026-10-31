@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "mvndicraft:weapons/firearms/greek_fire_grenade"
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "firstperson_righthand",
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/firearms/greek_fire_grenade_throw",
+            "transformation": [
+              0.90920694, 0.14332353, 0.00482953, 0.32932939,
+              -0.2281952, 0.40835798, -0.79271239, 0.42521539,
+              -0.13870382, 0.86356504, 0.48478519, 0.68112038,
+              0.0, 0.0, 0.0, 1.0
+            ]
+          }
+        },
+        {
+          "when": "firstperson_lefthand",
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/firearms/greek_fire_grenade_throw",
+            "transformation": [
+              0.90920694, -0.14332353, -0.00482953, -0.23853633,
+              0.2281952, 0.40835798, -0.79271239, 0.19702019,
+              0.13870382, 0.86356504, 0.48478519, 0.54241656,
+              0.0, 0.0, 0.0, 1.0
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/firearms/greek_fire_grenade_throw"
+      }
+    }
+  }
+}

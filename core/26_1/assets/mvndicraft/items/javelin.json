@@ -1,0 +1,131 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:main_hand",
+    "cases": [
+      {
+        "when": "left",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/pole_arms/javelin_left"
+          },
+          "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": "firstperson_righthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/pole_arms/javelin_throw_left",
+                  "transformation": [
+                    0.88574853, 0.11594911, 0.02339328, 0.18548365,
+                    -0.05383205, 0.46915246, -0.88093142, 0.05647241,
+                    -0.27759824, 0.78713973, 0.44744912, 0.33159331,
+                    0.0, 0.0, 0.0, 1.0
+                  ]
+                }
+              },
+              {
+                "when": "firstperson_lefthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/pole_arms/javelin_throw_left",
+                  "transformation": [
+                    0.88574853, -0.11594911, -0.02339328, -0.07123218,
+                    0.05383205, 0.46915246, -0.88093142, 0.00264036,
+                    0.27759824, 0.78713973, 0.44744912, 0.05399507,
+                    0.0, 0.0, 0.0, 1.0
+                  ]
+                }
+              },
+              {
+                "when": [
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "mvndicraft:weapons/pole_arms/javelin_throw_left",
+                  "transformation": [
+                    1.0, 0.0, 0.0, 0.0,
+                    0.0, -1.0, 0.0, -0.00047875,
+                    0.0, 0.0, -1.0, 1.03125,
+                    0.0, 0.0, 0.0, 1.0
+                  ]
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/pole_arms/javelin_throw_left"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/pole_arms/javelin"
+      },
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "firstperson_righthand",
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/pole_arms/javelin_throw",
+              "transformation": [
+                0.88574853, 0.11594911, 0.02339328, 0.18548365,
+                -0.05383205, 0.46915246, -0.88093142, 0.05647241,
+                -0.27759824, 0.78713973, 0.44744912, 0.33159331,
+                0.0, 0.0, 0.0, 1.0
+              ]
+            }
+          },
+          {
+            "when": "firstperson_lefthand",
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/pole_arms/javelin_throw",
+              "transformation": [
+                0.88574853, -0.11594911, -0.02339328, -0.07123218,
+                0.05383205, 0.46915246, -0.88093142, 0.00264036,
+                0.27759824, 0.78713973, 0.44744912, 0.05399507,
+                0.0, 0.0, 0.0, 1.0
+              ]
+            }
+          },
+          {
+            "when": [
+              "thirdperson_righthand",
+              "thirdperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "mvndicraft:weapons/pole_arms/javelin_throw",
+              "transformation": [
+                1.0, 0.0, 0.0, 0.0,
+                0.0, -1.0, 0.0, -0.00047875,
+                0.0, 0.0, -1.0, 1.03125,
+                0.0, 0.0, 0.0, 1.0
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:weapons/pole_arms/javelin_throw"
+        }
+      }
+    }
+  }
+}

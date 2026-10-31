@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/sling_staff"
+      },
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/greek_fire/sling_staff_0_greek_fire"
+          }
+        },
+        {
+          "threshold": 12,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/greek_fire/sling_staff_1_greek_fire"
+          }
+        },
+        {
+          "threshold": 24,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/greek_fire/sling_staff_2_greek_fire"
+          }
+        },
+        {
+          "threshold": 32,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/greek_fire/sling_staff_3_greek_fire"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:cooldown",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/sling_staff"
+      },
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/sling_staff"
+          }
+        },
+        {
+          "threshold": 0.985,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/sling_staff_5"
+          }
+        },
+        {
+          "threshold": 0.9925,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/sling_staff_4"
+          }
+        }
+      ]
+    }
+  }
+}

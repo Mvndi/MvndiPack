@@ -1,0 +1,69 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_cycle",
+      "period": 8,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/regular/clay/sling_clay_0"
+      },
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/regular/clay/sling_clay_0"
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/regular/clay/sling_clay_3"
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/regular/clay/sling_clay_2"
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/regular/clay/sling_clay_1"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:cooldown",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/regular/sling"
+      },
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/regular/sling"
+          }
+        },
+        {
+          "threshold": 0.875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/regular/sling_4"
+          }
+        }
+      ]
+    }
+  }
+}

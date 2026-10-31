@@ -50,6 +50,12 @@ void main() {
 
     vec4 color = texColor * vertexColor * ColorModulator;
 
+#ifdef IS_SEE_THROUGH
+    // Alpha 254 marks the capture arrow's neutral pixels so team tint does not recolor them.
+    if (all(equal(ivec4(round(texColor * 255.0)), ivec4(170, 170, 170, 254)))) {
+        color = vec4(texColor.rgb, vertexColor.a) * ColorModulator;
+    }
+#endif
     if (color.a < 0.1) {
         discard;
     }
