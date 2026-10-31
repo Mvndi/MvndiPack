@@ -128,8 +128,8 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [90, 0, 0],
-			"translation": [-0.25, 0.5, 16.75],
+			"rotation": [90, 180, 0],
+			"translation": [-0.25, -4.5, 16.75],
 			"scale": [2, 2, 2]
 		},
 		"thirdperson_lefthand": {
