@@ -29,4 +29,10 @@ sphericalVertexDistance = fog_spherical_distance(pos);cylindricalVertexDistance 
 #else
 vertexDistance = fogDistance(pos, FogShape);
 #endif
-texCoord0 = UV0;gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);}
+texCoord0 = UV0;gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
+    if (ProjMat[3].x == -1.0 && all(lessThan(abs(Color.rgb - vec3(1.0, 2.0, 3.0) / 255.0), vec3(0.001)))) {
+        const vec2 loadingCorners[4] = vec2[4](vec2(-1.0, 1.0), vec2(-1.0, -1.0), vec2(1.0, -1.0), vec2(1.0, 1.0));
+        gl_Position = vec4(loadingCorners[gl_VertexID % 4], -0.999, 1.0);
+        vertexColor = vec4(0.0, 0.0, 0.0, Color.a);
+    }
+}
