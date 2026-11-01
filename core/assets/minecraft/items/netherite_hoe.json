@@ -1590,6 +1590,38 @@
                     "type": "model",
                     "model": "minecraft:item/netherite_hoe"
                 }
+            },
+            {
+                "threshold": 9210,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/horsepower_locked_left"
+                }
+            },
+            {
+                "threshold": 9211,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/horsepower_0_left"
+                }
+            },
+            {
+                "threshold": 9212,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/horsepower_1_left"
+                }
+            },
+            {
+                "threshold": 9213,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/horsepower_2_left"
+                }
             }
         ]
     }
