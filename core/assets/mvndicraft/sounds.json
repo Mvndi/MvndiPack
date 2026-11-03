@@ -2709,5 +2709,590 @@
         "attenuation_distance": 32
       }
     ]
+  },
+  "instrument.piano_man": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_0": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_1": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_2": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_3": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_4": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_5": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_6": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_7": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_8": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_9": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_10": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_11": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_12": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_13": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_14": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_15": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_16": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_17": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_18": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_19": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_20": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_21": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_22": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_23": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_24": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_25": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_26": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_27": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_28": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_29": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_30": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_31": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_32": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_33": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_34": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_35": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_36": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_37": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_38": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_39": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_40": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_41": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_42": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_43": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_44": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_45": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_46": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_47": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_48": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_49": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_50": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_51": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_52": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_53": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_54": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_55": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_56": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_57": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_58": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_59": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_60": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_61": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_62": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.piano_man.voice_63": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/piano_man",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
   }
 }
