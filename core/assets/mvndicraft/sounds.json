@@ -1539,5 +1539,590 @@
         "pitch": 1
       }
     ]
+  },
+  "instrument.ame_michi": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_0": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_1": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_2": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_3": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_4": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_5": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_6": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_7": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_8": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_9": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_10": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_11": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_12": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_13": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_14": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_15": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_16": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_17": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_18": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_19": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_20": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_21": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_22": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_23": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_24": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_25": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_26": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_27": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_28": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_29": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_30": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_31": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_32": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_33": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_34": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_35": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_36": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_37": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_38": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_39": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_40": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_41": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_42": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_43": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_44": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_45": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_46": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_47": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_48": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_49": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_50": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_51": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_52": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_53": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_54": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_55": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_56": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_57": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_58": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_59": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_60": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_61": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_62": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.ame_michi.voice_63": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/ame_michi",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
   }
 }
