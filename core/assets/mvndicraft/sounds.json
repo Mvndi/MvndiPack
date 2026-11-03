@@ -2124,5 +2124,590 @@
         "attenuation_distance": 32
       }
     ]
+  },
+  "instrument.cirno": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_0": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_1": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_2": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_3": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_4": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_5": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_6": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_7": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_8": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_9": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_10": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_11": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_12": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_13": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_14": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_15": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_16": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_17": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_18": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_19": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_20": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_21": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_22": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_23": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_24": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_25": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_26": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_27": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_28": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_29": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_30": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_31": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_32": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_33": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_34": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_35": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_36": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_37": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_38": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_39": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_40": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_41": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_42": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_43": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_44": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_45": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_46": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_47": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_48": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_49": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_50": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_51": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_52": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_53": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_54": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_55": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_56": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_57": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_58": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_59": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_60": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_61": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_62": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "instrument.cirno.voice_63": {
+    "sounds": [
+      {
+        "name": "mvndicraft:instruments/cirno",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
   }
 }
