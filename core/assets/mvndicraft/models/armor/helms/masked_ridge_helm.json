@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mvndicraft:armor/helms/latrus_krivina_helm_crest__masked_bw",
-		"1": "mvndicraft:armor/helms/b_ridgehelm_masked",
-		"2": "mvndicraft:armor/helms/b_ridgehelm_masked1",
-		"particle": "mvndicraft:armor/helms/latrus_krivina_helm_crest__masked_bw"
+		"0": "mvndicraft:armor/helms/latrus_krivina_helm_crestredredfix",
+		"1": "mvndicraft:armor/helms/b_ridgehelm_maskedfix",
+		"2": "mvndicraft:armor/helms/b_ridgehelm_masked1fix",
+		"particle": "mvndicraft:armor/helms/latrus_krivina_helm_crestredredfix"
 	},
 	"elements": [
 		{

@@ -1207,6 +1207,90 @@
           "type": "minecraft:model",
           "model": "mvndicraft:armor/helms/italo_norman_helm/italonorm_helmred"
         }
+      },
+      {
+        "threshold": 173,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/turkic_helm"
+        }
+      },
+      {
+        "threshold": 174,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/hounskull_bascinet_dark"
+        }
+      },
+      {
+        "threshold": 175,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/hounskull_bascinet_gold"
+        }
+      },
+      {
+        "threshold": 176,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/hounskull_basicnet_rust"
+        }
+      },
+      {
+        "threshold": 177,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/hounskull_bascinet_bronze"
+        }
+      },
+      {
+        "threshold": 178,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/hounskull_bascinet_blue"
+        }
+      },
+      {
+        "threshold": 173,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 173,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 173,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 173,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 173,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
+      },
+      {
+        "threshold": 199,
+        "model": {
+          "type": "minecraft:model",
+          "model": "mvndicraft:armor/helms/"
+        }
       }
     ]
   }
