@@ -1,0 +1,1164 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "texture_size": [
+    8,
+    8
+  ],
+  "textures": {
+    "1_0": "minecraft:entity/steve",
+    "wood": "minecraft:block/oak_planks",
+    "stone": "minecraft:block/smooth_stone",
+    "carved": "minecraft:block/chiseled_stone_bricks",
+    "steel": "mvndicraft:tools/steeltooltexture",
+    "particle": "minecraft:block/smooth_stone"
+  },
+  "elements": [
+    {
+      "name": "Head",
+      "from": [
+        5.07,
+        13.51428,
+        3.32
+      ],
+      "to": [
+        10.43,
+        18.87428,
+        8.68
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          7.75,
+          13.60798,
+          6.01036
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2,
+            6,
+            4
+          ],
+          "texture": "#1_0"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            0,
+            4
+          ],
+          "texture": "#1_0"
+        },
+        "south": {
+          "uv": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "texture": "#1_0"
+        },
+        "west": {
+          "uv": [
+            6,
+            2,
+            4,
+            4
+          ],
+          "texture": "#1_0"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            2,
+            2
+          ],
+          "texture": "#1_0"
+        },
+        "down": {
+          "uv": [
+            6,
+            2,
+            4,
+            0
+          ],
+          "texture": "#1_0"
+        }
+      }
+    },
+    {
+      "name": "Body",
+      "from": [
+        5.07,
+        5.47428,
+        4.66
+      ],
+      "to": [
+        10.43,
+        13.51428,
+        7.34
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          -6.99,
+          2.79428,
+          12.7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            5,
+            8,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "east": {
+          "uv": [
+            5,
+            5,
+            4,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "south": {
+          "uv": [
+            7,
+            5,
+            5,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "west": {
+          "uv": [
+            8,
+            5,
+            7,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "up": {
+          "uv": [
+            7,
+            4,
+            5,
+            5
+          ],
+          "texture": "#1_0"
+        },
+        "down": {
+          "uv": [
+            9,
+            5,
+            7,
+            4
+          ],
+          "texture": "#1_0"
+        }
+      }
+    },
+    {
+      "name": "Right Arm",
+      "from": [
+        10.43,
+        12.37025,
+        6.18308
+      ],
+      "to": [
+        13.11,
+        15.05025,
+        14.22308
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          10.6,
+          13.7038,
+          5.99355
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            4,
+            11,
+            5
+          ],
+          "rotation": 180,
+          "texture": "#1_0"
+        },
+        "east": {
+          "uv": [
+            11,
+            5,
+            10,
+            8
+          ],
+          "rotation": 90,
+          "texture": "#1_0"
+        },
+        "south": {
+          "uv": [
+            13,
+            5,
+            12,
+            4
+          ],
+          "texture": "#1_0"
+        },
+        "west": {
+          "uv": [
+            13,
+            5,
+            12,
+            8
+          ],
+          "rotation": 270,
+          "texture": "#1_0"
+        },
+        "up": {
+          "uv": [
+            12,
+            5,
+            11,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "down": {
+          "uv": [
+            14,
+            5,
+            13,
+            8
+          ],
+          "rotation": 180,
+          "texture": "#1_0"
+        }
+      }
+    },
+    {
+      "name": "Left Arm",
+      "from": [
+        2.39,
+        10.8,
+        6.0
+      ],
+      "to": [
+        5.07,
+        13.48,
+        14.04
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          3.73,
+          13.5,
+          6.0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            13,
+            11,
+            16
+          ],
+          "texture": "#1_0"
+        },
+        "east": {
+          "uv": [
+            9,
+            13,
+            8,
+            16
+          ],
+          "texture": "#1_0",
+          "rotation": 90
+        },
+        "south": {
+          "uv": [
+            10,
+            13,
+            9,
+            16
+          ],
+          "texture": "#1_0"
+        },
+        "west": {
+          "uv": [
+            11,
+            13,
+            10,
+            16
+          ],
+          "texture": "#1_0",
+          "rotation": 270
+        },
+        "up": {
+          "uv": [
+            10,
+            12,
+            9,
+            13
+          ],
+          "texture": "#1_0"
+        },
+        "down": {
+          "uv": [
+            11,
+            13,
+            10,
+            12
+          ],
+          "texture": "#1_0"
+        }
+      }
+    },
+    {
+      "name": "Right Leg",
+      "from": [
+        7.683,
+        -2.56573,
+        4.66
+      ],
+      "to": [
+        10.363,
+        5.47428,
+        7.34
+      ],
+      "rotation": {
+        "angle": -25,
+        "axis": "x",
+        "origin": [
+          7.76,
+          5.54428,
+          5.95
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            5,
+            3,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "east": {
+          "uv": [
+            1,
+            5,
+            0,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "south": {
+          "uv": [
+            2,
+            5,
+            1,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "west": {
+          "uv": [
+            3,
+            5,
+            2,
+            8
+          ],
+          "texture": "#1_0"
+        },
+        "up": {
+          "uv": [
+            2,
+            4,
+            1,
+            5
+          ],
+          "texture": "#1_0"
+        },
+        "down": {
+          "uv": [
+            3,
+            5,
+            2,
+            4
+          ],
+          "texture": "#1_0"
+        }
+      }
+    },
+    {
+      "name": "Left Leg",
+      "from": [
+        5.137,
+        -2.56573,
+        4.66
+      ],
+      "to": [
+        7.817,
+        5.47428,
+        7.34
+      ],
+      "rotation": {
+        "angle": 10,
+        "axis": "x",
+        "origin": [
+          5.01,
+          5.29428,
+          6.2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            13,
+            7,
+            16
+          ],
+          "texture": "#1_0"
+        },
+        "east": {
+          "uv": [
+            5,
+            13,
+            4,
+            16
+          ],
+          "texture": "#1_0"
+        },
+        "south": {
+          "uv": [
+            6,
+            13,
+            5,
+            16
+          ],
+          "texture": "#1_0"
+        },
+        "west": {
+          "uv": [
+            7,
+            13,
+            6,
+            16
+          ],
+          "texture": "#1_0"
+        },
+        "up": {
+          "uv": [
+            6,
+            12,
+            5,
+            13
+          ],
+          "texture": "#1_0"
+        },
+        "down": {
+          "uv": [
+            7,
+            13,
+            6,
+            12
+          ],
+          "texture": "#1_0"
+        }
+      }
+    },
+    {
+      "name": "Mallet handle",
+      "from": [
+        11.45,
+        12.5,
+        11.3
+      ],
+      "to": [
+        12.1,
+        19.8,
+        12.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "name": "Mallet head",
+      "from": [
+        9.5,
+        18.2,
+        10.3
+      ],
+      "to": [
+        14.0,
+        21.0,
+        13.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "name": "Stone plinth foot",
+      "from": [
+        1.5,
+        -2.5,
+        11
+      ],
+      "to": [
+        7.5,
+        -1,
+        17
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "Stone plinth base",
+      "from": [
+        2.0,
+        -1,
+        11.5
+      ],
+      "to": [
+        7.0,
+        0.5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "Carved stonework",
+      "from": [
+        2.5,
+        0.5,
+        12
+      ],
+      "to": [
+        6.5,
+        6.5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#carved"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#carved"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#carved"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#carved"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#carved"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#carved"
+        }
+      }
+    },
+    {
+      "name": "Stone capital",
+      "from": [
+        2,
+        6.5,
+        11.5
+      ],
+      "to": [
+        7,
+        7.5,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "Chisel blade",
+      "from": [
+        3.7,
+        7.5,
+        13.2
+      ],
+      "to": [
+        4.2,
+        11.0,
+        13.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "Chisel grip",
+      "from": [
+        3.6,
+        10.7,
+        13.1
+      ],
+      "to": [
+        4.3,
+        13.2,
+        13.8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        }
+      }
+    }
+  ],
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        18,
+        30,
+        0
+      ],
+      "translation": [
+        -18,
+        10,
+        80
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ]
+    },
+    "head": {
+      "rotation": [
+        -4,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0.25
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -4,
+        -0.5
+      ],
+      "scale": [
+        0.92188,
+        0.92188,
+        0.46094
+      ]
+    }
+  }
+}

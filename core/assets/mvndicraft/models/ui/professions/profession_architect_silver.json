@@ -1,0 +1,334 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    512,
+    512
+  ],
+  "textures": {
+    "0": "mvndicraft:ui/professions/profession_menu_mining",
+    "particle": "mvndicraft:ui/professions/profession_menu_mining",
+    "wood": "minecraft:block/oak_planks",
+    "metal": "mvndicraft:tools/steeltooltexture"
+  },
+  "elements": [
+    {
+      "name": "frame",
+      "from": [
+        -8,
+        -8,
+        8
+      ],
+      "to": [
+        24,
+        24,
+        8
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          -8,
+          -1,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.03125,
+            1,
+            1.03125,
+            2
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "backing",
+      "from": [
+        -8,
+        -8,
+        8
+      ],
+      "to": [
+        24,
+        24,
+        8
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          -8,
+          -1,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0.03125,
+            1.96875,
+            1.03125,
+            2.96875
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "Mallet handle",
+      "from": [
+        7,
+        -3,
+        7.7
+      ],
+      "to": [
+        9,
+        15,
+        7.7
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "name": "Mallet head",
+      "from": [
+        1,
+        13,
+        7.6
+      ],
+      "to": [
+        15,
+        19,
+        7.6
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "name": "Chisel blade",
+      "from": [
+        7,
+        -4,
+        7.5
+      ],
+      "to": [
+        9,
+        8,
+        7.5
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#metal"
+        }
+      }
+    },
+    {
+      "name": "Chisel grip",
+      "from": [
+        6.5,
+        7,
+        7.4
+      ],
+      "to": [
+        9.5,
+        17,
+        7.4
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "name": "Chisel striking cap",
+      "from": [
+        6.5,
+        16,
+        7.3
+      ],
+      "to": [
+        9.5,
+        18,
+        7.3
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#metal"
+        }
+      }
+    }
+  ],
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [
+        -180,
+        0,
+        -180
+      ],
+      "translation": [
+        -3,
+        0,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "mvndicraft:ui/professions/architect_steve",
+  "display": {
+    "gui": {
+      "rotation": [
+        18,
+        33,
+        0
+      ],
+      "translation": [
+        -17.4,
+        10,
+        80
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ]
+    }
+  }
+}

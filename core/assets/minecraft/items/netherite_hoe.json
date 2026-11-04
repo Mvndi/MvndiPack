@@ -1622,6 +1622,126 @@
                     "type": "model",
                     "model": "mvndicraft:ui/skill/horsepower_2_left"
                 }
+            },
+            {
+                "threshold": 930,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_architect_silver"
+                }
+            },
+            {
+                "threshold": 931,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_architect_gold"
+                }
+            },
+            {
+                "threshold": 932,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/profession_background_top_architect"
+                }
+            },
+            {
+                "threshold": 933,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/architect_steve"
+                }
+            },
+            {
+                "threshold": 934,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/text_architect"
+                }
+            },
+            {
+                "threshold": 935,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_1"
+                }
+            },
+            {
+                "threshold": 936,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_2"
+                }
+            },
+            {
+                "threshold": 937,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_3"
+                }
+            },
+            {
+                "threshold": 938,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_4"
+                }
+            },
+            {
+                "threshold": 939,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_5"
+                }
+            },
+            {
+                "threshold": 940,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_6"
+                }
+            },
+            {
+                "threshold": 941,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_7"
+                }
+            },
+            {
+                "threshold": 942,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_8"
+                }
+            },
+            {
+                "threshold": 943,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_9"
+                }
+            },
+            {
+                "threshold": 944,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/professions/animation/architect_steve_10"
+                }
             }
         ]
     }
