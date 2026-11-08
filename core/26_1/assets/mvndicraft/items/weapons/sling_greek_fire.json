@@ -1,0 +1,70 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "mvndicraft:weapons/archery/sling/ammo/greek_fire"
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "firstperson_righthand",
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/ammo/greek_fire_throw",
+            "transformation": [
+              0.90920694,
+              0.14332353,
+              0.00482953,
+              0.36670038,
+              -0.2281952,
+              0.40835798,
+              -0.79271239,
+              0.22487697,
+              -0.13870382,
+              0.86356504,
+              0.48478519,
+              0.60835797,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "when": "firstperson_lefthand",
+          "model": {
+            "type": "minecraft:model",
+            "model": "mvndicraft:weapons/archery/sling/ammo/greek_fire_throw",
+            "transformation": [
+              0.90920694,
+              -0.14332353,
+              -0.00482953,
+              -0.21351082,
+              0.2281952,
+              0.40835798,
+              -0.79271239,
+              -0.00331823,
+              0.13870382,
+              0.86356504,
+              0.48478519,
+              0.46454048,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "mvndicraft:weapons/archery/sling/ammo/greek_fire_throw"
+      }
+    }
+  }
+}
