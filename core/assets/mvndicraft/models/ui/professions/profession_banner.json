@@ -25,7 +25,7 @@
 	"display": {
 		"gui": {
 			"rotation": [-180, 0, -180],
-			"translation": [-24, -80, 0],
+			"translation": [-24, -78, 0],
 			"scale": [4, 4, 4]
 		}
 	}

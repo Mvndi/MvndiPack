@@ -2,10 +2,10 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "mvndicraft:armor/helms/big_chain_coif",
-		"5": "mvndicraft:armor/helms/tentshapedbascinet_rust",
-		"plume": "mvndicraft:armor/helms/belokrasniy",
-		"particle": "mvndicraft:armor/helms/tentshapedbascinet_rust"
+		"3": "mvndicraft:armor/helms/big_chain_coif_ironnewnew",
+		"5": "mvndicraft:armor/helms/wreath_red",
+		"plume": "mvndicraft:armor/helms/peacock_featherfix",
+		"particle": "mvndicraft:armor/helms/wreath_red"
 	},
 	"elements": [
 		{

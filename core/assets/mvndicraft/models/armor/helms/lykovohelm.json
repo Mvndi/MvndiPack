@@ -2,9 +2,9 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "mvndicraft:armor/helms/b_lykovo1_notornate",
-		"3": "mvndicraft:armor/helms/big_chain_coif_eyehole_notornate",
-		"particle": "mvndicraft:armor/helms/big_chain_coif_eyehole_notornate"
+		"1": "mvndicraft:armor/helms/b_lykovo1fix",
+		"3": "mvndicraft:armor/helms/lykovochainmailfix",
+		"particle": "mvndicraft:armor/helms/lykovochainmailfix"
 	},
 	"elements": [
 		{
@@ -169,8 +169,8 @@
 			"faces": {
 				"north": {"uv": [4, 4, 8, 8], "texture": "#3"},
 				"east": {"uv": [0, 4, 4, 8], "texture": "#3"},
-				"south": {"uv": [12, 7.75, 16, 3.75], "texture": "#3"},
-				"west": {"uv": [8, 7.75, 12, 3.75], "texture": "#3"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#3"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#3"},
 				"up": {"uv": [4, 4, 8, 0], "rotation": 180, "texture": "#3"},
 				"down": {"uv": [4, 8, 8, 12], "texture": "#3"}
 			}

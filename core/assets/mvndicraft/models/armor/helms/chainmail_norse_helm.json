@@ -4,8 +4,8 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "mvndicraft:armor/helms/nikolskoye2fixed",
-		"3": "mvndicraft:armor/helms/big_chain_coif_eyehole",
-		"particle": "mvndicraft:armor/helms/big_chain_coif_eyehole"
+		"3": "mvndicraft:armor/helms/big_chain_coif5",
+		"particle": "mvndicraft:armor/helms/big_chain_coif5"
 	},
 	"elements": [
 		{
@@ -171,12 +171,12 @@
 			"from": [1.3, 1, 1.2],
 			"to": [14.7, 13, 14.7],
 			"faces": {
-				"north": {"uv": [8.25, 3.75, 12.75, 8], "texture": "#3"},
-				"east": {"uv": [0, 3.75, 3.75, 8], "texture": "#3"},
-				"south": {"uv": [3.75, 12.4375, 8.25, 7.9375], "texture": "#3"},
-				"west": {"uv": [12, 3.75, 16, 8], "texture": "#3"},
-				"up": {"uv": [3.75, 3.75, 8.25, 0], "rotation": 180, "texture": "#3"},
-				"down": {"uv": [3.75, 0, 8.25, 3.75], "texture": "#3"}
+				"north": {"uv": [11.5, 4, 16, 8], "texture": "#3"},
+				"east": {"uv": [7.25, 4, 11.5, 8], "texture": "#3"},
+				"south": {"uv": [4, 8, 8, 12], "texture": "#3"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#3"},
+				"up": {"uv": [4, 4, 8, 0], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#3"}
 			}
 		}
 	],
@@ -210,8 +210,8 @@
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"head": {
-			"translation": [0, 1, 0],
-			"scale": [1.07873, 1.01819, 1.09241]
+			"translation": [0, 0.25, 0],
+			"scale": [1.18, 1.16, 1.09241]
 		},
 		"fixed": {
 			"rotation": [-77.25, 0, 0],

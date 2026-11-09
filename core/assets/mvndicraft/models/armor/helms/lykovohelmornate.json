@@ -2,10 +2,10 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "mvndicraft:armor/helms/b_lykovo3_ornate",
-		"3": "mvndicraft:armor/helms/big_chain_coif_eyeholeornate",
-		"67": "mvndicraft:armor/helms/lykovo3top_ornate",
-		"particle": "mvndicraft:armor/helms/big_chain_coif_eyeholeornate"
+		"1": "mvndicraft:armor/helms/b_lykovo3fix",
+		"3": "mvndicraft:armor/helms/lykovochainmail",
+		"67": "mvndicraft:armor/helms/lykovo3topfix",
+		"particle": "mvndicraft:armor/helms/lykovochainmail"
 	},
 	"elements": [
 		{
@@ -126,6 +126,19 @@
 			}
 		},
 		{
+			"from": [8, 17.14089, -2.10351],
+			"to": [8, 22.74089, 11.89649],
+			"rotation": {"x": 90, "y": 37.5, "z": 90, "origin": [8, 19.64089, 4.89649]},
+			"faces": {
+				"north": {"uv": [2, 2.4, 2, 8], "texture": "#1"},
+				"east": {"uv": [0, 12.25, 5.25, 14.25], "texture": "#1"},
+				"south": {"uv": [0, 2.4, 0, 8], "texture": "#1"},
+				"west": {"uv": [5.25, 12.25, 0, 14.25], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 14], "texture": "#1"}
+			}
+		},
+		{
 			"from": [7.3, 19.52846, 7.3],
 			"to": [8.8, 21.52846, 8.8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 19.52846, 6.6438]},
@@ -157,8 +170,8 @@
 			"faces": {
 				"north": {"uv": [4, 4, 8, 8], "texture": "#3"},
 				"east": {"uv": [0, 4, 4, 8], "texture": "#3"},
-				"south": {"uv": [12, 7.75, 16, 3.75], "texture": "#3"},
-				"west": {"uv": [8, 7.75, 12, 3.75], "texture": "#3"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#3"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#3"},
 				"up": {"uv": [4, 4, 8, 0], "rotation": 180, "texture": "#3"},
 				"down": {"uv": [4, 8, 8, 12], "texture": "#3"}
 			}
@@ -213,19 +226,6 @@
 				"west": {"uv": [5.5, 10.5, 10, 16], "texture": "#67"},
 				"up": {"uv": [0, 0, 0, 6], "texture": "#67"},
 				"down": {"uv": [0, 0, 0, 6], "texture": "#67"}
-			}
-		},
-		{
-			"from": [1, 18.11978, 2.9125],
-			"to": [15, 23.71978, 2.9125],
-			"rotation": {"x": 52.5, "y": 0, "z": 0, "origin": [5, 18.11978, 2.9125]},
-			"faces": {
-				"north": {"uv": [0, 12.25, 5.25, 14.25], "texture": "#1"},
-				"east": {"uv": [0, 0, 0, 5.6], "texture": "#1"},
-				"south": {"uv": [5.25, 12.25, 0, 14.25], "texture": "#1"},
-				"west": {"uv": [2, 0, 2, 5.6], "texture": "#1"},
-				"up": {"uv": [0, 2, 14, 2], "texture": "#1"},
-				"down": {"uv": [0, 0, 14, 0], "texture": "#1"}
 			}
 		}
 	],

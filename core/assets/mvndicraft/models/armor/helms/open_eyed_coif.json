@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "mvndicraft:armor/helms/big_chain_coif_eyehole",
-		"3": "mvndicraft:armor/helms/big_chain_coif_eyehole"
+		"particle": "mvndicraft:armor/helms/chain_coif_eyehole",
+		"3": "mvndicraft:armor/helms/chain_coif_eyehole"
 	},
 	"elements": [
 		{
@@ -12,10 +12,10 @@
 			"faces": {
 				"north": {"uv": [4, 4, 8, 8], "texture": "#3"},
 				"east": {"uv": [0, 4, 4, 8], "texture": "#3"},
-				"south": {"uv": [12, 7.75, 16, 3.75], "texture": "#3"},
-				"west": {"uv": [8, 7.75, 12, 3.75], "texture": "#3"},
-				"up": {"uv": [4, 4, 8, 0], "rotation": 180, "texture": "#3"},
-				"down": {"uv": [4, 8, 8, 12], "texture": "#3"}
+				"south": {"uv": [8, 8, 12, 4], "texture": "#3"},
+				"west": {"uv": [8, 8, 12, 4], "texture": "#3"},
+				"up": {"uv": [8, 8, 12, 4], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0, 4, 4, 8], "texture": "#3"}
 			}
 		}
 	],
