@@ -425,6 +425,38 @@
                 }
             },
             {
+                "threshold": 54,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_02"
+                }
+            },
+            {
+                "threshold": 55,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_12"
+                }
+            },
+            {
+                "threshold": 56,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_gold_22"
+                }
+            },
+            {
+                "threshold": 57,
+                "oversized_in_gui": true,
+                "model": {
+                    "type": "model",
+                    "model": "mvndicraft:ui/skill/skill_silver_02_dark"
+                }
+            },
+            {
                 "threshold": 60,
                 "oversized_in_gui": true,
                 "model": {
