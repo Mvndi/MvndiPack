@@ -22,19 +22,40 @@ jobs:
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
           echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
 
-      - name: Check for changes in core directory
-        id: core_changes
+      - name: Check for pack changes
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
         run: |
-          git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep -q '^core/' && echo "CORE_CHANGED=true" >> $GITHUB_ENV || echo "CORE_CHANGED=false" >> $GITHUB_ENV
+          if [[ "$BEFORE_SHA" == 0000000000000000000000000000000000000000 ]]; then
+            git ls-tree -r --name-only "$AFTER_SHA" > changed_files.txt
+          else
+            git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" > changed_files.txt
+          fi
+          for pack in core soundscapes; do
+            if grep -q "^$pack/" changed_files.txt; then
+              echo "${pack^^}_CHANGED=true" >> "$GITHUB_ENV"
+            else
+              echo "${pack^^}_CHANGED=false" >> "$GITHUB_ENV"
+            fi
+          done
 
-      - name: Retrieve previous release core hash
-        id: get_previous_hash
+      - name: Retrieve previous release hashes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPOSITORY: ${{ github.repository }}
         run: |
-          curl -s \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/${{ github.repository }}/releases/tags/latest" | \
-          jq -r '.body | capture("core: (?<core_sha>[a-f0-9]+)") | .core_sha // "N/A"' > previous_core_sha.txt
-          echo "PREVIOUS_CORE_SHA=$(cat previous_core_sha.txt)" >> $GITHUB_ENV
+          release=$(curl -fsS \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$GH_REPOSITORY/releases/tags/latest")
+          for pack in core soundscapes; do
+            hash=$(jq -r --arg pack "$pack" \
+              '.body // "" | try capture($pack + ": (?<sha>[a-fA-F0-9]{40})").sha catch ""' <<< "$release")
+            echo "PREVIOUS_${pack^^}_SHA=$hash" >> "$GITHUB_ENV"
+            if [[ -z "$hash" ]]; then
+              echo "${pack^^}_CHANGED=true" >> "$GITHUB_ENV"
+            fi
+          done
 
       - name: Setup Stripzip
         run: |
@@ -85,6 +106,7 @@ jobs:
         run: cd hud && zip -r ../hud.zip . && cd ..
 
       - name: Optimize Soundscapes with PackSquash
+        if: env.SOUNDSCAPES_CHANGED == 'true'
         uses: ComunidadAylas/PackSquash-action@v4.0.4
         with:
           artifact_name: Optimized soundscapes
@@ -100,7 +122,7 @@ jobs:
         run: |
           if [ -f core.zip ]; then ./stripzip core.zip; fi
           ./stripzip hud.zip
-          ./stripzip soundscapes.zip
+          if [ -f soundscapes.zip ]; then ./stripzip soundscapes.zip; fi
           mkdir zips
 
       - name: Hash files
@@ -114,10 +136,14 @@ jobs:
           fi
           calculatedHudSha=($(sha1sum hud.zip))
           echo "HUD_SHA=$calculatedHudSha" >> $GITHUB_ENV
-          calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
-          echo "SOUNDSCAPES_SHA=$calculatedSoundscapesSha" >> $GITHUB_ENV
+          if [ -f soundscapes.zip ]; then
+            calculatedSoundscapesSha=($(sha1sum soundscapes.zip))
+            echo "SOUNDSCAPES_SHA=$calculatedSoundscapesSha" >> $GITHUB_ENV
+            mv soundscapes.zip zips
+          else
+            echo "SOUNDSCAPES_SHA=${{ env.PREVIOUS_SOUNDSCAPES_SHA }}" >> $GITHUB_ENV
+          fi
           mv hud.zip zips
-          mv soundscapes.zip zips
       - name: Get date
         run: |
           currentDate=$(date)
